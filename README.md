@@ -58,7 +58,7 @@ GitHub Actions 自动提供 `GITHUB_TOKEN`，不需要购买服务或在前端�
 4. 成功后 Pages / workflow 会给出网站网址。若使用建议仓库名，预期地址为 `https://xylopyrifer.github.io/github-skills-weekly/`，必须等部署成功才能访问。
 5. 检查 **Settings → Actions → General → Workflow permissions** 允许工作流写入仓库。组织策略或分支保护阻止机器人推送时，应针对这个仓库配置允许的数据更新方式。
 
-后续 `main` 的普通推送触发 `deploy.yml`。`weekly.yml` 每周一 **00:17 UTC / 北京时间 08:17** 自动更新数据、提交并在同一工作流内部署。不能仅依靠机器人 push 再触发另一个工作流：GitHub 的 `GITHUB_TOKEN` 提交通常不会触发新的 push 工作流。
+后续 `main` 的普通推送触发 `deploy.yml`。`weekly.yml` 每周一 **00:00 UTC / 北京时间 08:00** 自动更新数据、提交并在同一工作流内部署。不能仅依靠机器人 push 再触发另一个工作流：GitHub 的 `GITHUB_TOKEN` 提交通常不会触发新的 push 工作流。
 
 `weekly.yml` 也支持手动 **Run workflow**。周一窗口外手动运行只更新仓库目录，不把不满一周的增长冒充周榜。即使没有启用 Pages，采集仍可运行，并输出可下载的网站 artifact。
 
@@ -77,7 +77,7 @@ docker run -d --name skills-weekly -p 8080:80 --restart unless-stopped skills-we
 
 访问服务器的 8080 端口；正式环境可由已有反向代理提供 HTTPS。Docker 镜像是静态快照，每周须重新构建/部署，或挂载更新后的 `dist` 到 `/usr/share/nginx/html:ro`。
 
-服务器独立更新：使用系统调度器在 **UTC 周一 00:17** 执行 `npm run update && npm run build`，并让 Nginx 指向该目录，或将新的 dist 原子替换到站点目录。Token 由服务端环境变量提供。不要同时让服务器和 Actions 修改同一份数据目录；选择一个采集源即可。
+服务器独立更新：使用系统调度器在 **UTC 周一 00:00** 执行 `npm run update && npm run build`，并让 Nginx 指向该目录，或将新的 dist 原子替换到站点目录。Token 由服务端环境变量提供。不要同时让服务器和 Actions 修改同一份数据目录；选择一个采集源即可。
 
 ## 时间、缺失与数据模型
 
@@ -212,3 +212,11 @@ total_heat = 所有历史 contribution 的总和
 正式累计数据 `data/all-time.json` 永远排除回溯周。尚无正式累计时，页面显示清楚标记的“回溯累计影响力”；有正式周榜后自动切换到正式累计，回溯周仍能在最近 5 周内查看。历史图中的回溯分数加星号标记。正式周排名变化也不会与回溯周跨口径比较。
 
 参考：[GitHub 官方 Star 历史接口](https://docs.github.com/en/rest/activity/starring#get-repository-star-history)。
+
+
+### 功能标签与数据留存
+每天北京时间 08:00（UTC 00:00）启动采集，周一结算上周榜单。GitHub 调度可能延迟。最新项目资料覆盖保存；周榜摘要永久保存；原始周边界快照保留约 8 周。正式数据逐步替换首页的 5 周回溯数据，回溯不计入正式累计分数。
+
+标签词表在 config/tags.json。系统标签按简介、topics、README 和 SKILL.md 路径匹配并保留证据来源；采集失败保留旧标签。社区选择通过 GitHub Issues 提交，由 Actions 校验并发布；每天补做一次全量同步。data/community-tags.json 与 catalog 中的 system_tags 分开记录。页面合并显示，系统计 1 次，每个 GitHub 账号每个项目每个标签计 1 次。账号对同一项目的最新提交替换旧选择；关闭或锁定最新 issue 撤回。Issues 与记录公开，不包含访问令牌。管理员可锁定不当提交。
+
+搜索覆盖全部项目，支持中英文标签、名称和简介，按所选周热度、Stars、更新时间、名称排序。标签表示仓库覆盖的功能，不代表每个子技能都有全部能力。

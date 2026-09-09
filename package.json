@@ -11,7 +11,7 @@
     "build": "node scripts/build.mjs",
     "preview": "node scripts/serve.mjs --dist",
     "update": "node scripts/update.mjs",
-    "test": "node --test",
+    "test": "node --test test/*.test.mjs",
     "check": "npm test && npm run build",
     "package": "node scripts/package.mjs",
     "test:browser": "node scripts/browser-check.mjs",

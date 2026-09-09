@@ -1,3 +1,5 @@
+import { readdir, unlink } from 'node:fs/promises';
+import { classifyTags } from './tags.mjs';
 import path from 'node:path';
 import { readJson, writeJson, readWeeks } from './storage.mjs';
 import { monday, dateKey, previousWeek, isBoundaryWindow, isoWeek, DAY, BOUNDARY_TOLERANCE } from './calendar.mjs';
@@ -8,6 +10,7 @@ const validName = name => /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(name);
 const repoPath = name => '/repos/' + name.split('/').map(encodeURIComponent).join('/');
 export async function updateData({ root, get, now = new Date(), clock = () => new Date(), log = console.log, discover = true }) {
   const config = await readJson(path.join(root,'config/repositories.json'));
+  const taxonomy = (await readJson(path.join(root,'config/tags.json'),{tags:[]})).tags;
   const catalogPath = path.join(root,'data/catalog.json');
   const catalog = await readJson(catalogPath, { schema_version: 1, updated_at: null, repositories: [] });
   const excluded = new Set(config.exclude.map(n => n.toLowerCase()));
@@ -50,7 +53,15 @@ export async function updateData({ root, get, now = new Date(), clock = () => ne
       // Capture the actual instant for each repository; tests inject a clock.
       const observedAt = capturedAt;
       const old = known.get(key) || known.get(canonical);
-      const record = {
+      let systemTags=old?.system_tags||[], tagsUpdated=old?.tags_updated_at||null;
+      if(taxonomy.length)try{
+        const content=await get(repoPath(meta.full_name)+'/readme');
+        const tree=await get(repoPath(meta.full_name)+'/git/trees/'+encodeURIComponent(meta.default_branch)+'?recursive=1');
+        if(tree.truncated)throw new Error('truncated tag tree');
+        systemTags=classifyTags(meta,Buffer.from(content.content||'','base64').toString('utf8').slice(0,150000),tree.tree.filter(f=>f.type==='blob'&&/(^|\/)SKILL.md$/i.test(f.path)).map(f=>f.path),taxonomy);
+        tagsUpdated=observedAt;
+      }catch(e){warn(meta.full_name+': tags preserved: '+e.message);}
+      const record = { system_tags:systemTags,tags_updated_at:tagsUpdated,
         full_name: meta.full_name, owner: meta.owner.login, name: meta.name, url: 'https://github.com/' + meta.full_name,
         description: (meta.description || '').slice(0,500), language: meta.language, topics: (meta.topics || []).slice(0,12),
         stars: meta.stargazers_count, forks: meta.forks_count, discovered_at: old?.discovered_at || observedAt,
@@ -120,6 +131,11 @@ export async function updateData({ root, get, now = new Date(), clock = () => ne
   await writeJson(catalogPath, { schema_version: 1, updated_at: now.toISOString(), repositories: [...known.values()].sort((a,b) => a.full_name.localeCompare(b.full_name)) });
   const report = { updated_at: now.toISOString(), successful_repositories: successes, tracked_repositories: known.size, boundary_captured: inWindow, warnings };
   await writeJson(path.join(root,'data/update-report.json'), report);
+  // Keep eight recent boundary snapshots; weekly aggregates retain the audit fields.
+  const boundaryDir=path.join(root,'data/boundaries');
+  for(const file of await readdir(boundaryDir).catch(e=>{if(e.code==='ENOENT')return [];throw e;})){
+    if(/^\d{4}-\d{2}-\d{2}\.json$/.test(file)&&Date.parse(file.slice(0,10))<+monday(now)-56*DAY)await unlink(path.join(boundaryDir,file));
+  }
   log(JSON.stringify(report, null, 2));
   return report;
 }

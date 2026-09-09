@@ -1,27 +1,292 @@
 {
   "anthropics/skills": {
-    "description": {"zh": "Anthropic 官方技能库，为 Claude 补充文档、设计与开发工作流。", "en": "Anthropic’s official skills for document, design, and development workflows."},
-    "audience": {"zh": "希望直接使用官方技能的 Claude 用户", "en": "Claude users looking for official, ready-to-use skills"},
-    "highlights": {"zh": ["官方技能示例与结构规范", "覆盖文档处理和创意工作流"], "en": ["Official examples and skill structure", "Document and creative workflows"]}
+    "description": {
+      "zh": "Anthropic 官方技能库，为 Claude 补充文档、设计与开发工作流。",
+      "en": "Anthropic’s official skills for document, design, and development workflows."
+    },
+    "audience": {
+      "zh": "希望直接使用官方技能的 Claude 用户",
+      "en": "Claude users looking for official, ready-to-use skills"
+    },
+    "highlights": {
+      "zh": [
+        "创建和编辑 Word、PDF、PPT 与表格；制作视觉设计，测试网页，并创建新技能。"
+      ],
+      "en": [
+        "Create and edit Word, PDF, slides and spreadsheets; create visuals, test web apps and build skills."
+      ]
+    }
   },
   "openai/skills": {
-    "description": {"zh": "OpenAI 的 Codex 技能目录，让编码智能体掌握可复用的专项工作流。", "en": "OpenAI’s skill catalog for reusable, specialized Codex workflows."},
-    "audience": {"zh": "使用 Codex 的开发者", "en": "Developers working with Codex"},
-    "highlights": {"zh": ["围绕 Codex 的技能目录", "用可复用指引组织专项任务"], "en": ["A skill catalog built around Codex", "Reusable instructions for specialized tasks"]}
+    "description": {
+      "zh": "OpenAI 的 Codex 技能目录，让编码智能体掌握可复用的专项工作流。",
+      "en": "OpenAI’s skill catalog for reusable, specialized Codex workflows."
+    },
+    "audience": {
+      "zh": "使用 Codex 的开发者",
+      "en": "Developers working with Codex"
+    },
+    "highlights": {
+      "zh": [
+        "为 Codex 安装专项技能，处理文档、设计、网页测试与应用部署。"
+      ],
+      "en": [
+        "Equip Codex with workflows for documents, design, web testing and deployment."
+      ]
+    }
   },
   "obra/superpowers": {
-    "description": {"zh": "把规划、测试与代码审查组织成可复用的智能体开发工作流。", "en": "Reusable agent workflows for planning, testing, and code review."},
-    "audience": {"zh": "希望规范 AI 开发流程的工程师", "en": "Engineers structuring their AI development process"},
-    "highlights": {"zh": ["贯穿开发流程的技能组合", "强调规划与验证"], "en": ["Skills spanning the development process", "An emphasis on planning and verification"]}
+    "description": {
+      "zh": "把规划、测试与代码审查组织成可复用的智能体开发工作流。",
+      "en": "Reusable agent workflows for planning, testing, and code review."
+    },
+    "audience": {
+      "zh": "希望规范 AI 开发流程的工程师",
+      "en": "Engineers structuring their AI development process"
+    },
+    "highlights": {
+      "zh": [
+        "把需求拆成实现计划，按测试驱动开发执行，再进行调试与代码审查。"
+      ],
+      "en": [
+        "Turn requirements into plans, implement with test-driven development, then debug and review code."
+      ]
+    }
   },
   "vercel-labs/agent-skills": {
-    "description": {"zh": "Vercel 提供的智能体技能，聚焦现代 Web 开发与最佳实践。", "en": "Vercel’s agent skills for modern web development and best practices."},
-    "audience": {"zh": "Web 与前端开发者", "en": "Web and frontend developers"},
-    "highlights": {"zh": ["面向 Web 开发的实用指引", "可供智能体复用的最佳实践"], "en": ["Practical web development guidance", "Best practices reusable by agents"]}
+    "description": {
+      "zh": "Vercel 提供的智能体技能，聚焦现代 Web 开发与最佳实践。",
+      "en": "Vercel’s agent skills for modern web development and best practices."
+    },
+    "audience": {
+      "zh": "Web 与前端开发者",
+      "en": "Web and frontend developers"
+    },
+    "highlights": {
+      "zh": [
+        "辅助开发 React 与现代 Web 应用，检查前端实践并部署项目。"
+      ],
+      "en": [
+        "Help develop React and modern web apps, check frontend practices and deploy projects."
+      ]
+    }
   },
   "huggingface/skills": {
-    "description": {"zh": "Hugging Face 的智能体技能，连接模型、数据集与机器学习工具。", "en": "Hugging Face skills connecting agents with models, datasets, and ML tools."},
-    "audience": {"zh": "机器学习开发者与研究者", "en": "Machine learning developers and researchers"},
-    "highlights": {"zh": ["围绕 Hugging Face 生态", "把机器学习任务组织为技能"], "en": ["Focused on the Hugging Face ecosystem", "Machine learning tasks organized as skills"]}
+    "description": {
+      "zh": "Hugging Face 的智能体技能，连接模型、数据集与机器学习工具。",
+      "en": "Hugging Face skills connecting agents with models, datasets, and ML tools."
+    },
+    "audience": {
+      "zh": "机器学习开发者与研究者",
+      "en": "Machine learning developers and researchers"
+    },
+    "highlights": {
+      "zh": [
+        "让智能体使用 Hugging Face 工具，处理模型训练、评估与机器学习任务。"
+      ],
+      "en": [
+        "Use Hugging Face tools for model training, evaluation and machine learning tasks."
+      ]
+    }
+  },
+  "Doist/todoist-cli": {
+    "highlights": {
+      "zh": [
+        "通过命令行管理 Todoist 中的任务与项目。"
+      ],
+      "en": [
+        "Manage Todoist tasks and projects from the command line."
+      ]
+    }
+  },
+  "inkeep/open-knowledge": {
+    "highlights": {
+      "zh": [
+        "在面向 AI 的 Markdown 编辑环境里整理文档与知识库。"
+      ],
+      "en": [
+        "Organize documents and knowledge in an AI-native Markdown IDE."
+      ]
+    }
+  },
+  "JellyBrick/korean-prose-skill": {
+    "highlights": {
+      "zh": [
+        "辅助韩语写作与校对，改善生硬的韩语表达。"
+      ],
+      "en": [
+        "Write and proofread Korean prose and improve unnatural phrasing."
+      ]
+    }
+  },
+  "kazukinagata/shinkoku": {
+    "highlights": {
+      "zh": [
+        "辅助日本报税流程，从账簿管理到 e-Tax 表单填写。"
+      ],
+      "en": [
+        "Assist Japanese tax filing, from bookkeeping to e-Tax form entry."
+      ]
+    }
+  },
+  "lsaint/aikito": {
+    "highlights": {
+      "zh": [
+        "在不同 AI 智能体之间保留可持续使用的工作空间。"
+      ],
+      "en": [
+        "Maintain a durable workspace across AI agents."
+      ]
+    }
+  },
+  "mixelpixx/Konnect": {
+    "highlights": {
+      "zh": [
+        "在 KiCAD 中辅助原理图设计、PCB 布局、布线与制造准备。"
+      ],
+      "en": [
+        "Assist schematic design, PCB placement, routing and manufacturing preparation in KiCAD."
+      ]
+    }
+  },
+  "kgraph57/mckinsey-style-visualization-skill": {
+    "highlights": {
+      "zh": [
+        "把零散笔记转换成咨询风格的战略图表与 SVG 视觉稿。"
+      ],
+      "en": [
+        "Turn messy notes into consulting-style strategy visuals and SVG graphics."
+      ]
+    }
+  },
+  "KCNyu/clawock": {
+    "highlights": {
+      "zh": [
+        "组织多智能体辩论式金融决策流程，并用独立代码执行决策。"
+      ],
+      "en": [
+        "Organize multi-agent financial decision debates with separate code-based execution."
+      ]
+    }
+  },
+  "vishalsachdev/canvas-mcp": {
+    "highlights": {
+      "zh": [
+        "连接 Canvas LMS，帮助学生和教师处理课程与学习相关任务。"
+      ],
+      "en": [
+        "Connect to Canvas LMS and help students and educators with course and learning tasks."
+      ]
+    }
+  },
+  "apache/magpie": {
+    "highlights": {
+      "zh": [
+        "辅助 Apache 项目的问题分诊、贡献者指导、修复草稿和结对开发。"
+      ],
+      "en": [
+        "Assist Apache project triage, contributor mentoring, draft fixes and paired development."
+      ]
+    }
+  },
+  "ComposioHQ/awesome-claude-skills": {
+    "highlights": {
+      "zh": [
+        "查找和选用现成 Claude 技能，覆盖文档、开发、研究及工具自动化。"
+      ],
+      "en": [
+        "Find reusable Claude skills for documents, development, research and tool automation."
+      ]
+    }
+  },
+  "JackyST0/awesome-agent-skills": {
+    "highlights": {
+      "zh": [
+        "查找适用于 Cursor、Claude Code 与 GitHub Copilot 等工具的技能。"
+      ],
+      "en": [
+        "Find skills for Cursor, Claude Code, GitHub Copilot and other coding agents."
+      ]
+    }
+  },
+  "CorpusIQ/corpusiq-docs": {
+    "highlights": {
+      "zh": [
+        "查阅智能体部署经验、MCP 服务与智能体工具相关知识资料。"
+      ],
+      "en": [
+        "Explore operational knowledge about agents, MCP servers and agent tools."
+      ]
+    }
+  },
+  "Devin-AXIS/iPolloWork": {
+    "highlights": {
+      "zh": [
+        "在本地工作台中组织多智能体项目和任务，编辑代码、文档、设计与演示资料。"
+      ],
+      "en": [
+        "Organize multi-agent projects locally and edit code, documents, designs and presentations."
+      ]
+    }
+  },
+  "first-fluke/oh-my-agent": {
+    "highlights": {
+      "zh": [
+        "通过产物校验、独立检查和事件记录验证多智能体的工作结果。"
+      ],
+      "en": [
+        "Verify multi-agent work through artifact checks, independent evaluation and event logs."
+      ]
+    }
+  },
+  "invergent-ai/surogates": {
+    "highlights": {
+      "zh": [
+        "集中运行与管理多个智能体任务。"
+      ],
+      "en": [
+        "Run and manage multiple agent workloads."
+      ]
+    }
+  },
+  "jabrena/plinth": {
+    "highlights": {
+      "zh": [
+        "使用可复用命令、技能与 MCP 工具辅助 Java 企业软件开发流程。"
+      ],
+      "en": [
+        "Support Java enterprise development with reusable commands, skills and MCP tools."
+      ]
+    }
+  },
+  "nexu-io/open-design": {
+    "highlights": {
+      "zh": [
+        "让编码智能体生成原型、落地页、仪表盘、幻灯片及视觉素材，并导出实际文件。"
+      ],
+      "en": [
+        "Use coding agents to create prototypes, landing pages, dashboards, slides and visual assets as exportable files."
+      ]
+    }
+  },
+  "openclaw/crabbox": {
+    "highlights": {
+      "zh": [
+        "准备运行环境、同步代码差异并执行测试套件。"
+      ],
+      "en": [
+        "Prepare a runtime environment, sync code changes and run test suites."
+      ]
+    }
+  },
+  "zxc663/shisan-xinuo-workflow": {
+    "highlights": {
+      "zh": [
+        "组织智能体开发的调研、执行步骤、跨会话记录与结果核查。"
+      ],
+      "en": [
+        "Organize research, implementation steps, cross-session records and verification for agent development."
+      ]
+    }
   }
 }

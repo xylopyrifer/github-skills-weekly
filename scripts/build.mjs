@@ -1,3 +1,4 @@
+import { mergeTags } from './lib/tags.mjs';
 import { mkdir, copyFile, writeFile, readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
@@ -9,6 +10,8 @@ export async function build(){
   const out=path.join(root,'dist');
   await mkdir(path.join(out,'assets'),{recursive:true});
   const catalog=await readJson(path.join(root,'data/catalog.json'));
+  const taxonomy=(await readJson(path.join(root,'config/tags.json'))).tags;
+  const community=await readJson(path.join(root,'data/community-tags.json'),{submissions:[]});
   const editorial=await readJson(path.join(root,'config/editorial.json'));
   const config=await readJson(path.join(root,'config/repositories.json'));
   const excluded=new Set(config.exclude.map(n=>n.toLowerCase()));
@@ -23,11 +26,12 @@ export async function build(){
     if(excluded.has(row.full_name.toLowerCase())||repositories.some(r=>r.full_name.toLowerCase()===row.full_name.toLowerCase()))continue;
     repositories.push({full_name:row.full_name,name:row.full_name.split('/')[1],description:'',stars:row.stars??null,forks:row.forks??null,language:null,last_updated:row.observed_at||null,editorial:editorial[row.full_name]||null});
   }
+  for(const r of repositories){r.tags=mergeTags(r.system_tags,community.submissions,r.full_name,taxonomy);delete r.system_tags;}
   repositories.sort((a,b)=>a.full_name.localeCompare(b.full_name));
   const retrospective=aggregateAllTime(history.filter(w=>w.source_kind==='backfill'));
   const official=all.repositories;
   const chosenAll=official.length?official:retrospective;
-  const publicData={schema_version:1,demo:false,updated_at:[catalog.updated_at,...history.map(w=>w.generated_at)].filter(Boolean).sort().at(-1)||null,total_weeks:history.length,repositories,weeks,all_time_kind:official.length?'snapshot':retrospective.length?'backfill':'snapshot',all_time:chosenAll.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(({weekly_scores,...r})=>r),warning_count:report.warnings.length};
+  const publicData={schema_version:1,demo:false,tag_taxonomy:taxonomy.map(({pattern,...t})=>t),updated_at:[catalog.updated_at,...history.map(w=>w.generated_at)].filter(Boolean).sort().at(-1)||null,total_weeks:history.length,repositories,weeks,all_time_kind:official.length?'snapshot':retrospective.length?'backfill':'snapshot',all_time:chosenAll.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(({weekly_scores,...r})=>r),warning_count:report.warnings.length};
   await writeFile(path.join(out,'assets/data.json'),JSON.stringify(publicData));
   await writeFile(path.join(out,'assets/demo.json'),JSON.stringify(demoData()));
   for(const file of ['app.js','i18n.js','style.css','favicon.svg'])await copyFile(path.join(root,'src',file),path.join(out,'assets',file));

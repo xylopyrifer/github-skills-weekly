@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "tags": [
+    {
+      "id": "documents",
+      "label": {
+        "zh": "文档处理",
+        "en": "Documents"
+      },
+      "capability": {
+        "zh": "创建、编辑和转换文档、PDF 或演示文稿。",
+        "en": "Create, edit and convert documents, PDFs or presentations."
+      },
+      "pattern": "docx|pdf|pptx|document processing|文档处理"
+    },
+    {
+      "id": "spreadsheets",
+      "label": {
+        "zh": "表格与数据分析",
+        "en": "Spreadsheets & analytics"
+      },
+      "capability": {
+        "zh": "处理电子表格，整理和分析数据。",
+        "en": "Work with spreadsheets and organize or analyze data."
+      },
+      "pattern": "xlsx|spreadsheet|data analysis|数据分析"
+    },
+    {
+      "id": "frontend",
+      "label": {
+        "zh": "前端开发",
+        "en": "Frontend"
+      },
+      "capability": {
+        "zh": "构建网页界面与前端组件。",
+        "en": "Build web interfaces and frontend components."
+      },
+      "pattern": "frontend|front-end|react|next.js|前端"
+    },
+    {
+      "id": "design",
+      "label": {
+        "zh": "视觉设计",
+        "en": "Visual design"
+      },
+      "capability": {
+        "zh": "制作界面设计、图形或视觉素材。",
+        "en": "Create interface designs, graphics or visual assets."
+      },
+      "pattern": "canvas-design|web design|visual design|figma|视觉设计|open-design"
+    },
+    {
+      "id": "testing",
+      "label": {
+        "zh": "测试与调试",
+        "en": "Testing & debugging"
+      },
+      "capability": {
+        "zh": "编写测试、定位故障并验证代码行为。",
+        "en": "Write tests, debug problems and verify code behavior."
+      },
+      "pattern": "debugging|test-driven|playwright|unit test|webapp-testing|调试"
+    },
+    {
+      "id": "review",
+      "label": {
+        "zh": "代码审查",
+        "en": "Code review"
+      },
+      "capability": {
+        "zh": "审查代码变更并发现实现问题。",
+        "en": "Review code changes and identify implementation problems."
+      },
+      "pattern": "code-review|code review|代码审查"
+    },
+    {
+      "id": "planning",
+      "label": {
+        "zh": "开发规划",
+        "en": "Development planning"
+      },
+      "capability": {
+        "zh": "拆解开发需求，制定可执行的实现计划。",
+        "en": "Break down development requirements into implementation plans."
+      },
+      "pattern": "writing-plans|implementation plan|brainstorming|开发规划"
+    },
+    {
+      "id": "automation",
+      "label": {
+        "zh": "工作流自动化",
+        "en": "Workflow automation"
+      },
+      "capability": {
+        "zh": "连接工具并自动执行重复工作。",
+        "en": "Connect tools and automate repetitive workflows."
+      },
+      "pattern": "workflow automation|automate workflows|automation|自动化"
+    },
+    {
+      "id": "research",
+      "label": {
+        "zh": "搜索与研究",
+        "en": "Search & research"
+      },
+      "capability": {
+        "zh": "检索资料、汇集来源并辅助研究。",
+        "en": "Find information, collect sources and support research."
+      },
+      "pattern": "deep research|web search|research assistant|文献|调研"
+    },
+    {
+      "id": "ml",
+      "label": {
+        "zh": "模型训练与评估",
+        "en": "Model training & evaluation"
+      },
+      "capability": {
+        "zh": "训练、评估或微调机器学习模型。",
+        "en": "Train, evaluate or fine-tune machine learning models."
+      },
+      "pattern": "fine-tun|model training|model evaluation|machine learning|模型训练"
+    },
+    {
+      "id": "deployment",
+      "label": {
+        "zh": "部署与运维",
+        "en": "Deployment & operations"
+      },
+      "capability": {
+        "zh": "部署应用并管理运行环境。",
+        "en": "Deploy applications and manage runtime environments."
+      },
+      "pattern": "deploy|kubernetes|devops|部署"
+    },
+    {
+      "id": "security",
+      "label": {
+        "zh": "安全检查",
+        "en": "Security checks"
+      },
+      "capability": {
+        "zh": "检查安全问题并辅助安全分析。",
+        "en": "Check security issues and assist security analysis."
+      },
+      "pattern": "security audit|vulnerability|security review|安全审计"
+    },
+    {
+      "id": "content",
+      "label": {
+        "zh": "内容创作",
+        "en": "Content creation"
+      },
+      "capability": {
+        "zh": "辅助撰写、编辑和发布内容。",
+        "en": "Help write, edit and publish content."
+      },
+      "pattern": "copywriting|content creation|content writing|内容创作"
+    },
+    {
+      "id": "skill-building",
+      "label": {
+        "zh": "技能创建",
+        "en": "Skill creation"
+      },
+      "capability": {
+        "zh": "创建和组织可复用的 Agent Skills。",
+        "en": "Create and organize reusable Agent Skills."
+      },
+      "pattern": "skill-creator|skill creator|create skills|creating skills"
+    },
+    {
+      "id": "browser",
+      "label": {
+        "zh": "浏览器操作",
+        "en": "Browser automation"
+      },
+      "capability": {
+        "zh": "操作网页并自动完成浏览器任务。",
+        "en": "Interact with web pages and automate browser tasks."
+      },
+      "pattern": "browser automation|browser-use|agent-browser|浏览器自动化"
+    },
+    {
+      "id": "tasks",
+      "label": {
+        "zh": "任务管理",
+        "en": "Task management"
+      },
+      "capability": {
+        "zh": "管理待办事项、项目与任务。",
+        "en": "Manage to-dos, projects and tasks."
+      },
+      "pattern": "todoist|task management"
+    },
+    {
+      "id": "knowledge",
+      "label": {
+        "zh": "知识管理",
+        "en": "Knowledge management"
+      },
+      "capability": {
+        "zh": "整理 Markdown 文档与知识库。",
+        "en": "Organize Markdown documents and knowledge bases."
+      },
+      "pattern": "knowledge repository|markdown ide|llm wiki|knowledge base"
+    },
+    {
+      "id": "writing",
+      "label": {
+        "zh": "写作与校对",
+        "en": "Writing & proofreading"
+      },
+      "capability": {
+        "zh": "辅助文字写作和语言校对。",
+        "en": "Assist writing and language proofreading."
+      },
+      "pattern": "prose|proofread|교정|한국어"
+    },
+    {
+      "id": "workspace",
+      "label": {
+        "zh": "智能体工作空间",
+        "en": "Agent workspace"
+      },
+      "capability": {
+        "zh": "为智能体保存工作上下文并组织任务。",
+        "en": "Preserve agent working context and organize tasks."
+      },
+      "pattern": "durable workspace|agent workbench"
+    },
+    {
+      "id": "accounting",
+      "label": {
+        "zh": "记账与报税",
+        "en": "Bookkeeping & tax"
+      },
+      "capability": {
+        "zh": "辅助记账与报税资料处理。",
+        "en": "Assist bookkeeping and tax preparation."
+      },
+      "pattern": "帳簿|確定申告|bookkeeping"
+    },
+    {
+      "id": "pcb",
+      "label": {
+        "zh": "电路板设计",
+        "en": "PCB design"
+      },
+      "capability": {
+        "zh": "辅助电路原理图、PCB 布局与布线。",
+        "en": "Assist schematics, PCB placement and routing."
+      },
+      "pattern": "kicad|pcb design"
+    },
+    {
+      "id": "education",
+      "label": {
+        "zh": "教学与课程管理",
+        "en": "Education & courses"
+      },
+      "capability": {
+        "zh": "访问课程资料并处理学习任务。",
+        "en": "Access course materials and work with learning tasks."
+      },
+      "pattern": "canvas lms|students & educators"
+    },
+    {
+      "id": "finance",
+      "label": {
+        "zh": "金融分析",
+        "en": "Financial analysis"
+      },
+      "capability": {
+        "zh": "组织金融分析与交易决策工作流。",
+        "en": "Organize financial analysis and trading decision workflows."
+      },
+      "pattern": "brokerage|trading decision"
+    }
+  ]
+}
