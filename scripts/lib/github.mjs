@@ -35,4 +35,3 @@ export function githubClient({ token = process.env.GITHUB_TOKEN, fetchImpl = fet
     }
   };
 }
-

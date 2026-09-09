@@ -35,4 +35,3 @@ test('all API failures preserve existing files and signal job failure',async t=>
 test('manual exclude wins over include and persisted pool',async t=>{
  const root=await fixture(t);await run(root,'2026-02-02T00:17:00Z',fakeGet());const config=await readJson(path.join(root,'config/repositories.json'));config.exclude=['TEST/BETA'];await writeJson(path.join(root,'config/repositories.json'),config);await run(root,'2026-02-09T00:17:00Z',fakeGet({stars:160}));assert.equal((await readJson(path.join(root,'data/catalog.json'))).repositories.length,1);assert.equal((await readWeeks(root))[0].rows.length,1);
 });
-

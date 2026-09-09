@@ -54,4 +54,3 @@ try{
  assert.deepEqual(errors,[]);results.push('No browser runtime errors');
  await writeFile('release/qa/browser-results.json',JSON.stringify({passed:results.length,results},null,2));console.log(results.join('\n'));
 }finally{await browser.close();}
-

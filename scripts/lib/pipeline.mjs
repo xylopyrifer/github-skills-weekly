@@ -123,4 +123,3 @@ export async function updateData({ root, get, now = new Date(), clock = () => ne
   log(JSON.stringify(report, null, 2));
   return report;
 }
-
