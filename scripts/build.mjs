@@ -3,6 +3,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { readJson, readWeeks } from './lib/storage.mjs';
 import { demoData } from './lib/demo.mjs';
+import { aggregateAllTime } from './lib/scoring.mjs';
 export const root=fileURLToPath(new URL('../',import.meta.url));
 export async function build(){
   const out=path.join(root,'dist');
@@ -23,7 +24,10 @@ export async function build(){
     repositories.push({full_name:row.full_name,name:row.full_name.split('/')[1],description:'',stars:row.stars??null,forks:row.forks??null,language:null,last_updated:row.observed_at||null,editorial:editorial[row.full_name]||null});
   }
   repositories.sort((a,b)=>a.full_name.localeCompare(b.full_name));
-  const publicData={schema_version:1,demo:false,updated_at:catalog.updated_at,total_weeks:history.length,repositories,weeks,all_time:all.repositories.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(({weekly_scores,...r})=>r),warning_count:report.warnings.length};
+  const retrospective=aggregateAllTime(history.filter(w=>w.source_kind==='backfill'));
+  const official=all.repositories;
+  const chosenAll=official.length?official:retrospective;
+  const publicData={schema_version:1,demo:false,updated_at:[catalog.updated_at,...history.map(w=>w.generated_at)].filter(Boolean).sort().at(-1)||null,total_weeks:history.length,repositories,weeks,all_time_kind:official.length?'snapshot':retrospective.length?'backfill':'snapshot',all_time:chosenAll.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(({weekly_scores,...r})=>r),warning_count:report.warnings.length};
   await writeFile(path.join(out,'assets/data.json'),JSON.stringify(publicData));
   await writeFile(path.join(out,'assets/demo.json'),JSON.stringify(demoData()));
   for(const file of ['app.js','i18n.js','style.css','favicon.svg'])await copyFile(path.join(root,'src',file),path.join(out,'assets',file));

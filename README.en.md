@@ -30,7 +30,7 @@ Any static host can serve the contents of `dist/`. Hash-based details work under
 ## Data integrity
 
 - Real data is the default; an opt-in demo uses entirely fictional `demo/*` projects.
-- The first run creates a baseline. Two consecutive Monday samples are necessary for a genuine ranking.
+- Five official historical backfill weeks are available. They use daily star aggregates and surviving fork creation records, not exact UTC net growth. Backfilled cumulative scores are kept separate from snapshot scores. Two consecutive Monday samples are still required for a snapshot-based ranking.
 - UTC weeks run Monday 00:00 to the next Monday 00:00, exclusive. The schedule starts at 00:17 UTC. Actual per-repository observation times are retained; a six-hour delay tolerance is allowed. Missed weeks are not fabricated.
 - Growth is a snapshot difference, not an exact reconstruction of midnight event counts.
 - API failures are isolated per repository. Missing observations and activity never become artificial zeros. All-repository failures preserve existing files and fail the job.
@@ -49,3 +49,9 @@ GitHub Search candidates are checked against file-tree `SKILL.md` paths, explici
 The interface is fully bilingual. Selected curated repositories have bilingual summaries in `config/editorial.json`; other descriptions stay in their original language and are labeled as source text. No third-party code is executed.
 
 See [the full documentation](README.md) for exact formulas, data schema, workflow configuration, known limitations, and file responsibilities. See [validation](docs/VALIDATION.md) for actual test coverage. Real mobile devices and Docker have not been tested; GitHub Pages deployment and the full cloud update workflow were verified successfully on 2026-09-09.
+
+## Five-week historical backfill
+
+`npm run backfill` fetches the preceding five complete calendar weeks. It uses GitHub's official `/stargazers/history` daily aggregates, surviving fork creation records, and default-branch commits. Source day boundaries are not guaranteed to align with UTC, and fork deletions cannot be recovered. Displayed totals and the size score are collection-time values, not historical balances. The retained audit file stores source aggregates and collection timestamps.
+
+Backfilled rankings are marked `backfill-v1`; their cumulative scores are never merged into the official snapshot cumulative score. Until official snapshot weeks exist, the homepage explicitly displays backfilled cumulative impact. Asterisk markers identify historical backfill points in detail charts. Missing or inconsistent data is rejected, not interpolated. See the Chinese README for the full limitations and reproducible command.

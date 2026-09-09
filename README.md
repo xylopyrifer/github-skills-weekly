@@ -16,7 +16,7 @@
 - 每周一自动采集并发布；支持手动运行。
 - 独立演示模式：所有 `demo/*` 项目和数字都是虚构样例，只有用户点击后才载入，不进入真实统计。
 
-**没有伪造历史数据。** 首次抓取只有真实仓库元数据。只有相邻两个周一都采到数据的仓库才有周增长和热度。初始网页显示项目池和“建立基线”，而不是伪造 TOP 10 / TOP 3。首次采集在 2026-09-09（周三），若 9 月 14 日和 21 日定时采集成功，第一份完整真实周榜将于 **9 月 21 日** 发布。
+**已补齐开站前 5 周的官方历史回溯榜。** 使用 GitHub 聚合 Star 历史、存续 Fork 创建时间和提交记录，不是 demo。回溯统计新增记录且日边界并非保证 UTC，与正式快照净增长分开；详见下方“历史回溯”。首次实际快照采集在 2026-09-09（周三），若 9 月 14 日和 21 日定时采集成功，第一份完整的**快照净增长周榜**将于 9 月 21 日发布。
 
 ## 本地运行
 
@@ -192,3 +192,23 @@ total_heat = 所有历史 contribution 的总和
 - [GITHUB_TOKEN 触发限制](https://docs.github.com/en/actions/concepts/security/github_token)
 - [定时任务事件和延迟](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows)
 - [MIT License](https://choosealicense.com/licenses/mit/)
+
+## 历史回溯（backfill-v1）
+
+已经补齐 2026-08-03 至 2026-09-06 的 5 周历史回溯。命令 `npm run backfill` 可回溯执行日之前最近 5 个完整周；需要环境变量 `GITHUB_TOKEN`，或 `GH_PATH` 指向已授权的 GitHub CLI。脚本不会覆写已经存在的正式快照周。
+
+来源与限制：
+
+1. Star 使用 GitHub 官方 `GET /repos/{owner}/{repo}/stargazers/history`，API 版本 2026-03-10。读取每周的 7 个 daily buckets，重新组合为周一至周日。不是旧的个人 stargazers 列表，也不是严重缺失的第三方事件流。
+2. 官方接口不保证日界限与 UTC 对齐。即使返回的 week 时间戳是 UTC 午夜，本项目也不据此声称事件是严格 UTC 分桶。页面将其标为 GitHub 日历回溯，而非精确的 UTC 净增长。
+3. Fork 逐页按创建时间读取，直到覆盖目标范围；只包括仍存在、可公开访问的 Fork，不包含已删除分支。不会用当前总量倒推出历史总量。
+4. 提交活动按目标 UTC 周读取默认分支，沿用最多 100 条的活动采样规则。不同历史指标的时间精度不同，因此回溯热度是参考评分。
+5. Star/Fork 总量及体量子分使用**采集时快照**，详情明确标注，绝不冒充对应周末总量。历史仓库池为当前收录池，不能还原当时完整生态，也会有幸存者偏差。
+6. 缺失日桶、总和不符、重叠桶、非午夜源偏移、Fork 翻页未完整覆盖会导致拒绝该条数据；每周不足 10 个可验证项目时不会发布伪 TOP 10。
+7. `data/backfill/` 保留官方原始 Star 聚合、Fork 周汇总、活动样本统计、请求来源和采集时间，不包含令牌或个人星标名单。
+
+使用原有 60/15/15/10 权重计算回溯分数，算法名称为 `backfill-v1`。所有回溯周设置 `source_kind: backfill`，不伪造 boundary 文件。
+
+正式累计数据 `data/all-time.json` 永远排除回溯周。尚无正式累计时，页面显示清楚标记的“回溯累计影响力”；有正式周榜后自动切换到正式累计，回溯周仍能在最近 5 周内查看。历史图中的回溯分数加星号标记。正式周排名变化也不会与回溯周跨口径比较。
+
+参考：[GitHub 官方 Star 历史接口](https://docs.github.com/en/rest/activity/starring#get-repository-star-history)。

@@ -16,7 +16,19 @@ try{
  assert.ok((await page.locator('.rank-card').count())>=6);
  assert.equal(await page.locator('.notice.demo').count(),0);
  await page.screenshot({path:'release/qa/desktop-real.png',fullPage:true});
- results.push('Real data loads with five calendar tabs and clearly marked baseline');
+ const published=await (await page.request.get(new URL('assets/data.json',base.replace(/\/?$/,'/')).href)).json();
+ if(published.weeks.length===5&&published.weeks.every(w=>w.source_kind==='backfill')){
+   assert.equal(await page.locator('.notice.backfill').count(),1);
+   assert.equal(published.all_time_kind,'backfill');
+   for(let i=0;i<5;i++){
+     await page.locator('[data-week="'+i+'"]').click();
+     assert.equal(await page.locator('.rank-card').count(),10);
+     assert.equal(await page.locator('.notice.backfill').count(),1);
+   }
+   await page.locator('[data-week="0"]').click();
+   results.push('Five real historical TOP 10 rankings disclose backfill provenance and isolated cumulative scores');
+ }
+ results.push('Real data loads with five calendar tabs and explicit data status');
  await page.locator('.rank-card').first().click();await page.waitForSelector('.detail-hero');
  const github=page.locator('a.primary-button');assert.match(await github.getAttribute('href'),/^https:\/\/github\.com\/[\w.-]+\/[\w.-]+$/);assert.equal(await page.locator('.trend-row').count(),5);
  await page.locator('[data-lang=en]').click();assert.equal(await page.locator('html').getAttribute('lang'),'en');assert.equal(await github.textContent(),'View on GitHub ↗');

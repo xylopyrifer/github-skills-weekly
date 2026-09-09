@@ -1,7 +1,7 @@
 export class GitHubError extends Error {
   constructor(message, status, rateLimited = false) { super(message); this.status = status; this.rateLimited = rateLimited; }
 }
-export function githubClient({ token = process.env.GITHUB_TOKEN, fetchImpl = fetch, sleep = ms => new Promise(r => setTimeout(r, ms)), maxRequests = 800 } = {}) {
+export function githubClient({ token = process.env.GITHUB_TOKEN, fetchImpl = fetch, sleep = ms => new Promise(r => setTimeout(r, ms)), maxRequests = 800, apiVersion = '2022-11-28' } = {}) {
   let requests = 0;
   let exhausted = false;
   return async function get(path) {
@@ -13,7 +13,7 @@ export function githubClient({ token = process.env.GITHUB_TOKEN, fetchImpl = fet
       let response;
       try {
         response = await fetchImpl('https://api.github.com' + path, {
-          headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'GitHub-Skills-Weekly', 'X-GitHub-Api-Version': '2022-11-28', ...(token ? { Authorization: `Bearer ${token}` } : {}) },
+          headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'GitHub-Skills-Weekly', 'X-GitHub-Api-Version': apiVersion, ...(token ? { Authorization: `Bearer ${token}` } : {}) },
           signal: AbortSignal.timeout(20000)
         });
       } catch (e) {

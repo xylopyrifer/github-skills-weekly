@@ -35,3 +35,14 @@ test('all API failures preserve existing files and signal job failure',async t=>
 test('manual exclude wins over include and persisted pool',async t=>{
  const root=await fixture(t);await run(root,'2026-02-02T00:17:00Z',fakeGet());const config=await readJson(path.join(root,'config/repositories.json'));config.exclude=['TEST/BETA'];await writeJson(path.join(root,'config/repositories.json'),config);await run(root,'2026-02-09T00:17:00Z',fakeGet({stars:160}));assert.equal((await readJson(path.join(root,'data/catalog.json'))).repositories.length,1);assert.equal((await readWeeks(root))[0].rows.length,1);
 });
+
+test('retrospective weeks never enter the official all-time score or previous snapshot rank',async t=>{
+ const root=await fixture(t);
+ await writeJson(path.join(root,'data/weeks/2026-01-26.json'),{start:'2026-01-26',end:'2026-02-02',source_kind:'backfill',rows:[{full_name:'test/alpha',rank:1,heat_score:99}]});
+ await run(root,'2026-02-02T00:17:00Z',fakeGet());
+ assert.deepEqual((await readJson(path.join(root,'data/all-time.json'))).repositories,[]);
+ await run(root,'2026-02-09T00:17:00Z',fakeGet({stars:160}));
+ const all=(await readJson(path.join(root,'data/all-time.json'))).repositories;
+ assert.ok(all.every(r=>r.weekly_scores.length===1));
+ assert.ok((await readWeeks(root)).find(w=>w.start==='2026-02-02').rows.every(r=>r.rank_change===null));
+});

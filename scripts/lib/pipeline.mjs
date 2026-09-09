@@ -101,7 +101,7 @@ export async function updateData({ root, get, now = new Date(), clock = () => ne
   if (inWindow && Object.keys(boundary.repositories).length) await writeJson(boundaryPath, boundary);
   const existingWeeks = await readWeeks(root);
   const oldWeek = existingWeeks.find(w => w.start === span.start);
-  const before = existingWeeks.find(w => w.end === span.start);
+  const before = existingWeeks.find(w => w.end === span.start && w.source_kind !== 'backfill');
   if (inWindow) {
     const rows = Object.entries(boundary.repositories).filter(([key,r]) => previous.repositories[key] && Number.isFinite(r.activity) && !excluded.has(key)).map(([key,r]) => {
       const prev = previous.repositories[key];
@@ -115,7 +115,7 @@ export async function updateData({ root, get, now = new Date(), clock = () => ne
       await writeJson(path.join(root,`data/weeks/${span.start}.json`), week);
     }
   }
-  const allTime = aggregateAllTime(await readWeeks(root));
+  const allTime = aggregateAllTime((await readWeeks(root)).filter(w => w.source_kind !== 'backfill'));
   await writeJson(path.join(root,'data/all-time.json'), { schema_version: 1, repositories: allTime });
   await writeJson(catalogPath, { schema_version: 1, updated_at: now.toISOString(), repositories: [...known.values()].sort((a,b) => a.full_name.localeCompare(b.full_name)) });
   const report = { updated_at: now.toISOString(), successful_repositories: successes, tracked_repositories: known.size, boundary_captured: inWindow, warnings };
