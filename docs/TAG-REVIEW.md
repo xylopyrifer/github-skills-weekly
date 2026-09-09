@@ -21,3 +21,6 @@ prepare reads GitHub repository traffic using the existing gh login. Sum seven d
 从 GitHub 仓库访问统计读取上个完整 UTC 周每日独立访客数之和，仅作近似，不是网站或单个 Skill 的访问人数。跨天可能重复。审核支持人数仅计同周新增或修改且仍有效的各账号最新提交；页面合计次数不变。访问数据缺失、过期或读取失败时仅按内容审核。最近访问摘要覆盖保存在 data/tag-traffic.json，不累积每日文件，不添加网站追踪器或服务器。
 
 Official API: https://docs.github.com/en/rest/metrics/traffic#get-page-views
+
+## Execution availability
+Data collection, integrity gates, publication checksums and the daily recovery check run in GitHub Actions, independently of the owner’s computer. Semantic tag review remains a local Codex task by explicit choice; it does not use a paid API. The computer and app must be running. Catch-up checks occur at 08:35, 12:35, 16:35 and 20:35 Asia/Shanghai, with weekly completion and daily deferral guards. Cloud workflow failures are visible in GitHub Actions and subject to the account’s notification settings; local Codex messages are not guaranteed while the computer is off.

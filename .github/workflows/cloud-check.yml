@@ -1,0 +1,28 @@
+name: Check daily data and recover in the cloud
+on:
+  schedule:
+    - cron: '35 0 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  actions: write
+concurrency:
+  group: skills-cloud-check
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Check storage, freshness and publication; recover once if needed
+        run: node scripts/cloud-check.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

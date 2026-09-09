@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     outputs:
+      data-sha: ${{ steps.data-digest.outputs.sha }}
       pages-enabled: ${{ steps.pages-check.outputs.enabled }}
     steps:
       - uses: actions/checkout@v4
@@ -33,6 +34,8 @@ jobs:
         run: node scripts/community-tags.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: node scripts/validate-data.mjs --fresh
+      - run: npm run build
       - name: Commit data only when changed
         run: |
           git config user.name 'github-actions[bot]'
@@ -42,7 +45,9 @@ jobs:
             git commit -m "chore: update weekly skills ranking $(date -u +%F)"
             git push
           fi
-      - run: npm run build
+      - name: Record published data checksum
+        id: data-digest
+        run: echo "sha=$(sha256sum dist/assets/data.json | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@v4
         with:
           name: skills-weekly-static-site
@@ -74,3 +79,19 @@ jobs:
       - name: Deploy updated site
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify live data matches artifact
+        env:
+          EXPECTED_SHA: ${{ needs.update.outputs.data-sha }}
+        run: |
+          for attempt in 1 2 3 4 5 6; do
+            if curl --fail --silent --show-error --max-time 20 "https://xylopyrifer.github.io/github-skills-weekly/assets/data.json?verify=$GITHUB_RUN_ID" -o "$RUNNER_TEMP/skills-live.json"; then
+              ACTUAL_SHA=$(sha256sum "$RUNNER_TEMP/skills-live.json" | cut -d ' ' -f1)
+              if [ "$ACTUAL_SHA" = "$EXPECTED_SHA" ]; then
+                echo 'Live data checksum matches the validated artifact.'
+                exit 0
+              fi
+            fi
+            sleep 10
+          done
+          echo 'Live data does not match the validated artifact.'
+          exit 1

@@ -39,3 +39,5 @@ Deployment, scoring and maintenance details: [English developer guide](docs/DEVE
 © 2026 **若蘅 Xylopyrifer** · [MIT License](LICENSE). Use, modify, distribute and commercialize while retaining copyright and license notices. Listed third-party projects keep their own licenses.
 
 Traffic is approximated by summing this repository’s daily unique visitors over the previous complete UTC week. Repeat visitors may count across days; this is not website or per-skill traffic. Support uses distinct accounts with active submissions updated in the same week. If traffic is unavailable, review uses content only. No additional server is required.
+
+GitHub-hosted jobs collect at 08:00 Beijing time and check storage, ranking calculations and deployed-file checksums at 08:35, with at most one recovery run. They run while your computer is off. AI content review uses the local app without an additional model API: the computer and app must be running. Local checks at 08:35, 12:35, 16:35 and 20:35 catch up on the current week’s pending review and skip completed reviews.
