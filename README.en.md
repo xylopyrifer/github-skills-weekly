@@ -15,7 +15,7 @@ Discover trending AI Agent Skills on GitHub, understand what they do, and find t
 
 Data collection starts daily at **00:00 UTC / 08:00 Beijing time**. Monday runs settle the previous week. GitHub scheduling may be delayed; actual collection times are displayed.
 
-Custom tags become public after submission and successful publication, before review. Weekly review retains tags that match a project's capabilities or receive support from at least **5 distinct GitHub accounts**. Unrelated tags are removed; unavailable evidence defers a decision. Each account counts once, and a new submission replaces its previous selections. Submit up to five custom tags, 2–32 characters each. Custom labels retain their original text in both interface languages.
+Custom tags become public after submission and successful publication, before review. Weekly review retains tags that match a project's capabilities, or whose previous-week distinct supporters **exceed one third of estimated repository visitors, with a minimum of 5 accounts**. Unrelated tags are removed; unavailable evidence defers a decision. Each account counts once, and a new submission replaces its previous selections. Submit up to five custom tags, 2–32 characters each. Custom labels retain their original text in both interface languages.
 
 System classifications, community submissions and review decisions are stored separately and combined for display. Accepted tags persist on their project even after withdrawal of the original submission; rejection records prevent reappearance during synchronization. Fixed capability tags continue to update automatically. Semantic weekly review runs through this project's Codex automation; forks must configure their own review task.
 
@@ -37,3 +37,5 @@ Deployment, scoring and maintenance details: [English developer guide](docs/DEVE
 ## License
 
 © 2026 **若蘅 Xylopyrifer** · [MIT License](LICENSE). Use, modify, distribute and commercialize while retaining copyright and license notices. Listed third-party projects keep their own licenses.
+
+Traffic is approximated by summing this repository’s daily unique visitors over the previous complete UTC week. Repeat visitors may count across days; this is not website or per-skill traffic. Support uses distinct accounts with active submissions updated in the same week. If traffic is unavailable, review uses content only. No additional server is required.

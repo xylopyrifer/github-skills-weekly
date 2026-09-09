@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "repository": "xylopyrifer/github-skills-weekly",
+  "start": "2026-08-31",
+  "end": "2026-09-07",
+  "available": true,
+  "estimate": 0,
+  "required_supporters": 5,
+  "method": "sum-of-daily-repository-uniques",
+  "collected_at": "2026-09-09T04:07:45.266Z"
+}
