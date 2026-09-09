@@ -4,7 +4,7 @@
 
 A bilingual English / Chinese discovery site for AI Agent Skills. Ranks a tracked repository pool by weekly momentum, preserves all-time influence, and runs on GitHub Pages or any small static server.
 
-**MIT License · Copyright (c) 2026 xylopyrifer.** Retain the copyright and license notices when reusing the code. Tracked third-party repositories retain their own licenses.
+**MIT License · Copyright (c) 2026 若蘅 Xylopyrifer.** Retain the copyright and license notices when reusing the code. Tracked third-party repositories retain their own licenses.
 
 ## Run
 

@@ -4,7 +4,7 @@
 
 中英文 AI Agent Skills 周榜。静态网页 + GitHub REST API 采集 + JSON 历史 + GitHub Actions；零生产依赖、无需数据库，可部署到 GitHub Pages、Nginx 或任何静态托管。
 
-**作者：xylopyrifer · MIT License**。使用、修改、分发和商用时须保留版权及许可声明。被收录的第三方仓库仍遵循各自许可证。
+**作者：若蘅 Xylopyrifer · MIT License**。使用、修改、分发和商用时须保留版权及许可声明。被收录的第三方仓库仍遵循各自许可证。
 
 ## 现在可以做什么
 

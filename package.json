@@ -17,5 +17,5 @@
     "test:browser": "node scripts/browser-check.mjs"
   },
   "license": "MIT",
-  "author": "xylopyrifer"
+  "author": "若蘅 Xylopyrifer"
 }
