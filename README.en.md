@@ -1,5 +1,7 @@
 # GitHub Skills Weekly
 
+[Live website](https://xylopyrifer.github.io/github-skills-weekly/) · [Source code](https://github.com/xylopyrifer/github-skills-weekly)
+
 A bilingual English / Chinese discovery site for AI Agent Skills. Ranks a tracked repository pool by weekly momentum, preserves all-time influence, and runs on GitHub Pages or any small static server.
 
 **MIT License · Copyright (c) 2026 xylopyrifer.** Retain the copyright and license notices when reusing the code. Tracked third-party repositories retain their own licenses.
@@ -46,4 +48,4 @@ GitHub Search candidates are checked against file-tree `SKILL.md` paths, explici
 
 The interface is fully bilingual. Selected curated repositories have bilingual summaries in `config/editorial.json`; other descriptions stay in their original language and are labeled as source text. No third-party code is executed.
 
-See [the full documentation](README.md) for exact formulas, data schema, workflow configuration, known limitations, and file responsibilities. See [validation](docs/VALIDATION.md) for actual test coverage. Real mobile devices and Docker have not been tested; remote publishing requires a GitHub login with write access.
+See [the full documentation](README.md) for exact formulas, data schema, workflow configuration, known limitations, and file responsibilities. See [validation](docs/VALIDATION.md) for actual test coverage. Real mobile devices and Docker have not been tested; GitHub Pages deployment and the full cloud update workflow were verified successfully on 2026-09-09.

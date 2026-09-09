@@ -1,5 +1,7 @@
 # GitHub Skills Weekly
 
+[在线访问](https://xylopyrifer.github.io/github-skills-weekly/) · [GitHub 仓库](https://github.com/xylopyrifer/github-skills-weekly)
+
 中英文 AI Agent Skills 周榜。静态网页 + GitHub REST API 采集 + JSON 历史 + GitHub Actions；零生产依赖、无需数据库，可部署到 GitHub Pages、Nginx 或任何静态托管。
 
 **作者：xylopyrifer · MIT License**。使用、修改、分发和商用时须保留版权及许可声明。被收录的第三方仓库仍遵循各自许可证。

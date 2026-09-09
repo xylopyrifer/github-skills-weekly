@@ -21,9 +21,20 @@
 - 浏览器窗口宽度模拟通过，不等于真机 Android / iOS WebView 实测。
 - 18 项测试中的历史周数据是隔离测试 fixture，不是公开历史数据。
 - Docker 配置已提供，但本机没有执行 Docker 容器验收。
-- GitHub Pages 和 Actions 的远端结果，以实际发布记录为准；本地 build 不能代替远端部署成功。
+- GitHub Pages 与完整云端更新已通过实际验收，见下方记录；未来每周运行仍需以 Actions 记录为准。
 - 现有个人浏览器连接器在建立会话前退出，报 `trusted Node process exited unexpectedly`。本地网站验收使用独立测试浏览器，不代表已连接用户登录的 GitHub 会话。
 
 ## 小红书
 
 用户已取消小红书交付要求。本项目是可联网的普通网页，不输出小红书合规声明。原下载 skill 位于被 Git 忽略的 `.codex/`，不进入网站产物、源码包或仓库。
+
+## 远端发布验收（已完成）
+
+- 网站：https://xylopyrifer.github.io/github-skills-weekly/
+- 仓库：https://github.com/xylopyrifer/github-skills-weekly
+- 首次发布：[34303290420](https://github.com/xylopyrifer/github-skills-weekly/actions/runs/34303290420)，build/deploy 均成功。
+- 完整更新：[34303321376](https://github.com/xylopyrifer/github-skills-weekly/actions/runs/34303321376)，采集、提交数据、构建和 Pages 部署均成功。
+- 云端更新结果：25 个真实仓库，0 warnings；仍为真实 baseline，没有伪造周榜。
+- 正式域名首页 HTTP 200，data.json 可读取，demo=false。
+- 对正式 GitHub Pages 子路径执行相同的独立浏览器验收，全部通过，无运行时异常。
+- GitHub 已识别许可证为 MIT，默认分支 main，仓库主页链接已设置。
