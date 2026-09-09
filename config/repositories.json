@@ -1,0 +1,12 @@
+{
+  "include": ["anthropics/skills", "openai/skills", "obra/superpowers", "vercel-labs/agent-skills", "ComposioHQ/awesome-claude-skills", "huggingface/skills"],
+  "exclude": [],
+  "discovery": {
+    "enabled": true,
+    "maxNewPerRun": 12,
+    "maxTracked": 100,
+    "minStars": 10,
+    "threshold": 65,
+    "queries": ["topic:agent-skills", "\"agent skills\" in:description,readme", "\"claude code\" \"SKILL.md\" in:readme", "\"codex\" \"SKILL.md\" in:readme", "\"cursor\" \"SKILL.md\" in:readme"]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "anthropics/skills": {
+    "description": {"zh": "Anthropic 官方技能库，为 Claude 补充文档、设计与开发工作流。", "en": "Anthropic’s official skills for document, design, and development workflows."},
+    "audience": {"zh": "希望直接使用官方技能的 Claude 用户", "en": "Claude users looking for official, ready-to-use skills"},
+    "highlights": {"zh": ["官方技能示例与结构规范", "覆盖文档处理和创意工作流"], "en": ["Official examples and skill structure", "Document and creative workflows"]}
+  },
+  "openai/skills": {
+    "description": {"zh": "OpenAI 的 Codex 技能目录，让编码智能体掌握可复用的专项工作流。", "en": "OpenAI’s skill catalog for reusable, specialized Codex workflows."},
+    "audience": {"zh": "使用 Codex 的开发者", "en": "Developers working with Codex"},
+    "highlights": {"zh": ["围绕 Codex 的技能目录", "用可复用指引组织专项任务"], "en": ["A skill catalog built around Codex", "Reusable instructions for specialized tasks"]}
+  },
+  "obra/superpowers": {
+    "description": {"zh": "把规划、测试与代码审查组织成可复用的智能体开发工作流。", "en": "Reusable agent workflows for planning, testing, and code review."},
+    "audience": {"zh": "希望规范 AI 开发流程的工程师", "en": "Engineers structuring their AI development process"},
+    "highlights": {"zh": ["贯穿开发流程的技能组合", "强调规划与验证"], "en": ["Skills spanning the development process", "An emphasis on planning and verification"]}
+  },
+  "vercel-labs/agent-skills": {
+    "description": {"zh": "Vercel 提供的智能体技能，聚焦现代 Web 开发与最佳实践。", "en": "Vercel’s agent skills for modern web development and best practices."},
+    "audience": {"zh": "Web 与前端开发者", "en": "Web and frontend developers"},
+    "highlights": {"zh": ["面向 Web 开发的实用指引", "可供智能体复用的最佳实践"], "en": ["Practical web development guidance", "Best practices reusable by agents"]}
+  },
+  "huggingface/skills": {
+    "description": {"zh": "Hugging Face 的智能体技能，连接模型、数据集与机器学习工具。", "en": "Hugging Face skills connecting agents with models, datasets, and ML tools."},
+    "audience": {"zh": "机器学习开发者与研究者", "en": "Machine learning developers and researchers"},
+    "highlights": {"zh": ["围绕 Hugging Face 生态", "把机器学习任务组织为技能"], "en": ["Focused on the Hugging Face ecosystem", "Machine learning tasks organized as skills"]}
+  }
+}

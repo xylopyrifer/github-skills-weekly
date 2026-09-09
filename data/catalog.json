@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-09T02:02:49.696Z",
+  "repositories": [
+    {
+      "full_name": "anthropics/skills",
+      "owner": "anthropics",
+      "name": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "topics": [
+        "agent-skills"
+      ],
+      "stars": 175250,
+      "forks": 20750,
+      "discovered_at": "2026-09-09T01:59:52.047Z",
+      "last_updated": "2026-09-09T02:02:50.279Z",
+      "pushed_at": "2026-09-03T16:37:14Z",
+      "relevance": {
+        "score": 100,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "description",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "skills/academy-guide/SKILL.md",
+          "skills/algorithmic-art/SKILL.md",
+          "skills/brand-guidelines/SKILL.md",
+          "skills/canvas-design/SKILL.md",
+          "skills/claude-api/SKILL.md",
+          "skills/discernment-nudge/SKILL.md",
+          "skills/doc-coauthoring/SKILL.md",
+          "skills/docx/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T01:59:52.047Z",
+      "manual": true
+    },
+    {
+      "full_name": "apache/magpie",
+      "owner": "apache",
+      "name": "magpie",
+      "url": "https://github.com/apache/magpie",
+      "description": "Agent-assisted maintainership and development framework for Apache projects — Triage, Mentoring, Drafting (agent-authored fixes with human review), and Pairing (developer-side dev-cycle) skills shipping; Agentic Autonomous (auto-merge) on the roadmap.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "apache",
+        "automation",
+        "claude-code",
+        "cve",
+        "security",
+        "vulnerability-disclosure",
+        "vulnerability-management"
+      ],
+      "stars": 90,
+      "forks": 87,
+      "discovered_at": "2026-09-09T02:03:03.246Z",
+      "last_updated": "2026-09-09T02:03:03.246Z",
+      "pushed_at": "2026-09-09T01:44:05Z",
+      "relevance": {
+        "score": 85,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme"
+        ],
+        "skill_files": [
+          "skills/audit-finding-fix/SKILL.md",
+          "skills/ci-runner-audit/SKILL.md",
+          "skills/committer-onboarding/SKILL.md",
+          "skills/contributor-activity-sweep/SKILL.md",
+          "skills/contributor-nomination/SKILL.md",
+          "skills/contributor-sentiment/SKILL.md",
+          "skills/contributor-to-committer/SKILL.md",
+          "skills/dependency-audit/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:03:03.246Z",
+      "manual": false
+    },
+    {
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "owner": "ComposioHQ",
+      "name": "awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "antigravity",
+        "automation",
+        "claude",
+        "claude-code",
+        "codex",
+        "composio",
+        "cursor",
+        "developer-tools",
+        "gemini-cli",
+        "mcp"
+      ],
+      "stars": 74701,
+      "forks": 8620,
+      "discovered_at": "2026-09-09T01:59:55.876Z",
+      "last_updated": "2026-09-09T02:02:51.927Z",
+      "pushed_at": "2026-08-10T21:45:44Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "artifacts-builder/SKILL.md",
+          "brand-guidelines/SKILL.md",
+          "canvas-design/SKILL.md",
+          "changelog-generator/SKILL.md",
+          "competitive-ads-extractor/SKILL.md",
+          "composio-skills/-21risk-automation/SKILL.md",
+          "composio-skills/-2chat-automation/SKILL.md",
+          "composio-skills/ably-automation/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T01:59:55.876Z",
+      "manual": true
+    },
+    {
+      "full_name": "Doist/todoist-cli",
+      "owner": "Doist",
+      "name": "todoist-cli",
+      "url": "https://github.com/Doist/todoist-cli",
+      "description": "Command-line interface for Todoist.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills"
+      ],
+      "stars": 308,
+      "forks": 18,
+      "discovered_at": "2026-09-09T02:02:53.738Z",
+      "last_updated": "2026-09-09T02:02:53.738Z",
+      "pushed_at": "2026-09-09T02:01:47Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          ".agents/skills/add-command/SKILL.md",
+          ".claude/skills/add-command/SKILL.md",
+          "skills/todoist-cli/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:02:53.738Z",
+      "manual": false
+    },
+    {
+      "full_name": "huggingface/skills",
+      "owner": "huggingface",
+      "name": "skills",
+      "url": "https://github.com/huggingface/skills",
+      "description": "Give your agents the power of the Hugging Face ecosystem",
+      "language": "Python",
+      "topics": [],
+      "stars": 11026,
+      "forks": 740,
+      "discovered_at": "2026-09-09T01:59:56.768Z",
+      "last_updated": "2026-09-09T02:02:52.281Z",
+      "pushed_at": "2026-09-08T10:44:02Z",
+      "relevance": {
+        "score": 75,
+        "evidence": [
+          "skill-file",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "hf-mcp/skills/hf-mcp/SKILL.md",
+          "skills/hf-cli/SKILL.md",
+          "skills/hf-cloud-aws-context-discovery/SKILL.md",
+          "skills/hf-cloud-python-env-setup/SKILL.md",
+          "skills/hf-cloud-sagemaker-deployment-planner/SKILL.md",
+          "skills/hf-cloud-sagemaker-iam-preflight/SKILL.md",
+          "skills/hf-cloud-sagemaker-production-defaults/SKILL.md",
+          "skills/hf-cloud-serving-image-selection/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T01:59:56.768Z",
+      "manual": true
+    },
+    {
+      "full_name": "inkeep/open-knowledge",
+      "owner": "inkeep",
+      "name": "open-knowledge",
+      "url": "https://github.com/inkeep/open-knowledge",
+      "description": "Beautiful, AI-native markdown IDE and LLM wiki",
+      "language": "TypeScript",
+      "topics": [
+        "2nd-brain",
+        "agent-skills",
+        "claude",
+        "codex",
+        "company-brain",
+        "docs",
+        "knowledge-",
+        "knowledge-base",
+        "knowledge-management",
+        "llm",
+        "llm-wiki",
+        "llm-wiki-karpathy"
+      ],
+      "stars": 4092,
+      "forks": 272,
+      "discovered_at": "2026-09-09T02:03:01.611Z",
+      "last_updated": "2026-09-09T02:03:01.611Z",
+      "pushed_at": "2026-09-09T01:52:58Z",
+      "relevance": {
+        "score": 85,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme"
+        ],
+        "skill_files": [
+          "packages/server/assets/skills/discovery/SKILL.md",
+          "packages/server/assets/skills/packs/codebase-wiki/SKILL.md",
+          "packages/server/assets/skills/packs/entity-vault/SKILL.md",
+          "packages/server/assets/skills/packs/knowledge-base/SKILL.md",
+          "packages/server/assets/skills/packs/knowledge-base/consolidate/SKILL.md",
+          "packages/server/assets/skills/packs/knowledge-base/research/SKILL.md",
+          "packages/server/assets/skills/packs/okf/SKILL.md",
+          "packages/server/assets/skills/packs/plain-notes/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:03:01.611Z",
+      "manual": false
+    },
+    {
+      "full_name": "JackyST0/awesome-agent-skills",
+      "owner": "JackyST0",
+      "name": "awesome-agent-skills",
+      "url": "https://github.com/JackyST0/awesome-agent-skills",
+      "description": "🤖 精选的 AI Agent Skills 列表，适用于 Cursor、Claude Code、GitHub Copilot 等 AI 编程工具",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "awesome",
+        "awesome-list",
+        "claude",
+        "copilot",
+        "cursor"
+      ],
+      "stars": 632,
+      "forks": 121,
+      "discovered_at": "2026-09-09T02:02:58.062Z",
+      "last_updated": "2026-09-09T02:02:58.062Z",
+      "pushed_at": "2026-09-09T01:53:37Z",
+      "relevance": {
+        "score": 100,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "description",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "examples/api-doc-generator/SKILL.md",
+          "examples/code-review/SKILL.md",
+          "examples/debug-helper/SKILL.md",
+          "examples/git-commit/SKILL.md",
+          "examples/unit-test-generator/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:02:58.062Z",
+      "manual": false
+    },
+    {
+      "full_name": "JellyBrick/korean-prose-skill",
+      "owner": "JellyBrick",
+      "name": "korean-prose-skill",
+      "url": "https://github.com/JellyBrick/korean-prose-skill",
+      "description": "이상한 해요체는 이제 그만...!! 한국어 작성 및 교정 스킬",
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "antigravity",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "codex-skills",
+        "gemini",
+        "korean",
+        "skills"
+      ],
+      "stars": 20,
+      "forks": 0,
+      "discovered_at": "2026-09-09T02:02:56.694Z",
+      "last_updated": "2026-09-09T02:02:56.694Z",
+      "pushed_at": "2026-09-09T01:56:40Z",
+      "relevance": {
+        "score": 85,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme"
+        ],
+        "skill_files": [
+          "skills/korean-prose/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:02:56.694Z",
+      "manual": false
+    },
+    {
+      "full_name": "kazukinagata/shinkoku",
+      "owner": "kazukinagata",
+      "name": "shinkoku",
+      "url": "https://github.com/kazukinagata/shinkoku",
+      "description": "確定申告自動化 AI エージェントプラグイン — 帳簿管理から e-Tax 入力代行まで",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "bookkeeping",
+        "claude-code-plugin",
+        "claude-code-skills",
+        "japan",
+        "python",
+        "tax-filing"
+      ],
+      "stars": 359,
+      "forks": 34,
+      "discovered_at": "2026-09-09T02:02:59.316Z",
+      "last_updated": "2026-09-09T02:02:59.316Z",
+      "pushed_at": "2026-09-09T01:52:25Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "skills/assess/SKILL.md",
+          "skills/capabilities/SKILL.md",
+          "skills/consumption-tax/SKILL.md",
+          "skills/e-bookkeeping-compliance/SKILL.md",
+          "skills/e-tax/SKILL.md",
+          "skills/furusato/SKILL.md",
+          "skills/gather/SKILL.md",
+          "skills/income-tax/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:02:59.316Z",
+      "manual": false
+    },
+    {
+      "full_name": "kgraph57/mckinsey-style-visualization-skill",
+      "owner": "kgraph57",
+      "name": "mckinsey-style-visualization-skill",
+      "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
+      "description": "Agent Skill that turns messy notes into rendered strategy-consulting visuals, with SVG examples and validation.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "board-slides",
+        "business-visualization",
+        "claude",
+        "claude-code",
+        "claude-skill",
+        "claude-skills",
+        "consulting",
+        "consulting-slides",
+        "data-visualization",
+        "executive-presentations"
+      ],
+      "stars": 99,
+      "forks": 18,
+      "discovered_at": "2026-09-09T02:02:56.102Z",
+      "last_updated": "2026-09-09T02:02:56.102Z",
+      "pushed_at": "2026-09-09T01:58:08Z",
+      "relevance": {
+        "score": 100,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "description",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:02:56.102Z",
+      "manual": false
+    },
+    {
+      "full_name": "nexu-io/open-design",
+      "owner": "nexu-io",
+      "name": "open-design",
+      "url": "https://github.com/nexu-io/open-design",
+      "description": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-design",
+        "byok",
+        "claude-code-for-design",
+        "claude-design",
+        "codex-design",
+        "coding-agents",
+        "cursor-design",
+        "deepseek",
+        "deepseek-harness",
+        "design-systems",
+        "desktop-app"
+      ],
+      "stars": 94949,
+      "forks": 10984,
+      "discovered_at": "2026-09-09T02:03:00.527Z",
+      "last_updated": "2026-09-09T02:03:00.527Z",
+      "pushed_at": "2026-09-09T02:00:40Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          ".claude/skills/od-contribute/SKILL.md",
+          "apps/daemon/tests/fixtures/plugin-fixtures/sample-plugin/SKILL.md",
+          "design-templates/audio-jingle/SKILL.md",
+          "design-templates/blog-post/SKILL.md",
+          "design-templates/clinical-case-report/SKILL.md",
+          "design-templates/contact-widget/SKILL.md",
+          "design-templates/critique/SKILL.md",
+          "design-templates/dashboard/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:03:00.527Z",
+      "manual": false
+    },
+    {
+      "full_name": "obra/superpowers",
+      "owner": "obra",
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "stars": 283397,
+      "forks": 25370,
+      "discovered_at": "2026-09-09T01:59:53.895Z",
+      "last_updated": "2026-09-09T02:02:51.278Z",
+      "pushed_at": "2026-09-08T21:39:23Z",
+      "relevance": {
+        "score": 75,
+        "evidence": [
+          "skill-file",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "skills/brainstorming/SKILL.md",
+          "skills/dispatching-parallel-agents/SKILL.md",
+          "skills/executing-plans/SKILL.md",
+          "skills/finishing-a-development-branch/SKILL.md",
+          "skills/receiving-code-review/SKILL.md",
+          "skills/requesting-code-review/SKILL.md",
+          "skills/subagent-driven-development/SKILL.md",
+          "skills/systematic-debugging/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T01:59:53.895Z",
+      "manual": true
+    },
+    {
+      "full_name": "openai/skills",
+      "owner": "openai",
+      "name": "skills",
+      "url": "https://github.com/openai/skills",
+      "description": "Skills Catalog for Codex",
+      "language": "Python",
+      "topics": [],
+      "stars": 26536,
+      "forks": 1776,
+      "discovered_at": "2026-09-09T01:59:52.984Z",
+      "last_updated": "2026-09-09T02:02:50.627Z",
+      "pushed_at": "2026-09-08T20:35:26Z",
+      "relevance": {
+        "score": 80,
+        "evidence": [
+          "skill-file",
+          "description",
+          "readme"
+        ],
+        "skill_files": [
+          "skills/.curated/aspnet-core/SKILL.md",
+          "skills/.curated/chatgpt-apps/SKILL.md",
+          "skills/.curated/cli-creator/SKILL.md",
+          "skills/.curated/cloudflare-deploy/SKILL.md",
+          "skills/.curated/define-goal/SKILL.md",
+          "skills/.curated/figma-code-connect-components/SKILL.md",
+          "skills/.curated/figma-create-design-system-rules/SKILL.md",
+          "skills/.curated/figma-create-new-file/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T01:59:52.984Z",
+      "manual": true
+    },
+    {
+      "full_name": "openclaw/crabbox",
+      "owner": "openclaw",
+      "name": "crabbox",
+      "url": "https://github.com/openclaw/crabbox",
+      "description": "Crabbox: warm a box, sync the diff, run the suite.",
+      "language": "Go",
+      "topics": [
+        "agent-skills",
+        "herdr-plugin",
+        "remote-test-runner"
+      ],
+      "stars": 1375,
+      "forks": 175,
+      "discovered_at": "2026-09-09T02:03:02.467Z",
+      "last_updated": "2026-09-09T02:03:02.467Z",
+      "pushed_at": "2026-09-09T01:48:46Z",
+      "relevance": {
+        "score": 85,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme"
+        ],
+        "skill_files": [
+          ".agents/skills/autoreview/SKILL.md",
+          ".agents/skills/crabbox/SKILL.md",
+          "skills/crabbox/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:03:02.467Z",
+      "manual": false
+    },
+    {
+      "full_name": "vercel-labs/agent-skills",
+      "owner": "vercel-labs",
+      "name": "agent-skills",
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "description": "Vercel's official collection of agent skills",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 30983,
+      "forks": 2742,
+      "discovered_at": "2026-09-09T01:59:54.830Z",
+      "last_updated": "2026-09-09T02:02:51.597Z",
+      "pushed_at": "2026-08-28T13:36:31Z",
+      "relevance": {
+        "score": 90,
+        "evidence": [
+          "skill-file",
+          "description",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "skills/composition-patterns/SKILL.md",
+          "skills/deploy-to-vercel/SKILL.md",
+          "skills/react-best-practices/SKILL.md",
+          "skills/react-native-skills/SKILL.md",
+          "skills/react-view-transitions/SKILL.md",
+          "skills/vercel-cli-with-tokens/SKILL.md",
+          "skills/vercel-optimize/SKILL.md",
+          "skills/web-design-guidelines/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T01:59:54.830Z",
+      "manual": true
+    },
+    {
+      "full_name": "zxc663/shisan-xinuo-workflow",
+      "owner": "zxc663",
+      "name": "shisan-xinuo-workflow",
+      "url": "https://github.com/zxc663/shisan-xinuo-workflow",
+      "description": "十三希诺 Agent 工作流：可审计工程治理 Skill。三级跑道（L1 快通/L2-S 短流/L2-F 9 步）+ L1/L2/L3 封闭清单速判 + 三模式；渐进式披露（294 条细则 17 类按 T1/T2/T3 三层 + 一键检索端口 detail_lookup）、跨会话留档一档制（agent-log 四区）、设计前先调研、折叠协议/紧凑档/决策时效、Steer/Parallel、触达端口（报错必经/预读 TOP/回指强制）、经验回流（双击晋升）、路测诚实口径——Agent 提示词注入标范，MIT。",
+      "language": "PowerShell",
+      "topics": [
+        "agent-skills",
+        "agentskills",
+        "ai-agents",
+        "automation",
+        "claude-code",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "engineering",
+        "governance",
+        "llm-agents",
+        "mcp"
+      ],
+      "stars": 22,
+      "forks": 2,
+      "discovered_at": "2026-09-09T02:02:57.337Z",
+      "last_updated": "2026-09-09T02:02:57.337Z",
+      "pushed_at": "2026-09-09T01:54:53Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "skill/shisan-xinuo-workflow/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:02:57.337Z",
+      "manual": false
+    }
+  ]
+}

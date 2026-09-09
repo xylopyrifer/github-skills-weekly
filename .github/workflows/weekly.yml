@@ -1,0 +1,71 @@
+name: Update weekly skills rankings
+on:
+  schedule:
+    - cron: '17 0 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: skills-publication
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      pages-enabled: ${{ steps.pages-check.outputs.enabled }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Collect GitHub data
+        run: npm run update
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit data only when changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update weekly skills ranking $(date -u +%F)"
+            git push
+          fi
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: skills-weekly-static-site
+          path: dist/
+          include-hidden-files: true
+      - name: Detect GitHub Pages configuration
+        id: pages-check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh api "repos/$GITHUB_REPOSITORY/pages" --jq .html_url; then
+            echo 'enabled=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'enabled=false' >> "$GITHUB_OUTPUT"
+            echo 'Data updated. Enable Pages with GitHub Actions to publish automatically.'
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.pages-check.outputs.enabled == 'true'
+        with:
+          path: dist
+  deploy:
+    needs: update
+    if: needs.update.outputs.pages-enabled == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy updated site
+        id: deployment
+        uses: actions/deploy-pages@v4

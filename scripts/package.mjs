@@ -1,0 +1,13 @@
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import path from 'node:path';
+import { build, root } from './build.mjs';
+import { collectFiles, makeZip } from './lib/zip.mjs';
+await build();
+await mkdir(path.join(root,'release'),{recursive:true});
+const web=await collectFiles(path.join(root,'dist'));
+await writeFile(path.join(root,'release/github-skills-weekly-web.zip'),makeZip(web));
+const source=[];
+for(const folder of ['src','scripts','config','data','test','docs','deploy','.github'])source.push(...await collectFiles(path.join(root,folder),folder+'/'));
+for(const name of ['index.html','package.json','package-lock.json','LICENSE','README.md','README.en.md','Dockerfile','.dockerignore','.gitignore','.env.example'])source.push({name,bytes:await readFile(path.join(root,name))});
+await writeFile(path.join(root,'release/github-skills-weekly-source.zip'),makeZip(source));
+console.log('Created release/github-skills-weekly-web.zip and release/github-skills-weekly-source.zip');
