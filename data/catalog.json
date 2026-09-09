@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-09T02:02:49.696Z",
+  "updated_at": "2026-09-09T02:28:13.215Z",
   "repositories": [
     {
       "full_name": "anthropics/skills",
@@ -12,10 +12,10 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 175250,
+      "stars": 175253,
       "forks": 20750,
       "discovered_at": "2026-09-09T01:59:52.047Z",
-      "last_updated": "2026-09-09T02:02:50.279Z",
+      "last_updated": "2026-09-09T02:28:13.572Z",
       "pushed_at": "2026-09-03T16:37:14Z",
       "relevance": {
         "score": 100,
@@ -61,7 +61,7 @@
       "stars": 90,
       "forks": 87,
       "discovered_at": "2026-09-09T02:03:03.246Z",
-      "last_updated": "2026-09-09T02:03:03.246Z",
+      "last_updated": "2026-09-09T02:28:15.336Z",
       "pushed_at": "2026-09-09T01:44:05Z",
       "relevance": {
         "score": 85,
@@ -106,10 +106,10 @@
         "gemini-cli",
         "mcp"
       ],
-      "stars": 74701,
+      "stars": 74702,
       "forks": 8620,
       "discovered_at": "2026-09-09T01:59:55.876Z",
-      "last_updated": "2026-09-09T02:02:51.927Z",
+      "last_updated": "2026-09-09T02:28:14.760Z",
       "pushed_at": "2026-08-10T21:45:44Z",
       "relevance": {
         "score": 95,
@@ -135,6 +135,95 @@
       "manual": true
     },
     {
+      "full_name": "CorpusIQ/corpusiq-docs",
+      "owner": "CorpusIQ",
+      "name": "corpusiq-docs",
+      "url": "https://github.com/CorpusIQ/corpusiq-docs",
+      "description": "Hermes Agent Production Knowledge Repository — 406+ repos, AI Agent Marketplace, MCP servers, autonomous AI agent patterns. Production-tested from 1,200+ hours of ops. Updated daily.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "awesome-mcp",
+        "business-ai",
+        "business-intelligence",
+        "claude-code",
+        "corpusiq",
+        "hermes-agent",
+        "mcp",
+        "mcp-server",
+        "nous-research",
+        "skills-marketplace"
+      ],
+      "stars": 20,
+      "forks": 6,
+      "discovered_at": "2026-09-09T02:28:25.933Z",
+      "last_updated": "2026-09-09T02:28:25.933Z",
+      "pushed_at": "2026-09-09T02:12:21Z",
+      "relevance": {
+        "score": 70,
+        "evidence": [
+          "skill-file",
+          "skill-topic"
+        ],
+        "skill_files": [
+          "hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:28:25.933Z",
+      "manual": false
+    },
+    {
+      "full_name": "Devin-AXIS/iPolloWork",
+      "owner": "Devin-AXIS",
+      "name": "iPolloWork",
+      "url": "https://github.com/Devin-AXIS/iPolloWork",
+      "description": "Enterprise-grade, local-first Agent Workbench for people and agent teams. A unified multi-engine workspace for Codex Harness, DeepSeek Harness, and OpenCode, with unified plugins and Skills, multi-agent projects and tasks, and editable code, documents, presentations, design, and video.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-collaboration",
+        "agent-skills",
+        "ai-agents",
+        "ai-work",
+        "claude-code",
+        "codex",
+        "codex-plugin",
+        "deepseek-harness",
+        "dsh-plugin",
+        "enterprise-agent-workspace",
+        "hermes-agent",
+        "ipollowork-plugin"
+      ],
+      "stars": 5560,
+      "forks": 1040,
+      "discovered_at": "2026-09-09T02:28:23.165Z",
+      "last_updated": "2026-09-09T02:28:23.165Z",
+      "pushed_at": "2026-09-09T02:18:53Z",
+      "relevance": {
+        "score": 100,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "description",
+          "readme"
+        ],
+        "skill_files": [
+          ".agents/skills/hyperframes-animation/SKILL.md",
+          ".agents/skills/hyperframes-cli/SKILL.md",
+          ".agents/skills/hyperframes-core/SKILL.md",
+          ".agents/skills/hyperframes-creative/SKILL.md",
+          ".agents/skills/hyperframes-keyframes/SKILL.md",
+          ".agents/skills/hyperframes-registry/SKILL.md",
+          ".agents/skills/hyperframes/SKILL.md",
+          ".agents/skills/image-editing/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:28:23.165Z",
+      "manual": false
+    },
+    {
       "full_name": "Doist/todoist-cli",
       "owner": "Doist",
       "name": "todoist-cli",
@@ -147,8 +236,8 @@
       "stars": 308,
       "forks": 18,
       "discovered_at": "2026-09-09T02:02:53.738Z",
-      "last_updated": "2026-09-09T02:02:53.738Z",
-      "pushed_at": "2026-09-09T02:01:47Z",
+      "last_updated": "2026-09-09T02:28:15.651Z",
+      "pushed_at": "2026-09-09T02:03:31Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -168,6 +257,55 @@
       "manual": false
     },
     {
+      "full_name": "first-fluke/oh-my-agent",
+      "owner": "first-fluke",
+      "name": "oh-my-agent",
+      "url": "https://github.com/first-fluke/oh-my-agent",
+      "description": "The multi-agent harness that checks the work: verifies agent runs by artifacts (stop-hook gates, independent judges, append-only event logs) across Claude Code, Codex, Cursor, and 10+ runtimes.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-harness",
+        "agent-skills",
+        "agentic-coding",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "llm",
+        "multi-agent",
+        "multi-agent-systems"
+      ],
+      "stars": 1278,
+      "forks": 147,
+      "discovered_at": "2026-09-09T02:28:25.173Z",
+      "last_updated": "2026-09-09T02:28:25.173Z",
+      "pushed_at": "2026-09-09T02:15:31Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          ".agents/skills/oma-academic-writing/SKILL.md",
+          ".agents/skills/oma-architecture/SKILL.md",
+          ".agents/skills/oma-backend/SKILL.md",
+          ".agents/skills/oma-brainstorm/SKILL.md",
+          ".agents/skills/oma-coordination/SKILL.md",
+          ".agents/skills/oma-db/SKILL.md",
+          ".agents/skills/oma-debug/SKILL.md",
+          ".agents/skills/oma-deepsec/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:28:25.173Z",
+      "manual": false
+    },
+    {
       "full_name": "huggingface/skills",
       "owner": "huggingface",
       "name": "skills",
@@ -175,10 +313,10 @@
       "description": "Give your agents the power of the Hugging Face ecosystem",
       "language": "Python",
       "topics": [],
-      "stars": 11026,
+      "stars": 11027,
       "forks": 740,
       "discovered_at": "2026-09-09T01:59:56.768Z",
-      "last_updated": "2026-09-09T02:02:52.281Z",
+      "last_updated": "2026-09-09T02:28:15.063Z",
       "pushed_at": "2026-09-08T10:44:02Z",
       "relevance": {
         "score": 75,
@@ -226,7 +364,7 @@
       "stars": 4092,
       "forks": 272,
       "discovered_at": "2026-09-09T02:03:01.611Z",
-      "last_updated": "2026-09-09T02:03:01.611Z",
+      "last_updated": "2026-09-09T02:28:15.955Z",
       "pushed_at": "2026-09-09T01:52:58Z",
       "relevance": {
         "score": 85,
@@ -251,6 +389,99 @@
       "manual": false
     },
     {
+      "full_name": "invergent-ai/surogates",
+      "owner": "invergent-ai",
+      "name": "surogates",
+      "url": "https://github.com/invergent-ai/surogates",
+      "description": "Open platform for running Managed Agents at scale",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agent-framework",
+        "agent-memory",
+        "agent-orchestration",
+        "agent-skill",
+        "agent-skills",
+        "agentic",
+        "agentic-ai",
+        "agentic-workflow",
+        "agents"
+      ],
+      "stars": 25,
+      "forks": 1,
+      "discovered_at": "2026-09-09T02:28:22.323Z",
+      "last_updated": "2026-09-09T02:28:22.323Z",
+      "pushed_at": "2026-09-09T02:20:23Z",
+      "relevance": {
+        "score": 70,
+        "evidence": [
+          "skill-file",
+          "skill-topic"
+        ],
+        "skill_files": [
+          "skills/kanban/subagent-task-orchestrator/SKILL.md",
+          "skills/kanban/subagent-task-worker/SKILL.md",
+          "skills/process/brainstorming/SKILL.md",
+          "skills/process/dispatching-parallel-agents/SKILL.md",
+          "skills/process/executing-plans/SKILL.md",
+          "skills/process/writing-plans/SKILL.md",
+          "skills/process/writing-skills/SKILL.md",
+          "skills/productivity/doc-coauthoring/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:28:22.323Z",
+      "manual": false
+    },
+    {
+      "full_name": "jabrena/plinth",
+      "owner": "jabrena",
+      "name": "plinth",
+      "url": "https://github.com/jabrena/plinth",
+      "description": "Plinth is an AI-native engineering toolkit for modern Java enterprise SDLC, built around reusable Commands, Agents, Skills, and MCP Servers.",
+      "language": "Java",
+      "topics": [
+        "agent-skills",
+        "ai-skills",
+        "claude",
+        "claude-agents",
+        "claude-code",
+        "claude-code-skills",
+        "claude-commands",
+        "claude-skills",
+        "claude-subagents",
+        "codex",
+        "codex-skills",
+        "codex-subagents"
+      ],
+      "stars": 437,
+      "forks": 91,
+      "discovered_at": "2026-09-09T02:28:19.876Z",
+      "last_updated": "2026-09-09T02:28:19.876Z",
+      "pushed_at": "2026-09-09T02:22:34Z",
+      "relevance": {
+        "score": 85,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme"
+        ],
+        "skill_files": [
+          "benchmarks/problem1/scenario3/.agents/skills/openspec-propose/SKILL.md",
+          "benchmarks/problem2/scenario3/.agents/skills/openspec-propose/SKILL.md",
+          "skills/001-commands-inventory/SKILL.md",
+          "skills/002-agents-inventory/SKILL.md",
+          "skills/003-skills-inventory/SKILL.md",
+          "skills/004-commands-installation/SKILL.md",
+          "skills/005-agents-installation/SKILL.md",
+          "skills/012-agile-epic/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:28:19.876Z",
+      "manual": false
+    },
+    {
       "full_name": "JackyST0/awesome-agent-skills",
       "owner": "JackyST0",
       "name": "awesome-agent-skills",
@@ -266,10 +497,10 @@
         "copilot",
         "cursor"
       ],
-      "stars": 632,
+      "stars": 633,
       "forks": 121,
       "discovered_at": "2026-09-09T02:02:58.062Z",
-      "last_updated": "2026-09-09T02:02:58.062Z",
+      "last_updated": "2026-09-09T02:28:16.255Z",
       "pushed_at": "2026-09-09T01:53:37Z",
       "relevance": {
         "score": 100,
@@ -314,7 +545,7 @@
       "stars": 20,
       "forks": 0,
       "discovered_at": "2026-09-09T02:02:56.694Z",
-      "last_updated": "2026-09-09T02:02:56.694Z",
+      "last_updated": "2026-09-09T02:28:16.538Z",
       "pushed_at": "2026-09-09T01:56:40Z",
       "relevance": {
         "score": 85,
@@ -350,8 +581,8 @@
       "stars": 359,
       "forks": 34,
       "discovered_at": "2026-09-09T02:02:59.316Z",
-      "last_updated": "2026-09-09T02:02:59.316Z",
-      "pushed_at": "2026-09-09T01:52:25Z",
+      "last_updated": "2026-09-09T02:28:16.817Z",
+      "pushed_at": "2026-09-09T02:12:50Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -373,6 +604,55 @@
         "structural": true
       },
       "relevance_checked_at": "2026-09-09T02:02:59.316Z",
+      "manual": false
+    },
+    {
+      "full_name": "KCNyu/clawock",
+      "owner": "KCNyu",
+      "name": "clawock",
+      "url": "https://github.com/KCNyu/clawock",
+      "description": "AI argues. Code settles. The losses stay on the page. A real HK + US brokerage account run by agents that must debate every call, settled by code the model never touches. Install the same decision workflow into your own agent: OpenClaw, Claude Code, Codex, or DeepSeek Harness.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents",
+        "algorithmic-trading",
+        "audit-trail",
+        "decision-support",
+        "deepseek-harness",
+        "dsh-plugin",
+        "fintech",
+        "harness",
+        "investment",
+        "investment-research"
+      ],
+      "stars": 14,
+      "forks": 0,
+      "discovered_at": "2026-09-09T02:28:19.309Z",
+      "last_updated": "2026-09-09T02:28:19.309Z",
+      "pushed_at": "2026-09-09T02:24:38Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "examples/dsh/packages/clawock-dsh/skills/investment-decision/SKILL.md",
+          "examples/openclaw/SKILL.md",
+          "skills/daily-deep-brief/SKILL.md",
+          "skills/earnings-review/SKILL.md",
+          "skills/entry-gate/SKILL.md",
+          "skills/github/SKILL.md",
+          "skills/hk-stock-analysis/SKILL.md",
+          "skills/openclaw-tune/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:28:19.309Z",
       "manual": false
     },
     {
@@ -399,8 +679,8 @@
       "stars": 99,
       "forks": 18,
       "discovered_at": "2026-09-09T02:02:56.102Z",
-      "last_updated": "2026-09-09T02:02:56.102Z",
-      "pushed_at": "2026-09-09T01:58:08Z",
+      "last_updated": "2026-09-09T02:28:17.112Z",
+      "pushed_at": "2026-09-09T02:15:44Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -416,6 +696,90 @@
         "structural": true
       },
       "relevance_checked_at": "2026-09-09T02:02:56.102Z",
+      "manual": false
+    },
+    {
+      "full_name": "lsaint/aikito",
+      "owner": "lsaint",
+      "name": "aikito",
+      "url": "https://github.com/lsaint/aikito",
+      "description": "Your durable workspace across AI agents.",
+      "language": "Python",
+      "topics": [
+        "agent-governance",
+        "agent-memory",
+        "agent-skills",
+        "agentic-workflow",
+        "agy",
+        "ai-agents",
+        "claude-code",
+        "cli",
+        "codex",
+        "coding-agents",
+        "copilot-cli",
+        "dsh"
+      ],
+      "stars": 105,
+      "forks": 0,
+      "discovered_at": "2026-09-09T02:28:23.622Z",
+      "last_updated": "2026-09-09T02:28:23.622Z",
+      "pushed_at": "2026-09-09T02:28:17Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "templates/skills/aikito/SKILL.md",
+          "templates/skills/durable-memory/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:28:23.622Z",
+      "manual": false
+    },
+    {
+      "full_name": "mixelpixx/Konnect",
+      "owner": "mixelpixx",
+      "name": "Konnect",
+      "url": "https://github.com/mixelpixx/Konnect",
+      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
+      "language": "Rust",
+      "topics": [
+        "agent-skills",
+        "claude",
+        "kicad-pcb",
+        "kicad-schematics",
+        "llm",
+        "mcp-server",
+        "mcp-tools"
+      ],
+      "stars": 558,
+      "forks": 83,
+      "discovered_at": "2026-09-09T02:28:21.515Z",
+      "last_updated": "2026-09-09T02:28:21.515Z",
+      "pushed_at": "2026-09-09T02:23:56Z",
+      "relevance": {
+        "score": 85,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme"
+        ],
+        "skill_files": [
+          "crates/konnect/assets/skills/kicad-library/SKILL.md",
+          "crates/konnect/assets/skills/kicad-manufacture/SKILL.md",
+          "crates/konnect/assets/skills/kicad-pcb/SKILL.md",
+          "crates/konnect/assets/skills/kicad-review/SKILL.md",
+          "crates/konnect/assets/skills/kicad-schematic/SKILL.md",
+          "crates/konnect/assets/skills/konnect/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:28:21.515Z",
       "manual": false
     },
     {
@@ -439,11 +803,11 @@
         "design-systems",
         "desktop-app"
       ],
-      "stars": 94949,
+      "stars": 94956,
       "forks": 10984,
       "discovered_at": "2026-09-09T02:03:00.527Z",
-      "last_updated": "2026-09-09T02:03:00.527Z",
-      "pushed_at": "2026-09-09T02:00:40Z",
+      "last_updated": "2026-09-09T02:28:17.395Z",
+      "pushed_at": "2026-09-09T02:04:08Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -484,10 +848,10 @@
         "subagent-driven-development",
         "superpowers"
       ],
-      "stars": 283397,
-      "forks": 25370,
+      "stars": 283412,
+      "forks": 25369,
       "discovered_at": "2026-09-09T01:59:53.895Z",
-      "last_updated": "2026-09-09T02:02:51.278Z",
+      "last_updated": "2026-09-09T02:28:14.185Z",
       "pushed_at": "2026-09-08T21:39:23Z",
       "relevance": {
         "score": 75,
@@ -519,10 +883,10 @@
       "description": "Skills Catalog for Codex",
       "language": "Python",
       "topics": [],
-      "stars": 26536,
-      "forks": 1776,
+      "stars": 26546,
+      "forks": 1779,
       "discovered_at": "2026-09-09T01:59:52.984Z",
-      "last_updated": "2026-09-09T02:02:50.627Z",
+      "last_updated": "2026-09-09T02:28:13.876Z",
       "pushed_at": "2026-09-08T20:35:26Z",
       "relevance": {
         "score": 80,
@@ -561,8 +925,8 @@
       "stars": 1375,
       "forks": 175,
       "discovered_at": "2026-09-09T02:03:02.467Z",
-      "last_updated": "2026-09-09T02:03:02.467Z",
-      "pushed_at": "2026-09-09T01:48:46Z",
+      "last_updated": "2026-09-09T02:28:17.641Z",
+      "pushed_at": "2026-09-09T02:23:20Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -588,10 +952,10 @@
       "description": "Vercel's official collection of agent skills",
       "language": "JavaScript",
       "topics": [],
-      "stars": 30983,
+      "stars": 30985,
       "forks": 2742,
       "discovered_at": "2026-09-09T01:59:54.830Z",
-      "last_updated": "2026-09-09T02:02:51.597Z",
+      "last_updated": "2026-09-09T02:28:14.474Z",
       "pushed_at": "2026-08-28T13:36:31Z",
       "relevance": {
         "score": 90,
@@ -617,6 +981,45 @@
       "manual": true
     },
     {
+      "full_name": "vishalsachdev/canvas-mcp",
+      "owner": "vishalsachdev",
+      "name": "canvas-mcp",
+      "url": "https://github.com/vishalsachdev/canvas-mcp",
+      "description": "Canvas LMS MCP server — 80+ tools and 5 agent skills for students & educators. Works with Claude, Cursor, Codex, and 40+ agents.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "skills-sh"
+      ],
+      "stars": 232,
+      "forks": 80,
+      "discovered_at": "2026-09-09T02:28:21.018Z",
+      "last_updated": "2026-09-09T02:28:21.018Z",
+      "pushed_at": "2026-09-09T02:21:25Z",
+      "relevance": {
+        "score": 100,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "description",
+          "readme"
+        ],
+        "skill_files": [
+          "skills/canvas-accessibility-auditor/SKILL.md",
+          "skills/canvas-bulk-grading/SKILL.md",
+          "skills/canvas-course-builder/SKILL.md",
+          "skills/canvas-course-qc/SKILL.md",
+          "skills/canvas-discussion-facilitator/SKILL.md",
+          "skills/canvas-morning-check/SKILL.md",
+          "skills/canvas-peer-review-manager/SKILL.md",
+          "skills/canvas-week-plan/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-09T02:28:21.018Z",
+      "manual": false
+    },
+    {
       "full_name": "zxc663/shisan-xinuo-workflow",
       "owner": "zxc663",
       "name": "shisan-xinuo-workflow",
@@ -640,8 +1043,8 @@
       "stars": 22,
       "forks": 2,
       "discovered_at": "2026-09-09T02:02:57.337Z",
-      "last_updated": "2026-09-09T02:02:57.337Z",
-      "pushed_at": "2026-09-09T01:54:53Z",
+      "last_updated": "2026-09-09T02:28:17.873Z",
+      "pushed_at": "2026-09-09T02:25:41Z",
       "relevance": {
         "score": 95,
         "evidence": [
