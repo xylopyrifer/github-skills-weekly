@@ -1,12 +1,14 @@
-import fs from 'node:fs/promises';
 import {githubClient} from './lib/github.mjs';
 import {readJson,writeJson} from './lib/storage.mjs';
+import {customTag} from './lib/custom-tags.mjs';
 export function parseIssue(issue,catalog,taxonomy){
- if(issue.pull_request||!issue.body?.startsWith('<!-- skills-weekly-tags-v1 -->'))return null;
+ if(issue.pull_request||!issue.body?.startsWith('<!-- skills-weekly-tags-v1 -->')||issue.body.length>12000)return null;
  try{const p=JSON.parse(issue.body.slice('<!-- skills-weekly-tags-v1 -->'.length));
- if(p.version!==1||typeof p.repository!=='string'||!Array.isArray(p.tags)||p.tags.length>taxonomy.length||!p.tags.length||!p.tags.every(id=>taxonomy.some(t=>t.id===id)))return null;
- const repo=catalog.find(r=>r.full_name.toLowerCase()===p.repository.toLowerCase());if(!repo||!Number.isSafeInteger(issue.user?.id)||!Number.isSafeInteger(issue.number))return null;
- return {issue:issue.number,user_id:issue.user.id,repository:repo.full_name,tags:[...new Set(p.tags)],active:issue.state==='open'&&!issue.locked,updated_at:issue.updated_at};
+ if(p.version!==1||typeof p.repository!=='string'||!Array.isArray(p.tags)||p.tags.length>taxonomy.length||!p.tags.every(id=>taxonomy.some(t=>t.id===id)))return null;
+ if(p.custom_tags!==undefined&&(!Array.isArray(p.custom_tags)||p.custom_tags.length>5))return null;
+ const custom=(p.custom_tags||[]).map(t=>customTag(t,taxonomy));const tags=[...new Set([...p.tags,...custom.filter(t=>!t.custom).map(t=>t.id)])];const custom_tags=[...new Map(custom.filter(t=>t.custom).map(t=>[t.id,t])).values()];if(!tags.length&&!custom_tags.length)return null;
+ const repo=catalog.find(r=>r.full_name.toLowerCase()===p.repository.toLowerCase());if(!repo||!Number.isSafeInteger(issue.user?.id)||issue.user.type==='Bot'||!Number.isSafeInteger(issue.number))return null;
+ return {issue:issue.number,user_id:issue.user.id,repository:repo.full_name,tags,custom_tags,active:issue.state==='open'&&!issue.locked,updated_at:issue.updated_at};
  }catch{return null;}
 }
 export async function syncCommunity(get=githubClient()){
