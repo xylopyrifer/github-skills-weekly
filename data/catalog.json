@@ -1,7 +1,85 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-09T03:34:20.732Z",
+  "updated_at": "2026-09-10T02:48:10.059Z",
   "repositories": [
+    {
+      "system_tags": [
+        {
+          "id": "frontend",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "automation",
+          "evidence": [
+            "topics",
+            "readme"
+          ]
+        },
+        {
+          "id": "deployment",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "writing",
+          "evidence": [
+            "readme"
+          ]
+        }
+      ],
+      "tags_updated_at": "2026-09-10T02:48:32.703Z",
+      "full_name": "aaron-he-zhu/aaron-marketing-skills",
+      "owner": "aaron-he-zhu",
+      "name": "aaron-marketing-skills",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "description": "120 marketing skills as an AI marketing staff — plugin, portable skills, or an 8-bot team across 7 disciplines (narrative, SEO/GEO, social, email, paid, influencer, launch) on one contract, with 8 auditor gates: TALE · CORE-EEAT · CITE · ECHO · SEND · ROAS · STAR · RAMP.",
+      "language": "Python",
+      "topics": [
+        "aaron-marketing",
+        "agent-skills",
+        "ai-staff",
+        "brand-messaging",
+        "brand-narrative",
+        "content-optimization",
+        "email-marketing",
+        "generative-engine-optimization",
+        "geo",
+        "grok",
+        "hermes",
+        "influencer-marketing"
+      ],
+      "stars": 2758,
+      "forks": 358,
+      "discovered_at": "2026-09-10T02:48:32.703Z",
+      "last_updated": "2026-09-10T02:48:32.703Z",
+      "pushed_at": "2026-09-10T02:44:11Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "ad/activate/ad-account-auditor/SKILL.md",
+          "ad/activate/conversion-signal-qa/SKILL.md",
+          "ad/activate/conversion-value-mapper/SKILL.md",
+          "ad/activate/placement-exclusion-manager/SKILL.md",
+          "ad/orchestrate/ad-creative-builder/SKILL.md",
+          "ad/orchestrate/ad-test-designer/SKILL.md",
+          "ad/orchestrate/bid-strategy-planner/SKILL.md",
+          "ad/orchestrate/landing-experience-checker/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-10T02:48:32.703Z",
+      "manual": false
+    },
     {
       "system_tags": [
         {
@@ -43,7 +121,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:21.545Z",
+      "tags_updated_at": "2026-09-10T02:48:10.569Z",
       "full_name": "anthropics/skills",
       "owner": "anthropics",
       "name": "skills",
@@ -53,10 +131,10 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 175268,
-      "forks": 20752,
+      "stars": 175445,
+      "forks": 20771,
       "discovered_at": "2026-09-09T01:59:52.047Z",
-      "last_updated": "2026-09-09T03:34:21.545Z",
+      "last_updated": "2026-09-10T02:48:10.569Z",
       "pushed_at": "2026-09-03T16:37:14Z",
       "relevance": {
         "score": 100,
@@ -104,7 +182,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:30.013Z",
+      "tags_updated_at": "2026-09-10T02:48:14.915Z",
       "full_name": "apache/magpie",
       "owner": "apache",
       "name": "magpie",
@@ -121,11 +199,11 @@
         "vulnerability-disclosure",
         "vulnerability-management"
       ],
-      "stars": 90,
-      "forks": 87,
+      "stars": 91,
+      "forks": 88,
       "discovered_at": "2026-09-09T02:03:03.246Z",
-      "last_updated": "2026-09-09T03:34:30.013Z",
-      "pushed_at": "2026-09-09T01:44:05Z",
+      "last_updated": "2026-09-10T02:48:14.915Z",
+      "pushed_at": "2026-09-10T00:10:08Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -146,6 +224,88 @@
         "structural": true
       },
       "relevance_checked_at": "2026-09-09T02:03:03.246Z",
+      "manual": false
+    },
+    {
+      "system_tags": [
+        {
+          "id": "frontend",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "testing",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "ml",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "deployment",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "knowledge",
+          "evidence": [
+            "readme"
+          ]
+        }
+      ],
+      "tags_updated_at": "2026-09-10T02:48:35.239Z",
+      "full_name": "artokun/comfyui-mcp",
+      "owner": "artokun",
+      "name": "comfyui-mcp",
+      "url": "https://github.com/artokun/comfyui-mcp",
+      "description": "Local-first, agent-native control plane for ComfyUI — MCP server + sidebar agent that generates images, video & audio, authors and runs workflows, and edits your live graph in natural language on ANY LLM (Claude, ChatGPT, Gemini, offline Ollama, or any hosted model). 178 tools, 36 AI skills, 55 installer packs. Local, LAN, VPS, or Comfy Cloud.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "claude-code",
+        "claude-plugin",
+        "comfyui",
+        "comfyui-extension",
+        "comfyui-mcp",
+        "comfyui-mcp-server",
+        "flux",
+        "image-generation",
+        "local-first",
+        "mcp"
+      ],
+      "stars": 737,
+      "forks": 118,
+      "discovered_at": "2026-09-10T02:48:35.239Z",
+      "last_updated": "2026-09-10T02:48:35.239Z",
+      "pushed_at": "2026-09-10T02:46:50Z",
+      "relevance": {
+        "score": 85,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme"
+        ],
+        "skill_files": [
+          "plugin/skills/ai-toolkit-trainer/SKILL.md",
+          "plugin/skills/anima-base/SKILL.md",
+          "plugin/skills/anima-lora-trainer/SKILL.md",
+          "plugin/skills/civitai/SKILL.md",
+          "plugin/skills/color-correction/SKILL.md",
+          "plugin/skills/comfyui-core/SKILL.md",
+          "plugin/skills/comfyui-frontend-extensions/SKILL.md",
+          "plugin/skills/comfyui-launch-flags/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-10T02:48:35.239Z",
       "manual": false
     },
     {
@@ -242,7 +402,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:27.301Z",
+      "tags_updated_at": "2026-09-10T02:48:13.466Z",
       "full_name": "ComposioHQ/awesome-claude-skills",
       "owner": "ComposioHQ",
       "name": "awesome-claude-skills",
@@ -263,10 +423,10 @@
         "gemini-cli",
         "mcp"
       ],
-      "stars": 74706,
-      "forks": 8621,
+      "stars": 74769,
+      "forks": 8627,
       "discovered_at": "2026-09-09T01:59:55.876Z",
-      "last_updated": "2026-09-09T03:34:27.301Z",
+      "last_updated": "2026-09-10T02:48:13.466Z",
       "pushed_at": "2026-08-10T21:45:44Z",
       "relevance": {
         "score": 95,
@@ -306,7 +466,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:31.500Z",
+      "tags_updated_at": "2026-09-10T02:48:15.763Z",
       "full_name": "CorpusIQ/corpusiq-docs",
       "owner": "CorpusIQ",
       "name": "corpusiq-docs",
@@ -330,8 +490,8 @@
       "stars": 20,
       "forks": 6,
       "discovered_at": "2026-09-09T02:28:25.933Z",
-      "last_updated": "2026-09-09T03:34:31.500Z",
-      "pushed_at": "2026-09-09T03:11:40Z",
+      "last_updated": "2026-09-10T02:48:15.763Z",
+      "pushed_at": "2026-09-10T02:19:41Z",
       "relevance": {
         "score": 70,
         "evidence": [
@@ -375,7 +535,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:32.949Z",
+      "tags_updated_at": "2026-09-10T02:48:16.647Z",
       "full_name": "Devin-AXIS/iPolloWork",
       "owner": "Devin-AXIS",
       "name": "iPolloWork",
@@ -396,11 +556,11 @@
         "hermes-agent",
         "ipollowork-plugin"
       ],
-      "stars": 5567,
-      "forks": 1041,
+      "stars": 5667,
+      "forks": 1062,
       "discovered_at": "2026-09-09T02:28:23.165Z",
-      "last_updated": "2026-09-09T03:34:32.949Z",
-      "pushed_at": "2026-09-09T03:11:44Z",
+      "last_updated": "2026-09-10T02:48:16.647Z",
+      "pushed_at": "2026-09-09T10:18:51Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -435,7 +595,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:34.435Z",
+      "tags_updated_at": "2026-09-10T02:48:17.538Z",
       "full_name": "Doist/todoist-cli",
       "owner": "Doist",
       "name": "todoist-cli",
@@ -448,8 +608,8 @@
       "stars": 308,
       "forks": 18,
       "discovered_at": "2026-09-09T02:02:53.738Z",
-      "last_updated": "2026-09-09T03:34:34.435Z",
-      "pushed_at": "2026-09-09T02:03:31Z",
+      "last_updated": "2026-09-10T02:48:17.538Z",
+      "pushed_at": "2026-09-10T02:02:27Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -466,6 +626,77 @@
         "structural": true
       },
       "relevance_checked_at": "2026-09-09T02:02:53.738Z",
+      "manual": false
+    },
+    {
+      "system_tags": [
+        {
+          "id": "testing",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "research",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "deployment",
+          "evidence": [
+            "topics",
+            "readme"
+          ]
+        }
+      ],
+      "tags_updated_at": "2026-09-10T02:48:34.358Z",
+      "full_name": "fabricioctelles/jump-skills",
+      "owner": "fabricioctelles",
+      "name": "jump-skills",
+      "url": "https://github.com/fabricioctelles/jump-skills",
+      "description": "Jump Skill Ninjas are intelligent meta-skills — master orchestrators that route your requests to the most appropriate specialized skill from a curated library. Instead of manually searching through hundreds of individual skills, you simply describe your task and the Ninja Identifies specialized skills and Loads the full skill in context",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "aws",
+        "azure",
+        "claude-code",
+        "cloud",
+        "cursor",
+        "devops",
+        "firecrawl",
+        "github-copilot",
+        "kiro",
+        "llm"
+      ],
+      "stars": 28,
+      "forks": 1,
+      "discovered_at": "2026-09-10T02:48:34.358Z",
+      "last_updated": "2026-09-10T02:48:34.358Z",
+      "pushed_at": "2026-09-10T02:39:44Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "ninjas/aws-ninja/SKILL.md",
+          "ninjas/azure-ninja/SKILL.md",
+          "ninjas/datadog-ninja/SKILL.md",
+          "ninjas/firecrawl-ninja/SKILL.md",
+          "ninjas/google-ads-ninja/SKILL.md",
+          "ninjas/google-ai-ninja/SKILL.md",
+          "ninjas/google-analytics-ninja/SKILL.md",
+          "ninjas/google-cloud-ninja/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-10T02:48:34.358Z",
       "manual": false
     },
     {
@@ -509,7 +740,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:35.821Z",
+      "tags_updated_at": "2026-09-10T02:48:18.280Z",
       "full_name": "first-fluke/oh-my-agent",
       "owner": "first-fluke",
       "name": "oh-my-agent",
@@ -530,11 +761,11 @@
         "multi-agent",
         "multi-agent-systems"
       ],
-      "stars": 1278,
+      "stars": 1279,
       "forks": 147,
       "discovered_at": "2026-09-09T02:28:25.173Z",
-      "last_updated": "2026-09-09T03:34:35.821Z",
-      "pushed_at": "2026-09-09T02:15:31Z",
+      "last_updated": "2026-09-10T02:48:18.280Z",
+      "pushed_at": "2026-09-10T02:16:17Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -586,7 +817,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:28.632Z",
+      "tags_updated_at": "2026-09-10T02:48:14.252Z",
       "full_name": "huggingface/skills",
       "owner": "huggingface",
       "name": "skills",
@@ -594,11 +825,11 @@
       "description": "Give your agents the power of the Hugging Face ecosystem",
       "language": "Python",
       "topics": [],
-      "stars": 11028,
-      "forks": 740,
+      "stars": 11032,
+      "forks": 741,
       "discovered_at": "2026-09-09T01:59:56.768Z",
-      "last_updated": "2026-09-09T03:34:28.632Z",
-      "pushed_at": "2026-09-08T10:44:02Z",
+      "last_updated": "2026-09-10T02:48:14.252Z",
+      "pushed_at": "2026-09-10T00:40:33Z",
       "relevance": {
         "score": 75,
         "evidence": [
@@ -624,6 +855,71 @@
     {
       "system_tags": [
         {
+          "id": "frontend",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "testing",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "deployment",
+          "evidence": [
+            "readme"
+          ]
+        }
+      ],
+      "tags_updated_at": "2026-09-10T02:48:36.169Z",
+      "full_name": "hyperb1iss/sibyl",
+      "owner": "hyperb1iss",
+      "name": "sibyl",
+      "url": "https://github.com/hyperb1iss/sibyl",
+      "description": "Collective intelligence runtime for AI agents. Knowledge graph + persistent memory.",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-memory",
+        "claude",
+        "claude-code",
+        "cli",
+        "cli-tool",
+        "knowledge-graph",
+        "mcp",
+        "sibyl",
+        "surrealdb",
+        "task-manager"
+      ],
+      "stars": 59,
+      "forks": 9,
+      "discovered_at": "2026-09-10T02:48:36.169Z",
+      "last_updated": "2026-09-10T02:48:36.169Z",
+      "pushed_at": "2026-09-10T02:36:52Z",
+      "relevance": {
+        "score": 85,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme"
+        ],
+        "skill_files": [
+          "apps/cli/src/sibyl_cli/data/skills/sibyl/SKILL.md",
+          "docs/cli/skill.md",
+          "skills/agent-activity-audit/SKILL.md",
+          "skills/sibyl/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-10T02:48:36.169Z",
+      "manual": false
+    },
+    {
+      "system_tags": [
+        {
           "id": "knowledge",
           "evidence": [
             "description",
@@ -631,7 +927,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:37.311Z",
+      "tags_updated_at": "2026-09-10T02:48:19.064Z",
       "full_name": "inkeep/open-knowledge",
       "owner": "inkeep",
       "name": "open-knowledge",
@@ -652,11 +948,11 @@
         "llm-wiki",
         "llm-wiki-karpathy"
       ],
-      "stars": 4093,
-      "forks": 272,
+      "stars": 4111,
+      "forks": 271,
       "discovered_at": "2026-09-09T02:03:01.611Z",
-      "last_updated": "2026-09-09T03:34:37.311Z",
-      "pushed_at": "2026-09-09T01:52:58Z",
+      "last_updated": "2026-09-10T02:48:19.064Z",
+      "pushed_at": "2026-09-10T02:03:34Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -736,7 +1032,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:39.204Z",
+      "tags_updated_at": "2026-09-10T02:48:19.872Z",
       "full_name": "invergent-ai/surogates",
       "owner": "invergent-ai",
       "name": "surogates",
@@ -758,8 +1054,8 @@
       "stars": 25,
       "forks": 1,
       "discovered_at": "2026-09-09T02:28:22.323Z",
-      "last_updated": "2026-09-09T03:34:39.204Z",
-      "pushed_at": "2026-09-09T02:20:23Z",
+      "last_updated": "2026-09-10T02:48:19.872Z",
+      "pushed_at": "2026-09-09T14:45:21Z",
       "relevance": {
         "score": 70,
         "evidence": [
@@ -797,7 +1093,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:40.675Z",
+      "tags_updated_at": "2026-09-10T02:48:20.628Z",
       "full_name": "jabrena/plinth",
       "owner": "jabrena",
       "name": "plinth",
@@ -818,10 +1114,10 @@
         "codex-skills",
         "codex-subagents"
       ],
-      "stars": 437,
-      "forks": 91,
+      "stars": 438,
+      "forks": 92,
       "discovered_at": "2026-09-09T02:28:19.876Z",
-      "last_updated": "2026-09-09T03:34:40.675Z",
+      "last_updated": "2026-09-10T02:48:20.628Z",
       "pushed_at": "2026-09-09T02:22:34Z",
       "relevance": {
         "score": 85,
@@ -921,7 +1217,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:42.147Z",
+      "tags_updated_at": "2026-09-10T02:48:21.414Z",
       "full_name": "JackyST0/awesome-agent-skills",
       "owner": "JackyST0",
       "name": "awesome-agent-skills",
@@ -937,10 +1233,10 @@
         "copilot",
         "cursor"
       ],
-      "stars": 633,
-      "forks": 121,
+      "stars": 634,
+      "forks": 122,
       "discovered_at": "2026-09-09T02:02:58.062Z",
-      "last_updated": "2026-09-09T03:34:42.147Z",
+      "last_updated": "2026-09-10T02:48:21.414Z",
       "pushed_at": "2026-09-09T01:53:37Z",
       "relevance": {
         "score": 100,
@@ -974,7 +1270,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:43.578Z",
+      "tags_updated_at": "2026-09-10T02:48:22.070Z",
       "full_name": "JellyBrick/korean-prose-skill",
       "owner": "JellyBrick",
       "name": "korean-prose-skill",
@@ -996,7 +1292,7 @@
       "stars": 20,
       "forks": 0,
       "discovered_at": "2026-09-09T02:02:56.694Z",
-      "last_updated": "2026-09-09T03:34:43.578Z",
+      "last_updated": "2026-09-10T02:48:22.070Z",
       "pushed_at": "2026-09-09T01:56:40Z",
       "relevance": {
         "score": 85,
@@ -1037,7 +1333,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:44.728Z",
+      "tags_updated_at": "2026-09-10T02:48:22.792Z",
       "full_name": "kazukinagata/shinkoku",
       "owner": "kazukinagata",
       "name": "shinkoku",
@@ -1056,8 +1352,8 @@
       "stars": 359,
       "forks": 34,
       "discovered_at": "2026-09-09T02:02:59.316Z",
-      "last_updated": "2026-09-09T03:34:44.728Z",
-      "pushed_at": "2026-09-09T03:32:21Z",
+      "last_updated": "2026-09-10T02:48:22.792Z",
+      "pushed_at": "2026-09-09T03:41:11Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -1109,7 +1405,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:45.750Z",
+      "tags_updated_at": "2026-09-10T02:48:23.503Z",
       "full_name": "KCNyu/clawock",
       "owner": "KCNyu",
       "name": "clawock",
@@ -1133,8 +1429,8 @@
       "stars": 14,
       "forks": 0,
       "discovered_at": "2026-09-09T02:28:19.309Z",
-      "last_updated": "2026-09-09T03:34:45.750Z",
-      "pushed_at": "2026-09-09T03:20:14Z",
+      "last_updated": "2026-09-10T02:48:23.503Z",
+      "pushed_at": "2026-09-10T02:40:14Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -1185,7 +1481,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:46.920Z",
+      "tags_updated_at": "2026-09-10T02:48:24.242Z",
       "full_name": "kgraph57/mckinsey-style-visualization-skill",
       "owner": "kgraph57",
       "name": "mckinsey-style-visualization-skill",
@@ -1206,10 +1502,10 @@
         "data-visualization",
         "executive-presentations"
       ],
-      "stars": 99,
+      "stars": 100,
       "forks": 18,
       "discovered_at": "2026-09-09T02:02:56.102Z",
-      "last_updated": "2026-09-09T03:34:46.920Z",
+      "last_updated": "2026-09-10T02:48:24.242Z",
       "pushed_at": "2026-09-09T02:53:28Z",
       "relevance": {
         "score": 100,
@@ -1231,13 +1527,116 @@
     {
       "system_tags": [
         {
+          "id": "documents",
+          "evidence": [
+            "topics",
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "frontend",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "review",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "automation",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "research",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "deployment",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "content",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "skill-building",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        }
+      ],
+      "tags_updated_at": "2026-09-10T02:48:31.365Z",
+      "full_name": "lovstudio/skills",
+      "owner": "lovstudio",
+      "name": "skills",
+      "url": "https://github.com/lovstudio/skills",
+      "description": "Top-level index for the Lovstudio skills ecosystem",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-coding-assistant",
+        "cjk",
+        "claude-code",
+        "cursor",
+        "gemini-cli",
+        "markdown-to-docx",
+        "markdown-to-pdf"
+      ],
+      "stars": 65,
+      "forks": 17,
+      "discovered_at": "2026-09-10T02:48:31.365Z",
+      "last_updated": "2026-09-10T02:48:31.365Z",
+      "pushed_at": "2026-09-10T02:45:33Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "skills/academic-translator/SKILL.md",
+          "skills/add-task/SKILL.md",
+          "skills/add-tool/SKILL.md",
+          "skills/agent-instructions/SKILL.md",
+          "skills/any2deck/SKILL.md",
+          "skills/any2docx/SKILL.md",
+          "skills/any2pdf/SKILL.md",
+          "skills/app-generator/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-10T02:48:31.365Z",
+      "manual": false
+    },
+    {
+      "system_tags": [
+        {
           "id": "workspace",
           "evidence": [
             "description"
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:48.083Z",
+      "tags_updated_at": "2026-09-10T02:48:25.057Z",
       "full_name": "lsaint/aikito",
       "owner": "lsaint",
       "name": "aikito",
@@ -1261,8 +1660,8 @@
       "stars": 105,
       "forks": 0,
       "discovered_at": "2026-09-09T02:28:23.622Z",
-      "last_updated": "2026-09-09T03:34:48.083Z",
-      "pushed_at": "2026-09-09T03:17:30Z",
+      "last_updated": "2026-09-10T02:48:25.057Z",
+      "pushed_at": "2026-09-09T09:36:06Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -1298,7 +1697,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:49.257Z",
+      "tags_updated_at": "2026-09-10T02:48:25.718Z",
       "full_name": "mixelpixx/Konnect",
       "owner": "mixelpixx",
       "name": "Konnect",
@@ -1314,11 +1713,11 @@
         "mcp-server",
         "mcp-tools"
       ],
-      "stars": 560,
-      "forks": 83,
+      "stars": 594,
+      "forks": 84,
       "discovered_at": "2026-09-09T02:28:21.515Z",
-      "last_updated": "2026-09-09T03:34:49.257Z",
-      "pushed_at": "2026-09-09T02:50:02Z",
+      "last_updated": "2026-09-10T02:48:25.718Z",
+      "pushed_at": "2026-09-10T02:07:33Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -1408,7 +1807,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:50.444Z",
+      "tags_updated_at": "2026-09-10T02:48:26.329Z",
       "full_name": "nexu-io/open-design",
       "owner": "nexu-io",
       "name": "open-design",
@@ -1429,11 +1828,11 @@
         "design-systems",
         "desktop-app"
       ],
-      "stars": 94974,
-      "forks": 10986,
+      "stars": 95194,
+      "forks": 11022,
       "discovered_at": "2026-09-09T02:03:00.527Z",
-      "last_updated": "2026-09-09T03:34:50.444Z",
-      "pushed_at": "2026-09-09T03:30:58Z",
+      "last_updated": "2026-09-10T02:48:26.329Z",
+      "pushed_at": "2026-09-10T02:39:21Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -1482,7 +1881,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:24.483Z",
+      "tags_updated_at": "2026-09-10T02:48:12.100Z",
       "full_name": "obra/superpowers",
       "owner": "obra",
       "name": "superpowers",
@@ -1499,10 +1898,10 @@
         "subagent-driven-development",
         "superpowers"
       ],
-      "stars": 283442,
-      "forks": 25376,
+      "stars": 284083,
+      "forks": 25413,
       "discovered_at": "2026-09-09T01:59:53.895Z",
-      "last_updated": "2026-09-09T03:34:24.483Z",
+      "last_updated": "2026-09-10T02:48:12.100Z",
       "pushed_at": "2026-09-08T21:39:23Z",
       "relevance": {
         "score": 75,
@@ -1559,7 +1958,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:23.040Z",
+      "tags_updated_at": "2026-09-10T02:48:11.310Z",
       "full_name": "openai/skills",
       "owner": "openai",
       "name": "skills",
@@ -1567,10 +1966,10 @@
       "description": "Skills Catalog for Codex",
       "language": "Python",
       "topics": [],
-      "stars": 26581,
-      "forks": 1781,
+      "stars": 26781,
+      "forks": 1795,
       "discovered_at": "2026-09-09T01:59:52.984Z",
-      "last_updated": "2026-09-09T03:34:23.040Z",
+      "last_updated": "2026-09-10T02:48:11.310Z",
       "pushed_at": "2026-09-08T20:35:26Z",
       "relevance": {
         "score": 80,
@@ -1615,7 +2014,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:51.897Z",
+      "tags_updated_at": "2026-09-10T02:48:27.283Z",
       "full_name": "openclaw/crabbox",
       "owner": "openclaw",
       "name": "crabbox",
@@ -1627,11 +2026,11 @@
         "herdr-plugin",
         "remote-test-runner"
       ],
-      "stars": 1376,
-      "forks": 175,
+      "stars": 1378,
+      "forks": 177,
       "discovered_at": "2026-09-09T02:03:02.467Z",
-      "last_updated": "2026-09-09T03:34:51.897Z",
-      "pushed_at": "2026-09-09T03:26:44Z",
+      "last_updated": "2026-09-10T02:48:27.283Z",
+      "pushed_at": "2026-09-10T02:39:08Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -1647,6 +2046,284 @@
         "structural": true
       },
       "relevance_checked_at": "2026-09-09T02:03:02.467Z",
+      "manual": false
+    },
+    {
+      "system_tags": [
+        {
+          "id": "testing",
+          "evidence": [
+            "readme"
+          ]
+        }
+      ],
+      "tags_updated_at": "2026-09-10T02:48:30.112Z",
+      "full_name": "preset-io/agent-skills",
+      "owner": "preset-io",
+      "name": "agent-skills",
+      "url": "https://github.com/preset-io/agent-skills",
+      "description": "Agent skills for Preset, Apache Superset, Superset MCP & Snowflake Cortex — works across Claude, Codex, Cursor, Copilot, Cortex Code & Gemini CLI.",
+      "language": "Shell",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "anthropic",
+        "apache-superset",
+        "business-intelligence",
+        "claude",
+        "claude-code",
+        "claude-plugin",
+        "claude-skills",
+        "cursor",
+        "data-analytics",
+        "gemini-cli"
+      ],
+      "stars": 11,
+      "forks": 1,
+      "discovered_at": "2026-09-10T02:48:30.112Z",
+      "last_updated": "2026-09-10T02:48:30.112Z",
+      "pushed_at": "2026-09-10T02:46:12Z",
+      "relevance": {
+        "score": 100,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "description",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "plugins/preset-api-skills/skills/preset-admin/SKILL.md",
+          "plugins/preset-api-skills/skills/preset-api/SKILL.md",
+          "plugins/preset-api-skills/skills/preset-cortex-agents/SKILL.md",
+          "plugins/preset-api-skills/skills/preset-dashboards/SKILL.md",
+          "plugins/preset-api-skills/skills/preset-database-connections/SKILL.md",
+          "plugins/preset-api-skills/skills/preset-datasets/SKILL.md",
+          "plugins/preset-api-skills/skills/preset-destructive-imports/SKILL.md",
+          "plugins/preset-api-skills/skills/preset-embedded-rls/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-10T02:48:30.112Z",
+      "manual": false
+    },
+    {
+      "system_tags": [
+        {
+          "id": "documents",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "frontend",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "design",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "testing",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "review",
+          "evidence": [
+            "description",
+            "readme"
+          ]
+        },
+        {
+          "id": "automation",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "deployment",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "security",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "content",
+          "evidence": [
+            "description",
+            "readme"
+          ]
+        },
+        {
+          "id": "knowledge",
+          "evidence": [
+            "readme"
+          ]
+        }
+      ],
+      "tags_updated_at": "2026-09-10T02:48:37.934Z",
+      "full_name": "renky1025/agent-skills",
+      "owner": "renky1025",
+      "name": "agent-skills",
+      "url": "https://github.com/renky1025/agent-skills",
+      "description": "Production-grade Agent Skills library for Claude Code, Codex, Cursor & beyond —30 standardized, contract-based skills spanning content creation, multimedia engineering, code review & DevSecOps, cognitive learning, and knowledge-base management.",
+      "language": "Python",
+      "topics": [
+        "agent",
+        "agent-skills",
+        "skill"
+      ],
+      "stars": 11,
+      "forks": 0,
+      "discovered_at": "2026-09-10T02:48:37.934Z",
+      "last_updated": "2026-09-10T02:48:37.934Z",
+      "pushed_at": "2026-09-10T02:31:12Z",
+      "relevance": {
+        "score": 100,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "description",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "agent-coding-style/SKILL.md",
+          "article-deconstructor/SKILL.md",
+          "black-humor-writing/SKILL.md",
+          "claude-remember/SKILL.md",
+          "claude-simplify/SKILL.md",
+          "clean-code/SKILL.md",
+          "curriculum-design/SKILL.md",
+          "de-ai-writing/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-10T02:48:37.934Z",
+      "manual": false
+    },
+    {
+      "system_tags": [
+        {
+          "id": "documents",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "spreadsheets",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "frontend",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "design",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "testing",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "review",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        },
+        {
+          "id": "deployment",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "security",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
+          "id": "skill-building",
+          "evidence": [
+            "skill-paths",
+            "readme"
+          ]
+        }
+      ],
+      "tags_updated_at": "2026-09-10T02:48:37.083Z",
+      "full_name": "timwukp/agent-skills-best-practice",
+      "owner": "timwukp",
+      "name": "agent-skills-best-practice",
+      "url": "https://github.com/timwukp/agent-skills-best-practice",
+      "description": "35 portable agent skills (Agent Skills spec) for Kiro & Claude Code: Scrum DevSecOps roles, PCI-DSS/MAS TRM compliance, AWS Well-Architected reviews — each with evals and a 4-layer tested methodology",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "aws",
+        "best-practices",
+        "claude-code",
+        "claude-skills",
+        "compliance",
+        "devsecops",
+        "kiro",
+        "scrum",
+        "skills",
+        "well-architected"
+      ],
+      "stars": 10,
+      "forks": 3,
+      "discovered_at": "2026-09-10T02:48:37.083Z",
+      "last_updated": "2026-09-10T02:48:37.083Z",
+      "pushed_at": "2026-09-10T02:31:31Z",
+      "relevance": {
+        "score": 100,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "description",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "skills/skills/agentcore-harness-builder/SKILL.md",
+          "skills/skills/ai-native-sdlc/SKILL.md",
+          "skills/skills/algorithmic-art/SKILL.md",
+          "skills/skills/api-design/SKILL.md",
+          "skills/skills/aws-well-architected-review/SKILL.md",
+          "skills/skills/brand-guidelines/SKILL.md",
+          "skills/skills/canvas-design/SKILL.md",
+          "skills/skills/cicd-pipeline/SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-10T02:48:37.083Z",
       "manual": false
     },
     {
@@ -1678,7 +2355,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:25.718Z",
+      "tags_updated_at": "2026-09-10T02:48:12.770Z",
       "full_name": "vercel-labs/agent-skills",
       "owner": "vercel-labs",
       "name": "agent-skills",
@@ -1686,10 +2363,10 @@
       "description": "Vercel's official collection of agent skills",
       "language": "JavaScript",
       "topics": [],
-      "stars": 30987,
-      "forks": 2742,
+      "stars": 31015,
+      "forks": 2741,
       "discovered_at": "2026-09-09T01:59:54.830Z",
-      "last_updated": "2026-09-09T03:34:25.718Z",
+      "last_updated": "2026-09-10T02:48:12.770Z",
       "pushed_at": "2026-08-28T13:36:31Z",
       "relevance": {
         "score": 90,
@@ -1748,7 +2425,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:52.992Z",
+      "tags_updated_at": "2026-09-10T02:48:27.979Z",
       "full_name": "vishalsachdev/canvas-mcp",
       "owner": "vishalsachdev",
       "name": "canvas-mcp",
@@ -1759,11 +2436,11 @@
         "agent-skills",
         "skills-sh"
       ],
-      "stars": 232,
+      "stars": 234,
       "forks": 80,
       "discovered_at": "2026-09-09T02:28:21.018Z",
-      "last_updated": "2026-09-09T03:34:52.992Z",
-      "pushed_at": "2026-09-09T02:21:25Z",
+      "last_updated": "2026-09-10T02:48:27.979Z",
+      "pushed_at": "2026-09-10T02:24:49Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -1785,6 +2462,48 @@
         "structural": true
       },
       "relevance_checked_at": "2026-09-09T02:28:21.018Z",
+      "manual": false
+    },
+    {
+      "system_tags": [],
+      "tags_updated_at": "2026-09-10T02:48:33.589Z",
+      "full_name": "weilun88313/B2B-Playbook",
+      "owner": "weilun88313",
+      "name": "B2B-Playbook",
+      "url": "https://github.com/weilun88313/B2B-Playbook",
+      "description": "Practical B2B marketing playbooks, AI-native tools, working templates, and source-checked company cases. For founders, marketers, and AI agents.",
+      "language": "Markdown",
+      "topics": [
+        "account-based-marketing",
+        "agent-skills",
+        "ai-tools",
+        "b2b-marketing",
+        "b2b-saas",
+        "cold-email",
+        "content-marketing",
+        "go-to-market",
+        "marketing",
+        "playbook"
+      ],
+      "stars": 11,
+      "forks": 0,
+      "discovered_at": "2026-09-10T02:48:33.589Z",
+      "last_updated": "2026-09-10T02:48:33.589Z",
+      "pushed_at": "2026-09-10T02:39:52Z",
+      "relevance": {
+        "score": 95,
+        "evidence": [
+          "skill-file",
+          "skill-topic",
+          "readme",
+          "install-guide"
+        ],
+        "skill_files": [
+          "SKILL.md"
+        ],
+        "structural": true
+      },
+      "relevance_checked_at": "2026-09-10T02:48:33.589Z",
       "manual": false
     },
     {
@@ -1821,7 +2540,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-09T03:34:54.213Z",
+      "tags_updated_at": "2026-09-10T02:48:28.605Z",
       "full_name": "zxc663/shisan-xinuo-workflow",
       "owner": "zxc663",
       "name": "shisan-xinuo-workflow",
@@ -1845,8 +2564,8 @@
       "stars": 22,
       "forks": 2,
       "discovered_at": "2026-09-09T02:02:57.337Z",
-      "last_updated": "2026-09-09T03:34:54.213Z",
-      "pushed_at": "2026-09-09T02:25:41Z",
+      "last_updated": "2026-09-10T02:48:28.605Z",
+      "pushed_at": "2026-09-09T12:16:21Z",
       "relevance": {
         "score": 95,
         "evidence": [
