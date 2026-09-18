@@ -58,7 +58,7 @@ Historical records retain `backfill-v1` internally. All published weeks share cu
 
 
 ### Tags and retention
-Collection runs daily at 00:00 UTC (08:00 Beijing); Monday runs settle weekly rankings. GitHub scheduling may be delayed. Current metadata is overwritten; weekly aggregates are retained permanently and boundary snapshots for about eight weeks. The homepage shows five completed calendar weeks; all published weeks remain in cumulative scores.
+Collection runs daily at 00:00 UTC (08:00 Beijing); Monday runs settle weekly rankings. GitHub scheduling may be delayed. Current metadata is overwritten; weekly aggregates are retained permanently and boundary snapshots for about eight weeks. The homepage shows the current week and four preceding weeks. `data/current-week.json` is overwritten daily with Monday-to-latest growth, activity, `status: in_progress` and `as_of`. Sunday remains in progress; successful Monday collection settles the previous week. Only settled weeks contribute to cumulative scores.
 
 config/tags.json defines bilingual capabilities. System classification matches descriptions, topics, README text and SKILL.md paths, preserving evidence and previous results on failures. Community selections use public GitHub Issues, validated and deployed through Actions with daily reconciliation. Internal system_tags and data/community-tags.json remain separate; the UI combines them. The system counts once, plus once per account/tag/project. The latest issue replaces that account’s selections; closing or locking it withdraws them. Moderators can lock inappropriate submissions.
 

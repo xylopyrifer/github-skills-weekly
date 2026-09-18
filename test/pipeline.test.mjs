@@ -49,3 +49,21 @@ test('historical and collected weeks share cumulative scores and consecutive ran
  assert.equal(rows.find(r=>r.full_name==='test/alpha').rank_change,0);
  assert.equal(rows.find(r=>r.full_name==='test/beta').rank_change,null);
 });
+
+test('in-progress week refreshes daily, stays provisional on Sunday and settles once Monday succeeds',async t=>{
+ const root=await fixture(t);
+ await run(root,'2026-02-02T00:17:00Z',fakeGet());
+ await run(root,'2026-02-06T00:17:00Z',fakeGet({stars:140}));
+ let current=await readJson(path.join(root,'data/current-week.json'));
+ assert.equal(current.status,'in_progress');assert.equal(current.start,'2026-02-02');assert.equal(current.rows[0].stars_delta,40);
+ assert.equal((await readWeeks(root)).length,0);assert.equal((await readJson(path.join(root,'data/all-time.json'))).repositories.length,0);
+ await run(root,'2026-02-08T00:17:00Z',fakeGet({stars:150}));
+ current=await readJson(path.join(root,'data/current-week.json'));assert.equal(current.rows[0].stars_delta,50);assert.equal(current.status,'in_progress');
+ await run(root,'2026-02-09T00:17:00Z',fakeGet({stars:160}));
+ assert.equal((await readWeeks(root))[0].rows[0].stars_delta,60);
+ current=await readJson(path.join(root,'data/current-week.json'));assert.equal(current.start,'2026-02-09');assert.equal(current.rows[0].stars_delta,0);
+ const all=await readJson(path.join(root,'data/all-time.json'));
+ await run(root,'2026-02-10T00:17:00Z',fakeGet({stars:180}));
+ assert.deepEqual(await readJson(path.join(root,'data/all-time.json')),all);
+ assert.equal((await readJson(path.join(root,'data/current-week.json'))).rows[0].stars_delta,20);
+});

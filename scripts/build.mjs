@@ -15,7 +15,9 @@ export async function build(){
   const editorial=await readJson(path.join(root,'config/editorial.json'));
   const config=await readJson(path.join(root,'config/repositories.json'));
   const excluded=new Set(config.exclude.map(n=>n.toLowerCase()));
-  const history=(await readWeeks(root)).sort((a,b)=>b.start.localeCompare(a.start));
+  const settled=await readWeeks(root);
+  const current=await readJson(path.join(root,'data/current-week.json'),null);
+  const history=[...settled,...(current?.rows.length?[current]:[])].sort((a,b)=>b.start.localeCompare(a.start));
   const cutoff=history.length?+new Date(history[0].start+'T00:00:00Z')-28*86400000:0;
   const weeks=history.filter(w=>+new Date(w.start+'T00:00:00Z')>=cutoff).map(w=>({...w,rows:w.rows.filter(r=>!excluded.has(r.full_name.toLowerCase()))}));
   const boundaryFiles=(await readdir(path.join(root,'data/boundaries')).catch(e=>{if(e.code==='ENOENT')return [];throw e;})).filter(f=>/^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort();
@@ -29,7 +31,7 @@ export async function build(){
   }
   for(const r of repositories){r.tags=publicCommunityTags(r.system_tags,community.submissions,r.full_name,taxonomy,reviews);delete r.system_tags;}
   repositories.sort((a,b)=>a.full_name.localeCompare(b.full_name));
-  const publicData={schema_version:1,demo:false,first_snapshot_date:boundaryFiles[0]?.slice(0,10)||null,tag_taxonomy:[...taxonomy,...customDefinitions(community.submissions,reviews).filter(t=>repositories.some(r=>r.tags.some(x=>x.id===t.id)))].map(({pattern,...t})=>t),updated_at:[catalog.updated_at,...history.map(w=>w.generated_at)].filter(Boolean).sort().at(-1)||null,total_weeks:history.length,repositories,weeks,all_time_kind:'combined',all_time:all.repositories.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(({weekly_scores,...r})=>r),warning_count:report.warnings.length};
+  const publicData={schema_version:1,demo:false,first_snapshot_date:boundaryFiles[0]?.slice(0,10)||null,tag_taxonomy:[...taxonomy,...customDefinitions(community.submissions,reviews).filter(t=>repositories.some(r=>r.tags.some(x=>x.id===t.id)))].map(({pattern,...t})=>t),updated_at:[catalog.updated_at,...history.map(w=>w.generated_at)].filter(Boolean).sort().at(-1)||null,total_weeks:settled.length,repositories,weeks,all_time_kind:'combined',all_time:all.repositories.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(({weekly_scores,...r})=>r),warning_count:report.warnings.length};
   await writeFile(path.join(out,'assets/data.json'),JSON.stringify(publicData));
   await writeFile(path.join(out,'assets/demo.json'),JSON.stringify(demoData()));
   for(const file of ['app.js','calendar.js','i18n.js','style.css','favicon.svg'])await copyFile(path.join(root,'src',file),path.join(out,'assets',file));

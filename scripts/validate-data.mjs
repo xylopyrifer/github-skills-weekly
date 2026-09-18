@@ -1,3 +1,4 @@
+import {currentWeekRanking} from './lib/current-week.mjs';
 import assert from 'node:assert/strict';
 import {readdir,readFile} from 'node:fs/promises';
 import path from 'node:path';
@@ -16,6 +17,26 @@ export function validateRecords(catalog,weeks,all,report,{fresh=false,now=new Da
 export async function validateData(root,{fresh=false}={}){
  async function files(dir){const result=[];for(const item of await readdir(dir,{withFileTypes:true})){const f=path.join(dir,item.name);if(item.isDirectory())result.push(...await files(f));else result.push(f);}return result;}
  for(const file of await files(path.join(root,'data'))){assert.ok(!file.endsWith('.tmp'),'Unfinished data write: '+file);if(file.endsWith('.json'))JSON.parse(await readFile(file,'utf8'));}
- const summary=validateRecords(await readJson(path.join(root,'data/catalog.json')),await readWeeks(root),await readJson(path.join(root,'data/all-time.json')),await readJson(path.join(root,'data/update-report.json')),{fresh});console.log('Stored data verified: '+JSON.stringify(summary));return summary;
+ const summary=validateRecords(await readJson(path.join(root,'data/catalog.json')),await readWeeks(root),await readJson(path.join(root,'data/all-time.json')),await readJson(path.join(root,'data/update-report.json')),{fresh});const current=await readJson(path.join(root,'data/current-week.json'),null);
+ assert.ok(current,'Missing current-week data');
+ if(current){
+  assert.equal(current.status,'in_progress');
+  const boundary=await readJson(path.join(root,'data/boundaries',current.start+'.json'),{repositories:{}});
+  const weeks=await readWeeks(root),previous=weeks.find(w=>w.end===current.start);
+  const observations=Object.fromEntries(current.rows.map(r=>[r.full_name.toLowerCase(),r]));
+  assert.equal(Object.keys(observations).length,current.rows.length,'Duplicate current-week rows');
+  const computed=currentWeekRanking(boundary,observations,previous,new Date(current.generated_at));
+  for(const key of ['start','end','anchors','rows'])assert.deepEqual(current[key],computed[key],'Current-week '+key+' mismatch');
+  const catalog=await readJson(path.join(root,'data/catalog.json'));
+  assert.equal(current.generated_at,catalog.updated_at,'Current week did not refresh with catalog');
+  for(const row of current.rows){
+   const repo=catalog.repositories.find(r=>r.full_name.toLowerCase()===row.full_name.toLowerCase());
+   assert.ok(repo,'Unknown current-week repository');
+   assert.equal(row.stars,repo.stars);assert.equal(row.forks,repo.forks);assert.equal(row.observed_to,repo.last_updated);
+   assert.ok(Date.parse(row.observed_to)>=Date.parse(current.start)&&Date.parse(row.observed_to)<Date.parse(current.end),'Invalid current-week observation');
+  }
+  summary.current_week_rows=current.rows.length;
+ }
+ console.log('Stored data verified: '+JSON.stringify(summary));return summary;
 }
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))await validateData(fileURLToPath(new URL('../',import.meta.url)),{fresh:process.argv.includes('--fresh')});

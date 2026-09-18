@@ -1,3 +1,4 @@
+import { currentWeekRanking } from './current-week.mjs';
 import { readdir, unlink } from 'node:fs/promises';
 import { classifyTags } from './tags.mjs';
 import path from 'node:path';
@@ -73,7 +74,7 @@ export async function updateData({ root, get, now = new Date(), clock = () => ne
       observations[canonical] = { full_name: meta.full_name, stars: record.stars, forks: record.forks, observed_at: observedAt };
       if (inWindow && +new Date(observedAt) - +monday(now) <= BOUNDARY_TOLERANCE) {
         // On reruns, preserve successful counts from the first observation.
-        if (!boundary.repositories[canonical]) boundary.repositories[canonical] = observations[canonical];
+        if (!boundary.repositories[canonical]) boundary.repositories[canonical] = {...observations[canonical]};
         const point = boundary.repositories[canonical];
         if (previous.repositories[canonical] && point.activity === undefined) {
           try {
@@ -85,6 +86,13 @@ export async function updateData({ root, get, now = new Date(), clock = () => ne
             point.activity_capped = commits.length === 100;
           } catch(e) { warn(`${meta.full_name}: activity unavailable; omitted from this week's ranking (${e.message})`); }
         }
+      }
+      if(boundary.repositories[canonical]){
+        try{
+          const commits=await get(repoPath(meta.full_name)+'/commits?since='+boundaryKey+'T00:00:00Z&until='+observedAt+'&per_page=100');
+          const dated=commits.filter(c=>c.commit?.committer?.date>=boundaryKey+'T00:00:00Z'&&c.commit.committer.date<observedAt);
+          Object.assign(observations[canonical],{activity:activityScore(dated.length,new Set(dated.map(c=>c.commit.committer.date.slice(0,10))).size),commits_sampled:dated.length,activity_capped:commits.length===100});
+        }catch(e){warn(meta.full_name+': current-week activity unavailable ('+e.message+')');}
       }
       log(`TRACK ${meta.full_name} (${assessment.score}/100)`);
     } catch(e) { warn(`${candidate.name}: ${e.message}`); }
@@ -126,7 +134,9 @@ export async function updateData({ root, get, now = new Date(), clock = () => ne
       await writeJson(path.join(root,`data/weeks/${span.start}.json`), week);
     }
   }
-  const allTime = aggregateAllTime(await readWeeks(root));
+  const settled=await readWeeks(root);
+  await writeJson(path.join(root,'data/current-week.json'),currentWeekRanking(boundary,observations,settled.find(w=>w.end===boundaryKey),now));
+  const allTime = aggregateAllTime(settled);
   await writeJson(path.join(root,'data/all-time.json'), { schema_version: 1, repositories: allTime });
   await writeJson(catalogPath, { schema_version: 1, updated_at: now.toISOString(), repositories: [...known.values()].sort((a,b) => a.full_name.localeCompare(b.full_name)) });
   const report = { updated_at: now.toISOString(), successful_repositories: successes, tracked_repositories: known.size, boundary_captured: inWindow, warnings };

@@ -19,7 +19,7 @@ Custom tags become public after submission and successful publication, before re
 
 System classifications, community submissions and review decisions are stored separately and combined for display. Accepted tags persist on their project even after withdrawal of the original submission; rejection records prevent reappearance during synchronization. Fixed capability tags continue to update automatically. Semantic weekly review runs through this project's Codex automation; forks must configure their own review task.
 
-Earlier weeks use GitHub historical records; subsequent weeks use ongoing collections. All weeks share one leaderboard, continuous rank changes and cumulative scores. Source metadata is retained internally. Current metadata is overwritten daily, weekly aggregates are retained, and raw boundary snapshots are kept for about eight weeks.
+Earlier weeks use GitHub historical records; subsequent weeks use ongoing collections. All weeks share one leaderboard, continuous rank changes and cumulative scores. Source metadata is retained internally. Latest week shows the current in-progress week with its collection cutoff and refreshes daily. Sunday remains in progress; a successful Monday collection settles the previous week. Only settled weeks count toward cumulative scores. Current metadata and the in-progress ranking are overwritten daily; completed rankings are retained and boundary snapshots are kept for about eight weeks.
 
 ## Run locally
 
