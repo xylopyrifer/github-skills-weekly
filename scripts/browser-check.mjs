@@ -15,6 +15,7 @@ try{
  assert.equal(await page.locator('.week-tab').count(),5);
  assert.ok((await page.locator('.search-result').count())>=6);
  assert.equal(await page.locator('.notice.demo').count(),0);
+ assert.equal(await page.locator('.notice.backfill').count(),0);
  await page.screenshot({path:'release/qa/desktop-real.png',fullPage:true});
  const published=await (await page.request.get(new URL('assets/data.json',base.replace(/\/?$/,'/')).href)).json();
  for(let i=0;i<5;i++){

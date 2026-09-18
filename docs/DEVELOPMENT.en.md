@@ -30,7 +30,7 @@ Any static host can serve the contents of `dist/`. Hash-based details work under
 ## Data integrity
 
 - Real data is the default; an opt-in demo uses entirely fictional `demo/*` projects.
-- Five official historical backfill weeks are available. They use daily star aggregates and surviving fork creation records, not exact UTC net growth. Backfilled cumulative scores are kept separate from snapshot scores. Two consecutive Monday samples are still required for a snapshot-based ranking.
+- Five official historical backfill weeks are available. They use daily star aggregates and surviving fork creation records, not exact UTC net growth. All published weeks contribute to cumulative scores; source metadata stays internal. Two consecutive Monday samples are still required for a snapshot-based ranking.
 - UTC weeks run Monday 00:00 to the next Monday 00:00, exclusive. The schedule starts at 00:00 UTC. Actual per-repository observation times are retained; a six-hour delay tolerance is allowed. Missed weeks are not fabricated.
 - Growth is a snapshot difference, not an exact reconstruction of midnight event counts.
 - API failures are isolated per repository. Missing observations and activity never become artificial zeros. All-repository failures preserve existing files and fail the job.
@@ -50,15 +50,15 @@ The interface is fully bilingual. Selected curated repositories have bilingual s
 
 See [the full documentation](../README.md) for exact formulas, data schema, workflow configuration, known limitations, and file responsibilities. See [validation](VALIDATION.md) for actual test coverage. Real mobile devices and Docker have not been tested; GitHub Pages deployment and the full cloud update workflow were verified successfully on 2026-09-09.
 
-## Five-week historical backfill
+## Historical backfill
 
-`npm run backfill` fetches the preceding five complete calendar weeks. It uses GitHub's official `/stargazers/history` daily aggregates, surviving fork creation records, and default-branch commits. Source day boundaries are not guaranteed to align with UTC, and fork deletions cannot be recovered. Displayed totals and the size score are collection-time values, not historical balances. The retained audit file stores source aggregates and collection timestamps.
+`npm run backfill` fetches the preceding five complete calendar weeks. Use `npm run backfill -- --week=2026-09-07` to fill a single complete week and compare ranks with its preceding week. It uses GitHub's official `/stargazers/history` daily aggregates, surviving fork creation records, and default-branch commits. Source day boundaries are not guaranteed to align with UTC, and fork deletions cannot be recovered. Displayed totals and the size score are collection-time values, not historical balances. The retained audit file stores source aggregates and collection timestamps.
 
-Backfilled rankings are marked `backfill-v1`; their cumulative scores are never merged into the official snapshot cumulative score. Until official snapshot weeks exist, the homepage explicitly displays backfilled cumulative impact. Asterisk markers identify historical backfill points in detail charts. Missing or inconsistent data is rejected, not interpolated. See the Chinese README for the full limitations and reproducible command.
+Historical records retain `backfill-v1` internally. All published weeks share cumulative scores and consecutive rank changes. The page presents one continuous history. Historical additions and snapshot net changes have different treatment of removed stars and forks; combined scores serve trend comparison. Missing or inconsistent data is rejected, not interpolated. See the Chinese README for the full limitations and reproducible command.
 
 
 ### Tags and retention
-Collection runs daily at 00:00 UTC (08:00 Beijing); Monday runs settle weekly rankings. GitHub scheduling may be delayed. Current metadata is overwritten; weekly aggregates are retained permanently and boundary snapshots for about eight weeks. Official weeks replace the five bootstrap weeks naturally; backfill is excluded from official cumulative scores.
+Collection runs daily at 00:00 UTC (08:00 Beijing); Monday runs settle weekly rankings. GitHub scheduling may be delayed. Current metadata is overwritten; weekly aggregates are retained permanently and boundary snapshots for about eight weeks. The homepage shows five completed calendar weeks; all published weeks remain in cumulative scores.
 
 config/tags.json defines bilingual capabilities. System classification matches descriptions, topics, README text and SKILL.md paths, preserving evidence and previous results on failures. Community selections use public GitHub Issues, validated and deployed through Actions with daily reconciliation. Internal system_tags and data/community-tags.json remain separate; the UI combines them. The system counts once, plus once per account/tag/project. The latest issue replaces that account’s selections; closing or locking it withdraws them. Moderators can lock inappropriate submissions.
 

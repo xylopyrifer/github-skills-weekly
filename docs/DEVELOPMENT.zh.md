@@ -195,7 +195,7 @@ total_heat = 所有历史 contribution 的总和
 
 ## 历史回溯（backfill-v1）
 
-已经补齐 2026-08-03 至 2026-09-06 的 5 周历史回溯。命令 `npm run backfill` 可回溯执行日之前最近 5 个完整周；需要环境变量 `GITHUB_TOKEN`，或 `GH_PATH` 指向已授权的 GitHub CLI。脚本不会覆写已经存在的正式快照周。
+历史周从 2026-08-03 起保存。命令 `npm run backfill` 可回溯执行日之前最近 5 个完整周；`npm run backfill -- --week=2026-09-07` 可定向补齐一个完整周并衔接前周排名；需要环境变量 `GITHUB_TOKEN`，或 `GH_PATH` 指向已授权的 GitHub CLI。脚本不会覆写已经存在的正式快照周。
 
 来源与限制：
 
@@ -209,13 +209,13 @@ total_heat = 所有历史 contribution 的总和
 
 使用原有 60/15/15/10 权重计算回溯分数，算法名称为 `backfill-v1`。所有回溯周设置 `source_kind: backfill`，不伪造 boundary 文件。
 
-正式累计数据 `data/all-time.json` 永远排除回溯周。尚无正式累计时，页面显示清楚标记的“回溯累计影响力”；有正式周榜后自动切换到正式累计，回溯周仍能在最近 5 周内查看。历史图中的回溯分数加星号标记。正式周排名变化也不会与回溯周跨口径比较。
+`data/all-time.json` 汇总所有已发布周，排名变化对比相邻日历周，支持从历史数据连续过渡到采集数据。页面统一展示，内部保留来源和原始证据。历史新增记录与快照净增长并非完全相同，取消 Star 和删除 Fork 会造成差异；累计分数用于趋势比较。
 
 参考：[GitHub 官方 Star 历史接口](https://docs.github.com/en/rest/activity/starring#get-repository-star-history)。
 
 
 ### 功能标签与数据留存
-每天北京时间 08:00（UTC 00:00）启动采集，周一结算上周榜单。GitHub 调度可能延迟。最新项目资料覆盖保存；周榜摘要永久保存；原始周边界快照保留约 8 周。正式数据逐步替换首页的 5 周回溯数据，回溯不计入正式累计分数。
+每天北京时间 08:00（UTC 00:00）启动采集，周一结算上周榜单。GitHub 调度可能延迟。最新项目资料覆盖保存；周榜摘要永久保存；原始周边界快照保留约 8 周。首页显示最近 5 个完整日历周，全部已发布周持续计入累计分数。
 
 标签词表在 config/tags.json。系统标签按简介、topics、README 和 SKILL.md 路径匹配并保留证据来源；采集失败保留旧标签。社区选择通过 GitHub Issues 提交，由 Actions 校验并发布；每天补做一次全量同步。data/community-tags.json 与 catalog 中的 system_tags 分开记录。页面合并显示，系统计 1 次，每个 GitHub 账号每个项目每个标签计 1 次。账号对同一项目的最新提交替换旧选择；关闭或锁定最新 issue 撤回。Issues 与记录公开，不包含访问令牌。管理员可锁定不当提交。
 
