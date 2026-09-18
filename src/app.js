@@ -1,3 +1,4 @@
+import { calendarSlots } from './calendar.js';
 import { messages } from './i18n.js';
 const ui=(zh,en)=>language==='zh'?zh:en;
 let searchText='',searchTag='',searchSort='heat';
@@ -23,7 +24,8 @@ const href=n=>'#skill/'+encodeURIComponent(n);
 const repo=n=>data.repositories.find(r=>r.full_name.toLowerCase()===n.toLowerCase());
 const allStats=n=>data.all_time.find(r=>r.full_name.toLowerCase()===n.toLowerCase());
 function monday(date){const d=new Date(date);d.setUTCHours(0,0,0,0);d.setUTCDate(d.getUTCDate()-(d.getUTCDay()+6)%7);return d;}
-function weekSlots(){const latest=data.weeks[0],start=latest?new Date(latest.start+'T00:00:00Z'):new Date(+monday(new Date())-7*86400000);return Array.from({length:5},(_,i)=>{const key=new Date(+start-i*7*86400000).toISOString().slice(0,10);return{start:key,week:data.weeks.find(w=>w.start===key)};});}
+function weekSlots(){return calendarSlots(data);}
+
 const period=w=>w.start.replace(/-/g,'.')+' — '+new Date(+new Date(w.end+'T00:00:00Z')-86400000).toISOString().slice(0,10).replace(/-/g,'.');
 const description=r=>localized(r.editorial&&r.editorial.description)||r.description||t('empty');
 const dateTime=v=>v?new Date(v).toISOString().replace('T',' ').slice(0,16)+' UTC':'—';
@@ -55,9 +57,12 @@ function renderHome(){
  if(!demo&&data.updated_at&&Date.now()-Date.parse(data.updated_at)>8*86400000)c+=`<div class="stale-banner">${t('stale')}</div>`;
  if(!demo&&data.warning_count)c+=`<div class="stale-banner">${t('warnings')}</div>`;
  c+=`<section aria-labelledby="alltime-title"><div class="section-heading"><div class="heading-title"><h2 id="alltime-title">${t('alltime')}</h2><span class="tag">TOP 3</span></div><p class="section-caption">${t('alltimeNote')}</p></div><div class="podium">${[0,1,2].map(i=>podiumCard(data.all_time[i],i)).join('')}</div></section>`;
- c+=`<section aria-labelledby="weekly-title"><div class="section-heading weekly-heading"><div class="heading-title"><h2 id="weekly-title">${t('weekly')} <span class="tag">TOP 10</span></h2><p class="section-caption">${t('weeklySub')}</p></div><span class="period-chip">${week?esc(week.week):t('baselineBadge')}</span></div><div class="week-tabs" role="tablist" aria-label="${t('selectedPeriod')}">${slots.map((s,i)=>`<button class="week-tab ${i===selectedWeek?'active':''}" id="week-tab-${i}" role="tab" aria-selected="${i===selectedWeek}" aria-controls="week-panel" tabindex="${i===selectedWeek?'0':'-1'}" data-week="${i}">${i===0?t('latest'):i===1?t('previous'):language==='zh'?i+t('weekAgo'):i+' '+t('weekAgo')}<small>${s.start.slice(5).replace('-','.')}</small></button>`).join('')}</div><div id="week-panel" role="tabpanel" aria-labelledby="week-tab-${selectedWeek}">`;
+ c+=`<section aria-labelledby="weekly-title"><div class="section-heading weekly-heading"><div class="heading-title"><h2 id="weekly-title">${t('weekly')} <span class="tag">TOP 10</span></h2><p class="section-caption">${t('weeklySub')}</p></div><span class="period-chip">${week?esc(week.week):esc(slot.start)}</span></div><div class="week-tabs" role="tablist" aria-label="${t('selectedPeriod')}">${slots.map((s,i)=>`<button class="week-tab ${i===selectedWeek?'active':''}" id="week-tab-${i}" role="tab" aria-selected="${i===selectedWeek}" aria-controls="week-panel" tabindex="${i===selectedWeek?'0':'-1'}" data-week="${i}">${i===0?ui('上周','Last week'):ui((i+1)+' 周前',(i+1)+' weeks ago')}<small>${s.start.slice(5).replace('-','.')}</small></button>`).join('')}</div><div id="week-panel" role="tabpanel" aria-labelledby="week-tab-${selectedWeek}">`;
  if(week)c+=`<div class="week-period"><span>${period(week)}</span><span>${week.source_kind==='backfill'?'GITHUB CALENDAR':'UTC'} · ${Math.min(10,week.rows.length)} SKILLS</span></div><div class="rank-list">${week.rows.slice(0,10).map(row=>repoCard(repo(row.full_name)||row,row)).join('')}</div><p class="small-note">${t('periodNote')}</p>`;
- else c+=emptyState(data.weeks.length?'noWeek':'waiting',data.weeks.length?'noWeekBody':'baselineBody');
+ else {const available=slots.findIndex(s=>s.week);c+='<div class="week-period"><span>'+period(slot)+'</span><span>UTC</span></div>'+emptyState('noWeek','noWeekBody');
+ if(!demo&&data.first_snapshot_date&&!data.weeks.some(w=>w.source_kind!=='backfill')){const expected=new Date(Date.parse(data.first_snapshot_date+'T00:00:00Z')+7*86400000).toISOString().slice(0,10);c+='<p class="small-note">'+ui('首份周一快照：','First Monday snapshot: ')+esc(data.first_snapshot_date)+' · '+ui('下一次完整周对比预计于 ','The next full weekly comparison is expected on ')+expected+ui(' 采集成功后生成。',' after successful collection.')+'</p>';}
+ if(available>=0)c+='<button class="secondary-button" type="button" data-week="'+available+'">'+ui('查看最近已有榜单 · ','View latest available ranking · ')+slots[available].start+'</button>';}
+
  c+='</div></section>';
  if(!data.weeks.length)c+=`<section style="margin-top:30px"><div class="section-heading"><div class="heading-title"><h2>${t('catalog')}</h2></div><p class="section-caption">${t('catalogSub')}</p></div>${data.repositories.length?`<div class="rank-list">${data.repositories.map(r=>repoCard(r)).join('')}</div>`:emptyState('noDataTitle','noDataBody','demo')}</section>`;
  c+=browse();main.innerHTML=c;renderSearch();document.title='GitHub Skills Weekly — AI Agent Skills Trending';

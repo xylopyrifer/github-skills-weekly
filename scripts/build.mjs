@@ -1,5 +1,5 @@
 import { publicCommunityTags, customDefinitions } from './lib/custom-tags.mjs';
-import { mkdir, copyFile, writeFile, readFile } from 'node:fs/promises';
+import { mkdir, copyFile, writeFile, readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { readJson, readWeeks } from './lib/storage.mjs';
@@ -19,6 +19,7 @@ export async function build(){
   const history=(await readWeeks(root)).sort((a,b)=>b.start.localeCompare(a.start));
   const cutoff=history.length?+new Date(history[0].start+'T00:00:00Z')-28*86400000:0;
   const weeks=history.filter(w=>+new Date(w.start+'T00:00:00Z')>=cutoff).map(w=>({...w,rows:w.rows.filter(r=>!excluded.has(r.full_name.toLowerCase()))}));
+  const boundaryFiles=(await readdir(path.join(root,'data/boundaries')).catch(e=>{if(e.code==='ENOENT')return [];throw e;})).filter(f=>/^\d{4}-\d{2}-\d{2}\.json$/.test(f)).sort();
   const all=await readJson(path.join(root,'data/all-time.json'));
   const report=await readJson(path.join(root,'data/update-report.json'),{warnings:[]});
   const repositories=catalog.repositories.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(r=>({...r,editorial:editorial[r.full_name]||editorial[r.full_name.toLowerCase()]||null}));
@@ -32,10 +33,10 @@ export async function build(){
   const retrospective=aggregateAllTime(history.filter(w=>w.source_kind==='backfill'));
   const official=all.repositories;
   const chosenAll=official.length?official:retrospective;
-  const publicData={schema_version:1,demo:false,tag_taxonomy:[...taxonomy,...customDefinitions(community.submissions,reviews).filter(t=>repositories.some(r=>r.tags.some(x=>x.id===t.id)))].map(({pattern,...t})=>t),updated_at:[catalog.updated_at,...history.map(w=>w.generated_at)].filter(Boolean).sort().at(-1)||null,total_weeks:history.length,repositories,weeks,all_time_kind:official.length?'snapshot':retrospective.length?'backfill':'snapshot',all_time:chosenAll.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(({weekly_scores,...r})=>r),warning_count:report.warnings.length};
+  const publicData={schema_version:1,demo:false,first_snapshot_date:boundaryFiles[0]?.slice(0,10)||null,tag_taxonomy:[...taxonomy,...customDefinitions(community.submissions,reviews).filter(t=>repositories.some(r=>r.tags.some(x=>x.id===t.id)))].map(({pattern,...t})=>t),updated_at:[catalog.updated_at,...history.map(w=>w.generated_at)].filter(Boolean).sort().at(-1)||null,total_weeks:history.length,repositories,weeks,all_time_kind:official.length?'snapshot':retrospective.length?'backfill':'snapshot',all_time:chosenAll.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(({weekly_scores,...r})=>r),warning_count:report.warnings.length};
   await writeFile(path.join(out,'assets/data.json'),JSON.stringify(publicData));
   await writeFile(path.join(out,'assets/demo.json'),JSON.stringify(demoData()));
-  for(const file of ['app.js','i18n.js','style.css','favicon.svg'])await copyFile(path.join(root,'src',file),path.join(out,'assets',file));
+  for(const file of ['app.js','calendar.js','i18n.js','style.css','favicon.svg'])await copyFile(path.join(root,'src',file),path.join(out,'assets',file));
   await copyFile(path.join(root,'index.html'),path.join(out,'index.html'));
   await copyFile(path.join(root,'LICENSE'),path.join(out,'LICENSE'));
   await writeFile(path.join(out,'.nojekyll'),'');
