@@ -1,0 +1,804 @@
+{
+  "schema_version": 1,
+  "boundary": "2026-09-21",
+  "repositories": {
+    "anthropics/skills": {
+      "full_name": "anthropics/skills",
+      "stars": 177338,
+      "forks": 21002,
+      "observed_at": "2026-09-21T03:00:43.947Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "openai/skills": {
+      "full_name": "openai/skills",
+      "stars": 27508,
+      "forks": 1857,
+      "observed_at": "2026-09-21T03:00:44.981Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "obra/superpowers": {
+      "full_name": "obra/superpowers",
+      "stars": 289330,
+      "forks": 25890,
+      "observed_at": "2026-09-21T03:00:45.886Z",
+      "activity": 20.222631694500997,
+      "commits_sampled": 1,
+      "activity_capped": false
+    },
+    "vercel-labs/agent-skills": {
+      "full_name": "vercel-labs/agent-skills",
+      "stars": 31407,
+      "forks": 2759,
+      "observed_at": "2026-09-21T03:00:46.776Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "composiohq/awesome-claude-skills": {
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "stars": 75404,
+      "forks": 8736,
+      "observed_at": "2026-09-21T03:00:47.702Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "huggingface/skills": {
+      "full_name": "huggingface/skills",
+      "stars": 11073,
+      "forks": 746,
+      "observed_at": "2026-09-21T03:00:48.624Z",
+      "activity": 20.222631694500997,
+      "commits_sampled": 1,
+      "activity_capped": false
+    },
+    "aaaaqwq/agi-super-team": {
+      "full_name": "aAAaqwq/AGI-Super-Team",
+      "stars": 98,
+      "forks": 23,
+      "observed_at": "2026-09-21T03:00:49.567Z"
+    },
+    "aaron-he-zhu/aaron-marketing-skills": {
+      "full_name": "aaron-he-zhu/aaron-marketing-skills",
+      "stars": 2808,
+      "forks": 361,
+      "observed_at": "2026-09-21T03:00:50.367Z",
+      "activity": 100,
+      "commits_sampled": 28,
+      "activity_capped": false
+    },
+    "agentlas-ai/agentlas-os": {
+      "full_name": "agentlas-ai/Agentlas-OS",
+      "stars": 1085,
+      "forks": 98,
+      "observed_at": "2026-09-21T03:00:51.242Z",
+      "activity": 76.6048124922897,
+      "commits_sampled": 15,
+      "activity_capped": false
+    },
+    "aks129/healthclawguardrails": {
+      "full_name": "aks129/HealthClawGuardrails",
+      "stars": 30,
+      "forks": 11,
+      "observed_at": "2026-09-21T03:00:52.263Z",
+      "activity": 78.57142857142857,
+      "commits_sampled": 30,
+      "activity_capped": false
+    },
+    "alibaba/open-code-review": {
+      "full_name": "alibaba/open-code-review",
+      "stars": 38495,
+      "forks": 2744,
+      "observed_at": "2026-09-21T03:00:53.313Z",
+      "activity": 100,
+      "commits_sampled": 70,
+      "activity_capped": false
+    },
+    "alibaba/skill-up": {
+      "full_name": "alibaba/skill-up",
+      "stars": 995,
+      "forks": 77,
+      "observed_at": "2026-09-21T03:00:54.362Z"
+    },
+    "aliyun/alibabacloud-aiops-skills": {
+      "full_name": "aliyun/alibabacloud-aiops-skills",
+      "stars": 250,
+      "forks": 29,
+      "observed_at": "2026-09-21T03:00:55.152Z"
+    },
+    "allagentsdev/allagents": {
+      "full_name": "allagentsdev/allagents",
+      "stars": 12,
+      "forks": 5,
+      "observed_at": "2026-09-21T03:00:56.034Z"
+    },
+    "apache/magpie": {
+      "full_name": "apache/magpie",
+      "stars": 96,
+      "forks": 92,
+      "observed_at": "2026-09-21T03:00:56.830Z",
+      "activity": 100,
+      "commits_sampled": 77,
+      "activity_capped": false
+    },
+    "ar9av/obsidian-wiki": {
+      "full_name": "Ar9av/obsidian-wiki",
+      "stars": 3439,
+      "forks": 341,
+      "observed_at": "2026-09-21T03:00:57.951Z"
+    },
+    "artokun/comfyui-mcp": {
+      "full_name": "artokun/comfyui-mcp",
+      "stars": 759,
+      "forks": 130,
+      "observed_at": "2026-09-21T03:00:58.552Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "axelfreeman/marketing-mindset": {
+      "full_name": "axelfreeman/marketing-mindset",
+      "stars": 32,
+      "forks": 2,
+      "observed_at": "2026-09-21T03:00:59.455Z"
+    },
+    "blackbelttechnology/pi-agent-dashboard": {
+      "full_name": "BlackBeltTechnology/pi-agent-dashboard",
+      "stars": 294,
+      "forks": 43,
+      "observed_at": "2026-09-21T03:01:00.140Z",
+      "activity": 100,
+      "commits_sampled": 100,
+      "activity_capped": true
+    },
+    "bostonaholic/team": {
+      "full_name": "bostonaholic/team",
+      "stars": 11,
+      "forks": 2,
+      "observed_at": "2026-09-21T03:01:02.572Z",
+      "activity": 91.42857142857143,
+      "commits_sampled": 23,
+      "activity_capped": false
+    },
+    "cdeust/cortex": {
+      "full_name": "cdeust/Cortex",
+      "stars": 72,
+      "forks": 13,
+      "observed_at": "2026-09-21T03:01:03.927Z"
+    },
+    "cherryhq/cherry-studio": {
+      "full_name": "CherryHQ/cherry-studio",
+      "stars": 52035,
+      "forks": 4984,
+      "observed_at": "2026-09-21T03:01:04.749Z",
+      "activity": 91.42857142857143,
+      "commits_sampled": 100,
+      "activity_capped": true
+    },
+    "citrolabs/ego-lite": {
+      "full_name": "citrolabs/ego-lite",
+      "stars": 16294,
+      "forks": 855,
+      "observed_at": "2026-09-21T03:01:06.048Z"
+    },
+    "clipcat-ai/clipcat-skill": {
+      "full_name": "Clipcat-ai/clipcat-skill",
+      "stars": 174,
+      "forks": 7,
+      "observed_at": "2026-09-21T03:01:06.780Z"
+    },
+    "coco-research/coco": {
+      "full_name": "coco-research/coco",
+      "stars": 385,
+      "forks": 12,
+      "observed_at": "2026-09-21T03:01:07.438Z"
+    },
+    "constellation-works/orbit": {
+      "full_name": "constellation-works/orbit",
+      "stars": 11,
+      "forks": 2,
+      "observed_at": "2026-09-21T03:01:08.430Z"
+    },
+    "corpusiq/corpusiq-docs": {
+      "full_name": "CorpusIQ/corpusiq-docs",
+      "stars": 22,
+      "forks": 7,
+      "observed_at": "2026-09-21T03:01:09.193Z",
+      "activity": 87.14285714285714,
+      "commits_sampled": 59,
+      "activity_capped": false
+    },
+    "cotal-ai/cotal": {
+      "full_name": "Cotal-AI/Cotal",
+      "stars": 293,
+      "forks": 35,
+      "observed_at": "2026-09-21T03:01:10.500Z",
+      "activity": 95.71428571428571,
+      "commits_sampled": 84,
+      "activity_capped": false
+    },
+    "daha1216/dsh-adult-tension": {
+      "full_name": "daha1216/dsh-adult-tension",
+      "stars": 55,
+      "forks": 1,
+      "observed_at": "2026-09-21T03:01:11.886Z",
+      "activity": 67.98981884471078,
+      "commits_sampled": 10,
+      "activity_capped": false
+    },
+    "deancourse/claude-code-docker-container": {
+      "full_name": "deancourse/claude-code-docker-container",
+      "stars": 21,
+      "forks": 14,
+      "observed_at": "2026-09-21T03:01:12.854Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "devin-axis/ipollowork": {
+      "full_name": "Devin-AXIS/iPolloWork",
+      "stars": 6472,
+      "forks": 1235,
+      "observed_at": "2026-09-21T03:01:13.792Z",
+      "activity": 91.42857142857143,
+      "commits_sampled": 45,
+      "activity_capped": false
+    },
+    "doist/todoist-cli": {
+      "full_name": "Doist/todoist-cli",
+      "stars": 310,
+      "forks": 18,
+      "observed_at": "2026-09-21T03:01:15.025Z",
+      "activity": 80.40217359277997,
+      "commits_sampled": 12,
+      "activity_capped": false
+    },
+    "eugenelim/agent-ready-repo": {
+      "full_name": "eugenelim/agent-ready-repo",
+      "stars": 23,
+      "forks": 5,
+      "observed_at": "2026-09-21T03:01:16.102Z",
+      "activity": 100,
+      "commits_sampled": 94,
+      "activity_capped": false
+    },
+    "evermind-ai/raven": {
+      "full_name": "EverMind-AI/Raven",
+      "stars": 3915,
+      "forks": 81,
+      "observed_at": "2026-09-21T03:01:18.181Z"
+    },
+    "fabricioctelles/jump-skills": {
+      "full_name": "fabricioctelles/jump-skills",
+      "stars": 29,
+      "forks": 3,
+      "observed_at": "2026-09-21T03:01:18.843Z",
+      "activity": 45.57580484878993,
+      "commits_sampled": 4,
+      "activity_capped": false
+    },
+    "first-fluke/oh-my-agent": {
+      "full_name": "first-fluke/oh-my-agent",
+      "stars": 1319,
+      "forks": 149,
+      "observed_at": "2026-09-21T03:01:19.880Z",
+      "activity": 91.42857142857143,
+      "commits_sampled": 100,
+      "activity_capped": true
+    },
+    "girish6055/nanobanana-ppt-skills": {
+      "full_name": "girish6055/NanoBanana-PPT-Skills",
+      "stars": 14,
+      "forks": 4,
+      "observed_at": "2026-09-21T03:01:20.995Z"
+    },
+    "gitroomhq/postiz-agent": {
+      "full_name": "gitroomhq/postiz-agent",
+      "stars": 481,
+      "forks": 95,
+      "observed_at": "2026-09-21T03:01:21.734Z"
+    },
+    "glincker/thesvg": {
+      "full_name": "glincker/thesvg",
+      "stars": 2717,
+      "forks": 217,
+      "observed_at": "2026-09-21T03:01:22.457Z",
+      "activity": 95.71428571428571,
+      "commits_sampled": 39,
+      "activity_capped": false
+    },
+    "gosuda/portal-tunnel": {
+      "full_name": "gosuda/portal-tunnel",
+      "stars": 270,
+      "forks": 27,
+      "observed_at": "2026-09-21T03:01:23.812Z",
+      "activity": 100,
+      "commits_sampled": 100,
+      "activity_capped": true
+    },
+    "guaardvark/guaardvark": {
+      "full_name": "guaardvark/guaardvark",
+      "stars": 227,
+      "forks": 48,
+      "observed_at": "2026-09-21T03:01:24.920Z",
+      "activity": 87.14285714285714,
+      "commits_sampled": 100,
+      "activity_capped": true
+    },
+    "hanyuyuan6/remote-gpu-trainer": {
+      "full_name": "Hanyuyuan6/remote-gpu-trainer",
+      "stars": 63,
+      "forks": 6,
+      "observed_at": "2026-09-21T03:01:26.190Z"
+    },
+    "hieuphung97/dely": {
+      "full_name": "hieuphung97/dely",
+      "stars": 62,
+      "forks": 17,
+      "observed_at": "2026-09-21T03:01:26.951Z"
+    },
+    "hraness/wordcell": {
+      "full_name": "hraness/wordcell",
+      "stars": 14,
+      "forks": 2,
+      "observed_at": "2026-09-21T03:01:27.698Z",
+      "activity": 95.71428571428571,
+      "commits_sampled": 34,
+      "activity_capped": false
+    },
+    "hyperb1iss/sibyl": {
+      "full_name": "hyperb1iss/sibyl",
+      "stars": 61,
+      "forks": 9,
+      "observed_at": "2026-09-21T03:01:28.869Z",
+      "activity": 95.71428571428571,
+      "commits_sampled": 42,
+      "activity_capped": false
+    },
+    "inkeep/open-knowledge": {
+      "full_name": "inkeep/open-knowledge",
+      "stars": 4268,
+      "forks": 282,
+      "observed_at": "2026-09-21T03:01:30.139Z",
+      "activity": 95.71428571428571,
+      "commits_sampled": 45,
+      "activity_capped": false
+    },
+    "invergent-ai/surogates": {
+      "full_name": "invergent-ai/surogates",
+      "stars": 25,
+      "forks": 1,
+      "observed_at": "2026-09-21T03:01:31.135Z",
+      "activity": 75.0271789202495,
+      "commits_sampled": 17,
+      "activity_capped": false
+    },
+    "jabrena/plinth": {
+      "full_name": "jabrena/plinth",
+      "stars": 440,
+      "forks": 93,
+      "observed_at": "2026-09-21T03:01:32.453Z",
+      "activity": 36.15954910328771,
+      "commits_sampled": 3,
+      "activity_capped": false
+    },
+    "jackyst0/awesome-agent-skills": {
+      "full_name": "JackyST0/awesome-agent-skills",
+      "stars": 640,
+      "forks": 131,
+      "observed_at": "2026-09-21T03:01:33.353Z",
+      "activity": 63.375975797177084,
+      "commits_sampled": 8,
+      "activity_capped": false
+    },
+    "jellybrick/korean-prose-skill": {
+      "full_name": "JellyBrick/korean-prose-skill",
+      "stars": 20,
+      "forks": 0,
+      "observed_at": "2026-09-21T03:01:34.257Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "jeremylongshore/tons-of-skills-marketplace": {
+      "full_name": "jeremylongshore/tons-of-skills-marketplace",
+      "stars": 2781,
+      "forks": 402,
+      "observed_at": "2026-09-21T03:01:35.125Z",
+      "activity": 86.02106823779191,
+      "commits_sampled": 19,
+      "activity_capped": false
+    },
+    "kangarooking/director-skills": {
+      "full_name": "kangarooking/director-skills",
+      "stars": 113,
+      "forks": 17,
+      "observed_at": "2026-09-21T03:01:36.615Z"
+    },
+    "kazukinagata/shinkoku": {
+      "full_name": "kazukinagata/shinkoku",
+      "stars": 360,
+      "forks": 34,
+      "observed_at": "2026-09-21T03:01:37.282Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "kcnyu/clawock": {
+      "full_name": "KCNyu/clawock",
+      "stars": 15,
+      "forks": 0,
+      "observed_at": "2026-09-21T03:01:38.263Z",
+      "activity": 82.85714285714286,
+      "commits_sampled": 100,
+      "activity_capped": true
+    },
+    "kesslernity/awesome-copilot-cowork-skills": {
+      "full_name": "kesslernity/awesome-copilot-cowork-skills",
+      "stars": 28,
+      "forks": 5,
+      "observed_at": "2026-09-21T03:01:39.429Z"
+    },
+    "kgraph57/mckinsey-style-visualization-skill": {
+      "full_name": "kgraph57/mckinsey-style-visualization-skill",
+      "stars": 115,
+      "forks": 17,
+      "observed_at": "2026-09-21T03:01:40.347Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "langfuse/langfuse-docs": {
+      "full_name": "langfuse/langfuse-docs",
+      "stars": 243,
+      "forks": 303,
+      "observed_at": "2026-09-21T03:01:41.141Z"
+    },
+    "lc044/trailsnap": {
+      "full_name": "LC044/TrailSnap",
+      "stars": 741,
+      "forks": 97,
+      "observed_at": "2026-09-21T03:01:41.872Z"
+    },
+    "ljx-chase/research-field-onboarding": {
+      "full_name": "ljx-chase/research-field-onboarding",
+      "stars": 64,
+      "forks": 3,
+      "observed_at": "2026-09-21T03:01:42.735Z",
+      "activity": 67.54503073563713,
+      "commits_sampled": 12,
+      "activity_capped": false
+    },
+    "lovstudio/skills": {
+      "full_name": "lovstudio/skills",
+      "stars": 67,
+      "forks": 17,
+      "observed_at": "2026-09-21T03:01:43.619Z",
+      "activity": 36.15954910328771,
+      "commits_sampled": 3,
+      "activity_capped": false
+    },
+    "lsaint/aikito": {
+      "full_name": "lsaint/aikito",
+      "stars": 132,
+      "forks": 0,
+      "observed_at": "2026-09-21T03:01:44.766Z",
+      "activity": 100,
+      "commits_sampled": 99,
+      "activity_capped": false
+    },
+    "maoyadongsh/siq-agent-security": {
+      "full_name": "maoyadongsh/siq-agent-security",
+      "stars": 23,
+      "forks": 2,
+      "observed_at": "2026-09-21T03:01:45.770Z"
+    },
+    "mini-yifan/open-source-video-gen-skill": {
+      "full_name": "mini-yifan/open-source-video-gen-skill",
+      "stars": 21,
+      "forks": 4,
+      "observed_at": "2026-09-21T03:01:46.754Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "mixelpixx/konnect": {
+      "full_name": "mixelpixx/Konnect",
+      "stars": 740,
+      "forks": 98,
+      "observed_at": "2026-09-21T03:01:47.519Z",
+      "activity": 100,
+      "commits_sampled": 90,
+      "activity_capped": false
+    },
+    "momentic-ai/skills": {
+      "full_name": "momentic-ai/skills",
+      "stars": 14,
+      "forks": 0,
+      "observed_at": "2026-09-21T03:01:48.593Z"
+    },
+    "moonrunnerkc/tracemantle": {
+      "full_name": "moonrunnerkc/tracemantle",
+      "stars": 24,
+      "forks": 1,
+      "observed_at": "2026-09-21T03:01:49.262Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "mxyhi/ok-skills": {
+      "full_name": "mxyhi/ok-skills",
+      "stars": 490,
+      "forks": 46,
+      "observed_at": "2026-09-21T03:01:50.279Z",
+      "activity": 20.222631694500997,
+      "commits_sampled": 1,
+      "activity_capped": false
+    },
+    "nagarjuna2997/ios-agent-skill": {
+      "full_name": "Nagarjuna2997/ios-agent-skill",
+      "stars": 34,
+      "forks": 1,
+      "observed_at": "2026-09-21T03:01:51.120Z"
+    },
+    "nexu-io/open-design": {
+      "full_name": "nexu-io/open-design",
+      "stars": 97318,
+      "forks": 11298,
+      "observed_at": "2026-09-21T03:01:51.960Z",
+      "activity": 100,
+      "commits_sampled": 74,
+      "activity_capped": false
+    },
+    "openclaw/crabbox": {
+      "full_name": "openclaw/crabbox",
+      "stars": 1409,
+      "forks": 183,
+      "observed_at": "2026-09-21T03:01:53.219Z",
+      "activity": 91.42857142857143,
+      "commits_sampled": 100,
+      "activity_capped": true
+    },
+    "orziz/odai": {
+      "full_name": "orziz/odai",
+      "stars": 115,
+      "forks": 17,
+      "observed_at": "2026-09-21T03:01:54.322Z",
+      "activity": 72.27553313042507,
+      "commits_sampled": 10,
+      "activity_capped": false
+    },
+    "pome-sh/digital-twins": {
+      "full_name": "pome-sh/digital-twins",
+      "stars": 20,
+      "forks": 2,
+      "observed_at": "2026-09-21T03:01:55.191Z"
+    },
+    "preset-io/agent-skills": {
+      "full_name": "preset-io/agent-skills",
+      "stars": 12,
+      "forks": 1,
+      "observed_at": "2026-09-21T03:01:55.952Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "pvrlabs/aibadger": {
+      "full_name": "PVRLabs/aibadger",
+      "stars": 40,
+      "forks": 4,
+      "observed_at": "2026-09-21T03:01:56.850Z"
+    },
+    "pymodel/niblet-skill-mcp": {
+      "full_name": "PyModel/niblet-skill-mcp",
+      "stars": 23,
+      "forks": 2,
+      "observed_at": "2026-09-21T03:01:57.643Z"
+    },
+    "renky1025/agent-skills": {
+      "full_name": "renky1025/agent-skills",
+      "stars": 11,
+      "forks": 0,
+      "observed_at": "2026-09-21T03:01:58.552Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "rindag-devs/hull": {
+      "full_name": "rindag-devs/hull",
+      "stars": 31,
+      "forks": 0,
+      "observed_at": "2026-09-21T03:01:59.622Z"
+    },
+    "runxhq/runx": {
+      "full_name": "runxhq/runx",
+      "stars": 91,
+      "forks": 105,
+      "observed_at": "2026-09-21T03:02:00.431Z",
+      "activity": 57.59772638712574,
+      "commits_sampled": 6,
+      "activity_capped": false
+    },
+    "shajith003/awesome-claude-skills": {
+      "full_name": "shajith003/awesome-claude-skills",
+      "stars": 25,
+      "forks": 2,
+      "observed_at": "2026-09-21T03:02:02.560Z"
+    },
+    "silverstein/minutes": {
+      "full_name": "silverstein/minutes",
+      "stars": 1490,
+      "forks": 164,
+      "observed_at": "2026-09-21T03:02:03.323Z"
+    },
+    "smith-horn/skillsmith": {
+      "full_name": "smith-horn/skillsmith",
+      "stars": 78,
+      "forks": 18,
+      "observed_at": "2026-09-21T03:02:04.016Z",
+      "activity": 100,
+      "commits_sampled": 64,
+      "activity_capped": false
+    },
+    "soushi888/holochain-agent-skills": {
+      "full_name": "Soushi888/holochain-agent-skills",
+      "stars": 24,
+      "forks": 3,
+      "observed_at": "2026-09-21T03:02:05.457Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "syh1906/openai-compatible-imagegen": {
+      "full_name": "Syh1906/openai-compatible-imagegen",
+      "stars": 50,
+      "forks": 4,
+      "observed_at": "2026-09-21T03:02:06.399Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "thinkinaixyz/deepchat": {
+      "full_name": "ThinkInAIXYZ/deepchat",
+      "stars": 6336,
+      "forks": 735,
+      "observed_at": "2026-09-21T03:02:07.262Z",
+      "activity": 100,
+      "commits_sampled": 66,
+      "activity_capped": false
+    },
+    "timwukp/agent-skills-best-practice": {
+      "full_name": "timwukp/agent-skills-best-practice",
+      "stars": 10,
+      "forks": 3,
+      "observed_at": "2026-09-21T03:02:08.357Z",
+      "activity": 79.31289320596379,
+      "commits_sampled": 17,
+      "activity_capped": false
+    },
+    "tscarpe/claude-sdlc-skills": {
+      "full_name": "TsCarpe/claude-sdlc-skills",
+      "stars": 47,
+      "forks": 0,
+      "observed_at": "2026-09-21T03:02:09.358Z"
+    },
+    "tserentserenov/fmt-exocortex-template": {
+      "full_name": "TserenTserenov/FMT-exocortex-template",
+      "stars": 58,
+      "forks": 153,
+      "observed_at": "2026-09-21T03:02:10.125Z",
+      "activity": 100,
+      "commits_sampled": 24,
+      "activity_capped": false
+    },
+    "tt-a1i/archify": {
+      "full_name": "tt-a1i/archify",
+      "stars": 68356,
+      "forks": 4574,
+      "observed_at": "2026-09-21T03:02:11.262Z",
+      "activity": 87.14285714285714,
+      "commits_sampled": 22,
+      "activity_capped": false
+    },
+    "vinta/hal-9000": {
+      "full_name": "vinta/hal-9000",
+      "stars": 137,
+      "forks": 25,
+      "observed_at": "2026-09-21T03:02:12.123Z"
+    },
+    "vishalsachdev/canvas-mcp": {
+      "full_name": "vishalsachdev/canvas-mcp",
+      "stars": 256,
+      "forks": 86,
+      "observed_at": "2026-09-21T03:02:12.870Z",
+      "activity": 87.14285714285714,
+      "commits_sampled": 24,
+      "activity_capped": false
+    },
+    "vmware-skills/vmware-monitor": {
+      "full_name": "vmware-skills/VMware-Monitor",
+      "stars": 12,
+      "forks": 4,
+      "observed_at": "2026-09-21T03:02:13.884Z"
+    },
+    "webkubor/kyvault": {
+      "full_name": "webkubor/kyvault",
+      "stars": 17,
+      "forks": 8,
+      "observed_at": "2026-09-21T03:02:14.658Z",
+      "activity": 49.86151913450421,
+      "commits_sampled": 4,
+      "activity_capped": false
+    },
+    "wei18/apple-dev-skills": {
+      "full_name": "wei18/apple-dev-skills",
+      "stars": 18,
+      "forks": 0,
+      "observed_at": "2026-09-21T03:02:15.596Z",
+      "activity": 29.545130755731392,
+      "commits_sampled": 2,
+      "activity_capped": false
+    },
+    "weilun88313/b2b-playbook": {
+      "full_name": "weilun88313/B2B-Playbook",
+      "stars": 98,
+      "forks": 0,
+      "observed_at": "2026-09-21T03:02:16.491Z",
+      "activity": 0,
+      "commits_sampled": 0,
+      "activity_capped": false
+    },
+    "xiaomoboy/pi-bluebook": {
+      "full_name": "xiaomoBoy/pi-bluebook",
+      "stars": 278,
+      "forks": 19,
+      "observed_at": "2026-09-21T03:02:17.336Z",
+      "activity": 36.15954910328771,
+      "commits_sampled": 3,
+      "activity_capped": false
+    },
+    "xr843/master-skill": {
+      "full_name": "xr843/Master-skill",
+      "stars": 416,
+      "forks": 83,
+      "observed_at": "2026-09-21T03:02:18.209Z",
+      "activity": 95.71428571428571,
+      "commits_sampled": 90,
+      "activity_capped": false
+    },
+    "xuzhougeng/wisp-science": {
+      "full_name": "xuzhougeng/wisp-science",
+      "stars": 1158,
+      "forks": 118,
+      "observed_at": "2026-09-21T03:02:19.308Z",
+      "activity": 100,
+      "commits_sampled": 67,
+      "activity_capped": false
+    },
+    "yarrasys/yarramate": {
+      "full_name": "yarrasys/yarramate",
+      "stars": 12,
+      "forks": 0,
+      "observed_at": "2026-09-21T03:02:20.229Z"
+    },
+    "yishu5/claude-skills": {
+      "full_name": "YiShu5/claude-skills",
+      "stars": 134,
+      "forks": 0,
+      "observed_at": "2026-09-21T03:02:20.997Z"
+    },
+    "zxc663/shisan-xinuo-workflow": {
+      "full_name": "zxc663/shisan-xinuo-workflow",
+      "stars": 25,
+      "forks": 2,
+      "observed_at": "2026-09-21T03:02:21.713Z",
+      "activity": 78.57142857142857,
+      "commits_sampled": 100,
+      "activity_capped": true
+    }
+  }
+}
