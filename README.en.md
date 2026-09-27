@@ -41,3 +41,6 @@ Deployment, scoring and maintenance details: [English developer guide](docs/DEVE
 Traffic is approximated by summing this repository’s daily unique visitors over the previous complete UTC week. Repeat visitors may count across days; this is not website or per-skill traffic. Support uses distinct accounts with active submissions updated in the same week. If traffic is unavailable, review uses content only. No additional server is required.
 
 GitHub-hosted jobs collect at 08:00 Beijing time and check storage, ranking calculations and deployed-file checksums at 08:35, with at most one recovery run. They run while your computer is off. AI content review uses the local app without an additional model API: the computer and app must be running. Local checks at 08:35, 12:35, 16:35 and 20:35 catch up on the current week’s pending review and skip completed reviews.
+
+
+New skills this week lists projects first discovered by this site during the current week, ranked by current stars and refreshed daily. Discovery date is not repository creation date. Newcomer discovery has capacity independent of the main pool: up to 50 current-week candidates, plus TOP 10 records for four previous weeks. First-discovery dates are retained to prevent repeat appearances as new projects.

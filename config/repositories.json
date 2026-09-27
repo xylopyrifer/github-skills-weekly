@@ -1,5 +1,12 @@
 {
-  "include": ["anthropics/skills", "openai/skills", "obra/superpowers", "vercel-labs/agent-skills", "ComposioHQ/awesome-claude-skills", "huggingface/skills"],
+  "include": [
+    "anthropics/skills",
+    "openai/skills",
+    "obra/superpowers",
+    "vercel-labs/agent-skills",
+    "ComposioHQ/awesome-claude-skills",
+    "huggingface/skills"
+  ],
   "exclude": [],
   "discovery": {
     "enabled": true,
@@ -7,6 +14,19 @@
     "maxTracked": 100,
     "minStars": 10,
     "threshold": 65,
-    "queries": ["topic:agent-skills", "\"agent skills\" in:description,readme", "\"claude code\" \"SKILL.md\" in:readme", "\"codex\" \"SKILL.md\" in:readme", "\"cursor\" \"SKILL.md\" in:readme"]
+    "queries": [
+      "topic:agent-skills",
+      "\"agent skills\" in:description,readme",
+      "\"claude code\" \"SKILL.md\" in:readme",
+      "\"codex\" \"SKILL.md\" in:readme",
+      "\"cursor\" \"SKILL.md\" in:readme"
+    ]
+  },
+  "newcomers": {
+    "enabled": true,
+    "maxCandidatesPerRun": 30,
+    "maxPerWeek": 50,
+    "minStars": 3,
+    "retainedWeeks": 5
   }
 }

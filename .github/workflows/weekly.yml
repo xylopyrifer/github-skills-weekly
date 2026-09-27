@@ -30,6 +30,10 @@ jobs:
         run: npm run update
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Discover and refresh weekly newcomers
+        run: node scripts/newcomers.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Reconcile community tags
         run: node scripts/community-tags.mjs
         env:

@@ -9,6 +9,7 @@ export async function build(){
   const out=path.join(root,'dist');
   await mkdir(path.join(out,'assets'),{recursive:true});
   const catalog=await readJson(path.join(root,'data/catalog.json'));
+  const newcomers=await readJson(path.join(root,'data/newcomers.json'),{weeks:[],report:{warnings:[]}});
   const taxonomy=(await readJson(path.join(root,'config/tags.json'))).tags;
   const community=await readJson(path.join(root,'data/community-tags.json'),{submissions:[]});
   const reviews=await readJson(path.join(root,'data/tag-reviews.json'),{decisions:[]});
@@ -24,6 +25,7 @@ export async function build(){
   const all=await readJson(path.join(root,'data/all-time.json'));
   const report=await readJson(path.join(root,'data/update-report.json'),{warnings:[]});
   const repositories=catalog.repositories.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(r=>({...r,editorial:editorial[r.full_name]||editorial[r.full_name.toLowerCase()]||null}));
+  for(const week of newcomers.weeks)for(const r of week.repositories){if(!excluded.has(r.full_name.toLowerCase())&&!repositories.some(x=>x.full_name.toLowerCase()===r.full_name.toLowerCase()))repositories.push({...r,editorial:editorial[r.full_name]||null});}
   // Historical entries remain navigable even if a repository later disappears.
   for(const row of [...weeks.flatMap(w=>w.rows),...all.repositories]){
     if(excluded.has(row.full_name.toLowerCase())||repositories.some(r=>r.full_name.toLowerCase()===row.full_name.toLowerCase()))continue;
@@ -31,7 +33,7 @@ export async function build(){
   }
   for(const r of repositories){r.tags=publicCommunityTags(r.system_tags,community.submissions,r.full_name,taxonomy,reviews);delete r.system_tags;}
   repositories.sort((a,b)=>a.full_name.localeCompare(b.full_name));
-  const publicData={schema_version:1,demo:false,first_snapshot_date:boundaryFiles[0]?.slice(0,10)||null,tag_taxonomy:[...taxonomy,...customDefinitions(community.submissions,reviews).filter(t=>repositories.some(r=>r.tags.some(x=>x.id===t.id)))].map(({pattern,...t})=>t),updated_at:[catalog.updated_at,...history.map(w=>w.generated_at)].filter(Boolean).sort().at(-1)||null,total_weeks:settled.length,repositories,weeks,all_time_kind:'combined',all_time:all.repositories.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(({weekly_scores,...r})=>r),warning_count:report.warnings.length};
+  const publicData={schema_version:1,demo:false,first_snapshot_date:boundaryFiles[0]?.slice(0,10)||null,tag_taxonomy:[...taxonomy,...customDefinitions(community.submissions,reviews).filter(t=>repositories.some(r=>r.tags.some(x=>x.id===t.id)))].map(({pattern,...t})=>t),updated_at:[catalog.updated_at,...history.map(w=>w.generated_at)].filter(Boolean).sort().at(-1)||null,total_weeks:settled.length,newcomer_weeks:newcomers.weeks.map(w=>({start:w.start,end:w.end,updated_at:w.updated_at,rows:w.repositories.filter(r=>!excluded.has(r.full_name.toLowerCase())).slice(0,10).map((r,i)=>({full_name:r.full_name,rank:i+1,stars:r.stars,forks:r.forks,discovered_at:r.discovered_at}))})),repositories,weeks,all_time_kind:'combined',all_time:all.repositories.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(({weekly_scores,...r})=>r),warning_count:report.warnings.length+(newcomers.report?.warnings.length||0)};
   await writeFile(path.join(out,'assets/data.json'),JSON.stringify(publicData));
   await writeFile(path.join(out,'assets/demo.json'),JSON.stringify(demoData()));
   for(const file of ['app.js','calendar.js','i18n.js','style.css','favicon.svg'])await copyFile(path.join(root,'src',file),path.join(out,'assets',file));

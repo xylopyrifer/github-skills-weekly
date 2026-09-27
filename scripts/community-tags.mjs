@@ -12,7 +12,7 @@ export function parseIssue(issue,catalog,taxonomy){
  }catch{return null;}
 }
 export async function syncCommunity(get=githubClient()){
- const catalog=await readJson('data/catalog.json'),taxonomy=await readJson('config/tags.json');const submissions=[];
+ const catalog=await readJson('data/catalog.json');const newcomers=await readJson('data/newcomers.json',{weeks:[]});catalog.repositories.push(...newcomers.weeks.flatMap(w=>w.repositories));const taxonomy=await readJson('config/tags.json');const submissions=[];
  for(let page=1;page<=100;page++){const issues=await get('/repos/xylopyrifer/github-skills-weekly/issues?state=all&per_page=100&page='+page);for(const issue of issues){const s=parseIssue(issue,catalog.repositories,taxonomy.tags);if(s)submissions.push(s);}if(issues.length<100){await writeJson('data/community-tags.json',{schema_version:1,submissions:submissions.sort((a,b)=>a.issue-b.issue)});return;} }
  throw new Error('Issue pagination limit reached; previous community data preserved');
 }

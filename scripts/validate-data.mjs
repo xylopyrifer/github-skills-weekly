@@ -1,3 +1,4 @@
+import {rankNewcomers} from './lib/newcomers.mjs';
 import {currentWeekRanking} from './lib/current-week.mjs';
 import assert from 'node:assert/strict';
 import {readdir,readFile} from 'node:fs/promises';
@@ -36,6 +37,29 @@ export async function validateData(root,{fresh=false}={}){
    assert.ok(Date.parse(row.observed_to)>=Date.parse(current.start)&&Date.parse(row.observed_to)<Date.parse(current.end),'Invalid current-week observation');
   }
   summary.current_week_rows=current.rows.length;
+ }
+ const config=await readJson(path.join(root,'config/repositories.json'));
+ if(config.newcomers?.enabled){
+  const newcomers=await readJson(path.join(root,'data/newcomers.json'));
+  assert.ok(newcomers.weeks.length<=config.newcomers.retainedWeeks,'Too many newcomer weeks');
+  const names=new Set();
+  for(const w of newcomers.weeks){
+   assert.equal(Date.parse(w.end)-Date.parse(w.start),7*86400000);assert.equal(new Date(w.start).getUTCDay(),1);
+   assert.ok(w.repositories.length<=config.newcomers.maxPerWeek);
+   assert.deepEqual(w.repositories,rankNewcomers(w.repositories),'Incorrect newcomer ranking');
+   for(const r of w.repositories){
+    const key=r.full_name.toLowerCase();assert.ok(!names.has(key),'Repeated newcomer');names.add(key);
+    assert.equal(newcomers.seen[key],r.discovered_at);assert.ok(r.discovered_at>=w.start&&r.discovered_at<w.end,'Newcomer in wrong week');
+    assert.ok(Number.isSafeInteger(r.stars)&&r.stars>=0&&Number.isSafeInteger(r.forks)&&r.forks>=0);
+    assert.ok(r.relevance.structural&&r.relevance.score>=config.discovery.threshold);assert.ok(Number.isFinite(Date.parse(r.last_updated)));
+   }
+  }
+  if(fresh){
+   const catalog=await readJson(path.join(root,'data/catalog.json'));
+   assert.ok(newcomers.report.updated_at.slice(0,10)>=catalog.updated_at.slice(0,10),'Newcomer collection is stale');
+   assert.equal(newcomers.report.warnings.length,0,'Newcomer collection needs recovery');
+  }
+  summary.newcomers=newcomers.weeks[0]?.repositories.length||0;
  }
  console.log('Stored data verified: '+JSON.stringify(summary));return summary;
 }
