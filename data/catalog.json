@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-28T03:16:36.418Z",
+  "updated_at": "2026-09-29T03:54:07.817Z",
   "repositories": [
     {
       "system_tags": [
@@ -97,7 +97,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:42.982Z",
+      "tags_updated_at": "2026-09-29T03:54:13.042Z",
       "full_name": "aAAaqwq/AGI-Super-Team",
       "owner": "aAAaqwq",
       "name": "AGI-Super-Team",
@@ -118,10 +118,10 @@
         "openai-codex",
         "openclaw"
       ],
-      "stars": 100,
+      "stars": 101,
       "forks": 23,
       "discovered_at": "2026-09-16T03:03:00.352Z",
-      "last_updated": "2026-09-28T03:16:42.982Z",
+      "last_updated": "2026-09-29T03:54:13.042Z",
       "pushed_at": "2026-09-27T10:44:59Z",
       "relevance": {
         "score": 95,
@@ -175,7 +175,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:44.641Z",
+      "tags_updated_at": "2026-09-29T03:54:13.973Z",
       "full_name": "aaron-he-zhu/aaron-marketing-skills",
       "owner": "aaron-he-zhu",
       "name": "aaron-marketing-skills",
@@ -196,11 +196,11 @@
         "hermes",
         "influencer-marketing"
       ],
-      "stars": 2849,
-      "forks": 364,
+      "stars": 2851,
+      "forks": 366,
       "discovered_at": "2026-09-10T02:48:32.703Z",
-      "last_updated": "2026-09-28T03:16:44.641Z",
-      "pushed_at": "2026-09-28T03:11:44Z",
+      "last_updated": "2026-09-29T03:54:13.973Z",
+      "pushed_at": "2026-09-29T03:49:49Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -251,7 +251,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:45.609Z",
+      "tags_updated_at": "2026-09-29T03:54:14.863Z",
       "full_name": "agentlas-ai/Agentlas-OS",
       "owner": "agentlas-ai",
       "name": "Agentlas-OS",
@@ -272,10 +272,10 @@
         "agentshub",
         "ai-agents"
       ],
-      "stars": 1582,
-      "forks": 104,
+      "stars": 1603,
+      "forks": 108,
       "discovered_at": "2026-09-13T02:49:55.154Z",
-      "last_updated": "2026-09-28T03:16:45.609Z",
+      "last_updated": "2026-09-29T03:54:14.863Z",
       "pushed_at": "2026-09-25T09:55:42Z",
       "relevance": {
         "score": 85,
@@ -320,7 +320,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:46.833Z",
+      "tags_updated_at": "2026-09-29T03:54:15.701Z",
       "full_name": "aks129/HealthClawGuardrails",
       "owner": "aks129",
       "name": "HealthClawGuardrails",
@@ -344,8 +344,8 @@
       "stars": 30,
       "forks": 13,
       "discovered_at": "2026-09-13T02:49:54.348Z",
-      "last_updated": "2026-09-28T03:16:46.833Z",
-      "pushed_at": "2026-09-26T22:02:32Z",
+      "last_updated": "2026-09-29T03:54:15.701Z",
+      "pushed_at": "2026-09-28T18:04:26Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -387,7 +387,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:48.176Z",
+      "tags_updated_at": "2026-09-29T03:54:16.464Z",
       "full_name": "alibaba/open-code-review",
       "owner": "alibaba",
       "name": "open-code-review",
@@ -402,11 +402,11 @@
         "harness",
         "repository-level-context"
       ],
-      "stars": 41978,
-      "forks": 3013,
+      "stars": 42359,
+      "forks": 3038,
       "discovered_at": "2026-09-14T03:04:47.343Z",
-      "last_updated": "2026-09-28T03:16:48.176Z",
-      "pushed_at": "2026-09-24T09:59:47Z",
+      "last_updated": "2026-09-29T03:54:16.464Z",
+      "pushed_at": "2026-09-29T03:46:45Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -434,7 +434,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:49.164Z",
+      "tags_updated_at": "2026-09-29T03:54:17.178Z",
       "full_name": "alibaba/skill-up",
       "owner": "alibaba",
       "name": "skill-up",
@@ -448,11 +448,11 @@
         "alibaba",
         "skills"
       ],
-      "stars": 1091,
-      "forks": 91,
+      "stars": 1112,
+      "forks": 92,
       "discovered_at": "2026-09-16T03:03:02.850Z",
-      "last_updated": "2026-09-28T03:16:49.164Z",
-      "pushed_at": "2026-09-28T01:47:49Z",
+      "last_updated": "2026-09-29T03:54:17.178Z",
+      "pushed_at": "2026-09-29T03:42:39Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -486,7 +486,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:50.187Z",
+      "tags_updated_at": "2026-09-29T03:54:17.946Z",
       "full_name": "aliyun/alibabacloud-aiops-skills",
       "owner": "aliyun",
       "name": "alibabacloud-aiops-skills",
@@ -494,11 +494,11 @@
       "description": "",
       "language": "Python",
       "topics": [],
-      "stars": 256,
+      "stars": 257,
       "forks": 30,
       "discovered_at": "2026-09-17T03:06:51.915Z",
-      "last_updated": "2026-09-28T03:16:50.187Z",
-      "pushed_at": "2026-09-24T02:56:56Z",
+      "last_updated": "2026-09-29T03:54:17.946Z",
+      "pushed_at": "2026-09-29T03:04:42Z",
       "relevance": {
         "score": 65,
         "evidence": [
@@ -535,7 +535,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:51.469Z",
+      "tags_updated_at": "2026-09-29T03:54:18.787Z",
       "full_name": "allagentsdev/allagents",
       "owner": "allagentsdev",
       "name": "allagents",
@@ -546,11 +546,11 @@
         "agent-plugins",
         "agent-skills"
       ],
-      "stars": 12,
+      "stars": 13,
       "forks": 5,
       "discovered_at": "2026-09-18T02:54:29.021Z",
-      "last_updated": "2026-09-28T03:16:51.469Z",
-      "pushed_at": "2026-09-28T01:31:13Z",
+      "last_updated": "2026-09-29T03:54:18.787Z",
+      "pushed_at": "2026-09-29T01:29:03Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -610,7 +610,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:36.749Z",
+      "tags_updated_at": "2026-09-29T03:54:08.196Z",
       "full_name": "anthropics/skills",
       "owner": "anthropics",
       "name": "skills",
@@ -620,11 +620,11 @@
       "topics": [
         "agent-skills"
       ],
-      "stars": 178682,
-      "forks": 21140,
+      "stars": 178847,
+      "forks": 21143,
       "discovered_at": "2026-09-09T01:59:52.047Z",
-      "last_updated": "2026-09-28T03:16:36.749Z",
-      "pushed_at": "2026-09-24T16:20:39Z",
+      "last_updated": "2026-09-29T03:54:08.196Z",
+      "pushed_at": "2026-09-29T02:20:07Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -672,7 +672,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:52.878Z",
+      "tags_updated_at": "2026-09-29T03:54:19.636Z",
       "full_name": "apache/magpie",
       "owner": "apache",
       "name": "magpie",
@@ -692,8 +692,8 @@
       "stars": 105,
       "forks": 93,
       "discovered_at": "2026-09-09T02:03:03.246Z",
-      "last_updated": "2026-09-28T03:16:52.878Z",
-      "pushed_at": "2026-09-27T23:38:23Z",
+      "last_updated": "2026-09-29T03:54:19.636Z",
+      "pushed_at": "2026-09-28T23:43:01Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -755,7 +755,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:54.234Z",
+      "tags_updated_at": "2026-09-29T03:54:20.671Z",
       "full_name": "Ar9av/obsidian-wiki",
       "owner": "Ar9av",
       "name": "obsidian-wiki",
@@ -773,11 +773,11 @@
         "obsidian-brain",
         "wiki"
       ],
-      "stars": 3503,
+      "stars": 3505,
       "forks": 350,
       "discovered_at": "2026-09-16T03:03:06.260Z",
-      "last_updated": "2026-09-28T03:16:54.234Z",
-      "pushed_at": "2026-09-23T12:07:47Z",
+      "last_updated": "2026-09-29T03:54:20.671Z",
+      "pushed_at": "2026-09-28T04:03:44Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -834,7 +834,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:55.153Z",
+      "tags_updated_at": "2026-09-29T03:54:21.506Z",
       "full_name": "artokun/comfyui-mcp",
       "owner": "artokun",
       "name": "comfyui-mcp",
@@ -855,11 +855,11 @@
         "local-first",
         "mcp"
       ],
-      "stars": 767,
-      "forks": 133,
+      "stars": 769,
+      "forks": 134,
       "discovered_at": "2026-09-10T02:48:35.239Z",
-      "last_updated": "2026-09-28T03:16:55.153Z",
-      "pushed_at": "2026-09-21T09:26:13Z",
+      "last_updated": "2026-09-29T03:54:21.506Z",
+      "pushed_at": "2026-09-28T09:28:25Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -891,7 +891,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:56.150Z",
+      "tags_updated_at": "2026-09-29T03:54:22.368Z",
       "full_name": "axelfreeman/marketing-mindset",
       "owner": "axelfreeman",
       "name": "marketing-mindset",
@@ -915,7 +915,7 @@
       "stars": 33,
       "forks": 2,
       "discovered_at": "2026-09-18T02:54:28.301Z",
-      "last_updated": "2026-09-28T03:16:56.150Z",
+      "last_updated": "2026-09-29T03:54:22.368Z",
       "pushed_at": "2026-09-22T15:30:15Z",
       "relevance": {
         "score": 95,
@@ -974,7 +974,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:57.159Z",
+      "tags_updated_at": "2026-09-29T03:54:23.078Z",
       "full_name": "BlackBeltTechnology/pi-agent-dashboard",
       "owner": "BlackBeltTechnology",
       "name": "pi-agent-dashboard",
@@ -994,11 +994,11 @@
         "knowledgebase",
         "pi"
       ],
-      "stars": 306,
+      "stars": 307,
       "forks": 46,
       "discovered_at": "2026-09-12T02:51:17.722Z",
-      "last_updated": "2026-09-28T03:16:57.159Z",
-      "pushed_at": "2026-09-28T03:14:39Z",
+      "last_updated": "2026-09-29T03:54:23.078Z",
+      "pushed_at": "2026-09-29T03:49:37Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -1042,7 +1042,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:58.899Z",
+      "tags_updated_at": "2026-09-29T03:54:24.507Z",
       "full_name": "bostonaholic/team",
       "owner": "bostonaholic",
       "name": "team",
@@ -1059,8 +1059,8 @@
       "stars": 11,
       "forks": 2,
       "discovered_at": "2026-09-13T02:49:51.878Z",
-      "last_updated": "2026-09-28T03:16:58.899Z",
-      "pushed_at": "2026-09-26T19:32:47Z",
+      "last_updated": "2026-09-29T03:54:24.507Z",
+      "pushed_at": "2026-09-29T03:37:04Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -1105,7 +1105,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:00.100Z",
+      "tags_updated_at": "2026-09-29T03:54:25.303Z",
       "full_name": "cdeust/Cortex",
       "owner": "cdeust",
       "name": "Cortex",
@@ -1129,7 +1129,7 @@
       "stars": 73,
       "forks": 13,
       "discovered_at": "2026-09-15T03:06:33.929Z",
-      "last_updated": "2026-09-28T03:17:00.100Z",
+      "last_updated": "2026-09-29T03:54:25.303Z",
       "pushed_at": "2026-09-27T09:34:17Z",
       "relevance": {
         "score": 85,
@@ -1204,7 +1204,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:01.484Z",
+      "tags_updated_at": "2026-09-29T03:54:26.225Z",
       "full_name": "CherryHQ/cherry-studio",
       "owner": "CherryHQ",
       "name": "cherry-studio",
@@ -1222,11 +1222,11 @@
         "skills",
         "vibe-coding"
       ],
-      "stars": 52199,
-      "forks": 5017,
+      "stars": 52223,
+      "forks": 5021,
       "discovered_at": "2026-09-13T02:49:52.734Z",
-      "last_updated": "2026-09-28T03:17:01.484Z",
-      "pushed_at": "2026-09-28T03:16:46Z",
+      "last_updated": "2026-09-29T03:54:26.225Z",
+      "pushed_at": "2026-09-29T03:10:48Z",
       "relevance": {
         "score": 70,
         "evidence": [
@@ -1272,7 +1272,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:02.940Z",
+      "tags_updated_at": "2026-09-29T03:54:27.154Z",
       "full_name": "citrolabs/ego-lite",
       "owner": "citrolabs",
       "name": "ego-lite",
@@ -1291,10 +1291,10 @@
         "skills",
         "skills-sh"
       ],
-      "stars": 16572,
-      "forks": 883,
+      "stars": 16646,
+      "forks": 886,
       "discovered_at": "2026-09-17T03:06:49.380Z",
-      "last_updated": "2026-09-28T03:17:02.940Z",
+      "last_updated": "2026-09-29T03:54:27.154Z",
       "pushed_at": "2026-09-23T07:16:19Z",
       "relevance": {
         "score": 85,
@@ -1314,7 +1314,7 @@
     },
     {
       "system_tags": [],
-      "tags_updated_at": "2026-09-28T03:17:03.851Z",
+      "tags_updated_at": "2026-09-29T03:54:27.813Z",
       "full_name": "Clipcat-ai/clipcat-skill",
       "owner": "Clipcat-ai",
       "name": "clipcat-skill",
@@ -1335,10 +1335,10 @@
         "tiktok",
         "tiktok-shop"
       ],
-      "stars": 199,
+      "stars": 203,
       "forks": 10,
       "discovered_at": "2026-09-16T03:03:04.293Z",
-      "last_updated": "2026-09-28T03:17:03.851Z",
+      "last_updated": "2026-09-29T03:54:27.813Z",
       "pushed_at": "2026-09-20T05:41:46Z",
       "relevance": {
         "score": 95,
@@ -1421,7 +1421,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:04.736Z",
+      "tags_updated_at": "2026-09-29T03:54:28.466Z",
       "full_name": "coco-research/coco",
       "owner": "coco-research",
       "name": "coco",
@@ -1442,11 +1442,11 @@
         "pm-tools",
         "product-management"
       ],
-      "stars": 539,
+      "stars": 555,
       "forks": 12,
       "discovered_at": "2026-09-18T02:54:29.851Z",
-      "last_updated": "2026-09-28T03:17:04.736Z",
-      "pushed_at": "2026-09-27T23:15:26Z",
+      "last_updated": "2026-09-29T03:54:28.466Z",
+      "pushed_at": "2026-09-29T00:26:29Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -1565,7 +1565,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:40.929Z",
+      "tags_updated_at": "2026-09-29T03:54:11.537Z",
       "full_name": "ComposioHQ/awesome-claude-skills",
       "owner": "ComposioHQ",
       "name": "awesome-claude-skills",
@@ -1586,10 +1586,10 @@
         "gemini-cli",
         "mcp"
       ],
-      "stars": 75744,
-      "forks": 8815,
+      "stars": 75800,
+      "forks": 8834,
       "discovered_at": "2026-09-09T01:59:55.876Z",
-      "last_updated": "2026-09-28T03:16:40.929Z",
+      "last_updated": "2026-09-29T03:54:11.537Z",
       "pushed_at": "2026-09-18T07:16:11Z",
       "relevance": {
         "score": 95,
@@ -1623,7 +1623,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:06.064Z",
+      "tags_updated_at": "2026-09-29T03:54:29.462Z",
       "full_name": "constellation-works/orbit",
       "owner": "constellation-works",
       "name": "orbit",
@@ -1647,8 +1647,8 @@
       "stars": 11,
       "forks": 3,
       "discovered_at": "2026-09-17T03:06:53.568Z",
-      "last_updated": "2026-09-28T03:17:06.064Z",
-      "pushed_at": "2026-09-28T03:16:43Z",
+      "last_updated": "2026-09-29T03:54:29.462Z",
+      "pushed_at": "2026-09-29T03:54:18Z",
       "relevance": {
         "score": 75,
         "evidence": [
@@ -1682,7 +1682,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:07.595Z",
+      "tags_updated_at": "2026-09-29T03:54:30.568Z",
       "full_name": "CorpusIQ/corpusiq-docs",
       "owner": "CorpusIQ",
       "name": "corpusiq-docs",
@@ -1706,8 +1706,8 @@
       "stars": 22,
       "forks": 8,
       "discovered_at": "2026-09-09T02:28:25.933Z",
-      "last_updated": "2026-09-28T03:17:07.595Z",
-      "pushed_at": "2026-09-28T03:10:49Z",
+      "last_updated": "2026-09-29T03:54:30.568Z",
+      "pushed_at": "2026-09-29T03:11:14Z",
       "relevance": {
         "score": 70,
         "evidence": [
@@ -1737,7 +1737,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:08.609Z",
+      "tags_updated_at": "2026-09-29T03:54:31.623Z",
       "full_name": "Cotal-AI/Cotal",
       "owner": "Cotal-AI",
       "name": "Cotal",
@@ -1758,11 +1758,11 @@
         "jetstream",
         "mcp"
       ],
-      "stars": 302,
+      "stars": 303,
       "forks": 35,
       "discovered_at": "2026-09-12T02:51:12.416Z",
-      "last_updated": "2026-09-28T03:17:08.609Z",
-      "pushed_at": "2026-09-28T01:30:41Z",
+      "last_updated": "2026-09-29T03:54:31.623Z",
+      "pushed_at": "2026-09-29T02:22:22Z",
       "relevance": {
         "score": 70,
         "evidence": [
@@ -1784,7 +1784,7 @@
     },
     {
       "system_tags": [],
-      "tags_updated_at": "2026-09-28T03:17:09.867Z",
+      "tags_updated_at": "2026-09-29T03:54:32.402Z",
       "full_name": "daha1216/dsh-adult-tension",
       "owner": "daha1216",
       "name": "dsh-adult-tension",
@@ -1802,10 +1802,10 @@
         "state-machine",
         "storytelling"
       ],
-      "stars": 72,
+      "stars": 76,
       "forks": 4,
       "discovered_at": "2026-09-14T03:04:44.873Z",
-      "last_updated": "2026-09-28T03:17:09.867Z",
+      "last_updated": "2026-09-29T03:54:32.402Z",
       "pushed_at": "2026-09-27T04:42:03Z",
       "relevance": {
         "score": 80,
@@ -1838,7 +1838,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:11.254Z",
+      "tags_updated_at": "2026-09-29T03:54:33.256Z",
       "full_name": "deancourse/claude-code-docker-container",
       "owner": "deancourse",
       "name": "claude-code-docker-container",
@@ -1862,7 +1862,7 @@
       "stars": 21,
       "forks": 15,
       "discovered_at": "2026-09-12T02:51:11.639Z",
-      "last_updated": "2026-09-28T03:17:11.254Z",
+      "last_updated": "2026-09-29T03:54:33.256Z",
       "pushed_at": "2026-09-12T02:43:36Z",
       "relevance": {
         "score": 95,
@@ -1911,7 +1911,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:12.273Z",
+      "tags_updated_at": "2026-09-29T03:54:34.035Z",
       "full_name": "Devin-AXIS/iPolloWork",
       "owner": "Devin-AXIS",
       "name": "iPolloWork",
@@ -1932,11 +1932,11 @@
         "hermes-agent",
         "ipollowork-plugin"
       ],
-      "stars": 6803,
-      "forks": 1318,
+      "stars": 6846,
+      "forks": 1332,
       "discovered_at": "2026-09-09T02:28:23.165Z",
-      "last_updated": "2026-09-28T03:17:12.273Z",
-      "pushed_at": "2026-09-28T02:30:21Z",
+      "last_updated": "2026-09-29T03:54:34.035Z",
+      "pushed_at": "2026-09-29T03:02:13Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -1971,7 +1971,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:13.437Z",
+      "tags_updated_at": "2026-09-29T03:54:34.944Z",
       "full_name": "Doist/todoist-cli",
       "owner": "Doist",
       "name": "todoist-cli",
@@ -1984,8 +1984,8 @@
       "stars": 313,
       "forks": 18,
       "discovered_at": "2026-09-09T02:02:53.738Z",
-      "last_updated": "2026-09-28T03:17:13.437Z",
-      "pushed_at": "2026-09-24T14:26:29Z",
+      "last_updated": "2026-09-29T03:54:34.944Z",
+      "pushed_at": "2026-09-29T02:00:48Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -2043,7 +2043,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:14.555Z",
+      "tags_updated_at": "2026-09-29T03:54:35.791Z",
       "full_name": "eugenelim/agent-ready-repo",
       "owner": "eugenelim",
       "name": "agent-ready-repo",
@@ -2067,8 +2067,8 @@
       "stars": 24,
       "forks": 6,
       "discovered_at": "2026-09-14T03:04:46.510Z",
-      "last_updated": "2026-09-28T03:17:14.555Z",
-      "pushed_at": "2026-09-28T03:14:16Z",
+      "last_updated": "2026-09-29T03:54:35.791Z",
+      "pushed_at": "2026-09-28T23:16:58Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -2138,7 +2138,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:16.062Z",
+      "tags_updated_at": "2026-09-29T03:54:37.003Z",
       "full_name": "EverMind-AI/Raven",
       "owner": "EverMind-AI",
       "name": "Raven",
@@ -2159,11 +2159,11 @@
         "openai",
         "openclaw"
       ],
-      "stars": 4183,
-      "forks": 102,
+      "stars": 4368,
+      "forks": 109,
       "discovered_at": "2026-09-15T03:06:37.433Z",
-      "last_updated": "2026-09-28T03:17:16.062Z",
-      "pushed_at": "2026-09-27T12:07:09Z",
+      "last_updated": "2026-09-29T03:54:37.003Z",
+      "pushed_at": "2026-09-29T02:52:10Z",
       "relevance": {
         "score": 65,
         "evidence": [
@@ -2213,7 +2213,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:17.520Z",
+      "tags_updated_at": "2026-09-29T03:54:37.823Z",
       "full_name": "fabricioctelles/jump-skills",
       "owner": "fabricioctelles",
       "name": "jump-skills",
@@ -2237,7 +2237,7 @@
       "stars": 31,
       "forks": 3,
       "discovered_at": "2026-09-10T02:48:34.358Z",
-      "last_updated": "2026-09-28T03:17:17.520Z",
+      "last_updated": "2026-09-29T03:54:37.823Z",
       "pushed_at": "2026-09-24T02:05:49Z",
       "relevance": {
         "score": 95,
@@ -2303,7 +2303,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:18.739Z",
+      "tags_updated_at": "2026-09-29T03:54:38.687Z",
       "full_name": "first-fluke/oh-my-agent",
       "owner": "first-fluke",
       "name": "oh-my-agent",
@@ -2320,11 +2320,11 @@
         "developer-tools",
         "multi-agent"
       ],
-      "stars": 1325,
-      "forks": 151,
+      "stars": 1327,
+      "forks": 150,
       "discovered_at": "2026-09-09T02:28:25.173Z",
-      "last_updated": "2026-09-28T03:17:18.739Z",
-      "pushed_at": "2026-09-28T01:30:24Z",
+      "last_updated": "2026-09-29T03:54:38.687Z",
+      "pushed_at": "2026-09-28T17:34:40Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -2363,7 +2363,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:20.059Z",
+      "tags_updated_at": "2026-09-29T03:54:39.506Z",
       "full_name": "girish6055/NanoBanana-PPT-Skills",
       "owner": "girish6055",
       "name": "NanoBanana-PPT-Skills",
@@ -2387,8 +2387,8 @@
       "stars": 14,
       "forks": 4,
       "discovered_at": "2026-09-16T03:03:03.579Z",
-      "last_updated": "2026-09-28T03:17:20.059Z",
-      "pushed_at": "2026-09-28T01:26:10Z",
+      "last_updated": "2026-09-29T03:54:39.506Z",
+      "pushed_at": "2026-09-28T07:19:44Z",
       "relevance": {
         "score": 70,
         "evidence": [
@@ -2412,7 +2412,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:20.995Z",
+      "tags_updated_at": "2026-09-29T03:54:40.246Z",
       "full_name": "gitroomhq/postiz-agent",
       "owner": "gitroomhq",
       "name": "postiz-agent",
@@ -2433,10 +2433,10 @@
         "social-media",
         "social-media-scheduler"
       ],
-      "stars": 496,
-      "forks": 101,
+      "stars": 498,
+      "forks": 102,
       "discovered_at": "2026-09-16T03:03:06.950Z",
-      "last_updated": "2026-09-28T03:17:20.995Z",
+      "last_updated": "2026-09-29T03:54:40.246Z",
       "pushed_at": "2026-09-22T16:50:32Z",
       "relevance": {
         "score": 95,
@@ -2477,7 +2477,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:21.910Z",
+      "tags_updated_at": "2026-09-29T03:54:40.960Z",
       "full_name": "glincker/thesvg",
       "owner": "glincker",
       "name": "thesvg",
@@ -2498,11 +2498,11 @@
         "npm-package",
         "open-source"
       ],
-      "stars": 2755,
+      "stars": 2764,
       "forks": 220,
       "discovered_at": "2026-09-12T02:51:13.460Z",
-      "last_updated": "2026-09-28T03:17:21.910Z",
-      "pushed_at": "2026-09-27T16:33:57Z",
+      "last_updated": "2026-09-29T03:54:40.960Z",
+      "pushed_at": "2026-09-28T16:48:52Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -2540,7 +2540,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:23.227Z",
+      "tags_updated_at": "2026-09-29T03:54:41.950Z",
       "full_name": "gosuda/portal-tunnel",
       "owner": "gosuda",
       "name": "portal-tunnel",
@@ -2564,7 +2564,7 @@
       "stars": 271,
       "forks": 28,
       "discovered_at": "2026-09-13T02:49:55.879Z",
-      "last_updated": "2026-09-28T03:17:23.227Z",
+      "last_updated": "2026-09-29T03:54:41.950Z",
       "pushed_at": "2026-09-25T12:48:17Z",
       "relevance": {
         "score": 85,
@@ -2639,7 +2639,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:24.402Z",
+      "tags_updated_at": "2026-09-29T03:54:42.735Z",
       "full_name": "guaardvark/guaardvark",
       "owner": "guaardvark",
       "name": "guaardvark",
@@ -2660,11 +2660,11 @@
         "mcp",
         "mcp-server"
       ],
-      "stars": 237,
-      "forks": 48,
+      "stars": 238,
+      "forks": 51,
       "discovered_at": "2026-09-13T02:49:58.063Z",
-      "last_updated": "2026-09-28T03:17:24.402Z",
-      "pushed_at": "2026-09-27T19:52:42Z",
+      "last_updated": "2026-09-29T03:54:42.735Z",
+      "pushed_at": "2026-09-29T00:40:54Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -2698,7 +2698,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:25.623Z",
+      "tags_updated_at": "2026-09-29T03:54:43.638Z",
       "full_name": "Hanyuyuan6/remote-gpu-trainer",
       "owner": "Hanyuyuan6",
       "name": "remote-gpu-trainer",
@@ -2722,7 +2722,7 @@
       "stars": 63,
       "forks": 6,
       "discovered_at": "2026-09-16T03:03:07.695Z",
-      "last_updated": "2026-09-28T03:17:25.623Z",
+      "last_updated": "2026-09-29T03:54:43.638Z",
       "pushed_at": "2026-09-25T02:46:51Z",
       "relevance": {
         "score": 100,
@@ -2762,7 +2762,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:26.592Z",
+      "tags_updated_at": "2026-09-29T03:54:44.390Z",
       "full_name": "hieuphung97/dely",
       "owner": "hieuphung97",
       "name": "dely",
@@ -2783,11 +2783,11 @@
         "cursor",
         "cursor-agent"
       ],
-      "stars": 82,
+      "stars": 83,
       "forks": 22,
       "discovered_at": "2026-09-18T02:54:27.676Z",
-      "last_updated": "2026-09-28T03:17:26.592Z",
-      "pushed_at": "2026-09-27T10:31:48Z",
+      "last_updated": "2026-09-29T03:54:44.390Z",
+      "pushed_at": "2026-09-29T01:23:36Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -2827,7 +2827,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:27.612Z",
+      "tags_updated_at": "2026-09-29T03:54:45.350Z",
       "full_name": "hraness/wordcell",
       "owner": "hraness",
       "name": "wordcell",
@@ -2849,10 +2849,10 @@
         "local-first"
       ],
       "stars": 16,
-      "forks": 3,
+      "forks": 4,
       "discovered_at": "2026-09-11T02:41:46.796Z",
-      "last_updated": "2026-09-28T03:17:27.612Z",
-      "pushed_at": "2026-09-28T02:48:25Z",
+      "last_updated": "2026-09-29T03:54:45.350Z",
+      "pushed_at": "2026-09-29T02:36:38Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -2901,7 +2901,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:41.958Z",
+      "tags_updated_at": "2026-09-29T03:54:12.337Z",
       "full_name": "huggingface/skills",
       "owner": "huggingface",
       "name": "skills",
@@ -2909,10 +2909,10 @@
       "description": "Give your agents the power of the Hugging Face ecosystem",
       "language": "Python",
       "topics": [],
-      "stars": 11109,
+      "stars": 11112,
       "forks": 752,
       "discovered_at": "2026-09-09T01:59:56.768Z",
-      "last_updated": "2026-09-28T03:16:41.958Z",
+      "last_updated": "2026-09-29T03:54:12.337Z",
       "pushed_at": "2026-09-25T05:57:24Z",
       "relevance": {
         "score": 75,
@@ -2957,7 +2957,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:28.891Z",
+      "tags_updated_at": "2026-09-29T03:54:46.165Z",
       "full_name": "hyperb1iss/sibyl",
       "owner": "hyperb1iss",
       "name": "sibyl",
@@ -2981,8 +2981,8 @@
       "stars": 63,
       "forks": 9,
       "discovered_at": "2026-09-10T02:48:36.169Z",
-      "last_updated": "2026-09-28T03:17:28.891Z",
-      "pushed_at": "2026-09-27T02:16:47Z",
+      "last_updated": "2026-09-29T03:54:46.165Z",
+      "pushed_at": "2026-09-28T13:11:44Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -3011,7 +3011,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:30.588Z",
+      "tags_updated_at": "2026-09-29T03:54:47.051Z",
       "full_name": "inkeep/open-knowledge",
       "owner": "inkeep",
       "name": "open-knowledge",
@@ -3032,11 +3032,11 @@
         "llm-wiki",
         "llm-wiki-karpathy"
       ],
-      "stars": 4338,
-      "forks": 289,
+      "stars": 4344,
+      "forks": 288,
       "discovered_at": "2026-09-09T02:03:01.611Z",
-      "last_updated": "2026-09-28T03:17:30.588Z",
-      "pushed_at": "2026-09-28T01:50:02Z",
+      "last_updated": "2026-09-29T03:54:47.051Z",
+      "pushed_at": "2026-09-29T03:20:42Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -3116,7 +3116,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:31.884Z",
+      "tags_updated_at": "2026-09-29T03:54:48.018Z",
       "full_name": "invergent-ai/surogates",
       "owner": "invergent-ai",
       "name": "surogates",
@@ -3135,11 +3135,11 @@
         "agentic-workflow",
         "agents"
       ],
-      "stars": 25,
+      "stars": 26,
       "forks": 1,
       "discovered_at": "2026-09-09T02:28:22.323Z",
-      "last_updated": "2026-09-28T03:17:31.884Z",
-      "pushed_at": "2026-09-24T11:17:15Z",
+      "last_updated": "2026-09-29T03:54:48.018Z",
+      "pushed_at": "2026-09-28T12:07:13Z",
       "relevance": {
         "score": 70,
         "evidence": [
@@ -3177,7 +3177,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:33.225Z",
+      "tags_updated_at": "2026-09-29T03:54:48.943Z",
       "full_name": "jabrena/plinth",
       "owner": "jabrena",
       "name": "plinth",
@@ -3201,8 +3201,8 @@
       "stars": 441,
       "forks": 95,
       "discovered_at": "2026-09-09T02:28:19.876Z",
-      "last_updated": "2026-09-28T03:17:33.225Z",
-      "pushed_at": "2026-09-27T12:20:22Z",
+      "last_updated": "2026-09-29T03:54:48.943Z",
+      "pushed_at": "2026-09-29T03:19:37Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -3301,7 +3301,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:34.219Z",
+      "tags_updated_at": "2026-09-29T03:54:49.959Z",
       "full_name": "JackyST0/awesome-agent-skills",
       "owner": "JackyST0",
       "name": "awesome-agent-skills",
@@ -3317,11 +3317,11 @@
         "copilot",
         "cursor"
       ],
-      "stars": 643,
-      "forks": 136,
+      "stars": 644,
+      "forks": 140,
       "discovered_at": "2026-09-09T02:02:58.062Z",
-      "last_updated": "2026-09-28T03:17:34.219Z",
-      "pushed_at": "2026-09-23T01:54:49Z",
+      "last_updated": "2026-09-29T03:54:49.959Z",
+      "pushed_at": "2026-09-28T03:38:28Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -3354,7 +3354,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:35.184Z",
+      "tags_updated_at": "2026-09-29T03:54:50.611Z",
       "full_name": "JellyBrick/korean-prose-skill",
       "owner": "JellyBrick",
       "name": "korean-prose-skill",
@@ -3376,7 +3376,7 @@
       "stars": 20,
       "forks": 0,
       "discovered_at": "2026-09-09T02:02:56.694Z",
-      "last_updated": "2026-09-28T03:17:35.184Z",
+      "last_updated": "2026-09-29T03:54:50.611Z",
       "pushed_at": "2026-09-09T01:56:40Z",
       "relevance": {
         "score": 85,
@@ -3460,7 +3460,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:36.226Z",
+      "tags_updated_at": "2026-09-29T03:54:51.471Z",
       "full_name": "jeremylongshore/tons-of-skills-marketplace",
       "owner": "jeremylongshore",
       "name": "tons-of-skills-marketplace",
@@ -3482,10 +3482,10 @@
         "mcp"
       ],
       "stars": 2794,
-      "forks": 406,
+      "forks": 405,
       "discovered_at": "2026-09-14T03:04:43.548Z",
-      "last_updated": "2026-09-28T03:17:36.226Z",
-      "pushed_at": "2026-09-28T02:03:37Z",
+      "last_updated": "2026-09-29T03:54:51.471Z",
+      "pushed_at": "2026-09-29T01:34:30Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -3511,7 +3511,7 @@
     },
     {
       "system_tags": [],
-      "tags_updated_at": "2026-09-28T03:17:37.906Z",
+      "tags_updated_at": "2026-09-29T03:54:52.890Z",
       "full_name": "kangarooking/director-skills",
       "owner": "kangarooking",
       "name": "director-skills",
@@ -3526,10 +3526,10 @@
         "filmmaking",
         "video-generation"
       ],
-      "stars": 149,
-      "forks": 23,
+      "stars": 154,
+      "forks": 24,
       "discovered_at": "2026-09-18T02:54:26.449Z",
-      "last_updated": "2026-09-28T03:17:37.906Z",
+      "last_updated": "2026-09-29T03:54:52.890Z",
       "pushed_at": "2026-09-18T02:51:22Z",
       "relevance": {
         "score": 100,
@@ -3575,7 +3575,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:38.785Z",
+      "tags_updated_at": "2026-09-29T03:54:53.543Z",
       "full_name": "kazukinagata/shinkoku",
       "owner": "kazukinagata",
       "name": "shinkoku",
@@ -3591,10 +3591,10 @@
         "python",
         "tax-filing"
       ],
-      "stars": 360,
+      "stars": 361,
       "forks": 34,
       "discovered_at": "2026-09-09T02:02:59.316Z",
-      "last_updated": "2026-09-28T03:17:38.785Z",
+      "last_updated": "2026-09-29T03:54:53.543Z",
       "pushed_at": "2026-09-09T03:41:11Z",
       "relevance": {
         "score": 95,
@@ -3647,7 +3647,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:39.793Z",
+      "tags_updated_at": "2026-09-29T03:54:54.310Z",
       "full_name": "KCNyu/clawock",
       "owner": "KCNyu",
       "name": "clawock",
@@ -3671,8 +3671,8 @@
       "stars": 15,
       "forks": 0,
       "discovered_at": "2026-09-09T02:28:19.309Z",
-      "last_updated": "2026-09-28T03:17:39.793Z",
-      "pushed_at": "2026-09-28T03:05:15Z",
+      "last_updated": "2026-09-29T03:54:54.310Z",
+      "pushed_at": "2026-09-29T03:40:14Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -3729,7 +3729,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:41.261Z",
+      "tags_updated_at": "2026-09-29T03:54:55.309Z",
       "full_name": "kesslernity/awesome-copilot-cowork-skills",
       "owner": "kesslernity",
       "name": "awesome-copilot-cowork-skills",
@@ -3750,10 +3750,10 @@
         "microsoft-365",
         "microsoft-365-copilot"
       ],
-      "stars": 29,
+      "stars": 30,
       "forks": 5,
       "discovered_at": "2026-09-17T03:06:46.044Z",
-      "last_updated": "2026-09-28T03:17:41.261Z",
+      "last_updated": "2026-09-29T03:54:55.309Z",
       "pushed_at": "2026-09-19T11:14:42Z",
       "relevance": {
         "score": 100,
@@ -3806,7 +3806,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:42.574Z",
+      "tags_updated_at": "2026-09-29T03:54:56.000Z",
       "full_name": "kgraph57/mckinsey-style-visualization-skill",
       "owner": "kgraph57",
       "name": "mckinsey-style-visualization-skill",
@@ -3830,7 +3830,7 @@
       "stars": 123,
       "forks": 19,
       "discovered_at": "2026-09-09T02:02:56.102Z",
-      "last_updated": "2026-09-28T03:17:42.574Z",
+      "last_updated": "2026-09-29T03:54:56.000Z",
       "pushed_at": "2026-09-09T02:53:28Z",
       "relevance": {
         "score": 100,
@@ -3870,7 +3870,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:43.638Z",
+      "tags_updated_at": "2026-09-29T03:54:56.748Z",
       "full_name": "langfuse/langfuse-docs",
       "owner": "langfuse",
       "name": "langfuse-docs",
@@ -3890,10 +3890,10 @@
         "prompt-management"
       ],
       "stars": 245,
-      "forks": 305,
+      "forks": 306,
       "discovered_at": "2026-09-16T03:03:05.397Z",
-      "last_updated": "2026-09-28T03:17:43.638Z",
-      "pushed_at": "2026-09-28T00:35:27Z",
+      "last_updated": "2026-09-29T03:54:56.748Z",
+      "pushed_at": "2026-09-29T01:27:37Z",
       "relevance": {
         "score": 70,
         "evidence": [
@@ -3926,7 +3926,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:44.894Z",
+      "tags_updated_at": "2026-09-29T03:54:58.187Z",
       "full_name": "LC044/TrailSnap",
       "owner": "LC044",
       "name": "TrailSnap",
@@ -3944,11 +3944,11 @@
         "skills",
         "yolo"
       ],
-      "stars": 756,
-      "forks": 97,
+      "stars": 758,
+      "forks": 96,
       "discovered_at": "2026-09-15T03:06:32.033Z",
-      "last_updated": "2026-09-28T03:17:44.894Z",
-      "pushed_at": "2026-09-26T19:16:23Z",
+      "last_updated": "2026-09-29T03:54:58.187Z",
+      "pushed_at": "2026-09-29T03:43:11Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -3998,7 +3998,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:46.024Z",
+      "tags_updated_at": "2026-09-29T03:54:58.886Z",
       "full_name": "ljx-chase/research-field-onboarding",
       "owner": "ljx-chase",
       "name": "research-field-onboarding",
@@ -4019,10 +4019,10 @@
         "literature-review",
         "research"
       ],
-      "stars": 65,
+      "stars": 66,
       "forks": 3,
       "discovered_at": "2026-09-14T03:04:42.374Z",
-      "last_updated": "2026-09-28T03:17:46.024Z",
+      "last_updated": "2026-09-29T03:54:58.886Z",
       "pushed_at": "2026-09-21T13:17:32Z",
       "relevance": {
         "score": 100,
@@ -4105,7 +4105,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:47.248Z",
+      "tags_updated_at": "2026-09-29T03:54:59.664Z",
       "full_name": "lovstudio/skills",
       "owner": "lovstudio",
       "name": "skills",
@@ -4125,7 +4125,7 @@
       "stars": 68,
       "forks": 17,
       "discovered_at": "2026-09-10T02:48:31.365Z",
-      "last_updated": "2026-09-28T03:17:47.248Z",
+      "last_updated": "2026-09-29T03:54:59.664Z",
       "pushed_at": "2026-09-27T17:22:19Z",
       "relevance": {
         "score": 95,
@@ -4153,13 +4153,19 @@
     {
       "system_tags": [
         {
+          "id": "documents",
+          "evidence": [
+            "readme"
+          ]
+        },
+        {
           "id": "workspace",
           "evidence": [
             "description"
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:48.393Z",
+      "tags_updated_at": "2026-09-29T03:55:00.537Z",
       "full_name": "lsaint/aikito",
       "owner": "lsaint",
       "name": "aikito",
@@ -4183,8 +4189,8 @@
       "stars": 133,
       "forks": 0,
       "discovered_at": "2026-09-09T02:28:23.622Z",
-      "last_updated": "2026-09-28T03:17:48.393Z",
-      "pushed_at": "2026-09-28T03:09:35Z",
+      "last_updated": "2026-09-29T03:55:00.537Z",
+      "pushed_at": "2026-09-28T08:32:20Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -4235,13 +4241,13 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:49.546Z",
+      "tags_updated_at": "2026-09-29T03:55:01.328Z",
       "full_name": "maoyadongsh/siq-agent-security",
       "owner": "maoyadongsh",
       "name": "siq-agent-security",
       "url": "https://github.com/maoyadongsh/siq-agent-security",
       "description": "Research artifacts for provenance-bound agent authorization, signed effect evidence, and reproducible security evaluation.",
-      "language": "Python",
+      "language": "Go",
       "topics": [
         "agent-security",
         "agent-skills",
@@ -4253,8 +4259,8 @@
       "stars": 51,
       "forks": 12,
       "discovered_at": "2026-09-17T03:06:50.209Z",
-      "last_updated": "2026-09-28T03:17:49.546Z",
-      "pushed_at": "2026-09-28T01:07:09Z",
+      "last_updated": "2026-09-29T03:55:01.328Z",
+      "pushed_at": "2026-09-28T06:04:04Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -4286,7 +4292,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:50.922Z",
+      "tags_updated_at": "2026-09-29T03:55:02.487Z",
       "full_name": "mini-yifan/open-source-video-gen-skill",
       "owner": "mini-yifan",
       "name": "open-source-video-gen-skill",
@@ -4306,7 +4312,7 @@
       "stars": 28,
       "forks": 4,
       "discovered_at": "2026-09-11T02:41:49.971Z",
-      "last_updated": "2026-09-28T03:17:50.922Z",
+      "last_updated": "2026-09-29T03:55:02.487Z",
       "pushed_at": "2026-09-11T02:30:13Z",
       "relevance": {
         "score": 85,
@@ -4348,7 +4354,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:51.908Z",
+      "tags_updated_at": "2026-09-29T03:55:03.218Z",
       "full_name": "mixelpixx/Konnect",
       "owner": "mixelpixx",
       "name": "Konnect",
@@ -4364,11 +4370,11 @@
         "mcp-server",
         "mcp-tools"
       ],
-      "stars": 810,
+      "stars": 818,
       "forks": 107,
       "discovered_at": "2026-09-09T02:28:21.515Z",
-      "last_updated": "2026-09-28T03:17:51.908Z",
-      "pushed_at": "2026-09-28T02:25:56Z",
+      "last_updated": "2026-09-29T03:55:03.218Z",
+      "pushed_at": "2026-09-29T00:17:58Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -4391,7 +4397,7 @@
     },
     {
       "system_tags": [],
-      "tags_updated_at": "2026-09-28T03:17:52.815Z",
+      "tags_updated_at": "2026-09-29T03:55:04.101Z",
       "full_name": "momentic-ai/skills",
       "owner": "momentic-ai",
       "name": "skills",
@@ -4409,8 +4415,8 @@
       "stars": 14,
       "forks": 0,
       "discovered_at": "2026-09-15T03:06:34.919Z",
-      "last_updated": "2026-09-28T03:17:52.815Z",
-      "pushed_at": "2026-09-27T06:14:14Z",
+      "last_updated": "2026-09-29T03:55:04.101Z",
+      "pushed_at": "2026-09-29T00:47:21Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -4434,7 +4440,7 @@
     },
     {
       "system_tags": [],
-      "tags_updated_at": "2026-09-28T03:17:53.759Z",
+      "tags_updated_at": "2026-09-29T03:55:04.836Z",
       "full_name": "moonrunnerkc/tracemantle",
       "owner": "moonrunnerkc",
       "name": "tracemantle",
@@ -4458,8 +4464,8 @@
       "stars": 24,
       "forks": 1,
       "discovered_at": "2026-09-13T02:49:56.534Z",
-      "last_updated": "2026-09-28T03:17:53.759Z",
-      "pushed_at": "2026-09-28T02:27:51Z",
+      "last_updated": "2026-09-29T03:55:04.836Z",
+      "pushed_at": "2026-09-28T21:38:42Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -4537,7 +4543,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:54.967Z",
+      "tags_updated_at": "2026-09-29T03:55:05.689Z",
       "full_name": "mxyhi/ok-skills",
       "owner": "mxyhi",
       "name": "ok-skills",
@@ -4558,10 +4564,10 @@
         "cursor-skills",
         "openclaw-skills"
       ],
-      "stars": 491,
+      "stars": 492,
       "forks": 49,
       "discovered_at": "2026-09-12T02:51:10.125Z",
-      "last_updated": "2026-09-28T03:17:54.967Z",
+      "last_updated": "2026-09-29T03:55:05.689Z",
       "pushed_at": "2026-09-25T16:27:45Z",
       "relevance": {
         "score": 100,
@@ -4589,7 +4595,7 @@
     },
     {
       "system_tags": [],
-      "tags_updated_at": "2026-09-28T03:17:55.913Z",
+      "tags_updated_at": "2026-09-29T03:55:06.476Z",
       "full_name": "Nagarjuna2997/ios-agent-skill",
       "owner": "Nagarjuna2997",
       "name": "ios-agent-skill",
@@ -4613,7 +4619,7 @@
       "stars": 36,
       "forks": 1,
       "discovered_at": "2026-09-17T03:06:48.690Z",
-      "last_updated": "2026-09-28T03:17:55.913Z",
+      "last_updated": "2026-09-29T03:55:06.476Z",
       "pushed_at": "2026-09-22T07:02:43Z",
       "relevance": {
         "score": 85,
@@ -4702,7 +4708,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:57.065Z",
+      "tags_updated_at": "2026-09-29T03:55:07.345Z",
       "full_name": "nexu-io/open-design",
       "owner": "nexu-io",
       "name": "open-design",
@@ -4723,11 +4729,11 @@
         "design-systems",
         "desktop-app"
       ],
-      "stars": 98354,
-      "forks": 11407,
+      "stars": 98525,
+      "forks": 11424,
       "discovered_at": "2026-09-09T02:03:00.527Z",
-      "last_updated": "2026-09-28T03:17:57.065Z",
-      "pushed_at": "2026-09-28T02:35:20Z",
+      "last_updated": "2026-09-29T03:55:07.345Z",
+      "pushed_at": "2026-09-29T03:51:04Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -4782,7 +4788,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:38.864Z",
+      "tags_updated_at": "2026-09-29T03:54:09.950Z",
       "full_name": "obra/superpowers",
       "owner": "obra",
       "name": "superpowers",
@@ -4799,10 +4805,10 @@
         "subagent-driven-development",
         "superpowers"
       ],
-      "stars": 292210,
-      "forks": 26153,
+      "stars": 292555,
+      "forks": 26193,
       "discovered_at": "2026-09-09T01:59:53.895Z",
-      "last_updated": "2026-09-28T03:16:38.864Z",
+      "last_updated": "2026-09-29T03:54:09.950Z",
       "pushed_at": "2026-09-27T02:37:47Z",
       "relevance": {
         "score": 75,
@@ -4859,7 +4865,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:37.855Z",
+      "tags_updated_at": "2026-09-29T03:54:09.005Z",
       "full_name": "openai/skills",
       "owner": "openai",
       "name": "skills",
@@ -4867,10 +4873,10 @@
       "description": "Skills Catalog for Codex",
       "language": "Python",
       "topics": [],
-      "stars": 27725,
-      "forks": 1878,
+      "stars": 27791,
+      "forks": 1888,
       "discovered_at": "2026-09-09T01:59:52.984Z",
-      "last_updated": "2026-09-28T03:16:37.855Z",
+      "last_updated": "2026-09-29T03:54:09.005Z",
       "pushed_at": "2026-09-08T20:35:26Z",
       "relevance": {
         "score": 80,
@@ -4909,7 +4915,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:58.298Z",
+      "tags_updated_at": "2026-09-29T03:55:08.256Z",
       "full_name": "openclaw/crabbox",
       "owner": "openclaw",
       "name": "crabbox",
@@ -4921,11 +4927,11 @@
         "herdr-plugin",
         "remote-test-runner"
       ],
-      "stars": 1435,
-      "forks": 189,
+      "stars": 1437,
+      "forks": 188,
       "discovered_at": "2026-09-09T02:03:02.467Z",
-      "last_updated": "2026-09-28T03:17:58.298Z",
-      "pushed_at": "2026-09-28T03:07:39Z",
+      "last_updated": "2026-09-29T03:55:08.256Z",
+      "pushed_at": "2026-09-29T03:36:54Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -4964,7 +4970,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:17:59.504Z",
+      "tags_updated_at": "2026-09-29T03:55:09.054Z",
       "full_name": "orziz/odai",
       "owner": "orziz",
       "name": "odai",
@@ -4988,8 +4994,8 @@
       "stars": 118,
       "forks": 17,
       "discovered_at": "2026-09-11T02:41:50.693Z",
-      "last_updated": "2026-09-28T03:17:59.504Z",
-      "pushed_at": "2026-09-24T03:56:56Z",
+      "last_updated": "2026-09-29T03:55:09.054Z",
+      "pushed_at": "2026-09-29T02:57:11Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -5021,7 +5027,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:00.642Z",
+      "tags_updated_at": "2026-09-29T03:55:09.825Z",
       "full_name": "pome-sh/digital-twins",
       "owner": "pome-sh",
       "name": "digital-twins",
@@ -5045,7 +5051,7 @@
       "stars": 20,
       "forks": 2,
       "discovered_at": "2026-09-17T03:06:47.903Z",
-      "last_updated": "2026-09-28T03:18:00.642Z",
+      "last_updated": "2026-09-29T03:55:09.825Z",
       "pushed_at": "2026-09-24T09:47:46Z",
       "relevance": {
         "score": 85,
@@ -5076,7 +5082,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:02.058Z",
+      "tags_updated_at": "2026-09-29T03:55:10.749Z",
       "full_name": "preset-io/agent-skills",
       "owner": "preset-io",
       "name": "agent-skills",
@@ -5100,7 +5106,7 @@
       "stars": 13,
       "forks": 1,
       "discovered_at": "2026-09-10T02:48:30.112Z",
-      "last_updated": "2026-09-28T03:18:02.058Z",
+      "last_updated": "2026-09-29T03:55:10.749Z",
       "pushed_at": "2026-09-10T18:48:24Z",
       "relevance": {
         "score": 100,
@@ -5135,7 +5141,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:03.397Z",
+      "tags_updated_at": "2026-09-29T03:55:11.512Z",
       "full_name": "PVRLabs/aibadger",
       "owner": "PVRLabs",
       "name": "aibadger",
@@ -5159,8 +5165,8 @@
       "stars": 41,
       "forks": 4,
       "discovered_at": "2026-09-15T03:06:35.874Z",
-      "last_updated": "2026-09-28T03:18:03.397Z",
-      "pushed_at": "2026-09-25T16:21:01Z",
+      "last_updated": "2026-09-29T03:55:11.512Z",
+      "pushed_at": "2026-09-28T05:02:10Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -5198,7 +5204,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:04.652Z",
+      "tags_updated_at": "2026-09-29T03:55:12.225Z",
       "full_name": "PyModel/niblet-skill-mcp",
       "owner": "PyModel",
       "name": "niblet-skill-mcp",
@@ -5219,7 +5225,7 @@
       "stars": 29,
       "forks": 2,
       "discovered_at": "2026-09-18T02:54:25.887Z",
-      "last_updated": "2026-09-28T03:18:04.652Z",
+      "last_updated": "2026-09-29T03:55:12.225Z",
       "pushed_at": "2026-09-20T19:51:07Z",
       "relevance": {
         "score": 100,
@@ -5304,7 +5310,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:05.979Z",
+      "tags_updated_at": "2026-09-29T03:55:13.062Z",
       "full_name": "renky1025/agent-skills",
       "owner": "renky1025",
       "name": "agent-skills",
@@ -5319,7 +5325,7 @@
       "stars": 10,
       "forks": 0,
       "discovered_at": "2026-09-10T02:48:37.934Z",
-      "last_updated": "2026-09-28T03:18:05.979Z",
+      "last_updated": "2026-09-29T03:55:13.062Z",
       "pushed_at": "2026-09-25T03:11:17Z",
       "relevance": {
         "score": 100,
@@ -5354,7 +5360,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:06.998Z",
+      "tags_updated_at": "2026-09-29T03:55:13.893Z",
       "full_name": "rindag-devs/hull",
       "owner": "rindag-devs",
       "name": "hull",
@@ -5365,7 +5371,7 @@
       "stars": 32,
       "forks": 0,
       "discovered_at": "2026-09-15T03:06:38.192Z",
-      "last_updated": "2026-09-28T03:18:06.998Z",
+      "last_updated": "2026-09-29T03:55:13.893Z",
       "pushed_at": "2026-09-26T05:19:02Z",
       "relevance": {
         "score": 65,
@@ -5397,7 +5403,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:08.064Z",
+      "tags_updated_at": "2026-09-29T03:55:14.871Z",
       "full_name": "runxhq/runx",
       "owner": "runxhq",
       "name": "runx",
@@ -5419,8 +5425,8 @@
       "stars": 93,
       "forks": 106,
       "discovered_at": "2026-09-13T02:49:57.284Z",
-      "last_updated": "2026-09-28T03:18:08.064Z",
-      "pushed_at": "2026-09-27T18:24:17Z",
+      "last_updated": "2026-09-29T03:55:14.871Z",
+      "pushed_at": "2026-09-28T11:34:12Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -5486,7 +5492,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:09.766Z",
+      "tags_updated_at": "2026-09-29T03:55:15.845Z",
       "full_name": "shajith003/awesome-claude-skills",
       "owner": "shajith003",
       "name": "awesome-claude-skills",
@@ -5510,8 +5516,8 @@
       "stars": 25,
       "forks": 2,
       "discovered_at": "2026-09-16T03:03:08.351Z",
-      "last_updated": "2026-09-28T03:18:09.766Z",
-      "pushed_at": "2026-09-28T01:14:56Z",
+      "last_updated": "2026-09-29T03:55:15.845Z",
+      "pushed_at": "2026-09-28T07:09:32Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -5543,7 +5549,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:10.738Z",
+      "tags_updated_at": "2026-09-29T03:55:16.630Z",
       "full_name": "silverstein/minutes",
       "owner": "silverstein",
       "name": "minutes",
@@ -5564,11 +5570,11 @@
         "transcription",
         "voice-memo"
       ],
-      "stars": 1514,
+      "stars": 1515,
       "forks": 166,
       "discovered_at": "2026-09-15T03:06:32.682Z",
-      "last_updated": "2026-09-28T03:18:10.738Z",
-      "pushed_at": "2026-09-25T21:08:27Z",
+      "last_updated": "2026-09-29T03:55:16.630Z",
+      "pushed_at": "2026-09-28T07:17:26Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -5606,7 +5612,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:12.042Z",
+      "tags_updated_at": "2026-09-29T03:55:17.291Z",
       "full_name": "smith-horn/skillsmith",
       "owner": "smith-horn",
       "name": "skillsmith",
@@ -5623,8 +5629,8 @@
       "stars": 77,
       "forks": 18,
       "discovered_at": "2026-09-12T02:51:15.801Z",
-      "last_updated": "2026-09-28T03:18:12.042Z",
-      "pushed_at": "2026-09-28T02:45:20Z",
+      "last_updated": "2026-09-29T03:55:17.291Z",
+      "pushed_at": "2026-09-29T03:49:23Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -5661,7 +5667,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:13.355Z",
+      "tags_updated_at": "2026-09-29T03:55:18.086Z",
       "full_name": "Soushi888/holochain-agent-skills",
       "owner": "Soushi888",
       "name": "holochain-agent-skills",
@@ -5684,7 +5690,7 @@
       "stars": 24,
       "forks": 3,
       "discovered_at": "2026-09-11T02:41:51.723Z",
-      "last_updated": "2026-09-28T03:18:13.355Z",
+      "last_updated": "2026-09-29T03:55:18.086Z",
       "pushed_at": "2026-09-11T07:10:45Z",
       "relevance": {
         "score": 100,
@@ -5705,7 +5711,7 @@
     },
     {
       "system_tags": [],
-      "tags_updated_at": "2026-09-28T03:18:14.414Z",
+      "tags_updated_at": "2026-09-29T03:55:18.910Z",
       "full_name": "Syh1906/openai-compatible-imagegen",
       "owner": "Syh1906",
       "name": "openai-compatible-imagegen",
@@ -5728,7 +5734,7 @@
       "stars": 54,
       "forks": 4,
       "discovered_at": "2026-09-11T02:41:45.710Z",
-      "last_updated": "2026-09-28T03:18:14.414Z",
+      "last_updated": "2026-09-29T03:55:18.910Z",
       "pushed_at": "2026-09-13T08:27:26Z",
       "relevance": {
         "score": 100,
@@ -5803,7 +5809,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:15.601Z",
+      "tags_updated_at": "2026-09-29T03:55:19.666Z",
       "full_name": "ThinkInAIXYZ/deepchat",
       "owner": "ThinkInAIXYZ",
       "name": "deepchat",
@@ -5824,11 +5830,11 @@
         "gemini",
         "harness-design"
       ],
-      "stars": 6348,
-      "forks": 742,
+      "stars": 6351,
+      "forks": 744,
       "discovered_at": "2026-09-14T03:04:45.608Z",
-      "last_updated": "2026-09-28T03:18:15.601Z",
-      "pushed_at": "2026-09-28T01:54:56Z",
+      "last_updated": "2026-09-29T03:55:19.666Z",
+      "pushed_at": "2026-09-29T03:50:17Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -5913,7 +5919,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:16.976Z",
+      "tags_updated_at": "2026-09-29T03:55:20.432Z",
       "full_name": "timwukp/agent-skills-best-practice",
       "owner": "timwukp",
       "name": "agent-skills-best-practice",
@@ -5937,7 +5943,7 @@
       "stars": 12,
       "forks": 4,
       "discovered_at": "2026-09-10T02:48:37.083Z",
-      "last_updated": "2026-09-28T03:18:16.976Z",
+      "last_updated": "2026-09-29T03:55:20.432Z",
       "pushed_at": "2026-09-16T07:06:16Z",
       "relevance": {
         "score": 100,
@@ -5984,7 +5990,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:18.043Z",
+      "tags_updated_at": "2026-09-29T03:55:21.379Z",
       "full_name": "TsCarpe/claude-sdlc-skills",
       "owner": "TsCarpe",
       "name": "claude-sdlc-skills",
@@ -6001,8 +6007,8 @@
       "stars": 63,
       "forks": 0,
       "discovered_at": "2026-09-17T03:06:46.734Z",
-      "last_updated": "2026-09-28T03:18:18.043Z",
-      "pushed_at": "2026-09-27T14:15:18Z",
+      "last_updated": "2026-09-29T03:55:21.379Z",
+      "pushed_at": "2026-09-28T16:08:45Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -6046,7 +6052,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:19.027Z",
+      "tags_updated_at": "2026-09-29T03:55:22.052Z",
       "full_name": "TserenTserenov/FMT-exocortex-template",
       "owner": "TserenTserenov",
       "name": "FMT-exocortex-template",
@@ -6070,8 +6076,8 @@
       "stars": 61,
       "forks": 153,
       "discovered_at": "2026-09-12T02:51:16.586Z",
-      "last_updated": "2026-09-28T03:18:19.027Z",
-      "pushed_at": "2026-09-27T22:55:49Z",
+      "last_updated": "2026-09-29T03:55:22.052Z",
+      "pushed_at": "2026-09-28T14:21:13Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -6103,7 +6109,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:20.262Z",
+      "tags_updated_at": "2026-09-29T03:55:22.774Z",
       "full_name": "tt-a1i/archify",
       "owner": "tt-a1i",
       "name": "archify",
@@ -6124,11 +6130,11 @@
         "diagram-as-code",
         "diagrams"
       ],
-      "stars": 72902,
-      "forks": 4925,
+      "stars": 73647,
+      "forks": 4972,
       "discovered_at": "2026-09-12T02:51:14.919Z",
-      "last_updated": "2026-09-28T03:18:20.262Z",
-      "pushed_at": "2026-09-28T01:51:57Z",
+      "last_updated": "2026-09-29T03:55:22.774Z",
+      "pushed_at": "2026-09-28T15:45:30Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -6175,7 +6181,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:16:39.890Z",
+      "tags_updated_at": "2026-09-29T03:54:10.725Z",
       "full_name": "vercel-labs/agent-skills",
       "owner": "vercel-labs",
       "name": "agent-skills",
@@ -6183,10 +6189,10 @@
       "description": "Vercel's official collection of agent skills",
       "language": "JavaScript",
       "topics": [],
-      "stars": 31633,
-      "forks": 2770,
+      "stars": 31689,
+      "forks": 2775,
       "discovered_at": "2026-09-09T01:59:54.830Z",
-      "last_updated": "2026-09-28T03:16:39.890Z",
+      "last_updated": "2026-09-29T03:54:10.725Z",
       "pushed_at": "2026-08-28T13:36:31Z",
       "relevance": {
         "score": 90,
@@ -6233,7 +6239,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:21.198Z",
+      "tags_updated_at": "2026-09-29T03:55:23.482Z",
       "full_name": "vinta/hal-9000",
       "owner": "vinta",
       "name": "hal-9000",
@@ -6257,7 +6263,7 @@
       "stars": 138,
       "forks": 25,
       "discovered_at": "2026-09-16T03:03:01.266Z",
-      "last_updated": "2026-09-28T03:18:21.198Z",
+      "last_updated": "2026-09-29T03:55:23.482Z",
       "pushed_at": "2026-09-27T12:41:29Z",
       "relevance": {
         "score": 95,
@@ -6316,7 +6322,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:22.370Z",
+      "tags_updated_at": "2026-09-29T03:55:24.251Z",
       "full_name": "vishalsachdev/canvas-mcp",
       "owner": "vishalsachdev",
       "name": "canvas-mcp",
@@ -6330,8 +6336,8 @@
       "stars": 264,
       "forks": 90,
       "discovered_at": "2026-09-09T02:28:21.018Z",
-      "last_updated": "2026-09-28T03:18:22.370Z",
-      "pushed_at": "2026-09-28T03:17:52Z",
+      "last_updated": "2026-09-29T03:55:24.251Z",
+      "pushed_at": "2026-09-29T02:28:56Z",
       "relevance": {
         "score": 100,
         "evidence": [
@@ -6370,7 +6376,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:23.356Z",
+      "tags_updated_at": "2026-09-29T03:55:25.017Z",
       "full_name": "vmware-skills/VMware-Monitor",
       "owner": "vmware-skills",
       "name": "VMware-Monitor",
@@ -6394,7 +6400,7 @@
       "stars": 12,
       "forks": 4,
       "discovered_at": "2026-09-15T03:06:30.857Z",
-      "last_updated": "2026-09-28T03:18:23.356Z",
+      "last_updated": "2026-09-29T03:55:25.017Z",
       "pushed_at": "2026-09-20T14:46:57Z",
       "relevance": {
         "score": 95,
@@ -6421,7 +6427,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:24.284Z",
+      "tags_updated_at": "2026-09-29T03:55:26.737Z",
       "full_name": "webkubor/kyvault",
       "owner": "webkubor",
       "name": "kyvault",
@@ -6445,7 +6451,7 @@
       "stars": 21,
       "forks": 10,
       "discovered_at": "2026-09-11T02:41:48.277Z",
-      "last_updated": "2026-09-28T03:18:24.284Z",
+      "last_updated": "2026-09-29T03:55:26.737Z",
       "pushed_at": "2026-09-25T15:53:54Z",
       "relevance": {
         "score": 70,
@@ -6484,7 +6490,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:25.313Z",
+      "tags_updated_at": "2026-09-29T03:55:27.588Z",
       "full_name": "wei18/apple-dev-skills",
       "owner": "wei18",
       "name": "apple-dev-skills",
@@ -6508,7 +6514,7 @@
       "stars": 18,
       "forks": 0,
       "discovered_at": "2026-09-14T03:04:40.034Z",
-      "last_updated": "2026-09-28T03:18:25.313Z",
+      "last_updated": "2026-09-29T03:55:27.588Z",
       "pushed_at": "2026-09-14T03:05:05Z",
       "relevance": {
         "score": 85,
@@ -6534,7 +6540,7 @@
     },
     {
       "system_tags": [],
-      "tags_updated_at": "2026-09-28T03:18:26.510Z",
+      "tags_updated_at": "2026-09-29T03:55:28.424Z",
       "full_name": "weilun88313/B2B-Playbook",
       "owner": "weilun88313",
       "name": "B2B-Playbook",
@@ -6553,10 +6559,10 @@
         "marketing",
         "playbook"
       ],
-      "stars": 172,
+      "stars": 181,
       "forks": 0,
       "discovered_at": "2026-09-10T02:48:33.589Z",
-      "last_updated": "2026-09-28T03:18:26.510Z",
+      "last_updated": "2026-09-29T03:55:28.424Z",
       "pushed_at": "2026-09-12T06:48:02Z",
       "relevance": {
         "score": 95,
@@ -6583,7 +6589,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:27.704Z",
+      "tags_updated_at": "2026-09-29T03:55:29.288Z",
       "full_name": "xiaomoBoy/pi-bluebook",
       "owner": "xiaomoBoy",
       "name": "pi-bluebook",
@@ -6604,10 +6610,10 @@
         "tutorial",
         "vitepress"
       ],
-      "stars": 290,
+      "stars": 292,
       "forks": 19,
       "discovered_at": "2026-09-14T03:04:41.704Z",
-      "last_updated": "2026-09-28T03:18:27.704Z",
+      "last_updated": "2026-09-29T03:55:29.288Z",
       "pushed_at": "2026-09-28T02:58:57Z",
       "relevance": {
         "score": 100,
@@ -6649,7 +6655,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:28.664Z",
+      "tags_updated_at": "2026-09-29T03:55:29.954Z",
       "full_name": "xr843/Master-skill",
       "owner": "xr843",
       "name": "Master-skill",
@@ -6670,11 +6676,11 @@
         "rag",
         "suttacentral"
       ],
-      "stars": 436,
+      "stars": 438,
       "forks": 85,
       "discovered_at": "2026-09-13T02:49:51.214Z",
-      "last_updated": "2026-09-28T03:18:28.664Z",
-      "pushed_at": "2026-09-28T00:10:40Z",
+      "last_updated": "2026-09-29T03:55:29.954Z",
+      "pushed_at": "2026-09-29T00:24:52Z",
       "relevance": {
         "score": 95,
         "evidence": [
@@ -6726,7 +6732,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:29.762Z",
+      "tags_updated_at": "2026-09-29T03:55:30.826Z",
       "full_name": "xuzhougeng/wisp-science",
       "owner": "xuzhougeng",
       "name": "wisp-science",
@@ -6747,11 +6753,11 @@
         "mcp",
         "model-context-protocol"
       ],
-      "stars": 1173,
-      "forks": 121,
+      "stars": 1176,
+      "forks": 122,
       "discovered_at": "2026-09-11T02:41:47.560Z",
-      "last_updated": "2026-09-28T03:18:29.762Z",
-      "pushed_at": "2026-09-27T23:09:46Z",
+      "last_updated": "2026-09-29T03:55:30.826Z",
+      "pushed_at": "2026-09-29T02:51:12Z",
       "relevance": {
         "score": 85,
         "evidence": [
@@ -6783,7 +6789,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:31.001Z",
+      "tags_updated_at": "2026-09-29T03:55:31.816Z",
       "full_name": "yarrasys/yarramate",
       "owner": "yarrasys",
       "name": "yarramate",
@@ -6805,7 +6811,7 @@
       "stars": 12,
       "forks": 0,
       "discovered_at": "2026-09-17T03:06:52.771Z",
-      "last_updated": "2026-09-28T03:18:31.001Z",
+      "last_updated": "2026-09-29T03:55:31.816Z",
       "pushed_at": "2026-09-27T23:05:26Z",
       "relevance": {
         "score": 65,
@@ -6831,7 +6837,7 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:32.201Z",
+      "tags_updated_at": "2026-09-29T03:55:32.617Z",
       "full_name": "YiShu5/claude-skills",
       "owner": "YiShu5",
       "name": "claude-skills",
@@ -6848,7 +6854,7 @@
       "stars": 134,
       "forks": 0,
       "discovered_at": "2026-09-15T03:06:33.279Z",
-      "last_updated": "2026-09-28T03:18:32.201Z",
+      "last_updated": "2026-09-29T03:55:32.617Z",
       "pushed_at": "2026-09-20T07:09:51Z",
       "relevance": {
         "score": 100,
@@ -6901,12 +6907,12 @@
           ]
         }
       ],
-      "tags_updated_at": "2026-09-28T03:18:33.216Z",
+      "tags_updated_at": "2026-09-29T03:55:33.398Z",
       "full_name": "zxc663/shisan-xinuo-workflow",
       "owner": "zxc663",
       "name": "shisan-xinuo-workflow",
       "url": "https://github.com/zxc663/shisan-xinuo-workflow",
-      "description": "让规则真正被执行、让结论真正可复算的工程治理元 Skill：三级跑道／L3 封闭清单+清单外高危域执行层枚举／必问协议／GATE 12 字段可复跑证据+验证层级 ev=／判据版本化 j2.5+金样本回归 23/23／373 条 30 类症状索引细则；含流程包（9 类工作流）与角色包（8 角色）；五平台注入适配+副本内容哈希验收。",
+      "description": "让规则真正被执行、让结论真正可复算的工程治理元 Skill：三级跑道／L3 封闭清单+清单外高危域执行层枚举／必问协议／GATE 12 字段可复跑证据+验证层级 ev=／判据版本化 j2.5+金样本回归 23/23／405 条 32 类症状索引细则+语义检索兜底；含流程包（9 类工作流）与角色包（8 角色）；五平台注入适配+副本内容哈希验收+叙述对账机制。",
       "language": "Python",
       "topics": [
         "agent-skills",
@@ -6922,11 +6928,11 @@
         "llm-agents",
         "mcp"
       ],
-      "stars": 27,
+      "stars": 28,
       "forks": 2,
       "discovered_at": "2026-09-09T02:02:57.337Z",
-      "last_updated": "2026-09-28T03:18:33.216Z",
-      "pushed_at": "2026-09-26T10:51:22Z",
+      "last_updated": "2026-09-29T03:55:33.398Z",
+      "pushed_at": "2026-09-29T02:09:28Z",
       "relevance": {
         "score": 95,
         "evidence": [
