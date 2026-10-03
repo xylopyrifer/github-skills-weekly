@@ -203,18 +203,18 @@
     {
       "start": "2026-09-28",
       "end": "2026-10-05",
-      "updated_at": "2026-10-02T03:48:01.553Z",
+      "updated_at": "2026-10-03T03:32:29.913Z",
       "repositories": [
         {
           "full_name": "github/awesome-copilot",
           "name": "awesome-copilot",
           "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
           "language": "JavaScript",
-          "stars": 39608,
-          "forks": 5043,
+          "stars": 39641,
+          "forks": 5048,
           "created_at": "2025-06-11T16:57:39Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:02.400Z",
+          "last_updated": "2026-10-03T03:32:30.763Z",
           "pushed_at": "2026-10-01T22:22:02Z",
           "relevance": {
             "score": 85,
@@ -286,12 +286,12 @@
           "name": "text-to-cad",
           "description": "Give your agent CAD superpowers.",
           "language": "Python",
-          "stars": 16535,
-          "forks": 1716,
+          "stars": 16553,
+          "forks": 1717,
           "created_at": "2026-04-22T01:09:45Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:03.016Z",
-          "pushed_at": "2026-10-02T03:21:53Z",
+          "last_updated": "2026-10-03T03:32:31.509Z",
+          "pushed_at": "2026-10-03T03:27:56Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -325,11 +325,11 @@
           "name": "PromptHub",
           "description": "一款包含了 Prompt管理，Skill管理，Agent管理的一站式AI工具箱，助你高效管理提示词，一键分发skills ，一站式管理Agent资产，并实现云同步，备份，版本管理 | An all-in-one AI toolbox for prompt, agent, and skills management. Reuse prompts, distribute skills with one click, manage agent assets, and support cloud sync, backup, and version control",
           "language": "TypeScript",
-          "stars": 1689,
+          "stars": 1690,
           "forks": 193,
           "created_at": "2025-11-29T07:06:01Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:03.811Z",
+          "last_updated": "2026-10-03T03:32:32.302Z",
           "pushed_at": "2026-09-28T08:06:24Z",
           "relevance": {
             "score": 75,
@@ -376,18 +376,17 @@
           "name": "connectonion",
           "description": "CLI is all you need. The agent CLI harness.",
           "language": "Python",
-          "stars": 1484,
-          "forks": 221,
+          "stars": 1491,
+          "forks": 224,
           "created_at": "2025-07-28T04:21:41Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:04.401Z",
-          "pushed_at": "2026-10-02T03:46:20Z",
+          "last_updated": "2026-10-03T03:32:32.970Z",
+          "pushed_at": "2026-10-03T02:38:57Z",
           "relevance": {
-            "score": 75,
+            "score": 65,
             "evidence": [
               "skill-file",
-              "readme",
-              "install-guide"
+              "readme"
             ],
             "skill_files": [
               "connectonion/cli/co_ai/skills/builtin/dashboard/SKILL.md",
@@ -403,30 +402,6 @@
           },
           "system_tags": [
             {
-              "id": "spreadsheets",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "frontend",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "testing",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "automation",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
               "id": "research",
               "evidence": [
                 "readme"
@@ -434,12 +409,6 @@
             },
             {
               "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "browser",
               "evidence": [
                 "readme"
               ]
@@ -451,12 +420,12 @@
           "name": "Gym",
           "description": "Evaluate and improve models and agents using environments",
           "language": "Python",
-          "stars": 1215,
-          "forks": 366,
+          "stars": 1217,
+          "forks": 367,
           "created_at": "2025-08-25T21:37:55Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:05.144Z",
-          "pushed_at": "2026-10-02T03:28:57Z",
+          "last_updated": "2026-10-03T03:32:33.756Z",
+          "pushed_at": "2026-10-03T03:32:10Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -508,12 +477,12 @@
           "name": "reticle",
           "description": "AI agents can generate code, but still struggle to understand what they build. Reticle brings Jev-style machine-native runtime perception to web & desktop applications.",
           "language": "TypeScript",
-          "stars": 1102,
-          "forks": 165,
+          "stars": 1147,
+          "forks": 168,
           "created_at": "2026-06-11T07:53:01Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:05.780Z",
-          "pushed_at": "2026-10-01T20:21:21Z",
+          "last_updated": "2026-10-03T03:32:34.433Z",
+          "pushed_at": "2026-10-03T03:27:57Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -572,11 +541,11 @@
           "name": "styleseed",
           "description": "Open-source design-method engine for Claude Code, Codex & Cursor. 23 agent skills for fixed design judgment, multiple grammars, semantic palettes, reference compilation, and evidence-verified UI. MIT.",
           "language": "JavaScript",
-          "stars": 965,
+          "stars": 967,
           "forks": 89,
           "created_at": "2026-04-07T02:32:20Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:06.324Z",
+          "last_updated": "2026-10-03T03:32:35.021Z",
           "pushed_at": "2026-10-01T00:16:33Z",
           "relevance": {
             "score": 100,
@@ -628,11 +597,11 @@
           "description": "The verifiable coding agent runtime. Define your coding agent's process in natural language with stages, checks, and approval gates instead of hoping it follows your instructions. Primitives for verifiable software factories.",
           "language": "TypeScript",
           "stars": 843,
-          "forks": 115,
+          "forks": 114,
           "created_at": "2025-10-23T04:24:21Z",
           "discovered_at": "2026-09-30T03:43:25.715Z",
-          "last_updated": "2026-10-02T03:48:07.158Z",
-          "pushed_at": "2026-10-02T00:46:32Z",
+          "last_updated": "2026-10-03T03:32:35.824Z",
+          "pushed_at": "2026-10-03T02:49:17Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -710,11 +679,11 @@
           "name": "hcom",
           "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi",
           "language": "Rust",
-          "stars": 532,
+          "stars": 538,
           "forks": 83,
           "created_at": "2025-07-21T02:32:38Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:07.766Z",
+          "last_updated": "2026-10-03T03:32:36.330Z",
           "pushed_at": "2026-10-01T02:01:57Z",
           "relevance": {
             "score": 70,
@@ -747,11 +716,11 @@
           "name": "rea",
           "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
           "language": "TypeScript",
-          "stars": 421,
+          "stars": 428,
           "forks": 38,
           "created_at": "2026-04-14T00:51:32Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:08.482Z",
+          "last_updated": "2026-10-03T03:32:36.956Z",
           "pushed_at": "2026-10-01T22:34:49Z",
           "relevance": {
             "score": 85,
@@ -795,8 +764,8 @@
           "forks": 31,
           "created_at": "2026-06-14T12:39:37Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:09.199Z",
-          "pushed_at": "2026-10-02T03:19:39Z",
+          "last_updated": "2026-10-03T03:32:37.580Z",
+          "pushed_at": "2026-10-03T01:50:31Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -870,8 +839,8 @@
           "forks": 62,
           "created_at": "2026-03-27T18:34:28Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:09.914Z",
-          "pushed_at": "2026-10-02T03:28:45Z",
+          "last_updated": "2026-10-03T03:32:38.314Z",
+          "pushed_at": "2026-10-03T03:26:37Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -904,12 +873,12 @@
           "name": "mcptoon",
           "description": "One zero-dependency CLI for all your MCP tools and agent skills. 99.2% fewer tokens on tool discovery, one config for every agent, nothing pre-installed. | 一个零依赖 CLI，管所有 MCP 工具和 Agent 技能。工具发现省 99.2% token，一份配置通吃所有 Agent，原生不预装。227KB，纯 Python 标准库。",
           "language": "Python",
-          "stars": 206,
-          "forks": 10,
+          "stars": 207,
+          "forks": 9,
           "created_at": "2026-07-27T08:24:21Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:10.458Z",
-          "pushed_at": "2026-10-02T03:39:24Z",
+          "last_updated": "2026-10-03T03:32:38.842Z",
+          "pushed_at": "2026-10-03T02:44:03Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -949,12 +918,12 @@
           "name": "ros2-engineering-skills",
           "description": "Agent skill for production-grade ROS 2 development. Progressive-disclosure SKILL.md covering workspace, nodes, executors, QoS, ros2_control, Nav2, MoveIt 2, real-time, and deployment. Works with Claude Code, Codex, Cursor, Gemini CLI.",
           "language": "Python",
-          "stars": 201,
+          "stars": 204,
           "forks": 20,
           "created_at": "2026-03-16T01:29:52Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:10.949Z",
-          "pushed_at": "2026-10-02T02:36:15Z",
+          "last_updated": "2026-10-03T03:32:39.441Z",
+          "pushed_at": "2026-10-02T08:41:30Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -999,16 +968,18 @@
           "forks": 1,
           "created_at": "2026-07-30T17:11:04Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:11.520Z",
-          "pushed_at": "2026-09-29T03:41:53Z",
+          "last_updated": "2026-10-03T03:32:40.067Z",
+          "pushed_at": "2026-10-02T15:44:48Z",
           "relevance": {
-            "score": 85,
+            "score": 95,
             "evidence": [
               "skill-file",
               "skill-topic",
-              "readme"
+              "readme",
+              "install-guide"
             ],
             "skill_files": [
+              "skills/lightweight-monitoring/SKILL.md",
               "skills/lite-tools/SKILL.md",
               "skills/repo-map/SKILL.md",
               "skills/repolink/SKILL.md"
@@ -1039,8 +1010,8 @@
           "forks": 33,
           "created_at": "2026-02-25T19:35:12Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:12.221Z",
-          "pushed_at": "2026-10-02T02:00:57Z",
+          "last_updated": "2026-10-03T03:32:40.802Z",
+          "pushed_at": "2026-10-02T17:10:58Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1060,11 +1031,11 @@
           "name": "cli-faq-shortcuts",
           "description": "Turn repeated Claude Code, Codex, and Cursor prompts into reusable slash commands. Local Python history extractor + Agent Skill.",
           "language": "Python",
-          "stars": 121,
+          "stars": 124,
           "forks": 4,
           "created_at": "2026-09-18T22:23:41Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:12.738Z",
+          "last_updated": "2026-10-03T03:32:41.411Z",
           "pushed_at": "2026-09-28T19:28:51Z",
           "relevance": {
             "score": 100,
@@ -1090,16 +1061,54 @@
           ]
         },
         {
+          "full_name": "agent-labs-dev/bugpatrol",
+          "name": "bugpatrol",
+          "description": "Automated app testing from the future",
+          "language": "TypeScript",
+          "stars": 81,
+          "forks": 10,
+          "created_at": "2026-09-22T02:07:01Z",
+          "discovered_at": "2026-09-28T03:18:34.294Z",
+          "last_updated": "2026-10-03T03:32:42.690Z",
+          "pushed_at": "2026-10-02T19:02:11Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/bugpatrol/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "better-stack-ai/better-stack",
           "name": "better-stack",
           "description": "Open-source TypeScript system for installing full-stack features into existing React applications",
           "language": "TypeScript",
-          "stars": 100,
-          "forks": 35,
+          "stars": 78,
+          "forks": 16,
           "created_at": "2025-10-07T20:39:30Z",
           "discovered_at": "2026-09-30T03:43:25.715Z",
-          "last_updated": "2026-10-02T03:48:13.467Z",
-          "pushed_at": "2026-10-02T02:38:05Z",
+          "last_updated": "2026-10-03T03:32:42.056Z",
+          "pushed_at": "2026-10-02T18:13:30Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1136,44 +1145,6 @@
           ]
         },
         {
-          "full_name": "agent-labs-dev/bugpatrol",
-          "name": "bugpatrol",
-          "description": "Automated app testing from the future",
-          "language": "TypeScript",
-          "stars": 81,
-          "forks": 9,
-          "created_at": "2026-09-22T02:07:01Z",
-          "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:14.107Z",
-          "pushed_at": "2026-10-01T12:58:30Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "skills/bugpatrol/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "frontend",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "testing",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "OutlineDriven/outline-driven-development",
           "name": "outline-driven-development",
           "description": "Outline-Driven Development - opinionated methodology between vibes and specs. AST tooling + context engineering + loop engineering on your hands. Plugins for Claude / Codex / Gemini / Cursor.",
@@ -1182,7 +1153,7 @@
           "forks": 10,
           "created_at": "2025-11-17T02:07:04Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:14.851Z",
+          "last_updated": "2026-10-03T03:32:43.463Z",
           "pushed_at": "2026-09-28T03:16:21Z",
           "relevance": {
             "score": 75,
@@ -1254,11 +1225,11 @@
           "name": "Lyra",
           "description": "",
           "language": "TypeScript",
-          "stars": 46,
+          "stars": 48,
           "forks": 10,
           "created_at": "2026-08-12T06:45:16Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:15.698Z",
+          "last_updated": "2026-10-03T03:32:44.267Z",
           "pushed_at": "2026-09-28T23:10:04Z",
           "relevance": {
             "score": 75,
@@ -1293,12 +1264,12 @@
           "name": "paseo-cafe",
           "description": "A community driven directory of paseo.sh plugins",
           "language": "TypeScript",
-          "stars": 39,
-          "forks": 38,
+          "stars": 40,
+          "forks": 39,
           "created_at": "2026-09-01T13:45:57Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:16.815Z",
-          "pushed_at": "2026-10-01T18:56:14Z",
+          "last_updated": "2026-10-03T03:32:44.821Z",
+          "pushed_at": "2026-10-03T00:34:48Z",
           "relevance": {
             "score": 70,
             "evidence": [
@@ -1328,7 +1299,7 @@
           "forks": 7,
           "created_at": "2026-06-30T14:24:05Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:17.477Z",
+          "last_updated": "2026-10-03T03:32:45.483Z",
           "pushed_at": "2026-09-29T03:51:05Z",
           "relevance": {
             "score": 100,
@@ -1367,8 +1338,8 @@
           "forks": 6,
           "created_at": "2022-11-04T12:00:09Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:18.749Z",
-          "pushed_at": "2026-10-01T04:03:14Z",
+          "last_updated": "2026-10-03T03:32:46.225Z",
+          "pushed_at": "2026-10-02T04:00:39Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1410,8 +1381,8 @@
           "forks": 5,
           "created_at": "2025-11-30T10:41:32Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:20.410Z",
-          "pushed_at": "2026-10-02T02:48:01Z",
+          "last_updated": "2026-10-03T03:32:47.607Z",
+          "pushed_at": "2026-10-03T01:52:50Z",
           "relevance": {
             "score": 70,
             "evidence": [
@@ -1467,7 +1438,7 @@
           "forks": 4,
           "created_at": "2026-08-07T04:45:54Z",
           "discovered_at": "2026-09-30T03:43:25.715Z",
-          "last_updated": "2026-10-02T03:48:21.201Z",
+          "last_updated": "2026-10-03T03:32:48.406Z",
           "pushed_at": "2026-09-30T08:16:45Z",
           "relevance": {
             "score": 75,
@@ -1499,8 +1470,8 @@
           "forks": 4,
           "created_at": "2026-09-16T17:43:54Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:21.883Z",
-          "pushed_at": "2026-10-01T22:56:04Z",
+          "last_updated": "2026-10-03T03:32:49.007Z",
+          "pushed_at": "2026-10-02T23:57:27Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1546,8 +1517,8 @@
           "forks": 6,
           "created_at": "2026-05-14T19:26:05Z",
           "discovered_at": "2026-09-30T03:43:25.715Z",
-          "last_updated": "2026-10-02T03:48:22.805Z",
-          "pushed_at": "2026-10-01T22:08:01Z",
+          "last_updated": "2026-10-03T03:32:49.674Z",
+          "pushed_at": "2026-10-02T12:51:39Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1605,7 +1576,7 @@
           "forks": 3,
           "created_at": "2026-08-05T13:38:29Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:23.457Z",
+          "last_updated": "2026-10-03T03:32:50.444Z",
           "pushed_at": "2026-09-30T14:42:42Z",
           "relevance": {
             "score": 100,
@@ -1631,8 +1602,8 @@
           "forks": 1,
           "created_at": "2026-01-22T22:20:14Z",
           "discovered_at": "2026-10-02T03:48:01.553Z",
-          "last_updated": "2026-10-02T03:48:39.104Z",
-          "pushed_at": "2026-10-02T03:48:25Z",
+          "last_updated": "2026-10-03T03:32:51.248Z",
+          "pushed_at": "2026-10-02T23:13:02Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1670,7 +1641,7 @@
           "forks": 0,
           "created_at": "2026-08-20T04:07:27Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:24.105Z",
+          "last_updated": "2026-10-03T03:32:52.034Z",
           "pushed_at": "2026-09-29T09:48:59Z",
           "relevance": {
             "score": 75,
@@ -1727,7 +1698,7 @@
           "forks": 0,
           "created_at": "2026-09-10T14:26:21Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:25.033Z",
+          "last_updated": "2026-10-03T03:32:53.171Z",
           "pushed_at": "2026-10-01T04:12:01Z",
           "relevance": {
             "score": 100,
@@ -1788,8 +1759,8 @@
           "forks": 7,
           "created_at": "2025-02-03T12:40:15Z",
           "discovered_at": "2026-09-30T03:43:25.715Z",
-          "last_updated": "2026-10-02T03:48:25.969Z",
-          "pushed_at": "2026-10-02T02:28:31Z",
+          "last_updated": "2026-10-03T03:32:54.298Z",
+          "pushed_at": "2026-10-03T02:03:23Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1859,7 +1830,7 @@
           "forks": 8,
           "created_at": "2026-05-07T06:48:45Z",
           "discovered_at": "2026-09-30T03:43:25.715Z",
-          "last_updated": "2026-10-02T03:48:26.602Z",
+          "last_updated": "2026-10-03T03:32:55.152Z",
           "pushed_at": "2026-10-01T20:42:26Z",
           "relevance": {
             "score": 65,
@@ -1942,8 +1913,8 @@
           "forks": 2,
           "created_at": "2026-08-22T12:43:29Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:27.183Z",
-          "pushed_at": "2026-10-02T03:18:24Z",
+          "last_updated": "2026-10-03T03:32:55.709Z",
+          "pushed_at": "2026-10-03T03:28:08Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1973,8 +1944,8 @@
           "forks": 0,
           "created_at": "2025-08-12T10:33:44Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:27.897Z",
-          "pushed_at": "2026-10-02T00:13:31Z",
+          "last_updated": "2026-10-03T03:32:56.335Z",
+          "pushed_at": "2026-10-03T03:14:52Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -2019,8 +1990,8 @@
           "forks": 0,
           "created_at": "2026-07-28T05:31:06Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:29.052Z",
-          "pushed_at": "2026-09-28T03:10:06Z",
+          "last_updated": "2026-10-03T03:32:57.141Z",
+          "pushed_at": "2026-10-02T16:04:02Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2049,11 +2020,11 @@
           "name": "flowmcp",
           "description": "",
           "language": "Shell",
-          "stars": 6,
+          "stars": 7,
           "forks": 0,
           "created_at": "2026-08-31T06:16:18Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:29.736Z",
+          "last_updated": "2026-10-03T03:32:57.912Z",
           "pushed_at": "2026-09-29T04:47:05Z",
           "relevance": {
             "score": 75,
@@ -2078,7 +2049,7 @@
           "forks": 0,
           "created_at": "2026-06-14T12:00:37Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:30.373Z",
+          "last_updated": "2026-10-03T03:32:58.681Z",
           "pushed_at": "2026-09-30T14:01:05Z",
           "relevance": {
             "score": 95,
@@ -2125,7 +2096,7 @@
           "forks": 2,
           "created_at": "2026-05-03T12:46:27Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:31.179Z",
+          "last_updated": "2026-10-03T03:32:59.425Z",
           "pushed_at": "2026-09-29T03:45:21Z",
           "relevance": {
             "score": 75,
@@ -2165,8 +2136,8 @@
           "forks": 2,
           "created_at": "2026-04-02T21:32:33Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:31.919Z",
-          "pushed_at": "2026-09-29T02:25:47Z",
+          "last_updated": "2026-10-03T03:33:00.110Z",
+          "pushed_at": "2026-10-02T06:18:54Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2200,16 +2171,15 @@
           "forks": 0,
           "created_at": "2026-07-28T03:05:33Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:32.611Z",
-          "pushed_at": "2026-09-29T11:23:39Z",
+          "last_updated": "2026-10-03T03:33:00.714Z",
+          "pushed_at": "2026-10-02T14:58:44Z",
           "relevance": {
             "score": 100,
             "evidence": [
               "skill-file",
               "skill-topic",
               "description",
-              "readme",
-              "install-guide"
+              "readme"
             ],
             "skill_files": [
               "skills/diagnose/SKILL.md",
@@ -2253,8 +2223,8 @@
           "forks": 0,
           "created_at": "2026-06-03T14:28:50Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:33.319Z",
-          "pushed_at": "2026-10-02T01:15:36Z",
+          "last_updated": "2026-10-03T03:33:01.640Z",
+          "pushed_at": "2026-10-02T17:50:08Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2278,7 +2248,7 @@
           "forks": 5,
           "created_at": "2026-09-25T20:40:05Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:33.925Z",
+          "last_updated": "2026-10-03T03:33:02.211Z",
           "pushed_at": "2026-10-01T23:33:41Z",
           "relevance": {
             "score": 95,
@@ -2311,8 +2281,8 @@
           "forks": 1,
           "created_at": "2026-08-27T08:10:01Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:34.650Z",
-          "pushed_at": "2026-10-01T18:20:43Z",
+          "last_updated": "2026-10-03T03:33:03.146Z",
+          "pushed_at": "2026-10-02T17:22:23Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -2362,7 +2332,7 @@
           "forks": 0,
           "created_at": "2026-08-06T14:07:27Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:35.276Z",
+          "last_updated": "2026-10-03T03:33:03.790Z",
           "pushed_at": "2026-09-28T03:42:39Z",
           "relevance": {
             "score": 75,
@@ -2413,8 +2383,8 @@
           "forks": 1,
           "created_at": "2026-05-07T15:18:44Z",
           "discovered_at": "2026-09-29T03:55:34.055Z",
-          "last_updated": "2026-10-02T03:48:35.891Z",
-          "pushed_at": "2026-10-02T03:07:20Z",
+          "last_updated": "2026-10-03T03:33:04.514Z",
+          "pushed_at": "2026-10-02T21:11:09Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2447,7 +2417,7 @@
           "forks": 1,
           "created_at": "2026-07-12T10:35:41Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:36.632Z",
+          "last_updated": "2026-10-03T03:33:05.478Z",
           "pushed_at": "2026-10-01T01:09:51Z",
           "relevance": {
             "score": 75,
@@ -2489,8 +2459,8 @@
           "forks": 0,
           "created_at": "2026-01-08T13:36:22Z",
           "discovered_at": "2026-09-30T03:43:25.715Z",
-          "last_updated": "2026-10-02T03:48:37.381Z",
-          "pushed_at": "2026-10-01T17:14:16Z",
+          "last_updated": "2026-10-03T03:33:06.398Z",
+          "pushed_at": "2026-10-02T16:27:30Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2520,7 +2490,7 @@
           "forks": 0,
           "created_at": "2026-09-21T06:53:40Z",
           "discovered_at": "2026-09-28T03:18:34.294Z",
-          "last_updated": "2026-10-02T03:48:37.969Z",
+          "last_updated": "2026-10-03T03:33:07.017Z",
           "pushed_at": "2026-09-29T02:58:09Z",
           "relevance": {
             "score": 100,
@@ -3277,9 +3247,9 @@
     }
   ],
   "report": {
-    "updated_at": "2026-10-02T03:48:01.553Z",
-    "accepted": 1,
-    "attempted": 1,
+    "updated_at": "2026-10-03T03:32:29.913Z",
+    "accepted": 0,
+    "attempted": 0,
     "skipped": [],
     "warnings": []
   }
