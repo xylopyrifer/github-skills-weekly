@@ -1,7 +1,9 @@
 {
-  "updated_at": "2026-10-03T03:30:47.877Z",
-  "successful_repositories": 100,
+  "updated_at": "2026-10-04T03:59:08.871Z",
+  "successful_repositories": 99,
   "tracked_repositories": 100,
   "boundary_captured": false,
-  "warnings": []
+  "warnings": [
+    "axelfreeman/marketing-mindset: GitHub returned HTTP 404 for /repos/axelfreeman/marketing-mindset"
+  ]
 }
