@@ -254,19 +254,19 @@
     {
       "start": "2026-10-05",
       "end": "2026-10-12",
-      "updated_at": "2026-10-06T06:46:07.861Z",
+      "updated_at": "2026-10-07T03:59:55.147Z",
       "repositories": [
         {
           "full_name": "shanraisshan/claude-code-best-practice",
           "name": "claude-code-best-practice",
           "description": "from vibe coding to agentic engineering - practice makes claude perfect",
           "language": "HTML",
-          "stars": 67158,
-          "forks": 6708,
+          "stars": 67200,
+          "forks": 6713,
           "created_at": "2025-10-31T14:15:28Z",
           "discovered_at": "2026-10-06T06:46:07.861Z",
-          "last_updated": "2026-10-06T06:46:54.374Z",
-          "pushed_at": "2026-10-06T06:46:11Z",
+          "last_updated": "2026-10-07T03:59:56.146Z",
+          "pushed_at": "2026-10-07T03:47:25Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -350,12 +350,12 @@
           "name": "hyperframes",
           "description": "Write HTML. Render video. Built for agents.",
           "language": "TypeScript",
-          "stars": 57450,
-          "forks": 5141,
+          "stars": 58026,
+          "forks": 5169,
           "created_at": "2026-03-10T01:51:06Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:09.941Z",
-          "pushed_at": "2026-10-06T06:32:44Z",
+          "last_updated": "2026-10-07T03:59:57.037Z",
+          "pushed_at": "2026-10-07T03:55:58Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -413,12 +413,12 @@
           "name": "NemoClaw",
           "description": "Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference",
           "language": "TypeScript",
-          "stars": 22664,
-          "forks": 3132,
+          "stars": 22673,
+          "forks": 3131,
           "created_at": "2026-03-15T17:04:09Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:10.726Z",
-          "pushed_at": "2026-10-06T06:36:20Z",
+          "last_updated": "2026-10-07T03:59:57.830Z",
+          "pushed_at": "2026-10-07T03:58:31Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -457,12 +457,12 @@
           "name": "treg",
           "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
           "language": "Python",
-          "stars": 4201,
-          "forks": 351,
+          "stars": 4462,
+          "forks": 367,
           "created_at": "2026-07-15T13:38:07Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:11.408Z",
-          "pushed_at": "2026-10-06T06:35:31Z",
+          "last_updated": "2026-10-07T03:59:58.519Z",
+          "pushed_at": "2026-10-07T03:24:29Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -514,12 +514,12 @@
           "name": "ai",
           "description": "🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across OpenAI, Anthropic, Gemini, React, Vue, Svelte, and Solid.",
           "language": "TypeScript",
-          "stars": 3166,
-          "forks": 354,
+          "stars": 3168,
+          "forks": 355,
           "created_at": "2025-10-08T17:52:48Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:12.120Z",
-          "pushed_at": "2026-10-06T06:42:16Z",
+          "last_updated": "2026-10-07T03:59:59.308Z",
+          "pushed_at": "2026-10-07T03:54:57Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -556,12 +556,12 @@
           "name": "UA-.NETStandard",
           "description": "OPC Unified Architecture .NET Standard",
           "language": "C#",
-          "stars": 2399,
+          "stars": 2400,
           "forks": 1056,
           "created_at": "2016-02-12T14:57:06Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:12.945Z",
-          "pushed_at": "2026-10-05T16:02:53Z",
+          "last_updated": "2026-10-07T04:00:00.055Z",
+          "pushed_at": "2026-10-07T03:55:33Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -594,12 +594,12 @@
           "name": "data-client",
           "description": "Async State Management without the Management. REST, GraphQL, SSE, Websockets",
           "language": "TypeScript",
-          "stars": 2036,
-          "forks": 99,
+          "stars": 2037,
+          "forks": 98,
           "created_at": "2019-02-15T03:37:05Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-06T06:46:13.747Z",
-          "pushed_at": "2026-10-06T05:43:08Z",
+          "last_updated": "2026-10-07T04:00:00.725Z",
+          "pushed_at": "2026-10-07T03:58:59Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -640,12 +640,12 @@
           "name": "video-search-and-summarization",
           "description": "NVIDIA AI Blueprint for video search and summarization (VSS) is a GPU-accelerated reference architecture for building video analytics agents with real-time verified alerts, visual Q&A, and automated reporting. The VSS Blueprint uses vision language models (VLMs) such as NVIDIA Cosmos, LLMs such as NVIDIA Nemotron, RAG, and NVIDIA NIMs.",
           "language": "Python",
-          "stars": 1907,
-          "forks": 400,
+          "stars": 1911,
+          "forks": 403,
           "created_at": "2024-10-22T06:43:05Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:14.558Z",
-          "pushed_at": "2026-10-06T06:42:31Z",
+          "last_updated": "2026-10-07T04:00:01.642Z",
+          "pushed_at": "2026-10-07T03:32:55Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -704,12 +704,12 @@
           "name": "goose-skills",
           "description": "Library of Growth & GTM skills + data APIs for Claude Code, Codex, Cursor to run ads, social, content, lead gen, seo and data scraping",
           "language": "Python",
-          "stars": 1232,
-          "forks": 212,
+          "stars": 1234,
+          "forks": 215,
           "created_at": "2026-03-02T00:07:48Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:15.346Z",
-          "pushed_at": "2026-10-06T04:51:37Z",
+          "last_updated": "2026-10-07T04:00:02.314Z",
+          "pushed_at": "2026-10-07T03:34:44Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -725,8 +725,8 @@
               "skills/ads/capabilities/create-creator-takes-h3/SKILL.md",
               "skills/ads/capabilities/create-image-fal/SKILL.md",
               "skills/ads/capabilities/create-image-gpt-image-fal/SKILL.md",
-              "skills/ads/capabilities/create-music-elevenlabs/SKILL.md",
-              "skills/ads/capabilities/create-video-fal/SKILL.md"
+              "skills/ads/capabilities/create-kinetic-typography/SKILL.md",
+              "skills/ads/capabilities/create-music-elevenlabs/SKILL.md"
             ],
             "structural": true
           },
@@ -762,12 +762,12 @@
           "name": "skylos",
           "description": "Open source local-first PR scanner that finds dead code, security bugs, secrets, quality regressions, and AI-code mistakes before merge. For first timers refer to https://duriantaco.github.io/skylos/repo-map/",
           "language": "Python",
-          "stars": 841,
-          "forks": 56,
+          "stars": 843,
+          "forks": 57,
           "created_at": "2025-04-28T14:41:35Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:16.054Z",
-          "pushed_at": "2026-10-06T05:48:10Z",
+          "last_updated": "2026-10-07T04:00:03.058Z",
+          "pushed_at": "2026-10-06T14:45:26Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -826,8 +826,8 @@
           "forks": 26,
           "created_at": "2026-07-02T15:58:31Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:16.643Z",
-          "pushed_at": "2026-10-06T06:30:22Z",
+          "last_updated": "2026-10-07T04:00:03.797Z",
+          "pushed_at": "2026-10-07T01:30:43Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -860,8 +860,8 @@
           "forks": 35,
           "created_at": "2026-03-19T15:35:43Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:17.416Z",
-          "pushed_at": "2026-10-06T06:39:27Z",
+          "last_updated": "2026-10-07T04:00:04.885Z",
+          "pushed_at": "2026-10-06T17:34:33Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -901,12 +901,12 @@
           "name": "core",
           "description": "A high-performance, enterprise-grade Next.js 16 application for mission-focused non-profit organizations. Built for high impact teams. ",
           "language": "TypeScript",
-          "stars": 381,
+          "stars": 382,
           "forks": 7,
           "created_at": "2026-01-12T02:50:44Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:18.652Z",
-          "pushed_at": "2026-10-06T04:33:17Z",
+          "last_updated": "2026-10-07T04:00:06.087Z",
+          "pushed_at": "2026-10-07T02:46:35Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -981,12 +981,12 @@
           "name": "awesome-deepseek-harness-plugins",
           "description": "DeepSeek Harness plugin store, marketplace and hub — 11,000+ dsh plugins with search, rankings, install commands and a free public API. DeepSeek Harness 插件市场 / 插件商店：自动收集与格式校验，免费搜索 API。deepseek1024.com",
           "language": "JavaScript",
-          "stars": 263,
-          "forks": 263,
+          "stars": 265,
+          "forks": 264,
           "created_at": "2026-08-14T05:53:47Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:19.387Z",
-          "pushed_at": "2026-10-06T04:33:43Z",
+          "last_updated": "2026-10-07T04:00:06.871Z",
+          "pushed_at": "2026-10-06T15:48:15Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1065,8 +1065,8 @@
           "forks": 24,
           "created_at": "2026-06-26T09:59:19Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:20.016Z",
-          "pushed_at": "2026-10-06T05:52:19Z",
+          "last_updated": "2026-10-07T04:00:07.669Z",
+          "pushed_at": "2026-10-06T09:57:11Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1109,8 +1109,8 @@
           "forks": 40,
           "created_at": "2026-03-25T06:49:39Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:20.733Z",
-          "pushed_at": "2026-10-06T04:28:00Z",
+          "last_updated": "2026-10-07T04:00:09.109Z",
+          "pushed_at": "2026-10-07T00:52:49Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1150,12 +1150,12 @@
           "name": "rovai-ai",
           "description": "Desktop and web workspace for lasting teams of coding agents, with shared conversations, task delegation, and collaborative memory.",
           "language": "Rust",
-          "stars": 127,
-          "forks": 19,
+          "stars": 134,
+          "forks": 20,
           "created_at": "2026-07-17T05:39:30Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:21.693Z",
-          "pushed_at": "2026-10-05T18:08:41Z",
+          "last_updated": "2026-10-07T04:00:10.212Z",
+          "pushed_at": "2026-10-06T17:31:44Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1194,12 +1194,12 @@
           "name": "awesome-jev",
           "description": "Curated Jev resources and runnable examples for typed AI decisions.",
           "language": "Python",
-          "stars": 95,
-          "forks": 20,
+          "stars": 97,
+          "forks": 21,
           "created_at": "2026-09-18T17:56:36Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:22.387Z",
-          "pushed_at": "2026-10-06T06:09:16Z",
+          "last_updated": "2026-10-07T04:00:10.909Z",
+          "pushed_at": "2026-10-06T22:18:29Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1284,8 +1284,8 @@
           "forks": 23,
           "created_at": "2025-09-07T03:19:48Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-06T06:46:23.271Z",
-          "pushed_at": "2026-10-06T03:58:02Z",
+          "last_updated": "2026-10-07T04:00:11.839Z",
+          "pushed_at": "2026-10-07T03:36:24Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1346,8 +1346,8 @@
           "forks": 23,
           "created_at": "2026-01-06T11:01:45Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-06T06:46:23.929Z",
-          "pushed_at": "2026-10-05T03:45:22Z",
+          "last_updated": "2026-10-07T04:00:12.517Z",
+          "pushed_at": "2026-10-06T08:28:21Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1406,8 +1406,8 @@
           "forks": 20,
           "created_at": "2026-03-24T08:52:41Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-06T06:46:24.814Z",
-          "pushed_at": "2026-10-06T03:26:59Z",
+          "last_updated": "2026-10-07T04:00:13.519Z",
+          "pushed_at": "2026-10-07T00:08:01Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1445,8 +1445,8 @@
           "forks": 8,
           "created_at": "2026-03-17T05:17:49Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:25.422Z",
-          "pushed_at": "2026-10-06T06:45:30Z",
+          "last_updated": "2026-10-07T04:00:14.250Z",
+          "pushed_at": "2026-10-07T03:31:44Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1501,8 +1501,8 @@
           "forks": 32,
           "created_at": "2026-01-01T06:19:32Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:26.437Z",
-          "pushed_at": "2026-10-06T06:35:14Z",
+          "last_updated": "2026-10-07T04:00:15.252Z",
+          "pushed_at": "2026-10-07T03:55:20Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1567,8 +1567,8 @@
           "forks": 2,
           "created_at": "2026-06-27T21:20:32Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-06T06:46:28.057Z",
-          "pushed_at": "2026-10-05T16:52:11Z",
+          "last_updated": "2026-10-07T04:00:16.185Z",
+          "pushed_at": "2026-10-07T03:44:11Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1610,8 +1610,8 @@
           "forks": 14,
           "created_at": "2025-12-31T20:55:45Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:28.884Z",
-          "pushed_at": "2026-10-06T06:38:43Z",
+          "last_updated": "2026-10-07T04:00:16.995Z",
+          "pushed_at": "2026-10-07T03:57:11Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1642,8 +1642,8 @@
           "forks": 6,
           "created_at": "2026-07-30T01:19:19Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:29.573Z",
-          "pushed_at": "2026-10-06T06:28:56Z",
+          "last_updated": "2026-10-07T04:00:17.866Z",
+          "pushed_at": "2026-10-06T15:04:20Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1730,7 +1730,7 @@
           "forks": 1,
           "created_at": "2026-06-01T16:20:45Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:30.203Z",
+          "last_updated": "2026-10-07T04:00:18.771Z",
           "pushed_at": "2026-10-06T04:45:04Z",
           "relevance": {
             "score": 100,
@@ -1766,8 +1766,8 @@
           "forks": 3,
           "created_at": "2026-04-26T21:57:29Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-06T06:46:31.218Z",
-          "pushed_at": "2026-10-05T18:00:07Z",
+          "last_updated": "2026-10-07T04:00:19.980Z",
+          "pushed_at": "2026-10-06T08:27:49Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1876,7 +1876,7 @@
           "forks": 1,
           "created_at": "2026-04-09T19:09:14Z",
           "discovered_at": "2026-10-06T06:46:07.861Z",
-          "last_updated": "2026-10-06T06:46:51.950Z",
+          "last_updated": "2026-10-07T04:00:20.814Z",
           "pushed_at": "2026-10-06T06:46:40Z",
           "relevance": {
             "score": 75,
@@ -1915,7 +1915,7 @@
           "forks": 4,
           "created_at": "2026-09-12T12:29:58Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-06T06:46:32.139Z",
+          "last_updated": "2026-10-07T04:00:21.739Z",
           "pushed_at": "2026-10-05T23:04:43Z",
           "relevance": {
             "score": 75,
@@ -1941,7 +1941,7 @@
           "forks": 1,
           "created_at": "2026-07-09T13:04:43Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:32.786Z",
+          "last_updated": "2026-10-07T04:00:22.746Z",
           "pushed_at": "2026-10-06T04:44:59Z",
           "relevance": {
             "score": 90,
@@ -2000,8 +2000,8 @@
           "forks": 1,
           "created_at": "2025-07-25T04:34:08Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:33.522Z",
-          "pushed_at": "2026-10-06T04:28:15Z",
+          "last_updated": "2026-10-07T04:00:23.364Z",
+          "pushed_at": "2026-10-07T03:52:29Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2084,7 +2084,7 @@
           "forks": 1,
           "created_at": "2026-08-16T13:57:28Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:38.180Z",
+          "last_updated": "2026-10-07T04:00:24.179Z",
           "pushed_at": "2026-10-06T04:35:13Z",
           "relevance": {
             "score": 75,
@@ -2147,8 +2147,8 @@
           "forks": 0,
           "created_at": "2026-07-12T20:54:35Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:34.209Z",
-          "pushed_at": "2026-10-05T20:54:53Z",
+          "last_updated": "2026-10-07T04:00:25.120Z",
+          "pushed_at": "2026-10-06T22:21:31Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2175,6 +2175,12 @@
                 "skill-paths",
                 "readme"
               ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
             }
           ]
         },
@@ -2187,8 +2193,8 @@
           "forks": 0,
           "created_at": "2026-08-17T06:45:43Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:34.888Z",
-          "pushed_at": "2026-10-06T04:36:04Z",
+          "last_updated": "2026-10-07T04:00:25.755Z",
+          "pushed_at": "2026-10-06T10:10:09Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2220,8 +2226,8 @@
           "forks": 1,
           "created_at": "2026-04-05T01:22:04Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-06T06:46:36.601Z",
-          "pushed_at": "2026-10-06T05:32:24Z",
+          "last_updated": "2026-10-07T04:00:26.460Z",
+          "pushed_at": "2026-10-07T03:54:32Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2252,8 +2258,8 @@
           "forks": 1,
           "created_at": "2024-03-23T00:07:38Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-06T06:46:37.460Z",
-          "pushed_at": "2026-10-06T06:44:32Z",
+          "last_updated": "2026-10-07T04:00:27.418Z",
+          "pushed_at": "2026-10-07T03:39:38Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2303,8 +2309,8 @@
           "forks": 1,
           "created_at": "2026-09-22T04:01:21Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:38.970Z",
-          "pushed_at": "2026-10-06T05:26:52Z",
+          "last_updated": "2026-10-07T04:00:28.183Z",
+          "pushed_at": "2026-10-07T02:32:40Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2328,6 +2334,31 @@
           ]
         },
         {
+          "full_name": "Nyarlathoteppppp/pi-durabletask-mcp",
+          "name": "pi-durabletask-mcp",
+          "description": "Durable task delegation for Pi Coding Agent over MCP, with background execution, steering, and crash recovery.",
+          "language": "JavaScript",
+          "stars": 7,
+          "forks": 0,
+          "created_at": "2026-10-03T07:09:42Z",
+          "discovered_at": "2026-10-06T04:34:02.467Z",
+          "last_updated": "2026-10-07T04:00:33.168Z",
+          "pushed_at": "2026-10-07T03:59:18Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/pi-durabletask-mcp/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": []
+        },
+        {
           "full_name": "agentlas-ai/agentlas-desktop",
           "name": "agentlas-desktop",
           "description": "Open-source macOS control room for running local AI agent teams with Claude Code, Codex, Gemini, and BYOK runtimes.",
@@ -2336,8 +2367,8 @@
           "forks": 3,
           "created_at": "2026-05-28T01:21:36Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-06T06:46:39.633Z",
-          "pushed_at": "2026-10-06T04:45:42Z",
+          "last_updated": "2026-10-07T04:00:29.613Z",
+          "pushed_at": "2026-10-07T01:14:04Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2423,8 +2454,8 @@
           "forks": 1,
           "created_at": "2026-07-11T18:53:14Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:42.582Z",
-          "pushed_at": "2026-10-06T02:39:19Z",
+          "last_updated": "2026-10-07T04:00:31.691Z",
+          "pushed_at": "2026-10-07T00:01:49Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2551,8 +2582,8 @@
           "forks": 1,
           "created_at": "2026-06-27T02:16:49Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:43.249Z",
-          "pushed_at": "2026-10-06T06:38:01Z",
+          "last_updated": "2026-10-07T04:00:32.470Z",
+          "pushed_at": "2026-10-07T04:00:03Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2588,31 +2619,6 @@
           ]
         },
         {
-          "full_name": "Nyarlathoteppppp/pi-durabletask-mcp",
-          "name": "pi-durabletask-mcp",
-          "description": "Durable task delegation for Pi Coding Agent over MCP, with background execution, steering, and crash recovery.",
-          "language": "JavaScript",
-          "stars": 6,
-          "forks": 0,
-          "created_at": "2026-10-03T07:09:42Z",
-          "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:43.831Z",
-          "pushed_at": "2026-10-06T05:58:19Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "skills/pi-durabletask-mcp/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": []
-        },
-        {
           "full_name": "yoshpy-dev/ralph",
           "name": "ralph",
           "description": "Claude Code + Codex harness engineering — scaffold, upgrade, and run opinionated agent harnesses with deterministic hooks, evidence-backed review pipelines, and an autonomous multi-seat org runtime.",
@@ -2621,8 +2627,8 @@
           "forks": 0,
           "created_at": "2026-03-24T03:56:01Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:44.539Z",
-          "pushed_at": "2026-10-06T06:40:46Z",
+          "last_updated": "2026-10-07T04:00:33.992Z",
+          "pushed_at": "2026-10-07T03:45:21Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2659,8 +2665,8 @@
           "forks": 2,
           "created_at": "2026-01-12T07:55:52Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:45.253Z",
-          "pushed_at": "2026-10-06T04:39:44Z",
+          "last_updated": "2026-10-07T04:00:34.584Z",
+          "pushed_at": "2026-10-07T03:57:42Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2711,7 +2717,7 @@
           "forks": 1,
           "created_at": "2026-08-13T01:23:32Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-06T06:46:46.099Z",
+          "last_updated": "2026-10-07T04:00:35.345Z",
           "pushed_at": "2026-10-05T03:45:29Z",
           "relevance": {
             "score": 100,
@@ -2772,8 +2778,8 @@
           "forks": 2,
           "created_at": "2026-05-12T20:34:33Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:47.113Z",
-          "pushed_at": "2026-10-06T06:46:21Z",
+          "last_updated": "2026-10-07T04:00:36.143Z",
+          "pushed_at": "2026-10-06T23:15:14Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2835,7 +2841,7 @@
           "forks": 1,
           "created_at": "2026-06-08T15:32:09Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-06T06:46:47.851Z",
+          "last_updated": "2026-10-07T04:00:37.088Z",
           "pushed_at": "2026-10-06T04:32:40Z",
           "relevance": {
             "score": 75,
@@ -2878,8 +2884,8 @@
           "forks": 0,
           "created_at": "2026-02-12T02:53:07Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:49.099Z",
-          "pushed_at": "2026-10-05T23:01:17Z",
+          "last_updated": "2026-10-07T04:00:38.316Z",
+          "pushed_at": "2026-10-07T03:02:01Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2889,13 +2895,13 @@
             ],
             "skill_files": [
               "collection/skills/SKILL.md",
-              "collection/skills/adaptive-coupling-variance-mean-field/SKILL.md",
-              "collection/skills/adaptive-delay-frequency-bursting/SKILL.md",
               "collection/skills/agent-integration-testing/agent-integration-testing/SKILL.md",
               "collection/skills/agent-tools/ai-collection-research-sync/SKILL.md",
               "collection/skills/agent-tools/ai-scientific-workflow-orchestration/SKILL.md",
               "collection/skills/agent-tools/akshare/SKILL.md",
-              "collection/skills/agent-tools/apple-notes/SKILL.md"
+              "collection/skills/agent-tools/apple-notes/SKILL.md",
+              "collection/skills/agent-tools/apple-reminders/SKILL.md",
+              "collection/skills/agent-tools/arxiv-paper-tracker/SKILL.md"
             ],
             "structural": true
           },
@@ -2982,7 +2988,7 @@
           "forks": 0,
           "created_at": "2026-05-06T21:39:59Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-06T06:46:49.809Z",
+          "last_updated": "2026-10-07T04:00:39.131Z",
           "pushed_at": "2026-10-05T06:05:14Z",
           "relevance": {
             "score": 85,
@@ -4311,12 +4317,10 @@
     }
   ],
   "report": {
-    "updated_at": "2026-10-06T06:46:07.861Z",
-    "accepted": 2,
-    "attempted": 5,
-    "skipped": [
-      "aiskillstore/marketplace: truncated skill tree"
-    ],
+    "updated_at": "2026-10-07T03:59:55.147Z",
+    "accepted": 0,
+    "attempted": 0,
+    "skipped": [],
     "warnings": []
   }
 }
