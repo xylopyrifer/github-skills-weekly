@@ -254,19 +254,19 @@
     {
       "start": "2026-10-05",
       "end": "2026-10-12",
-      "updated_at": "2026-10-11T03:38:32.383Z",
+      "updated_at": "2026-10-11T06:15:44.495Z",
       "repositories": [
         {
           "full_name": "shanraisshan/claude-code-best-practice",
           "name": "claude-code-best-practice",
           "description": "from vibe coding to agentic engineering - practice makes claude perfect",
           "language": "HTML",
-          "stars": 67361,
+          "stars": 67364,
           "forks": 6729,
           "created_at": "2025-10-31T14:15:28Z",
           "discovered_at": "2026-10-06T06:46:07.861Z",
-          "last_updated": "2026-10-11T03:38:33.062Z",
-          "pushed_at": "2026-10-11T03:15:01Z",
+          "last_updated": "2026-10-11T06:15:45.172Z",
+          "pushed_at": "2026-10-11T05:53:12Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -350,12 +350,12 @@
           "name": "hyperframes",
           "description": "Write HTML. Render video. Built for agents.",
           "language": "TypeScript",
-          "stars": 60411,
-          "forks": 5395,
+          "stars": 60445,
+          "forks": 5400,
           "created_at": "2026-03-10T01:51:06Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:38:33.925Z",
-          "pushed_at": "2026-10-11T03:13:53Z",
+          "last_updated": "2026-10-11T06:15:45.865Z",
+          "pushed_at": "2026-10-11T05:57:00Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -413,12 +413,12 @@
           "name": "NemoClaw",
           "description": "Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference",
           "language": "TypeScript",
-          "stars": 22705,
+          "stars": 22706,
           "forks": 3135,
           "created_at": "2026-03-15T17:04:09Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:38:34.648Z",
-          "pushed_at": "2026-10-11T03:36:22Z",
+          "last_updated": "2026-10-11T06:15:46.518Z",
+          "pushed_at": "2026-10-11T06:13:26Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -461,8 +461,8 @@
           "forks": 403,
           "created_at": "2026-07-15T13:38:07Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:35.350Z",
-          "pushed_at": "2026-10-11T02:02:51Z",
+          "last_updated": "2026-10-11T06:15:47.100Z",
+          "pushed_at": "2026-10-11T04:56:33Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -515,10 +515,10 @@
           "description": "🤖 Type-safe, provider-agnostic TypeScript AI SDK for streaming chat, tool calling, agents, and multimodal apps across OpenAI, Anthropic, Gemini, React, Vue, Svelte, and Solid.",
           "language": "TypeScript",
           "stars": 3182,
-          "forks": 362,
+          "forks": 361,
           "created_at": "2025-10-08T17:52:48Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:36.039Z",
+          "last_updated": "2026-10-11T06:15:47.677Z",
           "pushed_at": "2026-10-10T14:52:21Z",
           "relevance": {
             "score": 75,
@@ -560,8 +560,8 @@
           "forks": 1057,
           "created_at": "2016-02-12T14:57:06Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:38:36.805Z",
-          "pushed_at": "2026-10-10T19:07:22Z",
+          "last_updated": "2026-10-11T06:15:48.497Z",
+          "pushed_at": "2026-10-11T05:46:24Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -598,8 +598,8 @@
           "forks": 98,
           "created_at": "2019-02-15T03:37:05Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-11T03:38:37.460Z",
-          "pushed_at": "2026-10-11T03:36:54Z",
+          "last_updated": "2026-10-11T06:15:49.060Z",
+          "pushed_at": "2026-10-11T06:13:33Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -644,7 +644,7 @@
           "forks": 407,
           "created_at": "2024-10-22T06:43:05Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:38:38.235Z",
+          "last_updated": "2026-10-11T06:15:49.785Z",
           "pushed_at": "2026-10-11T03:06:42Z",
           "relevance": {
             "score": 75,
@@ -708,7 +708,7 @@
           "forks": 216,
           "created_at": "2026-03-02T00:07:48Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:38.905Z",
+          "last_updated": "2026-10-11T06:15:50.327Z",
           "pushed_at": "2026-10-10T14:51:41Z",
           "relevance": {
             "score": 90,
@@ -778,7 +778,7 @@
           "forks": 57,
           "created_at": "2025-04-28T14:41:35Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:39.517Z",
+          "last_updated": "2026-10-11T06:15:50.849Z",
           "pushed_at": "2026-10-11T02:33:32Z",
           "relevance": {
             "score": 75,
@@ -838,7 +838,7 @@
           "forks": 27,
           "created_at": "2026-07-02T15:58:31Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:40.122Z",
+          "last_updated": "2026-10-11T06:15:51.426Z",
           "pushed_at": "2026-10-10T19:49:12Z",
           "relevance": {
             "score": 75,
@@ -872,7 +872,7 @@
           "forks": 35,
           "created_at": "2026-03-19T15:35:43Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:40.880Z",
+          "last_updated": "2026-10-11T06:15:52.161Z",
           "pushed_at": "2026-10-10T20:09:46Z",
           "relevance": {
             "score": 75,
@@ -917,8 +917,8 @@
           "forks": 7,
           "created_at": "2026-01-12T02:50:44Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:41.846Z",
-          "pushed_at": "2026-10-10T09:52:42Z",
+          "last_updated": "2026-10-11T06:15:53.186Z",
+          "pushed_at": "2026-10-11T04:13:04Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -997,7 +997,7 @@
           "forks": 271,
           "created_at": "2026-08-14T05:53:47Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:42.469Z",
+          "last_updated": "2026-10-11T06:15:53.705Z",
           "pushed_at": "2026-10-10T18:29:47Z",
           "relevance": {
             "score": 75,
@@ -1077,7 +1077,7 @@
           "forks": 24,
           "created_at": "2026-06-26T09:59:19Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:43.035Z",
+          "last_updated": "2026-10-11T06:15:54.581Z",
           "pushed_at": "2026-10-10T05:12:18Z",
           "relevance": {
             "score": 75,
@@ -1121,7 +1121,7 @@
           "forks": 31,
           "created_at": "2026-07-17T05:39:30Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:38:43.695Z",
+          "last_updated": "2026-10-11T06:15:55.460Z",
           "pushed_at": "2026-10-10T17:33:48Z",
           "relevance": {
             "score": 65,
@@ -1165,8 +1165,8 @@
           "forks": 40,
           "created_at": "2026-03-25T06:49:39Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:44.427Z",
-          "pushed_at": "2026-10-11T00:56:37Z",
+          "last_updated": "2026-10-11T06:15:55.944Z",
+          "pushed_at": "2026-10-11T04:27:55Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1210,8 +1210,8 @@
           "forks": 20,
           "created_at": "2026-09-18T17:56:36Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:38:45.052Z",
-          "pushed_at": "2026-10-10T21:44:23Z",
+          "last_updated": "2026-10-11T06:15:56.490Z",
+          "pushed_at": "2026-10-11T05:54:21Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1296,8 +1296,8 @@
           "forks": 23,
           "created_at": "2025-09-07T03:19:48Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-11T03:38:45.674Z",
-          "pushed_at": "2026-10-11T03:38:14Z",
+          "last_updated": "2026-10-11T06:15:57.154Z",
+          "pushed_at": "2026-10-11T04:58:21Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1358,7 +1358,7 @@
           "forks": 23,
           "created_at": "2026-01-06T11:01:45Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-11T03:38:46.282Z",
+          "last_updated": "2026-10-11T06:15:57.768Z",
           "pushed_at": "2026-10-10T10:40:03Z",
           "relevance": {
             "score": 100,
@@ -1418,8 +1418,8 @@
           "forks": 21,
           "created_at": "2026-03-24T08:52:41Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-11T03:38:47.056Z",
-          "pushed_at": "2026-10-11T03:36:41Z",
+          "last_updated": "2026-10-11T06:15:58.535Z",
+          "pushed_at": "2026-10-11T05:24:21Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1457,8 +1457,8 @@
           "forks": 8,
           "created_at": "2026-03-17T05:17:49Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:38:47.902Z",
-          "pushed_at": "2026-10-11T02:50:41Z",
+          "last_updated": "2026-10-11T06:15:59.259Z",
+          "pushed_at": "2026-10-11T04:46:43Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1513,8 +1513,8 @@
           "forks": 32,
           "created_at": "2026-01-01T06:19:32Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:38:48.629Z",
-          "pushed_at": "2026-10-11T03:37:45Z",
+          "last_updated": "2026-10-11T06:15:59.948Z",
+          "pushed_at": "2026-10-11T06:15:32Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1578,7 +1578,7 @@
           "forks": 2,
           "created_at": "2026-06-27T21:20:32Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-11T03:38:49.881Z",
+          "last_updated": "2026-10-11T06:16:01.169Z",
           "pushed_at": "2026-10-07T10:59:35Z",
           "relevance": {
             "score": 65,
@@ -1621,7 +1621,7 @@
           "forks": 14,
           "created_at": "2025-12-31T20:55:45Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:50.703Z",
+          "last_updated": "2026-10-11T06:16:01.803Z",
           "pushed_at": "2026-10-11T01:44:28Z",
           "relevance": {
             "score": 75,
@@ -1653,7 +1653,7 @@
           "forks": 6,
           "created_at": "2026-07-30T01:19:19Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:51.738Z",
+          "last_updated": "2026-10-11T06:16:02.419Z",
           "pushed_at": "2026-10-09T02:56:03Z",
           "relevance": {
             "score": 65,
@@ -1737,11 +1737,11 @@
           "name": "quarkus-agentic-scaffolding",
           "description": "Scaffolding skill + always-on conventions (CLAUDE.md/AGENTS.md) for Quarkus + LangChain4j agentic AI apps: AI services, multi-agent workflows, and RAG. Installable in Claude Code, Codex, Copilot, Cursor, and any Agent Skills-compatible agent.",
           "language": "Python",
-          "stars": 26,
+          "stars": 27,
           "forks": 1,
           "created_at": "2026-06-01T16:20:45Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:38:52.347Z",
+          "last_updated": "2026-10-11T06:16:02.991Z",
           "pushed_at": "2026-10-09T17:48:49Z",
           "relevance": {
             "score": 100,
@@ -1777,7 +1777,7 @@
           "forks": 3,
           "created_at": "2026-04-26T21:57:29Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-11T03:38:53.246Z",
+          "last_updated": "2026-10-11T06:16:03.928Z",
           "pushed_at": "2026-10-10T21:57:38Z",
           "relevance": {
             "score": 65,
@@ -1888,7 +1888,7 @@
           "forks": 1,
           "created_at": "2026-04-09T19:09:14Z",
           "discovered_at": "2026-10-06T06:46:07.861Z",
-          "last_updated": "2026-10-11T03:38:53.926Z",
+          "last_updated": "2026-10-11T06:16:04.604Z",
           "pushed_at": "2026-10-10T06:17:40Z",
           "relevance": {
             "score": 75,
@@ -1927,7 +1927,7 @@
           "forks": 4,
           "created_at": "2026-09-12T12:29:58Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-11T03:38:54.683Z",
+          "last_updated": "2026-10-11T06:16:05.424Z",
           "pushed_at": "2026-10-05T23:04:43Z",
           "relevance": {
             "score": 75,
@@ -1953,7 +1953,7 @@
           "forks": 1,
           "created_at": "2026-07-09T13:04:43Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:55.543Z",
+          "last_updated": "2026-10-11T06:16:06.126Z",
           "pushed_at": "2026-10-06T04:44:59Z",
           "relevance": {
             "score": 90,
@@ -2012,7 +2012,7 @@
           "forks": 0,
           "created_at": "2026-08-17T06:45:43Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:38:56.143Z",
+          "last_updated": "2026-10-11T06:16:06.701Z",
           "pushed_at": "2026-10-10T12:45:24Z",
           "relevance": {
             "score": 75,
@@ -2045,7 +2045,7 @@
           "forks": 1,
           "created_at": "2025-07-25T04:34:08Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:56.807Z",
+          "last_updated": "2026-10-11T06:16:07.334Z",
           "pushed_at": "2026-10-09T04:44:34Z",
           "relevance": {
             "score": 75,
@@ -2129,7 +2129,7 @@
           "forks": 1,
           "created_at": "2026-08-16T13:57:28Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:38:57.509Z",
+          "last_updated": "2026-10-11T06:16:07.987Z",
           "pushed_at": "2026-10-08T21:24:02Z",
           "relevance": {
             "score": 75,
@@ -2192,7 +2192,7 @@
           "forks": 0,
           "created_at": "2026-07-12T20:54:35Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:38:58.171Z",
+          "last_updated": "2026-10-11T06:16:08.528Z",
           "pushed_at": "2026-10-10T18:12:12Z",
           "relevance": {
             "score": 75,
@@ -2238,8 +2238,8 @@
           "forks": 1,
           "created_at": "2026-04-05T01:22:04Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-11T03:38:58.783Z",
-          "pushed_at": "2026-10-11T01:31:44Z",
+          "last_updated": "2026-10-11T06:16:09.136Z",
+          "pushed_at": "2026-10-11T06:07:43Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2270,8 +2270,8 @@
           "forks": 1,
           "created_at": "2024-03-23T00:07:38Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-11T03:38:59.599Z",
-          "pushed_at": "2026-10-11T03:38:34Z",
+          "last_updated": "2026-10-11T06:16:09.824Z",
+          "pushed_at": "2026-10-11T06:11:20Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2321,8 +2321,8 @@
           "forks": 1,
           "created_at": "2026-07-11T18:53:14Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:39:03.041Z",
-          "pushed_at": "2026-10-11T03:28:07Z",
+          "last_updated": "2026-10-11T06:16:13.197Z",
+          "pushed_at": "2026-10-11T04:11:12Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2385,7 +2385,7 @@
           "forks": 1,
           "created_at": "2026-06-27T02:16:49Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:39:00.872Z",
+          "last_updated": "2026-10-11T06:16:11.311Z",
           "pushed_at": "2026-10-07T20:30:50Z",
           "relevance": {
             "score": 75,
@@ -2430,8 +2430,8 @@
           "forks": 1,
           "created_at": "2026-09-22T04:01:21Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:39:01.653Z",
-          "pushed_at": "2026-10-10T20:44:09Z",
+          "last_updated": "2026-10-11T06:16:11.916Z",
+          "pushed_at": "2026-10-11T04:12:19Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2463,8 +2463,8 @@
           "forks": 0,
           "created_at": "2026-10-03T07:09:42Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:39:02.235Z",
-          "pushed_at": "2026-10-11T03:23:18Z",
+          "last_updated": "2026-10-11T06:16:12.515Z",
+          "pushed_at": "2026-10-11T04:37:10Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2552,8 +2552,8 @@
           "forks": 0,
           "created_at": "2026-03-24T03:56:01Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:39:03.843Z",
-          "pushed_at": "2026-10-10T23:50:22Z",
+          "last_updated": "2026-10-11T06:16:13.886Z",
+          "pushed_at": "2026-10-11T05:58:36Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2590,8 +2590,8 @@
           "forks": 3,
           "created_at": "2026-05-28T01:21:36Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-11T03:39:04.794Z",
-          "pushed_at": "2026-10-11T02:12:25Z",
+          "last_updated": "2026-10-11T06:16:14.522Z",
+          "pushed_at": "2026-10-11T05:02:18Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2677,7 +2677,7 @@
           "forks": 2,
           "created_at": "2026-01-12T07:55:52Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:39:05.650Z",
+          "last_updated": "2026-10-11T06:16:15.169Z",
           "pushed_at": "2026-10-11T01:12:14Z",
           "relevance": {
             "score": 75,
@@ -2729,7 +2729,7 @@
           "forks": 1,
           "created_at": "2026-08-13T01:23:32Z",
           "discovered_at": "2026-10-05T03:46:13.575Z",
-          "last_updated": "2026-10-11T03:39:06.384Z",
+          "last_updated": "2026-10-11T06:16:15.830Z",
           "pushed_at": "2026-10-07T16:27:43Z",
           "relevance": {
             "score": 100,
@@ -2790,8 +2790,8 @@
           "forks": 2,
           "created_at": "2026-05-12T20:34:33Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:39:07.025Z",
-          "pushed_at": "2026-10-11T03:38:51Z",
+          "last_updated": "2026-10-11T06:16:16.530Z",
+          "pushed_at": "2026-10-11T06:14:55Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2853,7 +2853,7 @@
           "forks": 1,
           "created_at": "2026-06-08T15:32:09Z",
           "discovered_at": "2026-10-06T04:34:02.467Z",
-          "last_updated": "2026-10-11T03:39:07.682Z",
+          "last_updated": "2026-10-11T06:16:17.181Z",
           "pushed_at": "2026-10-06T04:32:40Z",
           "relevance": {
             "score": 75,
@@ -2896,7 +2896,7 @@
           "forks": 0,
           "created_at": "2026-02-12T02:53:07Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:39:08.983Z",
+          "last_updated": "2026-10-11T06:16:18.543Z",
           "pushed_at": "2026-10-11T03:08:29Z",
           "relevance": {
             "score": 75,
@@ -3000,8 +3000,8 @@
           "forks": 0,
           "created_at": "2026-05-06T21:39:59Z",
           "discovered_at": "2026-10-05T06:06:29.954Z",
-          "last_updated": "2026-10-11T03:39:09.663Z",
-          "pushed_at": "2026-10-11T02:36:19Z",
+          "last_updated": "2026-10-11T06:16:19.211Z",
+          "pushed_at": "2026-10-11T05:40:30Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -4329,7 +4329,7 @@
     }
   ],
   "report": {
-    "updated_at": "2026-10-11T03:38:32.383Z",
+    "updated_at": "2026-10-11T06:15:44.495Z",
     "accepted": 0,
     "attempted": 0,
     "skipped": [],
