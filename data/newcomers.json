@@ -304,18 +304,18 @@
     {
       "start": "2026-10-12",
       "end": "2026-10-19",
-      "updated_at": "2026-10-13T05:11:53.689Z",
+      "updated_at": "2026-10-13T07:02:10.667Z",
       "repositories": [
         {
           "full_name": "xbtlin/ai-berkshire",
           "name": "ai-berkshire",
           "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
           "language": "HTML",
-          "stars": 16725,
+          "stars": 16726,
           "forks": 2487,
           "created_at": "2026-04-07T11:19:51Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:11:54.450Z",
+          "last_updated": "2026-10-13T07:02:11.596Z",
           "pushed_at": "2026-10-12T03:52:07Z",
           "relevance": {
             "score": 75,
@@ -343,12 +343,12 @@
           "name": "awesome-game-security",
           "description": "awesome game security [Welcome to PR]",
           "language": "Python",
-          "stars": 3599,
+          "stars": 3597,
           "forks": 508,
           "created_at": "2022-04-04T06:07:57Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:11:56.092Z",
-          "pushed_at": "2026-10-13T04:55:56Z",
+          "last_updated": "2026-10-13T07:02:14.405Z",
+          "pushed_at": "2026-10-13T06:38:17Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -434,7 +434,7 @@
           "forks": 183,
           "created_at": "2026-05-26T12:45:07Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:11:57.261Z",
+          "last_updated": "2026-10-13T07:02:15.242Z",
           "pushed_at": "2026-10-13T02:20:38Z",
           "relevance": {
             "score": 75,
@@ -518,11 +518,11 @@
           "description": "IncarnaMind is a free, open-source desktop app for macOS, Windows and Linux where you ask questions about your own documents (PDF, Word, PowerPoint, Excel and more) and write with AI. Every answer cites the exact page, and IncarnaMind checks that each quoted passage is really there.",
           "language": "TypeScript",
           "stars": 807,
-          "forks": 55,
+          "forks": 56,
           "created_at": "2023-08-25T14:13:15Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:11:57.967Z",
-          "pushed_at": "2026-10-13T05:08:53Z",
+          "last_updated": "2026-10-13T07:02:15.942Z",
+          "pushed_at": "2026-10-13T06:52:04Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -553,11 +553,11 @@
           "name": "unbrowse",
           "description": "Unbrowse - Reverse engineer any website so that your agents can access its APIs directly",
           "language": "TypeScript",
-          "stars": 785,
+          "stars": 786,
           "forks": 70,
           "created_at": "2026-01-27T15:30:07Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:11:58.629Z",
+          "last_updated": "2026-10-13T07:02:16.595Z",
           "pushed_at": "2026-10-12T04:35:54Z",
           "relevance": {
             "score": 75,
@@ -592,11 +592,11 @@
           "name": "liquid_glass_widgets",
           "description": "Flutter UI kit implementing Apple's iOS 26 Liquid Glass design language - a comprehensive glass widget library with real shader-based blur, physics-driven jelly animations, and dynamic lighting. Works on every platform out of the box.",
           "language": "Dart",
-          "stars": 730,
+          "stars": 731,
           "forks": 110,
           "created_at": "2025-12-12T04:35:48Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:11:59.323Z",
+          "last_updated": "2026-10-13T07:02:17.260Z",
           "pushed_at": "2026-10-12T04:01:00Z",
           "relevance": {
             "score": 75,
@@ -621,7 +621,7 @@
           "forks": 165,
           "created_at": "2026-01-15T15:33:38Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:00.199Z",
+          "last_updated": "2026-10-13T07:02:18.258Z",
           "pushed_at": "2026-10-12T03:57:44Z",
           "relevance": {
             "score": 90,
@@ -708,7 +708,7 @@
           "forks": 66,
           "created_at": "2026-02-02T09:21:25Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:00.858Z",
+          "last_updated": "2026-10-13T07:02:18.968Z",
           "pushed_at": "2026-10-12T03:57:20Z",
           "relevance": {
             "score": 75,
@@ -743,12 +743,12 @@
           "name": "Physical-AI-Operating-System",
           "description": "The open-source operating system for physical AI.",
           "language": "Python",
-          "stars": 419,
-          "forks": 64,
+          "stars": 423,
+          "forks": 65,
           "created_at": "2026-06-04T17:37:16Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:01.488Z",
-          "pushed_at": "2026-10-13T05:09:21Z",
+          "last_updated": "2026-10-13T07:02:19.802Z",
+          "pushed_at": "2026-10-13T06:57:18Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -787,7 +787,7 @@
           "forks": 43,
           "created_at": "2026-04-17T16:21:00Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:02.232Z",
+          "last_updated": "2026-10-13T07:02:20.640Z",
           "pushed_at": "2026-10-12T06:38:04Z",
           "relevance": {
             "score": 75,
@@ -841,12 +841,12 @@
           "name": "research-toolkit",
           "description": "Research methods, workflow tools, and independent review for AI agents, packaged as a Skill, plugin, and local MCP server.",
           "language": "Python",
-          "stars": 204,
+          "stars": 205,
           "forks": 0,
           "created_at": "2026-06-24T09:45:45Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:02.932Z",
-          "pushed_at": "2026-10-13T05:07:31Z",
+          "last_updated": "2026-10-13T07:02:21.420Z",
+          "pushed_at": "2026-10-13T06:20:27Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -885,7 +885,7 @@
           "forks": 25,
           "created_at": "2026-04-21T02:18:31Z",
           "discovered_at": "2026-10-13T05:11:53.689Z",
-          "last_updated": "2026-10-13T05:12:35.260Z",
+          "last_updated": "2026-10-13T07:02:22.196Z",
           "pushed_at": "2026-10-13T05:11:32Z",
           "relevance": {
             "score": 95,
@@ -943,8 +943,8 @@
           "forks": 10,
           "created_at": "2026-03-25T02:36:28Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:03.618Z",
-          "pushed_at": "2026-10-13T05:11:01Z",
+          "last_updated": "2026-10-13T07:02:22.970Z",
+          "pushed_at": "2026-10-13T06:58:03Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -983,7 +983,7 @@
           "forks": 20,
           "created_at": "2026-03-26T13:28:15Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:04.323Z",
+          "last_updated": "2026-10-13T07:02:23.806Z",
           "pushed_at": "2026-10-12T21:04:40Z",
           "relevance": {
             "score": 75,
@@ -1012,7 +1012,7 @@
           "forks": 11,
           "created_at": "2026-02-13T15:53:05Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:05.087Z",
+          "last_updated": "2026-10-13T07:02:24.631Z",
           "pushed_at": "2026-10-13T00:59:16Z",
           "relevance": {
             "score": 100,
@@ -1046,8 +1046,8 @@
           "forks": 17,
           "created_at": "2025-03-26T21:08:54Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:05.805Z",
-          "pushed_at": "2026-10-13T02:04:21Z",
+          "last_updated": "2026-10-13T07:02:25.397Z",
+          "pushed_at": "2026-10-13T06:42:19Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1097,7 +1097,7 @@
           "forks": 7,
           "created_at": "2026-03-21T23:20:37Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:06.292Z",
+          "last_updated": "2026-10-13T07:02:27.742Z",
           "pushed_at": "2026-10-12T17:35:30Z",
           "relevance": {
             "score": 75,
@@ -1148,8 +1148,8 @@
           "forks": 1,
           "created_at": "2023-10-24T20:07:16Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:06.985Z",
-          "pushed_at": "2026-10-13T00:42:50Z",
+          "last_updated": "2026-10-13T07:02:28.398Z",
+          "pushed_at": "2026-10-13T06:04:45Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1169,11 +1169,11 @@
           "name": "mouse-pointer-theme-maker",
           "description": "Create custom macOS and Windows mouse pointer themes from characters, mascots, or visual ideas.",
           "language": "Python",
-          "stars": 33,
+          "stars": 34,
           "forks": 2,
           "created_at": "2026-08-04T07:01:45Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:08.391Z",
+          "last_updated": "2026-10-13T07:02:29.100Z",
           "pushed_at": "2026-10-12T06:21:27Z",
           "relevance": {
             "score": 75,
@@ -1207,12 +1207,12 @@
           "name": "plugins",
           "description": "Community-maintained OpenCode provider plugins for coding-plan subscriptions (work in OpenCode and magpie)",
           "language": "JavaScript",
-          "stars": 31,
-          "forks": 52,
+          "stars": 32,
+          "forks": 53,
           "created_at": "2026-09-30T08:56:35Z",
           "discovered_at": "2026-10-13T05:11:53.689Z",
-          "last_updated": "2026-10-13T05:12:36.652Z",
-          "pushed_at": "2026-10-13T05:10:14Z",
+          "last_updated": "2026-10-13T07:02:29.781Z",
+          "pushed_at": "2026-10-13T06:51:27Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1236,7 +1236,7 @@
           "forks": 9,
           "created_at": "2026-04-14T08:05:36Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:07.712Z",
+          "last_updated": "2026-10-13T07:02:30.686Z",
           "pushed_at": "2026-10-12T04:27:07Z",
           "relevance": {
             "score": 75,
@@ -1275,8 +1275,8 @@
           "forks": 6,
           "created_at": "2026-05-19T06:21:28Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:09.390Z",
-          "pushed_at": "2026-10-13T03:44:10Z",
+          "last_updated": "2026-10-13T07:02:32.456Z",
+          "pushed_at": "2026-10-13T06:32:09Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1345,8 +1345,8 @@
           "forks": 0,
           "created_at": "2026-06-28T14:10:06Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:11.750Z",
-          "pushed_at": "2026-10-13T02:59:45Z",
+          "last_updated": "2026-10-13T07:02:33.663Z",
+          "pushed_at": "2026-10-13T06:18:04Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1395,7 +1395,7 @@
           "forks": 10,
           "created_at": "2026-07-14T04:56:29Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:10.160Z",
+          "last_updated": "2026-10-13T07:02:34.377Z",
           "pushed_at": "2026-10-12T20:14:31Z",
           "relevance": {
             "score": 65,
@@ -1433,7 +1433,7 @@
           "forks": 4,
           "created_at": "2026-04-01T15:51:49Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:10.936Z",
+          "last_updated": "2026-10-13T07:02:35.192Z",
           "pushed_at": "2026-10-12T06:20:25Z",
           "relevance": {
             "score": 75,
@@ -1477,7 +1477,7 @@
           "forks": 0,
           "created_at": "2026-08-13T20:41:15Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:12.345Z",
+          "last_updated": "2026-10-13T07:02:35.896Z",
           "pushed_at": "2026-10-12T15:30:04Z",
           "relevance": {
             "score": 75,
@@ -1529,8 +1529,8 @@
           "forks": 7,
           "created_at": "2026-05-08T19:07:24Z",
           "discovered_at": "2026-10-13T05:11:53.689Z",
-          "last_updated": "2026-10-13T05:12:34.853Z",
-          "pushed_at": "2026-10-13T05:11:32Z",
+          "last_updated": "2026-10-13T07:02:36.592Z",
+          "pushed_at": "2026-10-13T06:43:45Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1586,7 +1586,7 @@
           "forks": 9,
           "created_at": "2026-03-29T00:45:14Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:15.826Z",
+          "last_updated": "2026-10-13T07:02:37.258Z",
           "pushed_at": "2026-10-13T00:13:19Z",
           "relevance": {
             "score": 75,
@@ -1631,7 +1631,7 @@
           "forks": 4,
           "created_at": "2026-01-15T04:05:49Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:13.177Z",
+          "last_updated": "2026-10-13T07:02:37.990Z",
           "pushed_at": "2026-10-12T04:02:46Z",
           "relevance": {
             "score": 75,
@@ -1724,8 +1724,8 @@
           "forks": 2,
           "created_at": "2026-02-13T01:26:22Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:15.015Z",
-          "pushed_at": "2026-10-13T03:47:33Z",
+          "last_updated": "2026-10-13T07:02:39.675Z",
+          "pushed_at": "2026-10-13T06:49:42Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1755,6 +1755,45 @@
           ]
         },
         {
+          "full_name": "S0mbraD/OpenTCM_Discovery",
+          "name": "OpenTCM_Discovery",
+          "description": "面向中药小分子发现的开源研究工具。检索疾病通路和成分，核对多个公开数据库是否同时收录，并只在文献写明结合口袋时做分子对接。计算结果用来提出可检验的假设。",
+          "language": "Python",
+          "stars": 15,
+          "forks": 0,
+          "created_at": "2026-10-12T17:41:41Z",
+          "discovered_at": "2026-10-13T05:11:53.689Z",
+          "last_updated": "2026-10-13T07:02:50.687Z",
+          "pushed_at": "2026-10-13T06:26:44Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "research",
+              "evidence": [
+                "description",
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "denameidina/hanoman",
           "name": "hanoman",
           "description": "Control room untuk menjalankan & memantau coding agent di banyak project sekaligus — dengan dokumentasi sebagai Source of Truth.",
@@ -1763,7 +1802,7 @@
           "forks": 7,
           "created_at": "2026-07-09T09:21:19Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:17.568Z",
+          "last_updated": "2026-10-13T07:02:40.959Z",
           "pushed_at": "2026-10-12T23:58:53Z",
           "relevance": {
             "score": 75,
@@ -1815,8 +1854,8 @@
           "forks": 4,
           "created_at": "2026-03-25T19:51:51Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:18.541Z",
-          "pushed_at": "2026-10-12T19:06:37Z",
+          "last_updated": "2026-10-13T07:02:41.911Z",
+          "pushed_at": "2026-10-13T06:10:33Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1885,8 +1924,8 @@
           "forks": 2,
           "created_at": "2026-06-01T03:10:18Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:19.262Z",
-          "pushed_at": "2026-10-13T04:06:50Z",
+          "last_updated": "2026-10-13T07:02:42.635Z",
+          "pushed_at": "2026-10-13T06:25:29Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1917,7 +1956,7 @@
           "forks": 2,
           "created_at": "2026-05-05T19:48:54Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:20.205Z",
+          "last_updated": "2026-10-13T07:02:43.434Z",
           "pushed_at": "2026-10-12T11:10:33Z",
           "relevance": {
             "score": 75,
@@ -1968,8 +2007,8 @@
           "forks": 2,
           "created_at": "2026-05-24T07:43:10Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:22.082Z",
-          "pushed_at": "2026-10-13T05:08:14Z",
+          "last_updated": "2026-10-13T07:02:44.265Z",
+          "pushed_at": "2026-10-13T06:55:16Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2032,7 +2071,7 @@
           "forks": 1,
           "created_at": "2026-05-02T12:02:03Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:22.811Z",
+          "last_updated": "2026-10-13T07:02:45.203Z",
           "pushed_at": "2026-10-12T06:21:25Z",
           "relevance": {
             "score": 75,
@@ -2107,7 +2146,7 @@
           "forks": 1,
           "created_at": "2026-03-18T13:20:05Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:23.538Z",
+          "last_updated": "2026-10-13T07:02:46.202Z",
           "pushed_at": "2026-10-13T01:40:02Z",
           "relevance": {
             "score": 75,
@@ -2177,7 +2216,7 @@
           "forks": 0,
           "created_at": "2026-10-10T07:26:54Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:28.090Z",
+          "last_updated": "2026-10-13T07:02:46.800Z",
           "pushed_at": "2026-10-13T04:49:13Z",
           "relevance": {
             "score": 90,
@@ -2216,8 +2255,8 @@
           "forks": 4,
           "created_at": "2026-08-15T22:35:08Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:24.637Z",
-          "pushed_at": "2026-10-13T04:56:44Z",
+          "last_updated": "2026-10-13T07:02:47.674Z",
+          "pushed_at": "2026-10-13T07:00:38Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2274,8 +2313,8 @@
           "forks": 4,
           "created_at": "2026-08-27T04:58:50Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:25.368Z",
-          "pushed_at": "2026-10-13T03:50:25Z",
+          "last_updated": "2026-10-13T07:02:48.557Z",
+          "pushed_at": "2026-10-13T05:59:50Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2313,7 +2352,7 @@
           "forks": 2,
           "created_at": "2026-01-13T01:59:54Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:26.215Z",
+          "last_updated": "2026-10-13T07:02:49.345Z",
           "pushed_at": "2026-10-12T10:39:48Z",
           "relevance": {
             "score": 90,
@@ -2371,7 +2410,7 @@
           "forks": 1,
           "created_at": "2026-01-17T19:36:10Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:27.538Z",
+          "last_updated": "2026-10-13T07:02:50.033Z",
           "pushed_at": "2026-10-12T12:53:11Z",
           "relevance": {
             "score": 75,
@@ -2388,45 +2427,6 @@
           "system_tags": []
         },
         {
-          "full_name": "S0mbraD/OpenTCM_Discovery",
-          "name": "OpenTCM_Discovery",
-          "description": "面向中药小分子发现的开源研究工具。检索疾病通路和成分，核对多个公开数据库是否同时收录，并只在文献写明结合口袋时做分子对接。计算结果用来提出可检验的假设。",
-          "language": "Python",
-          "stars": 5,
-          "forks": 0,
-          "created_at": "2026-10-12T17:41:41Z",
-          "discovered_at": "2026-10-13T05:11:53.689Z",
-          "last_updated": "2026-10-13T05:12:35.742Z",
-          "pushed_at": "2026-10-13T05:11:26Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "research",
-              "evidence": [
-                "description",
-                "readme"
-              ]
-            },
-            {
-              "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "vikashruhilgit/loomwright",
           "name": "loomwright",
           "description": "",
@@ -2435,8 +2435,8 @@
           "forks": 0,
           "created_at": "2025-10-29T04:27:42Z",
           "discovered_at": "2026-10-13T05:11:53.689Z",
-          "last_updated": "2026-10-13T05:12:36.312Z",
-          "pushed_at": "2026-10-13T05:10:50Z",
+          "last_updated": "2026-10-13T07:02:51.561Z",
+          "pushed_at": "2026-10-13T06:11:11Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2505,7 +2505,7 @@
           "forks": 4,
           "created_at": "2026-06-04T08:43:30Z",
           "discovered_at": "2026-10-13T05:11:53.689Z",
-          "last_updated": "2026-10-13T05:12:36.974Z",
+          "last_updated": "2026-10-13T07:02:52.306Z",
           "pushed_at": "2026-10-13T05:10:54Z",
           "relevance": {
             "score": 90,
@@ -2551,7 +2551,7 @@
           "forks": 2,
           "created_at": "2026-03-13T15:56:28Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:28.855Z",
+          "last_updated": "2026-10-13T07:02:53.085Z",
           "pushed_at": "2026-10-12T16:01:36Z",
           "relevance": {
             "score": 75,
@@ -2591,7 +2591,7 @@
           "forks": 1,
           "created_at": "2026-03-01T23:35:02Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:30.207Z",
+          "last_updated": "2026-10-13T07:02:53.971Z",
           "pushed_at": "2026-10-13T03:17:49Z",
           "relevance": {
             "score": 75,
@@ -2691,7 +2691,7 @@
           "forks": 0,
           "created_at": "2026-04-24T08:59:12Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:30.845Z",
+          "last_updated": "2026-10-13T07:02:54.717Z",
           "pushed_at": "2026-10-12T03:57:00Z",
           "relevance": {
             "score": 75,
@@ -2731,7 +2731,7 @@
           "forks": 0,
           "created_at": "2026-02-16T09:57:48Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-13T05:12:31.552Z",
+          "last_updated": "2026-10-13T07:02:55.380Z",
           "pushed_at": "2026-10-13T02:08:44Z",
           "relevance": {
             "score": 75,
@@ -2782,8 +2782,8 @@
           "forks": 0,
           "created_at": "2026-07-07T01:58:38Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-13T05:12:33.692Z",
-          "pushed_at": "2026-10-12T17:01:20Z",
+          "last_updated": "2026-10-13T07:02:56.157Z",
+          "pushed_at": "2026-10-13T07:00:27Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -4704,9 +4704,9 @@
     }
   ],
   "report": {
-    "updated_at": "2026-10-13T05:11:53.689Z",
-    "accepted": 6,
-    "attempted": 6,
+    "updated_at": "2026-10-13T07:02:10.667Z",
+    "accepted": 0,
+    "attempted": 0,
     "skipped": [],
     "warnings": []
   }
