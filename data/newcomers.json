@@ -292,24 +292,30 @@
     "denameidina/hanoman": "2026-10-12T06:23:30.141Z",
     "max-sixty/tend": "2026-10-12T06:23:30.141Z",
     "arthur-ai/arthur-engine": "2026-10-12T06:23:30.141Z",
-    "kody-w/rappterbook": "2026-10-12T06:23:30.141Z"
+    "kody-w/rappterbook": "2026-10-12T06:23:30.141Z",
+    "edge-city/agentvillage": "2026-10-13T05:11:53.689Z",
+    "pseudo-longinus/quant-buddy-skills": "2026-10-13T05:11:53.689Z",
+    "s0mbrad/opentcm_discovery": "2026-10-13T05:11:53.689Z",
+    "vikashruhilgit/loomwright": "2026-10-13T05:11:53.689Z",
+    "magpie-community/plugins": "2026-10-13T05:11:53.689Z",
+    "raquezha/nothing": "2026-10-13T05:11:53.689Z"
   },
   "weeks": [
     {
       "start": "2026-10-12",
       "end": "2026-10-19",
-      "updated_at": "2026-10-12T06:23:30.141Z",
+      "updated_at": "2026-10-13T05:11:53.689Z",
       "repositories": [
         {
           "full_name": "xbtlin/ai-berkshire",
           "name": "ai-berkshire",
           "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
           "language": "HTML",
-          "stars": 16710,
-          "forks": 2486,
+          "stars": 16725,
+          "forks": 2487,
           "created_at": "2026-04-07T11:19:51Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:31.061Z",
+          "last_updated": "2026-10-13T05:11:54.450Z",
           "pushed_at": "2026-10-12T03:52:07Z",
           "relevance": {
             "score": 75,
@@ -337,12 +343,12 @@
           "name": "awesome-game-security",
           "description": "awesome game security [Welcome to PR]",
           "language": "Python",
-          "stars": 3597,
-          "forks": 507,
+          "stars": 3599,
+          "forks": 508,
           "created_at": "2022-04-04T06:07:57Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:32.672Z",
-          "pushed_at": "2026-10-12T05:55:13Z",
+          "last_updated": "2026-10-13T05:11:56.092Z",
+          "pushed_at": "2026-10-13T04:55:56Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -424,12 +430,12 @@
           "name": "ai-engineering-from-scratch-zh",
           "description": "Agent工程师最全学习路径 · 从零精通 AI 工程 · 20 阶段 503 课 · 中文全量翻译 + 配套站点 + 动画讲解视频 · 如何成为 AI Agent 工程师的修成指南",
           "language": "Python",
-          "stars": 1218,
+          "stars": 1228,
           "forks": 183,
           "created_at": "2026-05-26T12:45:07Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:33.346Z",
-          "pushed_at": "2026-10-12T05:59:24Z",
+          "last_updated": "2026-10-13T05:11:57.261Z",
+          "pushed_at": "2026-10-13T02:20:38Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -450,6 +456,12 @@
             "structural": true
           },
           "system_tags": [
+            {
+              "id": "documents",
+              "evidence": [
+                "readme"
+              ]
+            },
             {
               "id": "frontend",
               "evidence": [
@@ -503,14 +515,14 @@
         {
           "full_name": "junruxiong/IncarnaMind",
           "name": "IncarnaMind",
-          "description": "The AI notebook that checks its own citations. Ask your PDFs, Word, PowerPoint and Excel files and every answer cites the exact page, with the quote checked against it. Open-source desktop app for macOS, Windows and Linux; works with your ChatGPT plan, your own API key (Claude, GPT, DeepSeek…) or a local model via Ollama.",
+          "description": "IncarnaMind is a free, open-source desktop app for macOS, Windows and Linux where you ask questions about your own documents (PDF, Word, PowerPoint, Excel and more) and write with AI. Every answer cites the exact page, and IncarnaMind checks that each quoted passage is really there.",
           "language": "TypeScript",
-          "stars": 804,
+          "stars": 807,
           "forks": 55,
           "created_at": "2023-08-25T14:13:15Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:52.594Z",
-          "pushed_at": "2026-10-12T06:21:40Z",
+          "last_updated": "2026-10-13T05:11:57.967Z",
+          "pushed_at": "2026-10-13T05:08:53Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -541,11 +553,11 @@
           "name": "unbrowse",
           "description": "Unbrowse - Reverse engineer any website so that your agents can access its APIs directly",
           "language": "TypeScript",
-          "stars": 784,
-          "forks": 69,
+          "stars": 785,
+          "forks": 70,
           "created_at": "2026-01-27T15:30:07Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:33.939Z",
+          "last_updated": "2026-10-13T05:11:58.629Z",
           "pushed_at": "2026-10-12T04:35:54Z",
           "relevance": {
             "score": 75,
@@ -580,11 +592,11 @@
           "name": "liquid_glass_widgets",
           "description": "Flutter UI kit implementing Apple's iOS 26 Liquid Glass design language - a comprehensive glass widget library with real shader-based blur, physics-driven jelly animations, and dynamic lighting. Works on every platform out of the box.",
           "language": "Dart",
-          "stars": 731,
-          "forks": 109,
+          "stars": 730,
+          "forks": 110,
           "created_at": "2025-12-12T04:35:48Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:34.540Z",
+          "last_updated": "2026-10-13T05:11:59.323Z",
           "pushed_at": "2026-10-12T04:01:00Z",
           "relevance": {
             "score": 75,
@@ -606,10 +618,10 @@
           "description": "A collection of Agent Skills Standard and Best Practice for Programming Languages, Frameworks that help our AI Agent follow best practies on frameworks and programming laguages",
           "language": "TypeScript",
           "stars": 573,
-          "forks": 166,
+          "forks": 165,
           "created_at": "2026-01-15T15:33:38Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:35.434Z",
+          "last_updated": "2026-10-13T05:12:00.199Z",
           "pushed_at": "2026-10-12T03:57:44Z",
           "relevance": {
             "score": 90,
@@ -696,7 +708,7 @@
           "forks": 66,
           "created_at": "2026-02-02T09:21:25Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:36.088Z",
+          "last_updated": "2026-10-13T05:12:00.858Z",
           "pushed_at": "2026-10-12T03:57:20Z",
           "relevance": {
             "score": 75,
@@ -731,12 +743,12 @@
           "name": "Physical-AI-Operating-System",
           "description": "The open-source operating system for physical AI.",
           "language": "Python",
-          "stars": 417,
+          "stars": 419,
           "forks": 64,
           "created_at": "2026-06-04T17:37:16Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:36.767Z",
-          "pushed_at": "2026-10-12T06:20:40Z",
+          "last_updated": "2026-10-13T05:12:01.488Z",
+          "pushed_at": "2026-10-13T05:09:21Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -771,12 +783,12 @@
           "name": "zot",
           "description": "Yet another coding agent harness, lightweight and written in go.",
           "language": "Go",
-          "stars": 352,
-          "forks": 42,
+          "stars": 351,
+          "forks": 43,
           "created_at": "2026-04-17T16:21:00Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:54.573Z",
-          "pushed_at": "2026-10-12T06:21:17Z",
+          "last_updated": "2026-10-13T05:12:02.232Z",
+          "pushed_at": "2026-10-12T06:38:04Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -829,12 +841,12 @@
           "name": "research-toolkit",
           "description": "Research methods, workflow tools, and independent review for AI agents, packaged as a Skill, plugin, and local MCP server.",
           "language": "Python",
-          "stars": 194,
+          "stars": 204,
           "forks": 0,
           "created_at": "2026-06-24T09:45:45Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:49.248Z",
-          "pushed_at": "2026-10-12T06:23:41Z",
+          "last_updated": "2026-10-13T05:12:02.932Z",
+          "pushed_at": "2026-10-13T05:07:31Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -865,6 +877,64 @@
           ]
         },
         {
+          "full_name": "pseudo-longinus/quant-buddy-skills",
+          "name": "quant-buddy-skills",
+          "description": "宽宝 QuantBuddy： 一整套面向Agent Invesment投资研究与决策的底层设施与能力的调用skill， 覆盖A股/港股/美股/期货/宏观/ETF的量化分析与计算。支持行情、估值、财务查询、选股筛选、因子计算、策略回测。A complete infrastructure for Agent based investment analysis and decision through skill calling. Including quant skill for A-share, HK & US stocks/futures/ETF/macro — market data, fundamentals, screening, factor & backtest.",
+          "language": "Python",
+          "stars": 194,
+          "forks": 25,
+          "created_at": "2026-04-21T02:18:31Z",
+          "discovered_at": "2026-10-13T05:11:53.689Z",
+          "last_updated": "2026-10-13T05:12:35.260Z",
+          "pushed_at": "2026-10-13T05:11:32Z",
+          "relevance": {
+            "score": 95,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/quant-buddy-skill/SKILL.md",
+              "skills/quant-buddy-view/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "documents",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "spreadsheets",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "content",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "go-to-k/cdkd",
           "name": "cdkd",
           "description": "Drop-in CDK CLI for existing CDK apps — up to 15x faster deploys via direct AWS SDK calls instead of CloudFormation.",
@@ -873,8 +943,8 @@
           "forks": 10,
           "created_at": "2026-03-25T02:36:28Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:37.542Z",
-          "pushed_at": "2026-10-12T06:19:14Z",
+          "last_updated": "2026-10-13T05:12:03.618Z",
+          "pushed_at": "2026-10-13T05:11:01Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -909,12 +979,12 @@
           "name": "droidproxy",
           "description": "macOS menu bar app that proxies Claude/Codex/Grok + More subscriptions for use with Factory Droid CLI. Actively maintained and updated with new model releases!",
           "language": "Swift",
-          "stars": 123,
+          "stars": 124,
           "forks": 20,
           "created_at": "2026-03-26T13:28:15Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:54.062Z",
-          "pushed_at": "2026-10-12T06:21:17Z",
+          "last_updated": "2026-10-13T05:12:04.323Z",
+          "pushed_at": "2026-10-12T21:04:40Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -942,8 +1012,8 @@
           "forks": 11,
           "created_at": "2026-02-13T15:53:05Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:57.114Z",
-          "pushed_at": "2026-10-12T06:20:26Z",
+          "last_updated": "2026-10-13T05:12:05.087Z",
+          "pushed_at": "2026-10-13T00:59:16Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -976,8 +1046,8 @@
           "forks": 17,
           "created_at": "2025-03-26T21:08:54Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:59.164Z",
-          "pushed_at": "2026-10-12T06:19:58Z",
+          "last_updated": "2026-10-13T05:12:05.805Z",
+          "pushed_at": "2026-10-13T02:04:21Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1023,12 +1093,12 @@
           "name": "tend",
           "description": "Claude-powered CI workflows for GitHub repositories",
           "language": "Python",
-          "stars": 39,
+          "stars": 38,
           "forks": 7,
           "created_at": "2026-03-21T23:20:37Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:58.316Z",
-          "pushed_at": "2026-10-12T06:19:49Z",
+          "last_updated": "2026-10-13T05:12:06.292Z",
+          "pushed_at": "2026-10-12T17:35:30Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1078,8 +1148,8 @@
           "forks": 1,
           "created_at": "2023-10-24T20:07:16Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:51.423Z",
-          "pushed_at": "2026-10-12T06:22:43Z",
+          "last_updated": "2026-10-13T05:12:06.985Z",
+          "pushed_at": "2026-10-13T00:42:50Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1095,6 +1165,69 @@
           "system_tags": []
         },
         {
+          "full_name": "kaomei/mouse-pointer-theme-maker",
+          "name": "mouse-pointer-theme-maker",
+          "description": "Create custom macOS and Windows mouse pointer themes from characters, mascots, or visual ideas.",
+          "language": "Python",
+          "stars": 33,
+          "forks": 2,
+          "created_at": "2026-08-04T07:01:45Z",
+          "discovered_at": "2026-10-12T06:23:30.141Z",
+          "last_updated": "2026-10-13T05:12:08.391Z",
+          "pushed_at": "2026-10-12T06:21:27Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "writing",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "magpie-community/plugins",
+          "name": "plugins",
+          "description": "Community-maintained OpenCode provider plugins for coding-plan subscriptions (work in OpenCode and magpie)",
+          "language": "JavaScript",
+          "stars": 31,
+          "forks": 52,
+          "created_at": "2026-09-30T08:56:35Z",
+          "discovered_at": "2026-10-13T05:11:53.689Z",
+          "last_updated": "2026-10-13T05:12:36.652Z",
+          "pushed_at": "2026-10-13T05:10:14Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/magpie-quota/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": []
+        },
+        {
           "full_name": "normannoble/GoAgentic",
           "name": "GoAgentic",
           "description": "Convention-based persistent AI agents for Claude Code — autonomy model, session memory, intent-based communication",
@@ -1103,7 +1236,7 @@
           "forks": 9,
           "created_at": "2026-04-14T08:05:36Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:38.268Z",
+          "last_updated": "2026-10-13T05:12:07.712Z",
           "pushed_at": "2026-10-12T04:27:07Z",
           "relevance": {
             "score": 75,
@@ -1134,44 +1267,6 @@
           ]
         },
         {
-          "full_name": "kaomei/mouse-pointer-theme-maker",
-          "name": "mouse-pointer-theme-maker",
-          "description": "Create custom macOS and Windows mouse pointer themes from characters, mascots, or visual ideas.",
-          "language": "Python",
-          "stars": 30,
-          "forks": 2,
-          "created_at": "2026-08-04T07:01:45Z",
-          "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:53.341Z",
-          "pushed_at": "2026-10-12T06:21:27Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "automation",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "writing",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "HenriGrimm/Minnow",
           "name": "Minnow",
           "description": "A free and open source AI Development workspace: code, research, plan and orchestrate multi-agent delivery, and grow a local knowledge base. Runs on any model and provider. Local or Cloud. AGPL-3.0 — no accounts, no subscriptions, no cloud, forever.",
@@ -1180,8 +1275,8 @@
           "forks": 6,
           "created_at": "2026-05-19T06:21:28Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:39.511Z",
-          "pushed_at": "2026-10-12T04:02:52Z",
+          "last_updated": "2026-10-13T05:12:09.390Z",
+          "pushed_at": "2026-10-13T03:44:10Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1242,98 +1337,16 @@
           ]
         },
         {
-          "full_name": "riba2534/hpc-mail",
-          "name": "hpc-mail",
-          "description": "基于 Cloudflare Workers 的多域名多用户邮箱系统：catch-all 收件、验证码自动提取、开放 REST API、AI Agent 友好",
-          "language": "TypeScript",
-          "stars": 22,
-          "forks": 10,
-          "created_at": "2026-07-14T04:56:29Z",
-          "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:52.962Z",
-          "pushed_at": "2026-10-12T06:21:30Z",
-          "relevance": {
-            "score": 65,
-            "evidence": [
-              "skill-file",
-              "readme"
-            ],
-            "skill_files": [
-              "apps/web/public/skill.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "frontend",
-              "evidence": [
-                "topics",
-                "readme"
-              ]
-            },
-            {
-              "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
-          "full_name": "aldegad/safedeps",
-          "name": "safedeps",
-          "description": "Dependency safety gate for Claude Code & Codex CLI — OSV pre-approval, npm lockfile-closure enforcement, and auto-rollback. Local, zero runtime deps.",
-          "language": "Shell",
-          "stars": 22,
-          "forks": 4,
-          "created_at": "2026-04-01T15:51:49Z",
-          "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:57.503Z",
-          "pushed_at": "2026-10-12T06:20:25Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "frontend",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "security",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "writing",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "w3c0929/myscoop",
           "name": "myscoop",
           "description": "效率工具大全，资源整理，电脑小技巧",
           "language": "Python",
-          "stars": 22,
+          "stars": 23,
           "forks": 0,
           "created_at": "2026-06-28T14:10:06Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:40.105Z",
-          "pushed_at": "2026-10-12T06:09:32Z",
+          "last_updated": "2026-10-13T05:12:11.750Z",
+          "pushed_at": "2026-10-13T02:59:45Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1374,6 +1387,88 @@
           ]
         },
         {
+          "full_name": "riba2534/hpc-mail",
+          "name": "hpc-mail",
+          "description": "基于 Cloudflare Workers 的多域名多用户邮箱系统：catch-all 收件、验证码自动提取、开放 REST API、AI Agent 友好",
+          "language": "TypeScript",
+          "stars": 22,
+          "forks": 10,
+          "created_at": "2026-07-14T04:56:29Z",
+          "discovered_at": "2026-10-12T06:23:30.141Z",
+          "last_updated": "2026-10-13T05:12:10.160Z",
+          "pushed_at": "2026-10-12T20:14:31Z",
+          "relevance": {
+            "score": 65,
+            "evidence": [
+              "skill-file",
+              "readme"
+            ],
+            "skill_files": [
+              "apps/web/public/skill.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "topics",
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "aldegad/safedeps",
+          "name": "safedeps",
+          "description": "Dependency safety gate for Claude Code & Codex CLI — OSV pre-approval, npm lockfile-closure enforcement, and auto-rollback. Local, zero runtime deps.",
+          "language": "Shell",
+          "stars": 22,
+          "forks": 4,
+          "created_at": "2026-04-01T15:51:49Z",
+          "discovered_at": "2026-10-12T06:23:30.141Z",
+          "last_updated": "2026-10-13T05:12:10.936Z",
+          "pushed_at": "2026-10-12T06:20:25Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "security",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "writing",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "ZK-Andy/dsh-continual-evolve",
           "name": "dsh-continual-evolve",
           "description": "Continual self-evolution plugin for DeepSeek Harness: versioned, auditable, rollback-safe harness state refined from session trajectories, with a benchmark-driven validation loop.",
@@ -1382,8 +1477,8 @@
           "forks": 0,
           "created_at": "2026-08-13T20:41:15Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:40.795Z",
-          "pushed_at": "2026-10-12T04:15:39Z",
+          "last_updated": "2026-10-13T05:12:12.345Z",
+          "pushed_at": "2026-10-12T15:30:04Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1426,6 +1521,108 @@
           ]
         },
         {
+          "full_name": "Edge-City/agentvillage",
+          "name": "agentvillage",
+          "description": "AgentVillage: skills + onboarding for the Agent Village at Edge Esmeralda 2026",
+          "language": "TypeScript",
+          "stars": 19,
+          "forks": 7,
+          "created_at": "2026-05-08T19:07:24Z",
+          "discovered_at": "2026-10-13T05:11:53.689Z",
+          "last_updated": "2026-10-13T05:12:34.853Z",
+          "pushed_at": "2026-10-13T05:11:32Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/agent-commons/SKILL.md",
+              "skills/agent-plaza/SKILL.md",
+              "skills/agent-profile/SKILL.md",
+              "skills/approval/SKILL.md",
+              "skills/edge-esmeralda/SKILL.md",
+              "skills/edge-india/SKILL.md",
+              "skills/edgeos/SKILL.md",
+              "skills/gold-stars/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "research",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "WingedGuardian/skyrimvr-claude-toolkit",
+          "name": "skyrimvr-claude-toolkit",
+          "description": "AI-assisted Skyrim modding environment for Claude Code. SE/AE/VR — ESP tools, safety hooks, 600+ lines of engine knowledge, pre-configured.",
+          "language": "Python",
+          "stars": 16,
+          "forks": 9,
+          "created_at": "2026-03-29T00:45:14Z",
+          "discovered_at": "2026-10-12T04:02:59.667Z",
+          "last_updated": "2026-10-13T05:12:15.826Z",
+          "pushed_at": "2026-10-13T00:13:19Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              ".agents/skills/create-mod/SKILL.md",
+              ".agents/skills/devbench/SKILL.md",
+              ".agents/skills/inspect-esp/SKILL.md",
+              ".agents/skills/port-to-vr/SKILL.md",
+              ".agents/skills/skyrim-audio/SKILL.md",
+              ".agents/skills/skyrim-bsa/SKILL.md",
+              ".agents/skills/skyrim-context/SKILL.md",
+              ".agents/skills/skyrim-mcm/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "bmad-labs/skills",
           "name": "skills",
           "description": "",
@@ -1434,7 +1631,7 @@
           "forks": 4,
           "created_at": "2026-01-15T04:05:49Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:41.868Z",
+          "last_updated": "2026-10-13T05:12:13.177Z",
           "pushed_at": "2026-10-12T04:02:46Z",
           "relevance": {
             "score": 75,
@@ -1527,8 +1724,8 @@
           "forks": 2,
           "created_at": "2026-02-13T01:26:22Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:24:00.955Z",
-          "pushed_at": "2026-10-12T06:23:54Z",
+          "last_updated": "2026-10-13T05:12:15.015Z",
+          "pushed_at": "2026-10-13T03:47:33Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1558,51 +1755,6 @@
           ]
         },
         {
-          "full_name": "WingedGuardian/skyrimvr-claude-toolkit",
-          "name": "skyrimvr-claude-toolkit",
-          "description": "AI-assisted Skyrim modding environment for Claude Code. SE/AE/VR — ESP tools, safety hooks, 600+ lines of engine knowledge, pre-configured.",
-          "language": "Python",
-          "stars": 15,
-          "forks": 9,
-          "created_at": "2026-03-29T00:45:14Z",
-          "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:42.549Z",
-          "pushed_at": "2026-10-12T03:53:25Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              ".agents/skills/create-mod/SKILL.md",
-              ".agents/skills/devbench/SKILL.md",
-              ".agents/skills/inspect-esp/SKILL.md",
-              ".agents/skills/port-to-vr/SKILL.md",
-              ".agents/skills/skyrim-audio/SKILL.md",
-              ".agents/skills/skyrim-bsa/SKILL.md",
-              ".agents/skills/skyrim-context/SKILL.md",
-              ".agents/skills/skyrim-mcm/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "testing",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "denameidina/hanoman",
           "name": "hanoman",
           "description": "Control room untuk menjalankan & memantau coding agent di banyak project sekaligus — dengan dokumentasi sebagai Source of Truth.",
@@ -1611,8 +1763,8 @@
           "forks": 7,
           "created_at": "2026-07-09T09:21:19Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:57.938Z",
-          "pushed_at": "2026-10-12T06:20:15Z",
+          "last_updated": "2026-10-13T05:12:17.568Z",
+          "pushed_at": "2026-10-12T23:58:53Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1663,8 +1815,8 @@
           "forks": 4,
           "created_at": "2026-03-25T19:51:51Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:54.990Z",
-          "pushed_at": "2026-10-12T06:21:12Z",
+          "last_updated": "2026-10-13T05:12:18.541Z",
+          "pushed_at": "2026-10-12T19:06:37Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1729,12 +1881,12 @@
           "name": "humanish",
           "description": "Synthetic users that walk your software before real users do.",
           "language": "TypeScript",
-          "stars": 11,
+          "stars": 12,
           "forks": 2,
           "created_at": "2026-06-01T03:10:18Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:43.210Z",
-          "pushed_at": "2026-10-12T06:23:01Z",
+          "last_updated": "2026-10-13T05:12:19.262Z",
+          "pushed_at": "2026-10-13T04:06:50Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1765,8 +1917,8 @@
           "forks": 2,
           "created_at": "2026-05-05T19:48:54Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:49.643Z",
-          "pushed_at": "2026-10-12T06:23:35Z",
+          "last_updated": "2026-10-13T05:12:20.205Z",
+          "pushed_at": "2026-10-12T11:10:33Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1816,8 +1968,8 @@
           "forks": 2,
           "created_at": "2026-05-24T07:43:10Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:44.033Z",
-          "pushed_at": "2026-10-12T06:23:25Z",
+          "last_updated": "2026-10-13T05:12:22.082Z",
+          "pushed_at": "2026-10-13T05:08:14Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1880,7 +2032,7 @@
           "forks": 1,
           "created_at": "2026-05-02T12:02:03Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:53.710Z",
+          "last_updated": "2026-10-13T05:12:22.811Z",
           "pushed_at": "2026-10-12T06:21:25Z",
           "relevance": {
             "score": 75,
@@ -1955,8 +2107,8 @@
           "forks": 1,
           "created_at": "2026-03-18T13:20:05Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:50.954Z",
-          "pushed_at": "2026-10-12T06:23:11Z",
+          "last_updated": "2026-10-13T05:12:23.538Z",
+          "pushed_at": "2026-10-13T01:40:02Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2017,6 +2169,45 @@
           ]
         },
         {
+          "full_name": "yuxinlaile/maimai-saver",
+          "name": "maimai-saver",
+          "description": "🍟 麦麦省钱助手 —— 基于麦当劳中国官方 MCP 的省钱点餐 Agent Skill：省钱四步检查 + 一键领券 + 券组合优化（预算/热量约束）+ 沉默成本体检 + 全渠道比价。社区开源，免登录在线试算 👇",
+          "language": "Python",
+          "stars": 6,
+          "forks": 0,
+          "created_at": "2026-10-10T07:26:54Z",
+          "discovered_at": "2026-10-12T04:02:59.667Z",
+          "last_updated": "2026-10-13T05:12:28.090Z",
+          "pushed_at": "2026-10-13T04:49:13Z",
+          "relevance": {
+            "score": 90,
+            "evidence": [
+              "skill-file",
+              "description",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "HiQS-Labs/XYZ-forge",
           "name": "XYZ-forge",
           "description": "XYZ Forge is a local-first engineering operations system. It coordinates several AI coding agents — Claude Code, Codex, agy (Google's Antigravity CLI), and others — working on the same repositories, and it carries the surrounding machinery an unattended agent run actually needs: specified work, collision-free lanes, verification gates, and receipts",
@@ -2025,8 +2216,8 @@
           "forks": 4,
           "created_at": "2026-08-15T22:35:08Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:44.880Z",
-          "pushed_at": "2026-10-12T04:38:16Z",
+          "last_updated": "2026-10-13T05:12:24.637Z",
+          "pushed_at": "2026-10-13T04:56:44Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2083,8 +2274,8 @@
           "forks": 4,
           "created_at": "2026-08-27T04:58:50Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:55.407Z",
-          "pushed_at": "2026-10-12T06:20:52Z",
+          "last_updated": "2026-10-13T05:12:25.368Z",
+          "pushed_at": "2026-10-13T03:50:25Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2122,8 +2313,8 @@
           "forks": 2,
           "created_at": "2026-01-13T01:59:54Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:50.063Z",
-          "pushed_at": "2026-10-12T06:23:26Z",
+          "last_updated": "2026-10-13T05:12:26.215Z",
+          "pushed_at": "2026-10-12T10:39:48Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -2180,8 +2371,8 @@
           "forks": 1,
           "created_at": "2026-01-17T19:36:10Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:45.499Z",
-          "pushed_at": "2026-10-12T05:09:57Z",
+          "last_updated": "2026-10-13T05:12:27.538Z",
+          "pushed_at": "2026-10-12T12:53:11Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2197,21 +2388,20 @@
           "system_tags": []
         },
         {
-          "full_name": "yuxinlaile/maimai-saver",
-          "name": "maimai-saver",
-          "description": "🍟 麦麦省钱助手 —— 基于麦当劳中国官方 MCP 的省钱点餐 Agent Skill：省钱四步检查 + 一键领券 + 券组合优化（预算/热量约束）+ 沉默成本体检 + 全渠道比价。社区开源，免登录在线试算 👇",
+          "full_name": "S0mbraD/OpenTCM_Discovery",
+          "name": "OpenTCM_Discovery",
+          "description": "面向中药小分子发现的开源研究工具。检索疾病通路和成分，核对多个公开数据库是否同时收录，并只在文献写明结合口袋时做分子对接。计算结果用来提出可检验的假设。",
           "language": "Python",
           "stars": 5,
           "forks": 0,
-          "created_at": "2026-10-10T07:26:54Z",
-          "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:46.023Z",
-          "pushed_at": "2026-10-12T05:39:03Z",
+          "created_at": "2026-10-12T17:41:41Z",
+          "discovered_at": "2026-10-13T05:11:53.689Z",
+          "last_updated": "2026-10-13T05:12:35.742Z",
+          "pushed_at": "2026-10-13T05:11:26Z",
           "relevance": {
-            "score": 90,
+            "score": 75,
             "evidence": [
               "skill-file",
-              "description",
               "readme",
               "install-guide"
             ],
@@ -2222,15 +2412,132 @@
           },
           "system_tags": [
             {
-              "id": "testing",
+              "id": "research",
+              "evidence": [
+                "description",
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
               "evidence": [
                 "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "vikashruhilgit/loomwright",
+          "name": "loomwright",
+          "description": "",
+          "language": "Shell",
+          "stars": 5,
+          "forks": 0,
+          "created_at": "2025-10-29T04:27:42Z",
+          "discovered_at": "2026-10-13T05:11:53.689Z",
+          "last_updated": "2026-10-13T05:12:36.312Z",
+          "pushed_at": "2026-10-13T05:10:50Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "loomwright/skills/agent-output/SKILL.md",
+              "loomwright/skills/agent-teams/SKILL.md",
+              "loomwright/skills/async-orchestration/SKILL.md",
+              "loomwright/skills/automate-loop/SKILL.md",
+              "loomwright/skills/autonomous-loop/SKILL.md",
+              "loomwright/skills/beads-workflow/SKILL.md",
+              "loomwright/skills/brain-context/SKILL.md",
+              "loomwright/skills/brainstorming/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "skill-paths"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "skill-paths",
+                "readme"
+              ]
+            },
+            {
+              "id": "review",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "planning",
+              "evidence": [
+                "skill-paths"
               ]
             },
             {
               "id": "automation",
               "evidence": [
                 "readme"
+              ]
+            },
+            {
+              "id": "tasks",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "raquezha/nothing",
+          "name": "nothing",
+          "description": "Minimal cross-platform dotfiles bootstrapper for macOS and Linux. Installs the Pi Coding Agent, registers the Nothing mindset, integrates official Android skills via MCP, and loads shareable tools like `notrace` from NPM—keeping setup lean, portable, and update-safe.",
+          "language": "HTML",
+          "stars": 4,
+          "forks": 4,
+          "created_at": "2026-06-04T08:43:30Z",
+          "discovered_at": "2026-10-13T05:11:53.689Z",
+          "last_updated": "2026-10-13T05:12:36.974Z",
+          "pushed_at": "2026-10-13T05:10:54Z",
+          "relevance": {
+            "score": 90,
+            "evidence": [
+              "skill-file",
+              "description",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "packages/nometa/agent-os/SKILL.md",
+              "packages/nometa/nohtml/SKILL.md",
+              "packages/nometa/nothing/SKILL.md",
+              "packages/nometa/pi-skill-creator/SKILL.md",
+              "packages/nometa/pulse/SKILL.md",
+              "packages/norpiv/post-merge-prune/SKILL.md",
+              "packages/nosearch/brave-search/SKILL.md",
+              "packages/nosearch/firecrawl/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "design",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "skill-building",
+              "evidence": [
+                "skill-paths"
               ]
             }
           ]
@@ -2244,8 +2551,8 @@
           "forks": 2,
           "created_at": "2026-03-13T15:56:28Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:51.807Z",
-          "pushed_at": "2026-10-12T06:22:28Z",
+          "last_updated": "2026-10-13T05:12:28.855Z",
+          "pushed_at": "2026-10-12T16:01:36Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2284,8 +2591,8 @@
           "forks": 1,
           "created_at": "2026-03-01T23:35:02Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:47.442Z",
-          "pushed_at": "2026-10-12T05:28:03Z",
+          "last_updated": "2026-10-13T05:12:30.207Z",
+          "pushed_at": "2026-10-13T03:17:49Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2384,7 +2691,7 @@
           "forks": 0,
           "created_at": "2026-04-24T08:59:12Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:46.635Z",
+          "last_updated": "2026-10-13T05:12:30.845Z",
           "pushed_at": "2026-10-12T03:57:00Z",
           "relevance": {
             "score": 75,
@@ -2424,8 +2731,8 @@
           "forks": 0,
           "created_at": "2026-02-16T09:57:48Z",
           "discovered_at": "2026-10-12T06:23:30.141Z",
-          "last_updated": "2026-10-12T06:23:52.176Z",
-          "pushed_at": "2026-10-12T06:22:21Z",
+          "last_updated": "2026-10-13T05:12:31.552Z",
+          "pushed_at": "2026-10-13T02:08:44Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2475,8 +2782,8 @@
           "forks": 0,
           "created_at": "2026-07-07T01:58:38Z",
           "discovered_at": "2026-10-12T04:02:59.667Z",
-          "last_updated": "2026-10-12T06:23:48.055Z",
-          "pushed_at": "2026-10-12T04:15:35Z",
+          "last_updated": "2026-10-13T05:12:33.692Z",
+          "pushed_at": "2026-10-12T17:01:20Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -4397,9 +4704,9 @@
     }
   ],
   "report": {
-    "updated_at": "2026-10-12T06:23:30.141Z",
-    "accepted": 21,
-    "attempted": 30,
+    "updated_at": "2026-10-13T05:11:53.689Z",
+    "accepted": 6,
+    "attempted": 6,
     "skipped": [],
     "warnings": []
   }
