@@ -340,25 +340,33 @@
     "vobiz-ai/agent-skills": "2026-10-19T05:08:46.823Z",
     "gobing-ai/superskill": "2026-10-19T05:08:46.823Z",
     "lingshu-ai-agent/lingshu": "2026-10-19T05:08:46.823Z",
-    "whyour/qinglong": "2026-10-19T05:08:46.823Z"
+    "whyour/qinglong": "2026-10-19T05:08:46.823Z",
+    "loopingz/webda.io": "2026-10-20T03:09:55.638Z",
+    "jinning6/cyberhuatuo": "2026-10-20T03:09:55.638Z",
+    "bryanharrisscripts/plotpickle": "2026-10-20T03:09:55.638Z",
+    "ix-infrastructure/ix": "2026-10-20T03:09:55.638Z",
+    "organized-ai/organized-codebase": "2026-10-20T03:09:55.638Z",
+    "bex-co/beancount-io": "2026-10-20T03:09:55.638Z",
+    "arize-ai/phoenix": "2026-10-20T03:09:55.638Z",
+    "fallow-rs/fallow": "2026-10-20T03:09:55.638Z"
   },
   "weeks": [
     {
       "start": "2026-10-19",
       "end": "2026-10-26",
-      "updated_at": "2026-10-19T05:08:46.823Z",
+      "updated_at": "2026-10-20T03:09:55.638Z",
       "repositories": [
         {
           "full_name": "paperclipai/paperclip",
           "name": "paperclip",
           "description": "The open-source app everyone uses to manage agents at work",
           "language": "TypeScript",
-          "stars": 104243,
-          "forks": 17409,
+          "stars": 104803,
+          "forks": 17473,
           "created_at": "2026-03-02T15:01:51Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:48.298Z",
-          "pushed_at": "2026-10-19T03:54:37Z",
+          "last_updated": "2026-10-20T03:09:56.756Z",
+          "pushed_at": "2026-10-20T02:53:30Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -434,12 +442,12 @@
           "name": "qinglong",
           "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
           "language": "JavaScript",
-          "stars": 19977,
+          "stars": 19981,
           "forks": 3221,
           "created_at": "2021-03-13T15:21:04Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:21.152Z",
-          "pushed_at": "2026-10-19T05:08:12Z",
+          "last_updated": "2026-10-20T03:09:57.411Z",
+          "pushed_at": "2026-10-19T16:56:27Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -476,16 +484,79 @@
           ]
         },
         {
+          "full_name": "Arize-ai/phoenix",
+          "name": "phoenix",
+          "description": "AI Observability & Evaluation",
+          "language": "Python",
+          "stars": 11909,
+          "forks": 1221,
+          "created_at": "2022-11-09T23:44:35Z",
+          "discovered_at": "2026-10-20T03:09:55.638Z",
+          "last_updated": "2026-10-20T03:10:34.226Z",
+          "pushed_at": "2026-10-20T03:10:17Z",
+          "relevance": {
+            "score": 65,
+            "evidence": [
+              "skill-file",
+              "readme"
+            ],
+            "skill_files": [
+              ".agents/skills/create-task/SKILL.md",
+              ".agents/skills/daytona/SKILL.md",
+              ".agents/skills/gh-stack/SKILL.md",
+              ".agents/skills/harbor-exec/SKILL.md",
+              ".agents/skills/issue-triage/SKILL.md",
+              ".agents/skills/mintlify/SKILL.md",
+              ".agents/skills/phoenix-cli/SKILL.md",
+              ".agents/skills/phoenix-design/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "skill-paths"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "skill-paths",
+                "readme"
+              ]
+            },
+            {
+              "id": "ml",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "writing",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "aden-hive/hive",
           "name": "hive",
           "description": "Multi-Agent Harness for Production AI",
           "language": "Python",
-          "stars": 11108,
-          "forks": 5651,
+          "stars": 11112,
+          "forks": 5649,
           "created_at": "2026-01-12T00:04:22Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:07.386Z",
-          "pushed_at": "2026-10-19T05:05:58Z",
+          "last_updated": "2026-10-20T03:09:58.166Z",
+          "pushed_at": "2026-10-19T19:36:02Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -539,12 +610,12 @@
           "name": "openrig",
           "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
           "language": "TypeScript",
-          "stars": 7826,
-          "forks": 623,
+          "stars": 7915,
+          "forks": 633,
           "created_at": "2026-04-01T06:22:40Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:49.028Z",
-          "pushed_at": "2026-10-19T05:08:22Z",
+          "last_updated": "2026-10-20T03:09:58.937Z",
+          "pushed_at": "2026-10-20T03:04:15Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -604,12 +675,12 @@
           "name": "open-science",
           "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
           "language": "TypeScript",
-          "stars": 5215,
-          "forks": 518,
+          "stars": 5287,
+          "forks": 524,
           "created_at": "2026-07-03T02:50:10Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:06.409Z",
-          "pushed_at": "2026-10-19T05:08:28Z",
+          "last_updated": "2026-10-20T03:09:59.812Z",
+          "pushed_at": "2026-10-20T02:52:52Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -682,16 +753,109 @@
           ]
         },
         {
+          "full_name": "fallow-rs/fallow",
+          "name": "fallow",
+          "description": "Codebase intelligence for TypeScript and JavaScript. Health, complexity hotspots, duplication, architecture boundaries, circular dependencies, design-system drift, and unused code, from one graph. CLI, GitHub Action, LSP, MCP, and VS Code. Rust, MIT licensed.",
+          "language": "Rust",
+          "stars": 5189,
+          "forks": 185,
+          "created_at": "2026-03-17T08:40:57Z",
+          "discovered_at": "2026-10-20T03:09:55.638Z",
+          "last_updated": "2026-10-20T03:10:34.772Z",
+          "pushed_at": "2026-10-20T03:09:25Z",
+          "relevance": {
+            "score": 65,
+            "evidence": [
+              "skill-file",
+              "readme"
+            ],
+            "skill_files": [
+              ".agents/skills/address-pr-comments/SKILL.md",
+              ".agents/skills/binary-loop/SKILL.md",
+              ".agents/skills/browser-smoke-review/SKILL.md",
+              ".agents/skills/ci-formats-review/SKILL.md",
+              ".agents/skills/cli-output-review/SKILL.md",
+              ".agents/skills/conformance-loop/SKILL.md",
+              ".agents/skills/coverage-loop/SKILL.md",
+              ".agents/skills/debug-false-positive/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "review",
+              "evidence": [
+                "skill-paths"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "dzhng/skills",
+          "name": "skills",
+          "description": "Reusable AI agent skills for software factories: explore ideas, write specs, implement, review, and run autonomous research. Works with Claude Code, Codex, and other skill-compatible agents.",
+          "language": "HTML",
+          "stars": 1373,
+          "forks": 90,
+          "created_at": "2026-07-02T10:24:16Z",
+          "discovered_at": "2026-10-19T03:01:09.037Z",
+          "last_updated": "2026-10-20T03:10:01.325Z",
+          "pushed_at": "2026-10-19T02:39:05Z",
+          "relevance": {
+            "score": 100,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "description",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/authoring/audit-agents/SKILL.md",
+              "skills/authoring/eval-skills/SKILL.md",
+              "skills/authoring/write-skills/SKILL.md",
+              "skills/engineering/audit-choices/SKILL.md",
+              "skills/engineering/audit-performance/SKILL.md",
+              "skills/engineering/audit-tests/SKILL.md",
+              "skills/engineering/auto-research/SKILL.md",
+              "skills/engineering/claude/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "review",
+              "evidence": [
+                "topics",
+                "skill-paths",
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "amplifthq/openmeld",
           "name": "openmeld",
           "description": "The open-source collaboration system for people and AI agents. Share context, coordinate tasks, and work in parallel with your team, cloud agents, Codex, Claude Code, Grok, Grok Bot, OpenCode, Antigravity, and Cursor.",
           "language": "TypeScript",
-          "stars": 1362,
-          "forks": 78,
+          "stars": 1365,
+          "forks": 79,
           "created_at": "2026-06-24T08:05:12Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:49.987Z",
-          "pushed_at": "2026-10-19T04:51:46Z",
+          "last_updated": "2026-10-20T03:10:00.664Z",
+          "pushed_at": "2026-10-19T16:12:49Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -746,65 +910,16 @@
           ]
         },
         {
-          "full_name": "dzhng/skills",
-          "name": "skills",
-          "description": "Reusable AI agent skills for software factories: explore ideas, write specs, implement, review, and run autonomous research. Works with Claude Code, Codex, and other skill-compatible agents.",
-          "language": "HTML",
-          "stars": 1351,
-          "forks": 87,
-          "created_at": "2026-07-02T10:24:16Z",
-          "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:50.696Z",
-          "pushed_at": "2026-10-19T02:39:05Z",
-          "relevance": {
-            "score": 100,
-            "evidence": [
-              "skill-file",
-              "skill-topic",
-              "description",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "skills/authoring/audit-agents/SKILL.md",
-              "skills/authoring/eval-skills/SKILL.md",
-              "skills/authoring/write-skills/SKILL.md",
-              "skills/engineering/audit-choices/SKILL.md",
-              "skills/engineering/audit-performance/SKILL.md",
-              "skills/engineering/audit-tests/SKILL.md",
-              "skills/engineering/auto-research/SKILL.md",
-              "skills/engineering/claude/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "frontend",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "review",
-              "evidence": [
-                "topics",
-                "skill-paths",
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "TencentCloudBase/CloudBase-AI-Toolkit",
           "name": "CloudBase-AI-Toolkit",
           "description": "Backend for AI coding agents on CloudBase — database, auth, functions via Plugin, Skills & MCP.",
           "language": "TypeScript",
-          "stars": 1139,
+          "stars": 1140,
           "forks": 147,
           "created_at": "2025-05-23T08:31:26Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:51.416Z",
-          "pushed_at": "2026-10-19T04:01:53Z",
+          "last_updated": "2026-10-20T03:10:02.056Z",
+          "pushed_at": "2026-10-19T10:48:49Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -856,15 +971,53 @@
           ]
         },
         {
+          "full_name": "ix-infrastructure/Ix",
+          "name": "Ix",
+          "description": "Understand any codebase instantly. System intelligence for codebases, built for humans and AI.",
+          "language": "TypeScript",
+          "stars": 1095,
+          "forks": 94,
+          "created_at": "2026-03-03T04:48:38Z",
+          "discovered_at": "2026-10-20T03:09:55.638Z",
+          "last_updated": "2026-10-20T03:10:32.533Z",
+          "pushed_at": "2026-10-20T03:09:51Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/ix/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "security",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "MicrosoftDocs/Agent-Skills",
           "name": "Agent-Skills",
           "description": "Curated Agent Skills for Microsoft & Azure – giving AI coding assistants structured, real-time expertise from Microsoft Learn docs.",
           "language": null,
-          "stars": 784,
+          "stars": 787,
           "forks": 128,
           "created_at": "2026-01-27T03:52:27Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:12.489Z",
+          "last_updated": "2026-10-20T03:10:02.762Z",
           "pushed_at": "2026-10-19T04:52:44Z",
           "relevance": {
             "score": 100,
@@ -930,16 +1083,81 @@
           ]
         },
         {
+          "full_name": "bex-co/beancount-io",
+          "name": "beancount-io",
+          "description": "💰 Double-entry bookkeeping made easy — plain-text accounting for humans and AI agents. Polished iOS & Android app built with React Native + Expo.",
+          "language": "TypeScript",
+          "stars": 307,
+          "forks": 38,
+          "created_at": "2020-10-02T07:00:24Z",
+          "discovered_at": "2026-10-20T03:09:55.638Z",
+          "last_updated": "2026-10-20T03:10:33.607Z",
+          "pushed_at": "2026-10-20T03:09:42Z",
+          "relevance": {
+            "score": 65,
+            "evidence": [
+              "skill-file",
+              "readme"
+            ],
+            "skill_files": [
+              ".agents/skills/loopx/SKILL.md",
+              ".agents/skills/mermaid/SKILL.md",
+              ".agents/skills/mobile-release/SKILL.md",
+              ".agents/skills/pm-brainstorm/SKILL.md",
+              ".agents/skills/pm/SKILL.md",
+              ".agents/skills/qa-find-bugs-cli/SKILL.md",
+              ".agents/skills/qa-find-bugs-dashboard/SKILL.md",
+              ".agents/skills/qa-find-bugs-mcp/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "spreadsheets",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "frontend",
+              "evidence": [
+                "description",
+                "topics",
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "accounting",
+              "evidence": [
+                "description",
+                "topics"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "Amal-David/awesome-jev",
           "name": "awesome-jev",
           "description": "Jev demos, projects, SDKs and skills, with source links and a curated X gallery.",
           "language": "Python",
-          "stars": 239,
+          "stars": 240,
           "forks": 25,
           "created_at": "2026-09-18T12:09:59Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:11.882Z",
-          "pushed_at": "2026-10-19T04:54:52Z",
+          "last_updated": "2026-10-20T03:10:03.361Z",
+          "pushed_at": "2026-10-19T21:10:43Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -991,12 +1209,12 @@
           "name": "suede-creator-skills",
           "description": "Open-source AI skills for SEO, AI search visibility, conversion copy, marketing strategy, and business operations. Reusable workflows for Claude Code and Codex, plus code review, app delivery, and creator tools.",
           "language": "JavaScript",
-          "stars": 127,
+          "stars": 128,
           "forks": 12,
           "created_at": "2026-05-24T03:25:25Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:52.351Z",
-          "pushed_at": "2026-10-19T04:34:24Z",
+          "last_updated": "2026-10-20T03:10:04.382Z",
+          "pushed_at": "2026-10-19T22:08:35Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1055,11 +1273,11 @@
           "description": "A framework for Preact that deploys anywhere",
           "language": "TypeScript",
           "stars": 99,
-          "forks": 5,
+          "forks": 6,
           "created_at": "2026-04-06T05:19:19Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:11.388Z",
-          "pushed_at": "2026-10-19T05:04:20Z",
+          "last_updated": "2026-10-20T03:10:05.027Z",
+          "pushed_at": "2026-10-19T16:43:31Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1110,12 +1328,12 @@
           "name": "blender-agent-studio",
           "description": "Free, open-source Blender AI plugin for the tools you already use. Codex and Claude Code installers, local MCP tools, editable .blend files and Python source.",
           "language": "TypeScript",
-          "stars": 89,
+          "stars": 92,
           "forks": 10,
           "created_at": "2026-07-25T03:16:40Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:52.978Z",
-          "pushed_at": "2026-10-19T04:40:10Z",
+          "last_updated": "2026-10-20T03:10:05.729Z",
+          "pushed_at": "2026-10-19T07:22:32Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1147,8 +1365,8 @@
           "forks": 7,
           "created_at": "2025-03-18T13:06:36Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:13.398Z",
-          "pushed_at": "2026-10-19T04:52:09Z",
+          "last_updated": "2026-10-20T03:10:06.794Z",
+          "pushed_at": "2026-10-19T18:15:40Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1189,8 +1407,8 @@
           "forks": 4,
           "created_at": "2026-05-06T10:14:52Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:53.686Z",
-          "pushed_at": "2026-10-19T02:51:48Z",
+          "last_updated": "2026-10-20T03:10:07.625Z",
+          "pushed_at": "2026-10-19T20:19:24Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1225,8 +1443,8 @@
           "forks": 14,
           "created_at": "2025-12-14T04:56:32Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:54.623Z",
-          "pushed_at": "2026-10-19T05:06:14Z",
+          "last_updated": "2026-10-20T03:10:08.613Z",
+          "pushed_at": "2026-10-20T03:08:43Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -1297,8 +1515,8 @@
           "forks": 13,
           "created_at": "2026-02-12T13:17:16Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:55.330Z",
-          "pushed_at": "2026-10-19T04:49:47Z",
+          "last_updated": "2026-10-20T03:10:09.386Z",
+          "pushed_at": "2026-10-19T21:29:20Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1338,8 +1556,8 @@
           "forks": 1,
           "created_at": "2026-04-21T16:53:43Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:15.093Z",
-          "pushed_at": "2026-10-19T04:50:06Z",
+          "last_updated": "2026-10-20T03:10:10.143Z",
+          "pushed_at": "2026-10-19T16:01:46Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1376,12 +1594,12 @@
           "name": "DayZ-Modding-Knowledge-Pack",
           "description": "Battle-tested DayZ (Enfusion) modding knowledge for AI coding assistants: 42 domain playbooks (DayZ 1.29 stable and 1.30 Experimental), the py3d-dayz MLOD toolchain, strict RTM/SEAnim/ODOL inspectors, 3D-model viewer tools, an offline Enforce linter for compile and coding issues, and a UI lab, with every claim carrying its path:line evidence.",
           "language": "Python",
-          "stars": 18,
+          "stars": 17,
           "forks": 5,
           "created_at": "2026-08-15T16:43:15Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:55.992Z",
-          "pushed_at": "2026-10-19T05:05:10Z",
+          "last_updated": "2026-10-20T03:10:11.114Z",
+          "pushed_at": "2026-10-19T20:32:29Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1424,16 +1642,67 @@
           ]
         },
         {
+          "full_name": "loopingz/webda.io",
+          "name": "webda.io",
+          "description": "Webda.io packages",
+          "language": "TypeScript",
+          "stars": 17,
+          "forks": 3,
+          "created_at": "2019-07-19T21:54:27Z",
+          "discovered_at": "2026-10-20T03:09:55.638Z",
+          "last_updated": "2026-10-20T03:10:30.185Z",
+          "pushed_at": "2026-10-20T03:10:08Z",
+          "relevance": {
+            "score": 65,
+            "evidence": [
+              "skill-file",
+              "readme"
+            ],
+            "skill_files": [
+              ".agents/skills/webda-pull-request/SKILL.md",
+              "packages/create/agent/skills/webda-configuration/SKILL.md",
+              "packages/create/agent/skills/webda-deploy/SKILL.md",
+              "packages/create/agent/skills/webda-models/SKILL.md",
+              "packages/create/agent/skills/webda-operations/SKILL.md",
+              "packages/create/agent/skills/webda-services/SKILL.md",
+              "packages/create/agent/skills/webda-stores/SKILL.md",
+              "packages/create/agent/skills/webda-testing/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "design",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "ml",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "skill-paths",
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "creedants/pstack-t3",
           "name": "pstack-t3",
           "description": "Lauren Tan's pstack agent skills, ported to T3 Code so any model can lead and other models can review the work. Adds brigade, a standing coordinator per project that runs each unit of work in its own git worktree, has another model family review the commit when one can run, and lands it through a queue that is the only writer to trunk.",
           "language": "Python",
-          "stars": 14,
+          "stars": 15,
           "forks": 4,
           "created_at": "2026-10-03T14:52:54Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:08.785Z",
-          "pushed_at": "2026-10-19T05:02:59Z",
+          "last_updated": "2026-10-20T03:10:11.719Z",
+          "pushed_at": "2026-10-20T03:09:58Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1478,7 +1747,7 @@
           "forks": 0,
           "created_at": "2026-01-11T03:56:30Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:56.744Z",
+          "last_updated": "2026-10-20T03:10:12.492Z",
           "pushed_at": "2026-10-19T03:00:30Z",
           "relevance": {
             "score": 85,
@@ -1526,8 +1795,8 @@
           "forks": 1,
           "created_at": "2026-03-18T04:01:49Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:57.720Z",
-          "pushed_at": "2026-10-19T05:08:51Z",
+          "last_updated": "2026-10-20T03:10:13.702Z",
+          "pushed_at": "2026-10-20T02:13:36Z",
           "relevance": {
             "score": 80,
             "evidence": [
@@ -1543,7 +1812,7 @@
               "evals/skill-onoff/packs/ceo-agent-dc-full/SKILL.md",
               "evals/skill-onoff/packs/ceo-agent-sg-base/SKILL.md",
               "evals/skill-onoff/packs/ceo-agent-sg-change-v10/SKILL.md",
-              "evals/skill-onoff/packs/ceo-agent-sg-change-v2/SKILL.md"
+              "evals/skill-onoff/packs/ceo-agent-sg-change-v11/SKILL.md"
             ],
             "structural": true
           },
@@ -1563,6 +1832,57 @@
           ]
         },
         {
+          "full_name": "JinNing6/CyberHuaTuo",
+          "name": "CyberHuaTuo",
+          "description": "🩺 望闻问切，药到病除 - An AI-powered diagnostic agent for debugging AI agent issues. Diagnose. Prescribe. Cure.",
+          "language": "Python",
+          "stars": 11,
+          "forks": 1,
+          "created_at": "2026-03-10T08:47:54Z",
+          "discovered_at": "2026-10-20T03:09:55.638Z",
+          "last_updated": "2026-10-20T03:10:30.561Z",
+          "pushed_at": "2026-10-20T03:10:04Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/cyberhuatuo-rescue/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "description",
+                "readme"
+              ]
+            },
+            {
+              "id": "security",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "knowledge",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "lingshu-ai-agent/lingshu",
           "name": "lingshu",
           "description": "The Pivot of Agent Orchestration — Open-source Java Agent Engine for JDK 8+",
@@ -1571,8 +1891,8 @@
           "forks": 1,
           "created_at": "2026-09-04T09:21:29Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:18.469Z",
-          "pushed_at": "2026-10-19T05:08:48Z",
+          "last_updated": "2026-10-20T03:10:14.490Z",
+          "pushed_at": "2026-10-19T07:47:15Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1619,7 +1939,7 @@
           "forks": 2,
           "created_at": "2026-02-14T16:23:33Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:09.219Z",
+          "last_updated": "2026-10-20T03:10:15.291Z",
           "pushed_at": "2026-10-19T05:02:26Z",
           "relevance": {
             "score": 100,
@@ -1674,8 +1994,8 @@
           "forks": 0,
           "created_at": "2026-04-07T21:07:48Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:58.463Z",
-          "pushed_at": "2026-10-19T05:08:23Z",
+          "last_updated": "2026-10-20T03:10:15.989Z",
+          "pushed_at": "2026-10-20T03:10:02Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1731,6 +2051,156 @@
           ]
         },
         {
+          "full_name": "EPISTEX0/poteto-kit",
+          "name": "poteto-kit",
+          "description": "Recipes for trusting your coding agents: verification, skills, and agent-friendly architecture — baked and ready to serve.",
+          "language": "TypeScript",
+          "stars": 7,
+          "forks": 0,
+          "created_at": "2026-10-12T04:08:38Z",
+          "discovered_at": "2026-10-19T05:08:46.823Z",
+          "last_updated": "2026-10-20T03:10:18.180Z",
+          "pushed_at": "2026-10-19T04:49:22Z",
+          "relevance": {
+            "score": 100,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "description",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "example/.agents/skills/verify-app/SKILL.md",
+              "marketplace/agensi/create-verification/SKILL.md",
+              "marketplace/agensi/investigate/SKILL.md",
+              "templates/skills/are-you-sure-you-need-x/SKILL.md",
+              "templates/skills/create-verification/SKILL.md",
+              "templates/skills/investigate/SKILL.md",
+              "templates/skills/maintain-verification/SKILL.md",
+              "templates/skills/team-mode/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "Kimeur/duology",
+          "name": "duology",
+          "description": "Claude Code skills for designing, building, testing and shipping apps on iPhone Duo and iOS 27. Layout patterns, app recipes, a fold linter and pose checks.",
+          "language": "Swift",
+          "stars": 7,
+          "forks": 0,
+          "created_at": "2026-10-16T13:28:15Z",
+          "discovered_at": "2026-10-19T05:08:46.823Z",
+          "last_updated": "2026-10-20T03:10:19.952Z",
+          "pushed_at": "2026-10-19T22:56:16Z",
+          "relevance": {
+            "score": 100,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "description",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "plugins/duology-design/skills/duo-accessibility/SKILL.md",
+              "plugins/duology-design/skills/duo-design-review/SKILL.md",
+              "plugins/duology-design/skills/duo-design-system/SKILL.md",
+              "plugins/duology-design/skills/duo-ergonomics/SKILL.md",
+              "plugins/duology-design/skills/duo-patterns/SKILL.md",
+              "plugins/duology-design/skills/duo-postures/SKILL.md",
+              "plugins/duology-design/skills/duo-shared-screen/SKILL.md",
+              "plugins/duology-design/skills/duo-transitions/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "design",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "Organized-AI/organized-codebase",
+          "name": "organized-codebase",
+          "description": "",
+          "language": "TypeScript",
+          "stars": 7,
+          "forks": 0,
+          "created_at": "2025-07-29T15:54:59Z",
+          "discovered_at": "2026-10-20T03:09:55.638Z",
+          "last_updated": "2026-10-20T03:10:32.963Z",
+          "pushed_at": "2026-10-20T03:09:45Z",
+          "relevance": {
+            "score": 65,
+            "evidence": [
+              "skill-file",
+              "readme"
+            ],
+            "skill_files": [
+              ".claude/skills/boris-ablation/SKILL.md",
+              ".claude/skills/boris-pi-harness-companion/SKILL.md",
+              ".claude/skills/boris/SKILL.md",
+              ".claude/skills/changelog-tracker/SKILL.md",
+              ".claude/skills/changelog-updater/SKILL.md",
+              ".claude/skills/data-audit/SKILL.md",
+              ".claude/skills/git-worktree-master/SKILL.md",
+              ".claude/skills/helix/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "planning",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "skill-building",
+              "evidence": [
+                "skill-paths"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "deeeed/farmslot",
           "name": "farmslot",
           "description": "Experimental agentic engineering framework and supervised dev-agent workflow.",
@@ -1739,8 +2209,8 @@
           "forks": 1,
           "created_at": "2026-06-03T08:03:05Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:08:59.449Z",
-          "pushed_at": "2026-10-19T03:00:54Z",
+          "last_updated": "2026-10-20T03:10:16.722Z",
+          "pushed_at": "2026-10-20T03:04:20Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1789,8 +2259,8 @@
           "forks": 1,
           "created_at": "2026-06-26T04:31:23Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:08.310Z",
-          "pushed_at": "2026-10-19T05:04:08Z",
+          "last_updated": "2026-10-20T03:10:17.428Z",
+          "pushed_at": "2026-10-19T20:27:53Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1821,34 +2291,31 @@
           ]
         },
         {
-          "full_name": "EPISTEX0/poteto-kit",
-          "name": "poteto-kit",
-          "description": "Recipes for trusting your coding agents: verification, skills, and agent-friendly architecture — baked and ready to serve.",
-          "language": "TypeScript",
+          "full_name": "BryanHarrisScripts/PlotPickle",
+          "name": "PlotPickle",
+          "description": "PlotPickle",
+          "language": "JavaScript",
           "stars": 6,
           "forks": 0,
-          "created_at": "2026-10-12T04:08:38Z",
-          "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:15.581Z",
-          "pushed_at": "2026-10-19T04:49:22Z",
+          "created_at": "2026-07-20T14:17:41Z",
+          "discovered_at": "2026-10-20T03:09:55.638Z",
+          "last_updated": "2026-10-20T03:10:31.135Z",
+          "pushed_at": "2026-10-20T03:10:02Z",
           "relevance": {
-            "score": 100,
+            "score": 65,
             "evidence": [
               "skill-file",
-              "skill-topic",
-              "description",
-              "readme",
-              "install-guide"
+              "readme"
             ],
             "skill_files": [
-              "example/.agents/skills/verify-app/SKILL.md",
-              "marketplace/agensi/create-verification/SKILL.md",
-              "marketplace/agensi/investigate/SKILL.md",
-              "templates/skills/are-you-sure-you-need-x/SKILL.md",
-              "templates/skills/create-verification/SKILL.md",
-              "templates/skills/investigate/SKILL.md",
-              "templates/skills/maintain-verification/SKILL.md",
-              "templates/skills/team-mode/SKILL.md"
+              ".agents/skills/ben-code-quality/SKILL.md",
+              ".agents/skills/buzz-guildhall-reporting/SKILL.md",
+              ".agents/skills/character-visual-development/SKILL.md",
+              ".agents/skills/color-expert/SKILL.md",
+              ".agents/skills/critics-circle/SKILL.md",
+              ".agents/skills/diagnosis/SKILL.md",
+              ".agents/skills/discovery-mapper/SKILL.md",
+              ".agents/skills/engineering-discipline/SKILL.md"
             ],
             "structural": true
           },
@@ -1860,13 +2327,7 @@
               ]
             },
             {
-              "id": "testing",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "automation",
+              "id": "writing",
               "evidence": [
                 "readme"
               ]
@@ -1882,7 +2343,7 @@
           "forks": 1,
           "created_at": "2026-06-17T04:41:33Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:17.808Z",
+          "last_updated": "2026-10-20T03:10:19.277Z",
           "pushed_at": "2026-10-19T05:08:53Z",
           "relevance": {
             "score": 90,
@@ -1914,16 +2375,16 @@
           ]
         },
         {
-          "full_name": "Kimeur/duology",
-          "name": "duology",
-          "description": "Claude Code skills for designing, building, testing and shipping apps on iPhone Duo and iOS 27. Layout patterns, app recipes, a fold linter and pose checks.",
-          "language": "Swift",
+          "full_name": "JustinPrograms/jstack",
+          "name": "jstack",
+          "description": "Portable Markdown skills for planning, implementing, and reviewing software changes with coding agents.",
+          "language": "JavaScript",
           "stars": 4,
           "forks": 0,
-          "created_at": "2026-10-16T13:28:15Z",
-          "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:06.912Z",
-          "pushed_at": "2026-10-19T05:08:11Z",
+          "created_at": "2026-09-04T14:52:35Z",
+          "discovered_at": "2026-10-19T03:01:09.037Z",
+          "last_updated": "2026-10-20T03:10:27.395Z",
+          "pushed_at": "2026-10-19T04:18:29Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1934,27 +2395,19 @@
               "install-guide"
             ],
             "skill_files": [
-              "plugins/duology-design/skills/duo-accessibility/SKILL.md",
-              "plugins/duology-design/skills/duo-design-review/SKILL.md",
-              "plugins/duology-design/skills/duo-design-system/SKILL.md",
-              "plugins/duology-design/skills/duo-ergonomics/SKILL.md",
-              "plugins/duology-design/skills/duo-patterns/SKILL.md",
-              "plugins/duology-design/skills/duo-postures/SKILL.md",
-              "plugins/duology-design/skills/duo-shared-screen/SKILL.md",
-              "plugins/duology-design/skills/duo-transitions/SKILL.md"
+              "skills/jstack-implement/SKILL.md",
+              "skills/jstack-plan-critic/SKILL.md",
+              "skills/jstack-plan/SKILL.md",
+              "skills/jstack-review/SKILL.md",
+              "skills/jstack-test/SKILL.md"
             ],
             "structural": true
           },
           "system_tags": [
             {
-              "id": "frontend",
+              "id": "review",
               "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "design",
-              "evidence": [
+                "topics",
                 "readme"
               ]
             }
@@ -1969,8 +2422,8 @@
           "forks": 1,
           "created_at": "2026-08-01T05:30:13Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:12.937Z",
-          "pushed_at": "2026-10-19T04:53:15Z",
+          "last_updated": "2026-10-20T03:10:20.586Z",
+          "pushed_at": "2026-10-20T02:31:40Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -2014,8 +2467,8 @@
           "forks": 1,
           "created_at": "2026-09-24T17:11:08Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:09.653Z",
-          "pushed_at": "2026-10-19T05:01:38Z",
+          "last_updated": "2026-10-20T03:10:21.263Z",
+          "pushed_at": "2026-10-19T15:18:39Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2040,7 +2493,7 @@
           "forks": 0,
           "created_at": "2026-10-06T13:00:13Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:07.827Z",
+          "last_updated": "2026-10-20T03:10:22.053Z",
           "pushed_at": "2026-10-19T05:04:11Z",
           "relevance": {
             "score": 100,
@@ -2086,8 +2539,8 @@
           "forks": 0,
           "created_at": "2026-09-21T17:49:06Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:09:00.131Z",
-          "pushed_at": "2026-10-19T02:51:29Z",
+          "last_updated": "2026-10-20T03:10:22.794Z",
+          "pushed_at": "2026-10-19T10:27:21Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -2131,7 +2584,7 @@
           "forks": 0,
           "created_at": "2026-05-24T00:34:30Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:09:00.836Z",
+          "last_updated": "2026-10-20T03:10:23.444Z",
           "pushed_at": "2026-10-19T03:38:51Z",
           "relevance": {
             "score": 100,
@@ -2164,7 +2617,7 @@
           "forks": 0,
           "created_at": "2026-05-24T00:40:27Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:09:01.521Z",
+          "last_updated": "2026-10-20T03:10:24.266Z",
           "pushed_at": "2026-10-19T03:42:19Z",
           "relevance": {
             "score": 100,
@@ -2209,7 +2662,7 @@
           "forks": 0,
           "created_at": "2026-05-24T00:43:11Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:09:02.210Z",
+          "last_updated": "2026-10-20T03:10:25.070Z",
           "pushed_at": "2026-10-19T03:42:26Z",
           "relevance": {
             "score": 100,
@@ -2243,7 +2696,7 @@
           "forks": 0,
           "created_at": "2026-05-24T15:16:56Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:09:02.893Z",
+          "last_updated": "2026-10-20T03:10:25.897Z",
           "pushed_at": "2026-10-19T03:42:52Z",
           "relevance": {
             "score": 100,
@@ -2276,7 +2729,7 @@
           "forks": 0,
           "created_at": "2026-05-24T00:37:56Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:09:03.614Z",
+          "last_updated": "2026-10-20T03:10:26.646Z",
           "pushed_at": "2026-10-19T03:38:05Z",
           "relevance": {
             "score": 100,
@@ -2301,45 +2754,6 @@
           ]
         },
         {
-          "full_name": "JustinPrograms/jstack",
-          "name": "jstack",
-          "description": "Portable Markdown skills for planning, implementing, and reviewing software changes with coding agents.",
-          "language": "JavaScript",
-          "stars": 3,
-          "forks": 0,
-          "created_at": "2026-09-04T14:52:35Z",
-          "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:09:04.286Z",
-          "pushed_at": "2026-10-19T04:18:29Z",
-          "relevance": {
-            "score": 100,
-            "evidence": [
-              "skill-file",
-              "skill-topic",
-              "description",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "skills/jstack-implement/SKILL.md",
-              "skills/jstack-plan-critic/SKILL.md",
-              "skills/jstack-plan/SKILL.md",
-              "skills/jstack-review/SKILL.md",
-              "skills/jstack-test/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "review",
-              "evidence": [
-                "topics",
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "thedavidweng/jobs-cli",
           "name": "jobs-cli",
           "description": "Agent-native job search and application CLI",
@@ -2348,7 +2762,7 @@
           "forks": 0,
           "created_at": "2026-09-26T07:08:12Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-19T05:09:04.964Z",
+          "last_updated": "2026-10-20T03:10:28.160Z",
           "pushed_at": "2026-10-19T03:06:30Z",
           "relevance": {
             "score": 75,
@@ -2373,7 +2787,7 @@
           "forks": 0,
           "created_at": "2026-07-13T04:24:33Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-19T05:09:15.980Z",
+          "last_updated": "2026-10-20T03:10:28.852Z",
           "pushed_at": "2026-10-19T04:48:51Z",
           "relevance": {
             "score": 100,
@@ -4804,9 +5218,9 @@
     }
   ],
   "report": {
-    "updated_at": "2026-10-19T05:08:46.823Z",
-    "accepted": 19,
-    "attempted": 30,
+    "updated_at": "2026-10-20T03:09:55.638Z",
+    "accepted": 8,
+    "attempted": 10,
     "skipped": [],
     "warnings": []
   }
