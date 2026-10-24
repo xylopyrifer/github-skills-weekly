@@ -30,7 +30,8 @@ npm ci
 npm run dev
 ```
 
-`npm test` 验证代码，`npm run build` 生成可部署的 `dist/`。支持 GitHub Pages 和普通静态服务器。
+
+pm test` 验证代码，`npm run build` 生成可部署的 `dist/`。支持 GitHub Pages 和普通静态服务器。
 
 详细部署、评分和维护说明：[开发文档（中文）](docs/DEVELOPMENT.zh.md) · [Developer guide (English)](docs/DEVELOPMENT.en.md) · [标签审核](docs/TAG-REVIEW.md)。自动发布流程保留在 `.github/workflows/`，日常使用不需要手动操作。
 
@@ -44,4 +45,5 @@ npm run dev
 
 
 本周新 Skill 榜展示本周首次被网站收录的项目，按当前 Stars 排序，每天独立发现和刷新。首次收录不代表仓库刚创建。普通追踪池满额不会关闭新榜发现；本周最多保存 50 个候选，前四周各保留 TOP 10，首次收录日期长期保存以防重复入新榜。
-`n已收录仓库返回 GitHub 404 时，保留最后成功采集的数据并标注暂不可访问，每天继续检查恢复；这类来源状态单独记录，不触发整批重复补跑。其他采集错误仍触发巡检恢复。
+
+已收录仓库返回 GitHub 404 时，保留最后成功采集的数据并标注暂不可访问，每天继续检查恢复；这类来源状态单独记录，不触发整批重复补跑。其他采集错误仍触发巡检恢复。
