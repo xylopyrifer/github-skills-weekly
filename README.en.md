@@ -44,3 +44,4 @@ GitHub-hosted jobs collect at 08:00 Beijing time and check storage, ranking calc
 
 
 New skills this week lists projects first discovered by this site during the current week, ranked by current stars and refreshed daily. Discovery date is not repository creation date. Newcomer discovery has capacity independent of the main pool: up to 50 current-week candidates, plus TOP 10 records for four previous weeks. First-discovery dates are retained to prevent repeat appearances as new projects.
+`nWhen a tracked repository returns GitHub 404, its last successful observation is retained and marked unavailable. Daily checks continue so it can recover automatically. This source status is recorded separately from collection failures and does not trigger a whole-batch rerun; other failures still trigger recovery.

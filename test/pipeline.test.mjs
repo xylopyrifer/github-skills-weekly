@@ -67,3 +67,16 @@ test('in-progress week refreshes daily, stays provisional on Sunday and settles 
  assert.deepEqual(await readJson(path.join(root,'data/all-time.json')),all);
  assert.equal((await readJson(path.join(root,'data/current-week.json'))).rows[0].stars_delta,20);
 });
+
+test('metadata 404 retains last observation, reports unavailable separately, and recovers next day',async t=>{
+ const root=await fixture(t);await run(root,'2026-02-02T00:17:00Z',fakeGet());
+ const before=(await readJson(path.join(root,'data/catalog.json'))).repositories.find(r=>r.full_name==='test/alpha');
+ const get=async p=>{if(p==='/repos/test/alpha'){const e=new Error('not found');e.status=404;throw e;}return fakeGet({stars:150})(p);};
+ const report=await run(root,'2026-02-04T00:17:00Z',get);
+ assert.deepEqual(report.warnings,[]);assert.deepEqual(report.unavailable_repositories,['test/alpha']);
+ let record=(await readJson(path.join(root,'data/catalog.json'))).repositories.find(r=>r.full_name==='test/alpha');
+ assert.equal(record.availability,'unavailable');assert.equal(record.stars,before.stars);assert.equal(record.last_updated,before.last_updated);
+ assert.ok(!(await readJson(path.join(root,'data/current-week.json'))).rows.some(r=>r.full_name==='test/alpha'));
+ await run(root,'2026-02-05T00:17:00Z',fakeGet({stars:180}));
+ record=(await readJson(path.join(root,'data/catalog.json'))).repositories.find(r=>r.full_name==='test/alpha');assert.equal(record.availability,undefined);assert.equal(record.stars,180);
+});

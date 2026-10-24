@@ -18,6 +18,7 @@ export async function updateData({ root, get, now = new Date(), clock = () => ne
   const included = new Set(config.include.map(n => n.toLowerCase()));
   const known = new Map(catalog.repositories.filter(r => !excluded.has(r.full_name.toLowerCase())).map(r => [r.full_name.toLowerCase(),r]));
   const warnings = [];
+  const unavailable = [];
   const warn = message => { warnings.push(message); log('WARN ' + message); };
   const candidates = new Map();
   for (const name of [...config.include, ...known.keys()]) {
@@ -38,7 +39,18 @@ export async function updateData({ root, get, now = new Date(), clock = () => ne
   async function inspect(candidate) {
     const key = candidate.name.toLowerCase();
     try {
-      const meta = metadataCache.get(key) || await get(repoPath(candidate.name));
+      let meta;
+      try { meta = metadataCache.get(key) || await get(repoPath(candidate.name)); }
+      catch(e) {
+        // A repository metadata 404 is a known unavailable source, not a failed batch.
+        // Keep its last successful observation and retry its metadata on the next run.
+        if(e.status===404&&known.has(key)){
+          const old=known.get(key);
+          known.set(key,{...old,availability:'unavailable',availability_reason:'github_404',availability_checked_at:now.toISOString(),unavailable_since:old.unavailable_since||now.toISOString()});
+          unavailable.push(old.full_name);log('UNAVAILABLE '+old.full_name+' (GitHub 404; last observation retained)');return;
+        }
+        throw e;
+      }
       const canonical = meta.full_name.toLowerCase();
       if (excluded.has(canonical) || meta.archived || meta.disabled || meta.fork || meta.private) { known.delete(key); return; }
       let assessment = known.get(key)?.relevance;
@@ -139,7 +151,7 @@ export async function updateData({ root, get, now = new Date(), clock = () => ne
   const allTime = aggregateAllTime(settled);
   await writeJson(path.join(root,'data/all-time.json'), { schema_version: 1, repositories: allTime });
   await writeJson(catalogPath, { schema_version: 1, updated_at: now.toISOString(), repositories: [...known.values()].sort((a,b) => a.full_name.localeCompare(b.full_name)) });
-  const report = { updated_at: now.toISOString(), successful_repositories: successes, tracked_repositories: known.size, boundary_captured: inWindow, warnings };
+  const report = { updated_at: now.toISOString(), successful_repositories: successes, tracked_repositories: known.size, boundary_captured: inWindow, unavailable_repositories: unavailable.sort(), warnings };
   await writeJson(path.join(root,'data/update-report.json'), report);
   // Keep eight recent boundary snapshots; weekly aggregates retain the audit fields.
   const boundaryDir=path.join(root,'data/boundaries');
