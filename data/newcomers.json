@@ -354,19 +354,19 @@
     {
       "start": "2026-10-19",
       "end": "2026-10-26",
-      "updated_at": "2026-10-24T04:49:43.771Z",
+      "updated_at": "2026-10-25T02:56:59.430Z",
       "repositories": [
         {
           "full_name": "paperclipai/paperclip",
           "name": "paperclip",
           "description": "The open-source app everyone uses to manage agents at work",
           "language": "TypeScript",
-          "stars": 106653,
-          "forks": 17723,
+          "stars": 107003,
+          "forks": 17770,
           "created_at": "2026-03-02T15:01:51Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:49:44.930Z",
-          "pushed_at": "2026-10-24T04:10:45Z",
+          "last_updated": "2026-10-25T02:57:00.562Z",
+          "pushed_at": "2026-10-25T02:56:54Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -442,12 +442,12 @@
           "name": "qinglong",
           "description": "支持 Python3、JavaScript、Shell、Typescript 的定时任务管理平台（Timed task management platform supporting Python3, JavaScript, Shell, Typescript）",
           "language": "JavaScript",
-          "stars": 20001,
+          "stars": 20002,
           "forks": 3221,
           "created_at": "2021-03-13T15:21:04Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:49:45.505Z",
-          "pushed_at": "2026-10-23T16:29:35Z",
+          "last_updated": "2026-10-25T02:57:01.186Z",
+          "pushed_at": "2026-10-24T18:11:40Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -488,12 +488,12 @@
           "name": "phoenix",
           "description": "AI Observability & Evaluation",
           "language": "Python",
-          "stars": 11975,
-          "forks": 1231,
+          "stars": 11987,
+          "forks": 1238,
           "created_at": "2022-11-09T23:44:35Z",
           "discovered_at": "2026-10-20T03:09:55.638Z",
-          "last_updated": "2026-10-24T04:49:46.328Z",
-          "pushed_at": "2026-10-24T03:48:23Z",
+          "last_updated": "2026-10-25T02:57:02.010Z",
+          "pushed_at": "2026-10-24T16:10:22Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -551,12 +551,12 @@
           "name": "hive",
           "description": "Multi-Agent Harness for Production AI",
           "language": "Python",
-          "stars": 11119,
+          "stars": 11123,
           "forks": 5643,
           "created_at": "2026-01-12T00:04:22Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:49:47.055Z",
-          "pushed_at": "2026-10-19T19:36:02Z",
+          "last_updated": "2026-10-25T02:57:02.718Z",
+          "pushed_at": "2026-10-24T21:30:12Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -610,12 +610,12 @@
           "name": "openrig",
           "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
           "language": "TypeScript",
-          "stars": 8142,
-          "forks": 662,
+          "stars": 8168,
+          "forks": 666,
           "created_at": "2026-04-01T06:22:40Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:49:47.715Z",
-          "pushed_at": "2026-10-24T04:42:13Z",
+          "last_updated": "2026-10-25T02:57:03.405Z",
+          "pushed_at": "2026-10-25T02:42:19Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -679,8 +679,8 @@
           "forks": 534,
           "created_at": "2026-07-03T02:50:10Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:49:48.589Z",
-          "pushed_at": "2026-10-24T04:43:22Z",
+          "last_updated": "2026-10-25T02:57:04.232Z",
+          "pushed_at": "2026-10-25T02:42:20Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -757,12 +757,12 @@
           "name": "fallow",
           "description": "Codebase intelligence for TypeScript and JavaScript. Health, complexity hotspots, duplication, architecture boundaries, circular dependencies, design-system drift, and unused code, from one graph. CLI, GitHub Action, LSP, MCP, and VS Code. Rust, MIT licensed.",
           "language": "Rust",
-          "stars": 5228,
+          "stars": 5231,
           "forks": 188,
           "created_at": "2026-03-17T08:40:57Z",
           "discovered_at": "2026-10-20T03:09:55.638Z",
-          "last_updated": "2026-10-24T04:49:49.362Z",
-          "pushed_at": "2026-10-23T23:57:20Z",
+          "last_updated": "2026-10-25T02:57:05.051Z",
+          "pushed_at": "2026-10-25T01:35:29Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -801,11 +801,11 @@
           "name": "openmeld",
           "description": "The open-source collaboration system for people and AI agents. Share context, coordinate tasks, and work in parallel with your team, cloud agents, Codex, Claude Code, Grok, Grok Bot, OpenCode, Antigravity, and Cursor.",
           "language": "TypeScript",
-          "stars": 1394,
+          "stars": 1396,
           "forks": 82,
           "created_at": "2026-06-24T08:05:12Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:49:50.518Z",
+          "last_updated": "2026-10-25T02:57:06.071Z",
           "pushed_at": "2026-10-23T10:30:19Z",
           "relevance": {
             "score": 85,
@@ -865,11 +865,11 @@
           "name": "skills",
           "description": "Reusable AI agent skills for software factories: explore ideas, write specs, implement, review, and run autonomous research. Works with Claude Code, Codex, and other skill-compatible agents.",
           "language": "HTML",
-          "stars": 1378,
+          "stars": 1380,
           "forks": 84,
           "created_at": "2026-07-02T10:24:16Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:49:51.080Z",
+          "last_updated": "2026-10-25T02:57:06.696Z",
           "pushed_at": "2026-10-21T19:31:04Z",
           "relevance": {
             "score": 100,
@@ -914,12 +914,12 @@
           "name": "CloudBase-AI-Toolkit",
           "description": "Backend for AI coding agents on CloudBase — database, auth, functions via Plugin, Skills & MCP.",
           "language": "TypeScript",
-          "stars": 1147,
+          "stars": 1148,
           "forks": 148,
           "created_at": "2025-05-23T08:31:26Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:49:51.741Z",
-          "pushed_at": "2026-10-23T07:50:31Z",
+          "last_updated": "2026-10-25T02:57:07.441Z",
+          "pushed_at": "2026-10-24T11:10:18Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -975,12 +975,12 @@
           "name": "Ix",
           "description": "Understand any codebase instantly. System intelligence for codebases, built for humans and AI.",
           "language": "TypeScript",
-          "stars": 1097,
+          "stars": 1100,
           "forks": 82,
           "created_at": "2026-03-03T04:48:38Z",
           "discovered_at": "2026-10-20T03:09:55.638Z",
-          "last_updated": "2026-10-24T04:49:52.425Z",
-          "pushed_at": "2026-10-24T02:10:40Z",
+          "last_updated": "2026-10-25T02:57:08.048Z",
+          "pushed_at": "2026-10-24T21:53:01Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1014,11 +1014,11 @@
           "description": "Curated Agent Skills for Microsoft & Azure – giving AI coding assistants structured, real-time expertise from Microsoft Learn docs.",
           "language": null,
           "stars": 791,
-          "forks": 129,
+          "forks": 128,
           "created_at": "2026-01-27T03:52:27Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:49:53.144Z",
-          "pushed_at": "2026-10-19T04:52:44Z",
+          "last_updated": "2026-10-25T02:57:08.694Z",
+          "pushed_at": "2026-10-25T02:48:11Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1087,12 +1087,12 @@
           "name": "beancount-io",
           "description": "💰 Double-entry bookkeeping made easy — plain-text accounting for humans and AI agents. Polished iOS & Android app built with React Native + Expo.",
           "language": "TypeScript",
-          "stars": 312,
+          "stars": 313,
           "forks": 39,
           "created_at": "2020-10-02T07:00:24Z",
           "discovered_at": "2026-10-20T03:09:55.638Z",
-          "last_updated": "2026-10-24T04:49:53.998Z",
-          "pushed_at": "2026-10-24T04:49:24Z",
+          "last_updated": "2026-10-25T02:57:09.599Z",
+          "pushed_at": "2026-10-25T02:31:09Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1156,8 +1156,8 @@
           "forks": 24,
           "created_at": "2026-09-18T12:09:59Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:49:54.553Z",
-          "pushed_at": "2026-10-24T04:48:57Z",
+          "last_updated": "2026-10-25T02:57:10.332Z",
+          "pushed_at": "2026-10-24T22:35:24Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -1213,8 +1213,8 @@
           "forks": 12,
           "created_at": "2026-05-24T03:25:25Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:49:55.404Z",
-          "pushed_at": "2026-10-24T04:35:16Z",
+          "last_updated": "2026-10-25T02:57:11.245Z",
+          "pushed_at": "2026-10-25T02:52:55Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1276,11 +1276,11 @@
           "name": "pracht",
           "description": "A framework for Preact that deploys anywhere",
           "language": "TypeScript",
-          "stars": 103,
+          "stars": 105,
           "forks": 6,
           "created_at": "2026-04-06T05:19:19Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:49:56.135Z",
+          "last_updated": "2026-10-25T02:57:11.975Z",
           "pushed_at": "2026-10-20T09:38:25Z",
           "relevance": {
             "score": 95,
@@ -1336,7 +1336,7 @@
           "forks": 11,
           "created_at": "2026-07-25T03:16:40Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:49:56.727Z",
+          "last_updated": "2026-10-25T02:57:12.546Z",
           "pushed_at": "2026-10-23T08:04:39Z",
           "relevance": {
             "score": 95,
@@ -1369,8 +1369,8 @@
           "forks": 7,
           "created_at": "2025-03-18T13:06:36Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:49:57.382Z",
-          "pushed_at": "2026-10-24T04:46:26Z",
+          "last_updated": "2026-10-25T02:57:13.219Z",
+          "pushed_at": "2026-10-25T02:31:31Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1411,8 +1411,8 @@
           "forks": 5,
           "created_at": "2026-05-06T10:14:52Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:49:58.205Z",
-          "pushed_at": "2026-10-21T11:36:58Z",
+          "last_updated": "2026-10-25T02:57:14.008Z",
+          "pushed_at": "2026-10-24T15:03:28Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1444,11 +1444,11 @@
           "description": "Open source multi agent toolkit for Claude Code and GitHub Copilot CLI: 30 agents, plan to ship workflows, review and security gates, plugin marketplace.",
           "language": "Python",
           "stars": 49,
-          "forks": 16,
+          "forks": 17,
           "created_at": "2025-12-14T04:56:32Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:49:59.202Z",
-          "pushed_at": "2026-10-24T04:46:46Z",
+          "last_updated": "2026-10-25T02:57:14.955Z",
+          "pushed_at": "2026-10-24T21:32:36Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -1490,6 +1490,12 @@
               ]
             },
             {
+              "id": "research",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
               "id": "deployment",
               "evidence": [
                 "skill-paths",
@@ -1519,7 +1525,7 @@
           "forks": 13,
           "created_at": "2026-02-12T13:17:16Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:49:59.986Z",
+          "last_updated": "2026-10-25T02:57:15.674Z",
           "pushed_at": "2026-10-23T10:15:55Z",
           "relevance": {
             "score": 100,
@@ -1556,12 +1562,12 @@
           "name": "duology",
           "description": "Claude Code skills for designing, building, testing and shipping apps on iPhone Duo and iOS 27. Layout patterns, app recipes, a fold linter and pose checks.",
           "language": "Swift",
-          "stars": 22,
+          "stars": 26,
           "forks": 1,
           "created_at": "2026-10-16T13:28:15Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:00.686Z",
-          "pushed_at": "2026-10-23T22:42:06Z",
+          "last_updated": "2026-10-25T02:57:16.362Z",
+          "pushed_at": "2026-10-24T22:00:27Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1607,7 +1613,7 @@
           "forks": 1,
           "created_at": "2026-04-21T16:53:43Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:01.313Z",
+          "last_updated": "2026-10-25T02:57:17.010Z",
           "pushed_at": "2026-10-23T09:59:06Z",
           "relevance": {
             "score": 100,
@@ -1649,8 +1655,8 @@
           "forks": 5,
           "created_at": "2026-08-15T16:43:15Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:02.014Z",
-          "pushed_at": "2026-10-24T03:51:27Z",
+          "last_updated": "2026-10-25T02:57:17.886Z",
+          "pushed_at": "2026-10-24T21:17:29Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1701,8 +1707,8 @@
           "forks": 3,
           "created_at": "2019-07-19T21:54:27Z",
           "discovered_at": "2026-10-20T03:09:55.638Z",
-          "last_updated": "2026-10-24T04:50:02.771Z",
-          "pushed_at": "2026-10-23T22:42:40Z",
+          "last_updated": "2026-10-25T02:57:18.646Z",
+          "pushed_at": "2026-10-24T22:50:01Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1748,12 +1754,12 @@
           "name": "pstack-t3",
           "description": "Lauren Tan's pstack agent skills, ported to T3 Code so any model can lead and other models can review the work. Adds brigade, a standing coordinator per project that runs each unit of work in its own git worktree, has another model family review the commit when one can run, and lands it through a queue that is the only writer to trunk.",
           "language": "Python",
-          "stars": 15,
+          "stars": 16,
           "forks": 6,
           "created_at": "2026-10-03T14:52:54Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:03.438Z",
-          "pushed_at": "2026-10-24T02:20:47Z",
+          "last_updated": "2026-10-25T02:57:19.254Z",
+          "pushed_at": "2026-10-25T02:11:38Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1798,7 +1804,7 @@
           "forks": 0,
           "created_at": "2026-01-11T03:56:30Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:04.038Z",
+          "last_updated": "2026-10-25T02:57:20.101Z",
           "pushed_at": "2026-10-20T18:09:55Z",
           "relevance": {
             "score": 85,
@@ -1840,8 +1846,8 @@
           "forks": 1,
           "created_at": "2026-03-18T04:01:49Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:05.486Z",
-          "pushed_at": "2026-10-24T03:33:39Z",
+          "last_updated": "2026-10-25T02:57:21.079Z",
+          "pushed_at": "2026-10-25T00:54:11Z",
           "relevance": {
             "score": 80,
             "evidence": [
@@ -1885,8 +1891,8 @@
           "forks": 1,
           "created_at": "2026-03-10T08:47:54Z",
           "discovered_at": "2026-10-20T03:09:55.638Z",
-          "last_updated": "2026-10-24T04:50:06.330Z",
-          "pushed_at": "2026-10-24T03:03:21Z",
+          "last_updated": "2026-10-25T02:57:21.691Z",
+          "pushed_at": "2026-10-25T02:11:39Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1936,7 +1942,7 @@
           "forks": 1,
           "created_at": "2026-09-04T09:21:29Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:07.154Z",
+          "last_updated": "2026-10-25T02:57:22.354Z",
           "pushed_at": "2026-10-24T01:35:10Z",
           "relevance": {
             "score": 75,
@@ -1984,8 +1990,8 @@
           "forks": 2,
           "created_at": "2026-02-14T16:23:33Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:07.973Z",
-          "pushed_at": "2026-10-22T07:49:29Z",
+          "last_updated": "2026-10-25T02:57:23.084Z",
+          "pushed_at": "2026-10-24T15:28:04Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2039,8 +2045,8 @@
           "forks": 0,
           "created_at": "2026-04-07T21:07:48Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:08.757Z",
-          "pushed_at": "2026-10-24T01:50:55Z",
+          "last_updated": "2026-10-25T02:57:23.760Z",
+          "pushed_at": "2026-10-24T22:20:44Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2110,8 +2116,8 @@
           "forks": 1,
           "created_at": "2026-06-26T04:31:23Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:09.627Z",
-          "pushed_at": "2026-10-23T23:27:40Z",
+          "last_updated": "2026-10-25T02:57:24.627Z",
+          "pushed_at": "2026-10-24T18:06:34Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -2142,6 +2148,56 @@
           ]
         },
         {
+          "full_name": "BryanHarrisScripts/PlotPickle",
+          "name": "PlotPickle",
+          "description": "PlotPickle",
+          "language": "JavaScript",
+          "stars": 7,
+          "forks": 0,
+          "created_at": "2026-07-20T14:17:41Z",
+          "discovered_at": "2026-10-20T03:09:55.638Z",
+          "last_updated": "2026-10-25T02:57:27.928Z",
+          "pushed_at": "2026-10-25T01:27:21Z",
+          "relevance": {
+            "score": 65,
+            "evidence": [
+              "skill-file",
+              "readme"
+            ],
+            "skill_files": [
+              ".agents/skills/ben-code-quality/SKILL.md",
+              ".agents/skills/buzz-guildhall-reporting/SKILL.md",
+              ".agents/skills/character-visual-development/SKILL.md",
+              ".agents/skills/color-expert/SKILL.md",
+              ".agents/skills/critics-circle/SKILL.md",
+              ".agents/skills/diagnosis/SKILL.md",
+              ".agents/skills/discovery-mapper/SKILL.md",
+              ".agents/skills/engineering-discipline/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "writing",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "EPISTEX0/poteto-kit",
           "name": "poteto-kit",
           "description": "Recipes for trusting your coding agents: verification, skills, and agent-friendly architecture — baked and ready to serve.",
@@ -2150,7 +2206,7 @@
           "forks": 0,
           "created_at": "2026-10-12T04:08:38Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:10.329Z",
+          "last_updated": "2026-10-25T02:57:25.332Z",
           "pushed_at": "2026-10-19T04:49:22Z",
           "relevance": {
             "score": 100,
@@ -2203,7 +2259,7 @@
           "forks": 0,
           "created_at": "2025-07-29T15:54:59Z",
           "discovered_at": "2026-10-20T03:09:55.638Z",
-          "last_updated": "2026-10-24T04:50:11.044Z",
+          "last_updated": "2026-10-25T02:57:26.017Z",
           "pushed_at": "2026-10-24T03:02:47Z",
           "relevance": {
             "score": 65,
@@ -2253,8 +2309,8 @@
           "forks": 1,
           "created_at": "2026-06-03T08:03:05Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:11.813Z",
-          "pushed_at": "2026-10-24T04:46:29Z",
+          "last_updated": "2026-10-25T02:57:26.677Z",
+          "pushed_at": "2026-10-25T02:51:02Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2295,56 +2351,6 @@
           ]
         },
         {
-          "full_name": "BryanHarrisScripts/PlotPickle",
-          "name": "PlotPickle",
-          "description": "PlotPickle",
-          "language": "JavaScript",
-          "stars": 6,
-          "forks": 0,
-          "created_at": "2026-07-20T14:17:41Z",
-          "discovered_at": "2026-10-20T03:09:55.638Z",
-          "last_updated": "2026-10-24T04:50:13.063Z",
-          "pushed_at": "2026-10-24T02:09:51Z",
-          "relevance": {
-            "score": 65,
-            "evidence": [
-              "skill-file",
-              "readme"
-            ],
-            "skill_files": [
-              ".agents/skills/ben-code-quality/SKILL.md",
-              ".agents/skills/buzz-guildhall-reporting/SKILL.md",
-              ".agents/skills/character-visual-development/SKILL.md",
-              ".agents/skills/color-expert/SKILL.md",
-              ".agents/skills/critics-circle/SKILL.md",
-              ".agents/skills/diagnosis/SKILL.md",
-              ".agents/skills/discovery-mapper/SKILL.md",
-              ".agents/skills/engineering-discipline/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "frontend",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "testing",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "writing",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "gobing-ai/superskill",
           "name": "superskill",
           "description": "A manager for multi-agent skill, slash command, subagent, hook, MCP and etc.",
@@ -2353,7 +2359,7 @@
           "forks": 1,
           "created_at": "2026-06-17T04:41:33Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:13.950Z",
+          "last_updated": "2026-10-25T02:57:28.674Z",
           "pushed_at": "2026-10-21T23:01:37Z",
           "relevance": {
             "score": 90,
@@ -2393,7 +2399,7 @@
           "forks": 0,
           "created_at": "2026-09-04T14:52:35Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:14.694Z",
+          "last_updated": "2026-10-25T02:57:29.565Z",
           "pushed_at": "2026-10-19T04:18:29Z",
           "relevance": {
             "score": 100,
@@ -2432,7 +2438,7 @@
           "forks": 2,
           "created_at": "2026-09-24T17:11:08Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:15.430Z",
+          "last_updated": "2026-10-25T02:57:30.354Z",
           "pushed_at": "2026-10-21T05:43:47Z",
           "relevance": {
             "score": 100,
@@ -2458,8 +2464,8 @@
           "forks": 1,
           "created_at": "2026-08-01T05:30:13Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:16.025Z",
-          "pushed_at": "2026-10-24T04:01:37Z",
+          "last_updated": "2026-10-25T02:57:30.984Z",
+          "pushed_at": "2026-10-24T10:05:42Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -2503,7 +2509,7 @@
           "forks": 0,
           "created_at": "2026-10-06T13:00:13Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:16.800Z",
+          "last_updated": "2026-10-25T02:57:31.799Z",
           "pushed_at": "2026-10-23T12:11:59Z",
           "relevance": {
             "score": 100,
@@ -2549,7 +2555,7 @@
           "forks": 0,
           "created_at": "2026-09-21T17:49:06Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:17.828Z",
+          "last_updated": "2026-10-25T02:57:32.425Z",
           "pushed_at": "2026-10-23T21:09:10Z",
           "relevance": {
             "score": 95,
@@ -2594,7 +2600,7 @@
           "forks": 0,
           "created_at": "2026-05-24T00:34:30Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:18.561Z",
+          "last_updated": "2026-10-25T02:57:33.033Z",
           "pushed_at": "2026-10-23T16:33:43Z",
           "relevance": {
             "score": 100,
@@ -2627,7 +2633,7 @@
           "forks": 0,
           "created_at": "2026-05-24T00:40:27Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:19.285Z",
+          "last_updated": "2026-10-25T02:57:33.741Z",
           "pushed_at": "2026-10-19T03:42:19Z",
           "relevance": {
             "score": 100,
@@ -2672,7 +2678,7 @@
           "forks": 0,
           "created_at": "2026-05-24T00:43:11Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:20.094Z",
+          "last_updated": "2026-10-25T02:57:34.431Z",
           "pushed_at": "2026-10-19T03:42:26Z",
           "relevance": {
             "score": 100,
@@ -2706,7 +2712,7 @@
           "forks": 0,
           "created_at": "2026-05-24T15:16:56Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:20.914Z",
+          "last_updated": "2026-10-25T02:57:35.230Z",
           "pushed_at": "2026-10-23T16:33:47Z",
           "relevance": {
             "score": 100,
@@ -2739,7 +2745,7 @@
           "forks": 0,
           "created_at": "2026-05-24T00:37:56Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:21.591Z",
+          "last_updated": "2026-10-25T02:57:35.966Z",
           "pushed_at": "2026-10-19T03:38:05Z",
           "relevance": {
             "score": 100,
@@ -2772,8 +2778,8 @@
           "forks": 0,
           "created_at": "2026-09-26T07:08:12Z",
           "discovered_at": "2026-10-19T03:01:09.037Z",
-          "last_updated": "2026-10-24T04:50:22.205Z",
-          "pushed_at": "2026-10-22T22:28:54Z",
+          "last_updated": "2026-10-25T02:57:36.521Z",
+          "pushed_at": "2026-10-24T12:37:16Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2797,7 +2803,7 @@
           "forks": 0,
           "created_at": "2026-07-13T04:24:33Z",
           "discovered_at": "2026-10-19T05:08:46.823Z",
-          "last_updated": "2026-10-24T04:50:22.996Z",
+          "last_updated": "2026-10-25T02:57:37.280Z",
           "pushed_at": "2026-10-23T11:48:37Z",
           "relevance": {
             "score": 100,
@@ -5229,7 +5235,7 @@
     }
   ],
   "report": {
-    "updated_at": "2026-10-24T04:49:43.771Z",
+    "updated_at": "2026-10-25T02:56:59.430Z",
     "accepted": 0,
     "attempted": 0,
     "skipped": [],
