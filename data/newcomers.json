@@ -404,19 +404,19 @@
     {
       "start": "2026-10-26",
       "end": "2026-11-02",
-      "updated_at": "2026-10-30T04:07:05.207Z",
+      "updated_at": "2026-10-31T03:51:09.835Z",
       "repositories": [
         {
           "full_name": "garrytan/gstack",
           "name": "gstack",
           "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
           "language": "TypeScript",
-          "stars": 138210,
-          "forks": 20499,
+          "stars": 138348,
+          "forks": 20519,
           "created_at": "2026-03-11T21:22:45Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:05.881Z",
-          "pushed_at": "2026-10-30T04:06:35Z",
+          "last_updated": "2026-10-31T03:51:10.919Z",
+          "pushed_at": "2026-10-31T03:49:15Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -491,14 +491,14 @@
         {
           "full_name": "career-ops-hq/career-ops",
           "name": "career-ops",
-          "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
+          "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
           "language": "JavaScript",
-          "stars": 78727,
-          "forks": 14532,
+          "stars": 78913,
+          "forks": 14563,
           "created_at": "2026-04-04T18:21:18Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:06.490Z",
-          "pushed_at": "2026-10-30T01:12:28Z",
+          "last_updated": "2026-10-31T03:51:11.698Z",
+          "pushed_at": "2026-10-30T21:57:03Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -515,7 +515,7 @@
               ".kimi/skills/career-ops/SKILL.md",
               ".opencode/skills/career-ops/SKILL.md",
               ".qwen/skills/career-ops/SKILL.md",
-              "plugins/apify/skill.md"
+              "antigravity-directory/skills/career-ops/SKILL.md"
             ],
             "structural": true
           },
@@ -557,12 +557,12 @@
           "name": "gbrain",
           "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
           "language": "TypeScript",
-          "stars": 31343,
-          "forks": 4683,
+          "stars": 31367,
+          "forks": 4687,
           "created_at": "2026-04-05T14:40:56Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:07.269Z",
-          "pushed_at": "2026-10-30T03:57:36Z",
+          "last_updated": "2026-10-31T03:51:12.619Z",
+          "pushed_at": "2026-10-31T03:37:03Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -627,12 +627,12 @@
           "name": "claude-skills",
           "description": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
           "language": "JavaScript",
-          "stars": 12129,
-          "forks": 1161,
+          "stars": 12144,
+          "forks": 1162,
           "created_at": "2025-10-20T20:27:22Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:07.897Z",
-          "pushed_at": "2026-10-29T01:36:45Z",
+          "last_updated": "2026-10-31T03:51:13.379Z",
+          "pushed_at": "2026-10-30T18:00:19Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -701,12 +701,12 @@
           "name": "claude-code-skills",
           "description": "Professional Claude Code skills marketplace featuring production-ready skills for enhanced development workflows.",
           "language": "Python",
-          "stars": 1503,
-          "forks": 230,
+          "stars": 1505,
+          "forks": 231,
           "created_at": "2025-10-22T11:17:31Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:08.604Z",
-          "pushed_at": "2026-10-29T22:50:20Z",
+          "last_updated": "2026-10-31T03:51:14.133Z",
+          "pushed_at": "2026-10-31T03:46:18Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -824,12 +824,12 @@
           "name": "local-operator",
           "description": "An open-source AI agent hub for your own machine: build organizations of collaborating agents that message each other, run in the background around the clock, and share your existing AI subscriptions.",
           "language": "Python",
-          "stars": 229,
+          "stars": 231,
           "forks": 35,
           "created_at": "2025-01-25T22:44:02Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:09.393Z",
-          "pushed_at": "2026-10-30T04:05:07Z",
+          "last_updated": "2026-10-31T03:51:15.022Z",
+          "pushed_at": "2026-10-31T03:48:13Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -908,12 +908,12 @@
           "name": "kicad-mcp-pro",
           "description": "MCP server for KiCad, connecting AI agents to schematic and PCB workflows, ERC/DRC validation, DFM checks, BOM analysis, and manufacturing preparation—with controlled edits and human-gated release workflows.",
           "language": "Python",
-          "stars": 164,
+          "stars": 167,
           "forks": 31,
           "created_at": "2026-05-31T23:45:08Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:10.056Z",
-          "pushed_at": "2026-10-29T20:27:58Z",
+          "last_updated": "2026-10-31T03:51:15.756Z",
+          "pushed_at": "2026-10-31T02:58:40Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -973,7 +973,7 @@
           "forks": 14,
           "created_at": "2026-08-08T05:10:25Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:11.273Z",
+          "last_updated": "2026-10-31T03:51:16.707Z",
           "pushed_at": "2026-10-27T07:09:54Z",
           "relevance": {
             "score": 75,
@@ -1008,12 +1008,12 @@
           "name": "alter-zero",
           "description": "RAM efficient terminal agent harness for coding, cybersecurity, and automation.",
           "language": "Rust",
-          "stars": 108,
+          "stars": 109,
           "forks": 8,
           "created_at": "2026-09-13T12:00:04Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:12.022Z",
-          "pushed_at": "2026-10-29T23:24:22Z",
+          "last_updated": "2026-10-31T03:51:17.565Z",
+          "pushed_at": "2026-10-31T03:46:18Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1068,8 +1068,8 @@
           "forks": 0,
           "created_at": "2026-03-11T15:21:48Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:12.624Z",
-          "pushed_at": "2026-10-30T01:41:38Z",
+          "last_updated": "2026-10-31T03:51:18.164Z",
+          "pushed_at": "2026-10-31T02:56:25Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -1118,8 +1118,8 @@
           "forks": 11,
           "created_at": "2026-07-14T02:06:17Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:13.280Z",
-          "pushed_at": "2026-10-30T03:25:34Z",
+          "last_updated": "2026-10-31T03:51:18.998Z",
+          "pushed_at": "2026-10-30T07:58:44Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1155,12 +1155,12 @@
           "name": "tui-design-skill",
           "description": "Claude Skill for building clean, professional terminal UIs & CLIs — covers Bubble Tea, Ratatui, Textual, and Ink across Go, Rust, Python, and TypeScript",
           "language": "Python",
-          "stars": 43,
+          "stars": 44,
           "forks": 2,
           "created_at": "2026-04-29T15:25:16Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:13.921Z",
-          "pushed_at": "2026-10-28T21:29:45Z",
+          "last_updated": "2026-10-31T03:51:19.876Z",
+          "pushed_at": "2026-10-31T00:31:02Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1198,13 +1198,13 @@
           "full_name": "Turki-Sh/Foreman",
           "name": "Foreman",
           "description": "A build playbook that turns your coding agent into the foreman of a website build. It interviews you, forces the design and scope decisions, locks a visual system, writes the build brief, then verifies, ships, and indexes the site. Claude Code plugin and Agent Skill. Markdown only, no scripts.",
-          "language": "HTML",
+          "language": "TypeScript",
           "stars": 33,
           "forks": 2,
           "created_at": "2026-08-10T22:30:18Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:14.479Z",
-          "pushed_at": "2026-10-30T03:59:38Z",
+          "last_updated": "2026-10-31T03:51:20.938Z",
+          "pushed_at": "2026-10-30T15:21:31Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1241,8 +1241,8 @@
           "forks": 12,
           "created_at": "2026-10-13T17:02:26Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:15.457Z",
-          "pushed_at": "2026-10-29T21:25:29Z",
+          "last_updated": "2026-10-31T03:51:22.510Z",
+          "pushed_at": "2026-10-31T00:44:01Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1287,8 +1287,8 @@
           "forks": 9,
           "created_at": "2026-06-13T07:08:42Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:16.840Z",
-          "pushed_at": "2026-10-30T03:53:20Z",
+          "last_updated": "2026-10-31T03:51:23.684Z",
+          "pushed_at": "2026-10-31T03:17:04Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1328,11 +1328,11 @@
           "name": "artiboard",
           "description": "A shared task board for people and their Claude agents, built as one claude.ai artifact. Views drawn by code, not tokens.",
           "language": "JavaScript",
-          "stars": 27,
+          "stars": 28,
           "forks": 3,
           "created_at": "2026-10-19T09:14:49Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:17.402Z",
+          "last_updated": "2026-10-31T03:51:24.394Z",
           "pushed_at": "2026-10-28T07:22:56Z",
           "relevance": {
             "score": 75,
@@ -1376,7 +1376,7 @@
           "forks": 2,
           "created_at": "2026-01-23T20:30:57Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:18.049Z",
+          "last_updated": "2026-10-31T03:51:25.205Z",
           "pushed_at": "2026-10-29T03:04:33Z",
           "relevance": {
             "score": 75,
@@ -1408,8 +1408,8 @@
           "forks": 15,
           "created_at": "2026-07-04T19:04:47Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:18.739Z",
-          "pushed_at": "2026-10-30T03:17:52Z",
+          "last_updated": "2026-10-31T03:51:25.938Z",
+          "pushed_at": "2026-10-31T01:57:11Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1465,8 +1465,8 @@
           "forks": 8,
           "created_at": "2026-02-22T14:15:28Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:19.506Z",
-          "pushed_at": "2026-10-30T01:55:18Z",
+          "last_updated": "2026-10-31T03:51:26.722Z",
+          "pushed_at": "2026-10-31T03:25:22Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1509,8 +1509,8 @@
           "forks": 2,
           "created_at": "2026-09-26T15:26:26Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:20.131Z",
-          "pushed_at": "2026-10-29T12:34:13Z",
+          "last_updated": "2026-10-31T03:51:27.569Z",
+          "pushed_at": "2026-10-30T10:20:47Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1535,7 +1535,7 @@
           "forks": 5,
           "created_at": "2026-01-08T23:55:54Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:20.893Z",
+          "last_updated": "2026-10-31T03:51:28.432Z",
           "pushed_at": "2026-10-27T04:23:34Z",
           "relevance": {
             "score": 75,
@@ -1623,7 +1623,7 @@
           "forks": 4,
           "created_at": "2026-06-07T22:18:43Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:21.869Z",
+          "last_updated": "2026-10-31T03:51:29.663Z",
           "pushed_at": "2026-10-29T14:11:58Z",
           "relevance": {
             "score": 75,
@@ -1681,8 +1681,8 @@
           "forks": 49,
           "created_at": "2026-01-09T16:33:59Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:22.451Z",
-          "pushed_at": "2026-10-29T12:54:40Z",
+          "last_updated": "2026-10-31T03:51:30.400Z",
+          "pushed_at": "2026-10-30T11:08:32Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1705,6 +1705,60 @@
           ]
         },
         {
+          "full_name": "code-yeongyu/omowright",
+          "name": "omowright",
+          "description": "Playwright, but built for AI agents: the browser API models already know, token-efficient a11y snapshots, and scroll-driven collection over the network. Zero-port CDP underneath.",
+          "language": "JavaScript",
+          "stars": 12,
+          "forks": 5,
+          "created_at": "2026-08-27T06:02:36Z",
+          "discovered_at": "2026-10-27T03:29:03.665Z",
+          "last_updated": "2026-10-31T03:51:33.925Z",
+          "pushed_at": "2026-10-28T18:07:54Z",
+          "relevance": {
+            "score": 95,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "presets/agent-events/SKILL.md",
+              "presets/captcha/SKILL.md",
+              "presets/chrome/SKILL.md",
+              "presets/cloak-bridge/SKILL.md",
+              "presets/network/SKILL.md",
+              "presets/visual-browse/SKILL.md",
+              "skills/omowright/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "testing",
+              "evidence": [
+                "description",
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "topics",
+                "readme"
+              ]
+            },
+            {
+              "id": "browser",
+              "evidence": [
+                "topics",
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "chainlesschain/chainlesschain",
           "name": "chainlesschain",
           "description": "",
@@ -1713,8 +1767,8 @@
           "forks": 7,
           "created_at": "2025-12-01T02:28:59Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:23.859Z",
-          "pushed_at": "2026-10-30T03:46:44Z",
+          "last_updated": "2026-10-31T03:51:33.167Z",
+          "pushed_at": "2026-10-31T02:52:35Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1801,60 +1855,6 @@
           ]
         },
         {
-          "full_name": "code-yeongyu/omowright",
-          "name": "omowright",
-          "description": "Playwright, but built for AI agents: the browser API models already know, token-efficient a11y snapshots, and scroll-driven collection over the network. Zero-port CDP underneath.",
-          "language": "JavaScript",
-          "stars": 11,
-          "forks": 4,
-          "created_at": "2026-08-27T06:02:36Z",
-          "discovered_at": "2026-10-27T03:29:03.665Z",
-          "last_updated": "2026-10-30T04:07:24.599Z",
-          "pushed_at": "2026-10-28T18:07:54Z",
-          "relevance": {
-            "score": 95,
-            "evidence": [
-              "skill-file",
-              "skill-topic",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "presets/agent-events/SKILL.md",
-              "presets/captcha/SKILL.md",
-              "presets/chrome/SKILL.md",
-              "presets/cloak-bridge/SKILL.md",
-              "presets/network/SKILL.md",
-              "presets/visual-browse/SKILL.md",
-              "skills/omowright/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "testing",
-              "evidence": [
-                "description",
-                "readme"
-              ]
-            },
-            {
-              "id": "automation",
-              "evidence": [
-                "topics",
-                "readme"
-              ]
-            },
-            {
-              "id": "browser",
-              "evidence": [
-                "topics",
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "quzhi1/HistoryAgentSkills",
           "name": "HistoryAgentSkills",
           "description": "Use Agent Skills to search history source and answer questions",
@@ -1863,7 +1863,7 @@
           "forks": 1,
           "created_at": "2026-02-01T19:17:27Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:25.332Z",
+          "last_updated": "2026-10-31T03:51:34.707Z",
           "pushed_at": "2026-10-29T18:44:43Z",
           "relevance": {
             "score": 90,
@@ -1899,6 +1899,51 @@
           ]
         },
         {
+          "full_name": "QoderAI/qoder-cloud-agents-sdk-ts",
+          "name": "qoder-cloud-agents-sdk-ts",
+          "description": "",
+          "language": "TypeScript",
+          "stars": 10,
+          "forks": 0,
+          "created_at": "2026-09-11T05:52:41Z",
+          "discovered_at": "2026-10-27T03:29:04.134Z",
+          "last_updated": "2026-10-31T03:51:38.174Z",
+          "pushed_at": "2026-10-29T11:12:32Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "docs/api/forward/interfaces/Skill.md",
+              "docs/api/managed/interfaces/Skill.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "review",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "research",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "recoupable/skills",
           "name": "skills",
           "description": "A record label in a box.",
@@ -1907,8 +1952,8 @@
           "forks": 2,
           "created_at": "2026-01-09T20:29:00Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:26.005Z",
-          "pushed_at": "2026-10-30T00:55:19Z",
+          "last_updated": "2026-10-31T03:51:35.621Z",
+          "pushed_at": "2026-10-30T23:32:57Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1965,7 +2010,7 @@
           "forks": 1,
           "created_at": "2026-03-21T02:42:19Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:26.704Z",
+          "last_updated": "2026-10-31T03:51:36.494Z",
           "pushed_at": "2026-10-27T14:24:28Z",
           "relevance": {
             "score": 90,
@@ -2017,8 +2062,8 @@
           "forks": 1,
           "created_at": "2026-01-11T08:43:14Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:27.345Z",
-          "pushed_at": "2026-10-26T02:53:10Z",
+          "last_updated": "2026-10-31T03:51:37.387Z",
+          "pushed_at": "2026-10-30T14:26:22Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -2029,73 +2074,28 @@
             ],
             "skill_files": [
               ".claude/skills/brief-output/SKILL.md",
+              ".claude/skills/google-go-style/SKILL.md",
               ".claude/skills/insight-collector/SKILL.md",
               ".claude/skills/json-canvas/SKILL.md",
               ".claude/skills/md2wechat/SKILL.md",
               ".claude/skills/note-creator/SKILL.md",
               ".claude/skills/obsidian-bases/SKILL.md",
-              ".claude/skills/obsidian-markdown/SKILL.md",
-              ".claude/skills/pele/SKILL.md"
+              ".claude/skills/obsidian-markdown/SKILL.md"
             ],
             "structural": true
           },
           "system_tags": []
         },
         {
-          "full_name": "QoderAI/qoder-cloud-agents-sdk-ts",
-          "name": "qoder-cloud-agents-sdk-ts",
-          "description": "",
-          "language": "TypeScript",
-          "stars": 9,
-          "forks": 0,
-          "created_at": "2026-09-11T05:52:41Z",
-          "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:28.081Z",
-          "pushed_at": "2026-10-29T11:12:32Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "docs/api/forward/interfaces/Skill.md",
-              "docs/api/managed/interfaces/Skill.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "review",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "research",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "kltng/humanities-skills",
           "name": "humanities-skills",
           "description": "Plugins related to humanities research. Mostly created by AI.",
           "language": "Python",
-          "stars": 7,
+          "stars": 8,
           "forks": 4,
           "created_at": "2025-10-22T02:41:16Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:28.603Z",
+          "last_updated": "2026-10-31T03:51:39.023Z",
           "pushed_at": "2026-10-27T17:23:04Z",
           "relevance": {
             "score": 75,
@@ -2127,8 +2127,8 @@
           "forks": 1,
           "created_at": "2026-07-22T00:33:02Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:29.295Z",
-          "pushed_at": "2026-10-30T04:00:10Z",
+          "last_updated": "2026-10-31T03:51:39.901Z",
+          "pushed_at": "2026-10-31T03:48:42Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2191,7 +2191,7 @@
           "forks": 0,
           "created_at": "2026-03-10T17:41:01Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:30.065Z",
+          "last_updated": "2026-10-31T03:51:40.817Z",
           "pushed_at": "2026-10-27T03:25:26Z",
           "relevance": {
             "score": 75,
@@ -2267,7 +2267,7 @@
           "forks": 1,
           "created_at": "2026-08-17T09:55:50Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:30.755Z",
+          "last_updated": "2026-10-31T03:51:41.788Z",
           "pushed_at": "2026-10-26T06:30:36Z",
           "relevance": {
             "score": 90,
@@ -2307,8 +2307,8 @@
           "forks": 1,
           "created_at": "2024-08-08T01:31:21Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:31.331Z",
-          "pushed_at": "2026-10-29T18:13:10Z",
+          "last_updated": "2026-10-31T03:51:42.554Z",
+          "pushed_at": "2026-10-30T18:13:35Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2333,7 +2333,7 @@
           "forks": 0,
           "created_at": "2026-05-29T04:16:37Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:32.047Z",
+          "last_updated": "2026-10-31T03:51:43.329Z",
           "pushed_at": "2026-10-27T18:39:06Z",
           "relevance": {
             "score": 75,
@@ -2397,8 +2397,8 @@
           "forks": 0,
           "created_at": "2026-09-18T06:38:13Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:32.719Z",
-          "pushed_at": "2026-10-29T20:10:06Z",
+          "last_updated": "2026-10-31T03:51:44.100Z",
+          "pushed_at": "2026-10-30T18:01:26Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2455,8 +2455,8 @@
           "forks": 2,
           "created_at": "2026-04-12T21:19:37Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:33.496Z",
-          "pushed_at": "2026-10-30T04:07:29Z",
+          "last_updated": "2026-10-31T03:51:44.885Z",
+          "pushed_at": "2026-10-31T03:44:31Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2533,8 +2533,8 @@
           "forks": 2,
           "created_at": "2026-08-24T00:45:42Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:34.291Z",
-          "pushed_at": "2026-10-30T04:07:07Z",
+          "last_updated": "2026-10-31T03:51:45.660Z",
+          "pushed_at": "2026-10-31T03:18:49Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2571,6 +2571,48 @@
           ]
         },
         {
+          "full_name": "Devaretanmay/fox",
+          "name": "fox",
+          "description": "Make coding agents investigate before they build",
+          "language": "Python",
+          "stars": 4,
+          "forks": 1,
+          "created_at": "2026-10-11T12:11:26Z",
+          "discovered_at": "2026-10-27T03:29:04.134Z",
+          "last_updated": "2026-10-31T03:51:48.273Z",
+          "pushed_at": "2026-10-27T03:24:17Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/fox-explore/SKILL.md",
+              "skills/fox-fragments/SKILL.md",
+              "skills/fox-review/SKILL.md",
+              "skills/fox-verify/SKILL.md",
+              "skills/fox/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "tamld/g8s",
           "name": "g8s",
           "description": "g8s (The Gatekeepers): Zero-trust multi-agent orchestrator. Brain/supervisor delegates to muscle/worker via briefs, receipts, heartbeats, and lifecycle cleanup.",
@@ -2579,7 +2621,7 @@
           "forks": 1,
           "created_at": "2026-08-23T16:14:59Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:34.878Z",
+          "last_updated": "2026-10-31T03:51:46.530Z",
           "pushed_at": "2026-10-30T03:01:06Z",
           "relevance": {
             "score": 75,
@@ -2642,7 +2684,7 @@
           "forks": 0,
           "created_at": "2026-08-24T15:46:20Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:35.596Z",
+          "last_updated": "2026-10-31T03:51:47.491Z",
           "pushed_at": "2026-10-29T23:57:07Z",
           "relevance": {
             "score": 95,
@@ -2699,48 +2741,6 @@
           ]
         },
         {
-          "full_name": "Devaretanmay/fox",
-          "name": "fox",
-          "description": "Make coding agents investigate before they build",
-          "language": "Python",
-          "stars": 4,
-          "forks": 0,
-          "created_at": "2026-10-11T12:11:26Z",
-          "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:36.372Z",
-          "pushed_at": "2026-10-27T03:24:17Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "skills/fox-explore/SKILL.md",
-              "skills/fox-fragments/SKILL.md",
-              "skills/fox-review/SKILL.md",
-              "skills/fox-verify/SKILL.md",
-              "skills/fox/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "testing",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "automation",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "jeong-sik/masc",
           "name": "masc",
           "description": "MASC - Multi-Agent Shared Context",
@@ -2749,8 +2749,8 @@
           "forks": 0,
           "created_at": "2026-01-18T04:00:31Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:37.534Z",
-          "pushed_at": "2026-10-30T04:03:05Z",
+          "last_updated": "2026-10-31T03:51:49.501Z",
+          "pushed_at": "2026-10-31T00:19:38Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2813,8 +2813,8 @@
           "forks": 0,
           "created_at": "2026-06-27T02:06:29Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:38.264Z",
-          "pushed_at": "2026-10-30T01:58:30Z",
+          "last_updated": "2026-10-31T03:51:50.458Z",
+          "pushed_at": "2026-10-31T00:41:49Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2845,8 +2845,8 @@
           "forks": 0,
           "created_at": "2025-08-20T19:54:32Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:38.996Z",
-          "pushed_at": "2026-10-30T02:39:17Z",
+          "last_updated": "2026-10-31T03:51:51.372Z",
+          "pushed_at": "2026-10-31T02:59:40Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2962,8 +2962,8 @@
           "forks": 0,
           "created_at": "2026-06-14T19:51:34Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:39.835Z",
-          "pushed_at": "2026-10-26T04:31:44Z",
+          "last_updated": "2026-10-31T03:51:52.483Z",
+          "pushed_at": "2026-10-31T03:22:28Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2988,8 +2988,8 @@
           "forks": 0,
           "created_at": "2026-06-17T04:47:27Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:40.438Z",
-          "pushed_at": "2026-10-30T04:06:59Z",
+          "last_updated": "2026-10-31T03:51:53.269Z",
+          "pushed_at": "2026-10-31T03:35:41Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -3024,11 +3024,11 @@
           "description": "Template expansion for AI prompts - variable substitution for Claude Code, Copilot, Goose, Bob, and more",
           "language": "TypeScript",
           "stars": 3,
-          "forks": 4,
+          "forks": 5,
           "created_at": "2026-07-01T21:06:39Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:41.126Z",
-          "pushed_at": "2026-10-29T15:40:52Z",
+          "last_updated": "2026-10-31T03:51:54.046Z",
+          "pushed_at": "2026-10-30T10:46:13Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -3065,7 +3065,7 @@
           "forks": 1,
           "created_at": "2026-05-24T03:43:51Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-30T04:07:41.825Z",
+          "last_updated": "2026-10-31T03:51:55.004Z",
           "pushed_at": "2026-10-29T03:01:24Z",
           "relevance": {
             "score": 75,
@@ -3111,8 +3111,8 @@
           "forks": 0,
           "created_at": "2026-08-28T06:41:17Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-30T04:07:42.631Z",
-          "pushed_at": "2026-10-28T11:20:36Z",
+          "last_updated": "2026-10-31T03:51:56.075Z",
+          "pushed_at": "2026-10-30T07:35:09Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -5426,7 +5426,7 @@
     }
   ],
   "report": {
-    "updated_at": "2026-10-30T04:07:05.207Z",
+    "updated_at": "2026-10-31T03:51:09.835Z",
     "accepted": 0,
     "attempted": 0,
     "skipped": [],
