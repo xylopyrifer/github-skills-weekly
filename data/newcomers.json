@@ -404,19 +404,19 @@
     {
       "start": "2026-10-26",
       "end": "2026-11-02",
-      "updated_at": "2026-10-31T03:51:09.835Z",
+      "updated_at": "2026-11-01T04:00:13.603Z",
       "repositories": [
         {
           "full_name": "garrytan/gstack",
           "name": "gstack",
           "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
           "language": "TypeScript",
-          "stars": 138348,
-          "forks": 20519,
+          "stars": 138495,
+          "forks": 20532,
           "created_at": "2026-03-11T21:22:45Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:10.919Z",
-          "pushed_at": "2026-10-31T03:49:15Z",
+          "last_updated": "2026-11-01T04:00:14.456Z",
+          "pushed_at": "2026-11-01T03:53:26Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -493,12 +493,12 @@
           "name": "career-ops",
           "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
           "language": "JavaScript",
-          "stars": 78913,
-          "forks": 14563,
+          "stars": 79086,
+          "forks": 14594,
           "created_at": "2026-04-04T18:21:18Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:11.698Z",
-          "pushed_at": "2026-10-30T21:57:03Z",
+          "last_updated": "2026-11-01T04:00:15.274Z",
+          "pushed_at": "2026-11-01T00:10:59Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -557,12 +557,12 @@
           "name": "gbrain",
           "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
           "language": "TypeScript",
-          "stars": 31367,
-          "forks": 4687,
+          "stars": 31402,
+          "forks": 4690,
           "created_at": "2026-04-05T14:40:56Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:12.619Z",
-          "pushed_at": "2026-10-31T03:37:03Z",
+          "last_updated": "2026-11-01T04:00:16.152Z",
+          "pushed_at": "2026-11-01T03:21:01Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -627,11 +627,11 @@
           "name": "claude-skills",
           "description": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
           "language": "JavaScript",
-          "stars": 12144,
-          "forks": 1162,
+          "stars": 12152,
+          "forks": 1164,
           "created_at": "2025-10-20T20:27:22Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:13.379Z",
+          "last_updated": "2026-11-01T04:00:16.756Z",
           "pushed_at": "2026-10-30T18:00:19Z",
           "relevance": {
             "score": 90,
@@ -701,12 +701,12 @@
           "name": "claude-code-skills",
           "description": "Professional Claude Code skills marketplace featuring production-ready skills for enhanced development workflows.",
           "language": "Python",
-          "stars": 1505,
+          "stars": 1509,
           "forks": 231,
           "created_at": "2025-10-22T11:17:31Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:14.133Z",
-          "pushed_at": "2026-10-31T03:46:18Z",
+          "last_updated": "2026-11-01T04:00:17.513Z",
+          "pushed_at": "2026-11-01T03:51:15Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -828,8 +828,8 @@
           "forks": 35,
           "created_at": "2025-01-25T22:44:02Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:15.022Z",
-          "pushed_at": "2026-10-31T03:48:13Z",
+          "last_updated": "2026-11-01T04:00:18.350Z",
+          "pushed_at": "2026-11-01T03:55:52Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -908,12 +908,12 @@
           "name": "kicad-mcp-pro",
           "description": "MCP server for KiCad, connecting AI agents to schematic and PCB workflows, ERC/DRC validation, DFM checks, BOM analysis, and manufacturing preparation—with controlled edits and human-gated release workflows.",
           "language": "Python",
-          "stars": 167,
+          "stars": 168,
           "forks": 31,
           "created_at": "2026-05-31T23:45:08Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:15.756Z",
-          "pushed_at": "2026-10-31T02:58:40Z",
+          "last_updated": "2026-11-01T04:00:19.006Z",
+          "pushed_at": "2026-11-01T03:47:44Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -973,7 +973,7 @@
           "forks": 14,
           "created_at": "2026-08-08T05:10:25Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:16.707Z",
+          "last_updated": "2026-11-01T04:00:19.839Z",
           "pushed_at": "2026-10-27T07:09:54Z",
           "relevance": {
             "score": 75,
@@ -1008,12 +1008,12 @@
           "name": "alter-zero",
           "description": "RAM efficient terminal agent harness for coding, cybersecurity, and automation.",
           "language": "Rust",
-          "stars": 109,
-          "forks": 8,
+          "stars": 116,
+          "forks": 9,
           "created_at": "2026-09-13T12:00:04Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:17.565Z",
-          "pushed_at": "2026-10-31T03:46:18Z",
+          "last_updated": "2026-11-01T04:00:20.509Z",
+          "pushed_at": "2026-11-01T03:10:29Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1068,8 +1068,8 @@
           "forks": 0,
           "created_at": "2026-03-11T15:21:48Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:18.164Z",
-          "pushed_at": "2026-10-31T02:56:25Z",
+          "last_updated": "2026-11-01T04:00:21.156Z",
+          "pushed_at": "2026-11-01T03:52:01Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -1118,8 +1118,8 @@
           "forks": 11,
           "created_at": "2026-07-14T02:06:17Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:18.998Z",
-          "pushed_at": "2026-10-30T07:58:44Z",
+          "last_updated": "2026-11-01T04:00:22.021Z",
+          "pushed_at": "2026-10-31T09:12:53Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1159,7 +1159,7 @@
           "forks": 2,
           "created_at": "2026-04-29T15:25:16Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:19.876Z",
+          "last_updated": "2026-11-01T04:00:22.723Z",
           "pushed_at": "2026-10-31T00:31:02Z",
           "relevance": {
             "score": 75,
@@ -1203,7 +1203,7 @@
           "forks": 2,
           "created_at": "2026-08-10T22:30:18Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:20.938Z",
+          "last_updated": "2026-11-01T04:00:23.479Z",
           "pushed_at": "2026-10-30T15:21:31Z",
           "relevance": {
             "score": 100,
@@ -1233,6 +1233,50 @@
           ]
         },
         {
+          "full_name": "yulmucoffee/artiboard",
+          "name": "artiboard",
+          "description": "A shared task board for people and their Claude agents, built as one claude.ai artifact. Views drawn by code, not tokens.",
+          "language": "JavaScript",
+          "stars": 29,
+          "forks": 3,
+          "created_at": "2026-10-19T09:14:49Z",
+          "discovered_at": "2026-10-26T02:56:12.053Z",
+          "last_updated": "2026-11-01T04:00:26.582Z",
+          "pushed_at": "2026-10-28T07:22:56Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/artiboard/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "writing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "accounting",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "cromford-ai/cromford",
           "name": "cromford",
           "description": "Cromford: the open-source software factory. Tickets in, reviewed, merged and production-checked changes out.",
@@ -1241,8 +1285,8 @@
           "forks": 12,
           "created_at": "2026-10-13T17:02:26Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:22.510Z",
-          "pushed_at": "2026-10-31T00:44:01Z",
+          "last_updated": "2026-11-01T04:00:24.969Z",
+          "pushed_at": "2026-11-01T03:26:13Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1287,8 +1331,8 @@
           "forks": 9,
           "created_at": "2026-06-13T07:08:42Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:23.684Z",
-          "pushed_at": "2026-10-31T03:17:04Z",
+          "last_updated": "2026-11-01T04:00:25.820Z",
+          "pushed_at": "2026-11-01T03:39:27Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1324,50 +1368,6 @@
           ]
         },
         {
-          "full_name": "yulmucoffee/artiboard",
-          "name": "artiboard",
-          "description": "A shared task board for people and their Claude agents, built as one claude.ai artifact. Views drawn by code, not tokens.",
-          "language": "JavaScript",
-          "stars": 28,
-          "forks": 3,
-          "created_at": "2026-10-19T09:14:49Z",
-          "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:24.394Z",
-          "pushed_at": "2026-10-28T07:22:56Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "skills/artiboard/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "writing",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "accounting",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "Doist/outline-cli",
           "name": "outline-cli",
           "description": "",
@@ -1376,7 +1376,7 @@
           "forks": 2,
           "created_at": "2026-01-23T20:30:57Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:25.205Z",
+          "last_updated": "2026-11-01T04:00:27.329Z",
           "pushed_at": "2026-10-29T03:04:33Z",
           "relevance": {
             "score": 75,
@@ -1408,8 +1408,8 @@
           "forks": 15,
           "created_at": "2026-07-04T19:04:47Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:25.938Z",
-          "pushed_at": "2026-10-31T01:57:11Z",
+          "last_updated": "2026-11-01T04:00:27.983Z",
+          "pushed_at": "2026-10-31T19:02:31Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1465,8 +1465,8 @@
           "forks": 8,
           "created_at": "2026-02-22T14:15:28Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:26.722Z",
-          "pushed_at": "2026-10-31T03:25:22Z",
+          "last_updated": "2026-11-01T04:00:28.643Z",
+          "pushed_at": "2026-11-01T02:37:58Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1509,8 +1509,8 @@
           "forks": 2,
           "created_at": "2026-09-26T15:26:26Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:27.569Z",
-          "pushed_at": "2026-10-30T10:20:47Z",
+          "last_updated": "2026-11-01T04:00:29.340Z",
+          "pushed_at": "2026-10-31T12:34:07Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1535,7 +1535,7 @@
           "forks": 5,
           "created_at": "2026-01-08T23:55:54Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:28.432Z",
+          "last_updated": "2026-11-01T04:00:30.054Z",
           "pushed_at": "2026-10-27T04:23:34Z",
           "relevance": {
             "score": 75,
@@ -1623,7 +1623,7 @@
           "forks": 4,
           "created_at": "2026-06-07T22:18:43Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:29.663Z",
+          "last_updated": "2026-11-01T04:00:31.228Z",
           "pushed_at": "2026-10-29T14:11:58Z",
           "relevance": {
             "score": 75,
@@ -1681,7 +1681,7 @@
           "forks": 49,
           "created_at": "2026-01-09T16:33:59Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:30.400Z",
+          "last_updated": "2026-11-01T04:00:31.903Z",
           "pushed_at": "2026-10-30T11:08:32Z",
           "relevance": {
             "score": 75,
@@ -1713,7 +1713,7 @@
           "forks": 5,
           "created_at": "2026-08-27T06:02:36Z",
           "discovered_at": "2026-10-27T03:29:03.665Z",
-          "last_updated": "2026-10-31T03:51:33.925Z",
+          "last_updated": "2026-11-01T04:00:32.550Z",
           "pushed_at": "2026-10-28T18:07:54Z",
           "relevance": {
             "score": 95,
@@ -1767,8 +1767,8 @@
           "forks": 7,
           "created_at": "2025-12-01T02:28:59Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:33.167Z",
-          "pushed_at": "2026-10-31T02:52:35Z",
+          "last_updated": "2026-11-01T04:00:34.112Z",
+          "pushed_at": "2026-11-01T03:47:11Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1863,7 +1863,7 @@
           "forks": 1,
           "created_at": "2026-02-01T19:17:27Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:34.707Z",
+          "last_updated": "2026-11-01T04:00:34.937Z",
           "pushed_at": "2026-10-29T18:44:43Z",
           "relevance": {
             "score": 90,
@@ -1907,7 +1907,7 @@
           "forks": 0,
           "created_at": "2026-09-11T05:52:41Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:38.174Z",
+          "last_updated": "2026-11-01T04:00:35.613Z",
           "pushed_at": "2026-10-29T11:12:32Z",
           "relevance": {
             "score": 75,
@@ -1952,8 +1952,8 @@
           "forks": 2,
           "created_at": "2026-01-09T20:29:00Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:35.621Z",
-          "pushed_at": "2026-10-30T23:32:57Z",
+          "last_updated": "2026-11-01T04:00:36.371Z",
+          "pushed_at": "2026-10-31T13:58:43Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2010,7 +2010,7 @@
           "forks": 1,
           "created_at": "2026-03-21T02:42:19Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:36.494Z",
+          "last_updated": "2026-11-01T04:00:37.071Z",
           "pushed_at": "2026-10-27T14:24:28Z",
           "relevance": {
             "score": 90,
@@ -2062,7 +2062,7 @@
           "forks": 1,
           "created_at": "2026-01-11T08:43:14Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:37.387Z",
+          "last_updated": "2026-11-01T04:00:37.867Z",
           "pushed_at": "2026-10-30T14:26:22Z",
           "relevance": {
             "score": 90,
@@ -2095,7 +2095,7 @@
           "forks": 4,
           "created_at": "2025-10-22T02:41:16Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:39.023Z",
+          "last_updated": "2026-11-01T04:00:38.610Z",
           "pushed_at": "2026-10-27T17:23:04Z",
           "relevance": {
             "score": 75,
@@ -2127,8 +2127,8 @@
           "forks": 1,
           "created_at": "2026-07-22T00:33:02Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:39.901Z",
-          "pushed_at": "2026-10-31T03:48:42Z",
+          "last_updated": "2026-11-01T04:00:39.617Z",
+          "pushed_at": "2026-11-01T03:48:10Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2191,7 +2191,7 @@
           "forks": 0,
           "created_at": "2026-03-10T17:41:01Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:40.817Z",
+          "last_updated": "2026-11-01T04:00:40.593Z",
           "pushed_at": "2026-10-27T03:25:26Z",
           "relevance": {
             "score": 75,
@@ -2267,7 +2267,7 @@
           "forks": 1,
           "created_at": "2026-08-17T09:55:50Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:41.788Z",
+          "last_updated": "2026-11-01T04:00:41.400Z",
           "pushed_at": "2026-10-26T06:30:36Z",
           "relevance": {
             "score": 90,
@@ -2307,7 +2307,7 @@
           "forks": 1,
           "created_at": "2024-08-08T01:31:21Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:42.554Z",
+          "last_updated": "2026-11-01T04:00:42.034Z",
           "pushed_at": "2026-10-30T18:13:35Z",
           "relevance": {
             "score": 75,
@@ -2333,7 +2333,7 @@
           "forks": 0,
           "created_at": "2026-05-29T04:16:37Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:43.329Z",
+          "last_updated": "2026-11-01T04:00:42.796Z",
           "pushed_at": "2026-10-27T18:39:06Z",
           "relevance": {
             "score": 75,
@@ -2397,7 +2397,7 @@
           "forks": 0,
           "created_at": "2026-09-18T06:38:13Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:44.100Z",
+          "last_updated": "2026-11-01T04:00:43.533Z",
           "pushed_at": "2026-10-30T18:01:26Z",
           "relevance": {
             "score": 75,
@@ -2455,8 +2455,8 @@
           "forks": 2,
           "created_at": "2026-04-12T21:19:37Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:44.885Z",
-          "pushed_at": "2026-10-31T03:44:31Z",
+          "last_updated": "2026-11-01T04:00:44.358Z",
+          "pushed_at": "2026-11-01T03:30:46Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2533,8 +2533,8 @@
           "forks": 2,
           "created_at": "2026-08-24T00:45:42Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:45.660Z",
-          "pushed_at": "2026-10-31T03:18:49Z",
+          "last_updated": "2026-11-01T04:00:45.067Z",
+          "pushed_at": "2026-11-01T04:00:32Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2579,7 +2579,7 @@
           "forks": 1,
           "created_at": "2026-10-11T12:11:26Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:48.273Z",
+          "last_updated": "2026-11-01T04:00:45.916Z",
           "pushed_at": "2026-10-27T03:24:17Z",
           "relevance": {
             "score": 75,
@@ -2621,8 +2621,8 @@
           "forks": 1,
           "created_at": "2026-08-23T16:14:59Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:46.530Z",
-          "pushed_at": "2026-10-30T03:01:06Z",
+          "last_updated": "2026-11-01T04:00:46.569Z",
+          "pushed_at": "2026-10-31T17:21:01Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2684,7 +2684,7 @@
           "forks": 0,
           "created_at": "2026-08-24T15:46:20Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:47.491Z",
+          "last_updated": "2026-11-01T04:00:47.330Z",
           "pushed_at": "2026-10-29T23:57:07Z",
           "relevance": {
             "score": 95,
@@ -2749,8 +2749,8 @@
           "forks": 0,
           "created_at": "2026-01-18T04:00:31Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:49.501Z",
-          "pushed_at": "2026-10-31T00:19:38Z",
+          "last_updated": "2026-11-01T04:00:48.481Z",
+          "pushed_at": "2026-11-01T04:00:19Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2813,7 +2813,7 @@
           "forks": 0,
           "created_at": "2026-06-27T02:06:29Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:50.458Z",
+          "last_updated": "2026-11-01T04:00:49.177Z",
           "pushed_at": "2026-10-31T00:41:49Z",
           "relevance": {
             "score": 75,
@@ -2845,8 +2845,8 @@
           "forks": 0,
           "created_at": "2025-08-20T19:54:32Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:51.372Z",
-          "pushed_at": "2026-10-31T02:59:40Z",
+          "last_updated": "2026-11-01T04:00:49.921Z",
+          "pushed_at": "2026-11-01T04:00:38Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2962,8 +2962,8 @@
           "forks": 0,
           "created_at": "2026-06-14T19:51:34Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:52.483Z",
-          "pushed_at": "2026-10-31T03:22:28Z",
+          "last_updated": "2026-11-01T04:00:50.935Z",
+          "pushed_at": "2026-11-01T00:50:40Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2988,8 +2988,8 @@
           "forks": 0,
           "created_at": "2026-06-17T04:47:27Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:53.269Z",
-          "pushed_at": "2026-10-31T03:35:41Z",
+          "last_updated": "2026-11-01T04:00:51.624Z",
+          "pushed_at": "2026-11-01T03:04:47Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -3027,8 +3027,8 @@
           "forks": 5,
           "created_at": "2026-07-01T21:06:39Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:54.046Z",
-          "pushed_at": "2026-10-30T10:46:13Z",
+          "last_updated": "2026-11-01T04:00:52.346Z",
+          "pushed_at": "2026-10-31T18:47:21Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -3065,8 +3065,8 @@
           "forks": 1,
           "created_at": "2026-05-24T03:43:51Z",
           "discovered_at": "2026-10-26T02:56:12.053Z",
-          "last_updated": "2026-10-31T03:51:55.004Z",
-          "pushed_at": "2026-10-29T03:01:24Z",
+          "last_updated": "2026-11-01T04:00:53.117Z",
+          "pushed_at": "2026-10-31T17:53:08Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -3079,10 +3079,10 @@
               ".agents/skills/burndown-window-is-not-schedulable/SKILL.md",
               ".agents/skills/codex-browser-over-ssh/SKILL.md",
               ".agents/skills/codex-plugin-skills-not-bridged/SKILL.md",
+              ".agents/skills/exact-page-text/SKILL.md",
               ".agents/skills/generated-deck-hand-edits/SKILL.md",
               ".agents/skills/memory-inventory-authoring/SKILL.md",
-              ".agents/skills/pptx-qa-uses-powerpoint/SKILL.md",
-              ".agents/skills/readonly-scheduled-tasks/SKILL.md"
+              ".agents/skills/pptx-qa-uses-powerpoint/SKILL.md"
             ],
             "structural": true
           },
@@ -3111,7 +3111,7 @@
           "forks": 0,
           "created_at": "2026-08-28T06:41:17Z",
           "discovered_at": "2026-10-27T03:29:04.134Z",
-          "last_updated": "2026-10-31T03:51:56.075Z",
+          "last_updated": "2026-11-01T04:00:53.975Z",
           "pushed_at": "2026-10-30T07:35:09Z",
           "relevance": {
             "score": 65,
@@ -5426,7 +5426,7 @@
     }
   ],
   "report": {
-    "updated_at": "2026-10-31T03:51:09.835Z",
+    "updated_at": "2026-11-01T04:00:13.603Z",
     "accepted": 0,
     "attempted": 0,
     "skipped": [],
