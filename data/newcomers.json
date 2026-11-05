@@ -448,25 +448,27 @@
     "chnlich/charlie-bot": "2026-11-03T05:05:28.844Z",
     "genaforvena/mishe-tauftauf": "2026-11-03T05:05:28.844Z",
     "dsx-ai-factory/nvcf": "2026-11-04T04:37:54.419Z",
-    "compozy/compozy": "2026-11-04T04:37:54.419Z"
+    "compozy/compozy": "2026-11-04T04:37:54.419Z",
+    "antfu/skills": "2026-11-05T04:52:48.174Z",
+    "xiechimon/cairn": "2026-11-05T04:52:48.643Z"
   },
   "weeks": [
     {
       "start": "2026-11-02",
       "end": "2026-11-09",
-      "updated_at": "2026-11-04T04:37:54.419Z",
+      "updated_at": "2026-11-05T04:52:48.643Z",
       "repositories": [
         {
           "full_name": "reactive-resume/reactive-resume",
           "name": "reactive-resume",
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
           "language": "TypeScript",
-          "stars": 45298,
-          "forks": 4913,
+          "stars": 45344,
+          "forks": 4920,
           "created_at": "2020-03-25T14:08:22Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:37:55.451Z",
-          "pushed_at": "2026-11-04T04:27:08Z",
+          "last_updated": "2026-11-05T04:52:49.389Z",
+          "pushed_at": "2026-11-05T04:33:23Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -476,13 +478,13 @@
             ],
             "skill_files": [
               ".agents/skills/fill-translations/SKILL.md",
+              ".agents/skills/release/SKILL.md",
               "plugins/reactive-resume/skills/academic-cv/SKILL.md",
               "plugins/reactive-resume/skills/accomplishment-inventory/SKILL.md",
               "plugins/reactive-resume/skills/application-answers/SKILL.md",
               "plugins/reactive-resume/skills/career-change-resume/SKILL.md",
               "plugins/reactive-resume/skills/cover-letter-writer/SKILL.md",
-              "plugins/reactive-resume/skills/customer-success-resume/SKILL.md",
-              "plugins/reactive-resume/skills/data-resume/SKILL.md"
+              "plugins/reactive-resume/skills/customer-success-resume/SKILL.md"
             ],
             "structural": true
           },
@@ -526,12 +528,12 @@
           "name": "compound-engineering-plugin",
           "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
           "language": "TypeScript",
-          "stars": 25904,
-          "forks": 2059,
+          "stars": 25927,
+          "forks": 2058,
           "created_at": "2025-10-09T19:43:46Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:37:56.415Z",
-          "pushed_at": "2026-11-04T04:23:41Z",
+          "last_updated": "2026-11-05T04:52:50.136Z",
+          "pushed_at": "2026-11-05T04:45:01Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -584,12 +586,12 @@
           "name": "loopx",
           "description": "Turn long-horizon goals into verifiable results. A local-first semantic control plane and research workbench for long-running agent teams, across sessions and runtimes.",
           "language": "Python",
-          "stars": 6547,
-          "forks": 619,
+          "stars": 6550,
+          "forks": 615,
           "created_at": "2026-05-31T14:58:56Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:37:57.596Z",
-          "pushed_at": "2026-11-04T03:31:52Z",
+          "last_updated": "2026-11-05T04:52:50.964Z",
+          "pushed_at": "2026-11-05T04:50:34Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -628,12 +630,12 @@
           "name": "baoyu-design",
           "description": "Run Claude Design locally as an Agent Skill — Cursor, Codex, DeepSeek Harness & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
           "language": "JavaScript",
-          "stars": 5997,
-          "forks": 463,
+          "stars": 6101,
+          "forks": 476,
           "created_at": "2026-06-07T01:16:18Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:37:58.442Z",
-          "pushed_at": "2026-11-04T02:15:38Z",
+          "last_updated": "2026-11-05T04:52:51.738Z",
+          "pushed_at": "2026-11-05T04:07:29Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -675,12 +677,12 @@
           "name": "KiroCrew",
           "description": "A persistent workspace for development work that self-improves and continues beyond one session.",
           "language": "Python",
-          "stars": 4761,
-          "forks": 948,
+          "stars": 4792,
+          "forks": 965,
           "created_at": "2026-07-16T21:21:54Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:37:59.917Z",
-          "pushed_at": "2026-11-04T04:37:44Z",
+          "last_updated": "2026-11-05T04:52:52.869Z",
+          "pushed_at": "2026-11-05T04:51:44Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -739,11 +741,11 @@
           "description": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV.",
           "language": "Python",
           "stars": 4050,
-          "forks": 487,
+          "forks": 489,
           "created_at": "2019-05-29T08:01:32Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:01.354Z",
-          "pushed_at": "2026-11-04T04:10:45Z",
+          "last_updated": "2026-11-05T04:52:53.980Z",
+          "pushed_at": "2026-11-05T04:21:05Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -771,11 +773,11 @@
           "name": "Claude-Code-Everything-You-Need-to-Know",
           "description": "Claude Code guide in three levels, Beginner to Advanced: hands-on lessons with checked exercises, every volatile fact cited to its source. Independent community guide.",
           "language": "TypeScript",
-          "stars": 3526,
-          "forks": 409,
+          "stars": 3571,
+          "forks": 410,
           "created_at": "2025-08-17T14:45:39Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:02.282Z",
+          "last_updated": "2026-11-05T04:52:54.656Z",
           "pushed_at": "2026-11-03T18:44:34Z",
           "relevance": {
             "score": 85,
@@ -816,12 +818,12 @@
           "name": "compozy",
           "description": "An operating system for AI agents. Plug in the agent CLIs you already use (Claude Code, Codex, Gemini CLI, Cursor) and they become a team: they split the work, hand tasks to each other, run automated on jobs and loops, and share one project memory. You steer everything from the browser.",
           "language": "Go",
-          "stars": 2829,
+          "stars": 2831,
           "forks": 184,
           "created_at": "2026-03-28T05:24:12Z",
           "discovered_at": "2026-11-04T04:37:54.419Z",
-          "last_updated": "2026-11-04T04:38:49.807Z",
-          "pushed_at": "2026-11-04T04:38:30Z",
+          "last_updated": "2026-11-05T04:52:55.566Z",
+          "pushed_at": "2026-11-05T04:50:12Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -878,11 +880,11 @@
           "name": "second-brain-os",
           "description": "Guides and resources for AI engineers: an agents course, five handbooks, a hands-on second-brain project and a vetted reading list.",
           "language": "HTML",
-          "stars": 1212,
-          "forks": 204,
+          "stars": 1358,
+          "forks": 242,
           "created_at": "2026-09-07T15:08:13Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:03.127Z",
+          "last_updated": "2026-11-05T04:52:56.194Z",
           "pushed_at": "2026-11-03T21:52:55Z",
           "relevance": {
             "score": 95,
@@ -936,12 +938,12 @@
           "name": "agentrq",
           "description": "AgentRQ: Human-in-loop realtime conversational task manager for AI Agents. Self-hosted! Control your own agents from wherever you want Mobile, Web, Desktop. Designed to work well with your own Claude subscriptions and any harness with ACP support.",
           "language": "Go",
-          "stars": 1176,
+          "stars": 1177,
           "forks": 86,
           "created_at": "2026-03-24T08:35:45Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:04.083Z",
-          "pushed_at": "2026-11-04T04:12:54Z",
+          "last_updated": "2026-11-05T04:52:56.871Z",
+          "pushed_at": "2026-11-04T18:44:15Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -991,12 +993,12 @@
           "name": "HachimoDock",
           "description": "A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing,  juggling, sleeping, and more.",
           "language": "C",
-          "stars": 811,
-          "forks": 78,
+          "stars": 864,
+          "forks": 84,
           "created_at": "2026-06-10T10:30:51Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:05.926Z",
-          "pushed_at": "2026-11-03T12:04:51Z",
+          "last_updated": "2026-11-05T04:52:57.556Z",
+          "pushed_at": "2026-11-05T04:30:32Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1013,12 +1015,6 @@
               "id": "frontend",
               "evidence": [
                 "description",
-                "readme"
-              ]
-            },
-            {
-              "id": "testing",
-              "evidence": [
                 "readme"
               ]
             },
@@ -1041,12 +1037,12 @@
           "name": "ai-startup-skills",
           "description": "创业公司做 AI 产品的 7 步 Agent Skill 合集：验证 → BP → 政策 → 路演 → 获客 → 定价 → 注册。",
           "language": "Python",
-          "stars": 801,
+          "stars": 803,
           "forks": 41,
           "created_at": "2026-10-22T10:23:29Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:04.969Z",
-          "pushed_at": "2026-11-04T03:06:52Z",
+          "last_updated": "2026-11-05T04:52:58.168Z",
+          "pushed_at": "2026-11-05T03:02:46Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1075,12 +1071,12 @@
           "name": "swamp",
           "description": "Stinemates, Watson, Adam, Mahir, Paul ",
           "language": "TypeScript",
-          "stars": 694,
-          "forks": 51,
+          "stars": 695,
+          "forks": 52,
           "created_at": "2026-01-28T17:27:17Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:07.002Z",
-          "pushed_at": "2026-11-04T03:01:42Z",
+          "last_updated": "2026-11-05T04:52:58.925Z",
+          "pushed_at": "2026-11-05T03:05:23Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1132,11 +1128,11 @@
           "name": "hyperfide",
           "description": "The ai agent workflow tool that scales from small, simple projects to large, complex codebases.",
           "language": "TypeScript",
-          "stars": 639,
+          "stars": 640,
           "forks": 90,
           "created_at": "2026-08-13T07:38:47Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:08.805Z",
+          "last_updated": "2026-11-05T04:52:59.923Z",
           "pushed_at": "2026-11-04T03:59:15Z",
           "relevance": {
             "score": 75,
@@ -1208,12 +1204,12 @@
           "name": "SkillEvaluator",
           "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
           "language": "Python",
-          "stars": 629,
+          "stars": 640,
           "forks": 83,
           "created_at": "2026-06-24T02:32:26Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:09.727Z",
-          "pushed_at": "2026-11-04T01:45:45Z",
+          "last_updated": "2026-11-05T04:53:00.579Z",
+          "pushed_at": "2026-11-05T00:27:11Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1250,8 +1246,8 @@
           "forks": 25,
           "created_at": "2024-08-05T23:30:23Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:10.865Z",
-          "pushed_at": "2026-11-04T02:41:08Z",
+          "last_updated": "2026-11-05T04:53:01.489Z",
+          "pushed_at": "2026-11-05T01:08:11Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1299,12 +1295,12 @@
           "name": "soku-cli",
           "description": "Soku CLI — call Soku ads/GA4/PostHog data capabilities from any AI agent or shell.",
           "language": "TypeScript",
-          "stars": 302,
-          "forks": 32,
+          "stars": 301,
+          "forks": 31,
           "created_at": "2026-07-09T11:08:30Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:12.469Z",
-          "pushed_at": "2026-11-04T03:46:32Z",
+          "last_updated": "2026-11-05T04:53:02.102Z",
+          "pushed_at": "2026-11-04T08:57:22Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1337,12 +1333,12 @@
           "name": "nvcf",
           "description": "Platform for deploying and routing GPU-accelerated inference, streaming, and batch workloads at scale.",
           "language": "Go",
-          "stars": 254,
+          "stars": 255,
           "forks": 100,
           "created_at": "2026-04-01T19:22:14Z",
           "discovered_at": "2026-11-04T04:37:54.419Z",
-          "last_updated": "2026-11-04T04:38:14.333Z",
-          "pushed_at": "2026-11-04T03:55:11Z",
+          "last_updated": "2026-11-05T04:53:04.840Z",
+          "pushed_at": "2026-11-05T04:51:55Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1453,12 +1449,12 @@
           "name": "code-review-skill",
           "description": "Auditable code review skill for Claude Code and Codex: four independent probes, evidence-backed findings, and a JSON-derived merge gate.",
           "language": "Shell",
-          "stars": 180,
+          "stars": 247,
           "forks": 1,
           "created_at": "2026-10-29T07:57:07Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:17.804Z",
-          "pushed_at": "2026-11-03T10:55:53Z",
+          "last_updated": "2026-11-05T04:53:05.539Z",
+          "pushed_at": "2026-11-05T02:44:11Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1497,11 +1493,11 @@
           "name": "technocore-chat",
           "description": "HTTP-native chat and notes for agents whose sandbox only allows webfetch — every write is a plain GET. Runs technocore.chat.",
           "language": "Python",
-          "stars": 166,
-          "forks": 273,
+          "stars": 167,
+          "forks": 272,
           "created_at": "2026-08-13T03:22:19Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:15.108Z",
+          "last_updated": "2026-11-05T04:53:06.127Z",
           "pushed_at": "2026-11-03T14:23:59Z",
           "relevance": {
             "score": 95,
@@ -1540,7 +1536,7 @@
           "forks": 30,
           "created_at": "2026-04-09T07:33:10Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:16.196Z",
+          "last_updated": "2026-11-05T04:53:06.853Z",
           "pushed_at": "2026-11-02T04:11:18Z",
           "relevance": {
             "score": 75,
@@ -1593,12 +1589,12 @@
           "name": "business-plan-skill",
           "description": "这是一个用于沉淀商业计划书、路演材料、孵化器申请材料和项目介绍口径的 Codex skill 模板。",
           "language": null,
-          "stars": 162,
-          "forks": 22,
+          "stars": 129,
+          "forks": 3,
           "created_at": "2026-06-04T04:36:30Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:16.981Z",
-          "pushed_at": "2026-11-04T01:51:59Z",
+          "last_updated": "2026-11-05T04:53:07.450Z",
+          "pushed_at": "2026-11-05T03:01:54Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1624,8 +1620,8 @@
           "forks": 19,
           "created_at": "2026-02-19T03:48:14Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:19.220Z",
-          "pushed_at": "2026-11-04T04:35:41Z",
+          "last_updated": "2026-11-05T04:53:08.429Z",
+          "pushed_at": "2026-11-05T04:51:25Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1683,8 +1679,8 @@
           "forks": 9,
           "created_at": "2026-05-13T21:55:58Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:20.225Z",
-          "pushed_at": "2026-11-04T04:37:19Z",
+          "last_updated": "2026-11-05T04:53:09.128Z",
+          "pushed_at": "2026-11-05T04:38:49Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1697,11 +1693,11 @@
               "plugins/brigade/skills/brigade-work/SKILL.md",
               "plugins/brigade/skills/enforce/SKILL.md",
               "registry/skills/bug-hunt/SKILL.md",
-              "registry/skills/check/SKILL.md",
               "registry/skills/latent-premises/SKILL.md",
               "registry/skills/reduce/SKILL.md",
-              "registry/skills/refire/SKILL.md",
-              "registry/skills/retry-safety/SKILL.md"
+              "registry/skills/retry-safety/SKILL.md",
+              "registry/skills/verify-brigade/SKILL.md",
+              "src/brigade/fixtures/paired-brigade-work/baseline/SKILL.md"
             ],
             "structural": true
           },
@@ -1723,8 +1719,8 @@
           "forks": 9,
           "created_at": "2026-02-25T18:23:27Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:21.290Z",
-          "pushed_at": "2026-11-03T13:29:58Z",
+          "last_updated": "2026-11-05T04:53:09.969Z",
+          "pushed_at": "2026-11-04T23:30:16Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1764,12 +1760,12 @@
           "name": "rhp",
           "description": "rhp (reactive html plots): charts built from HTML elements and CSS with SolidJS, with a skill and MCP server for AI agents",
           "language": "HTML",
-          "stars": 48,
+          "stars": 49,
           "forks": 4,
           "created_at": "2023-10-25T11:15:31Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:22.112Z",
-          "pushed_at": "2026-11-04T04:36:36Z",
+          "last_updated": "2026-11-05T04:53:10.617Z",
+          "pushed_at": "2026-11-04T20:40:05Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -1807,7 +1803,7 @@
           "forks": 2,
           "created_at": "2026-10-11T22:22:38Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:22.991Z",
+          "last_updated": "2026-11-05T04:53:11.277Z",
           "pushed_at": "2026-11-03T08:39:07Z",
           "relevance": {
             "score": 100,
@@ -1843,12 +1839,12 @@
           "name": "overdeck",
           "description": "Multi-agent orchestration for AI coding assistants",
           "language": "TypeScript",
-          "stars": 34,
-          "forks": 1,
+          "stars": 35,
+          "forks": 2,
           "created_at": "2026-01-18T16:57:08Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:24.311Z",
-          "pushed_at": "2026-11-04T04:38:08Z",
+          "last_updated": "2026-11-05T04:53:12.190Z",
+          "pushed_at": "2026-11-04T23:02:14Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1899,8 +1895,8 @@
           "forks": 1,
           "created_at": "2026-10-06T09:06:45Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:25.735Z",
-          "pushed_at": "2026-11-04T02:58:35Z",
+          "last_updated": "2026-11-05T04:53:12.938Z",
+          "pushed_at": "2026-11-05T04:44:08Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -1944,7 +1940,7 @@
           "forks": 5,
           "created_at": "2025-12-09T07:40:31Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:26.930Z",
+          "last_updated": "2026-11-05T04:53:14.354Z",
           "pushed_at": "2026-11-02T04:00:42Z",
           "relevance": {
             "score": 75,
@@ -1990,8 +1986,8 @@
           "forks": 2,
           "created_at": "2025-12-10T18:47:11Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:28.129Z",
-          "pushed_at": "2026-11-04T04:01:19Z",
+          "last_updated": "2026-11-05T04:53:15.121Z",
+          "pushed_at": "2026-11-05T04:07:52Z",
           "relevance": {
             "score": 70,
             "evidence": [
@@ -2017,12 +2013,12 @@
           "name": "core",
           "description": "AI-authored 2D rigging and animation, verified before it is written. rigc compiles a rig spec into skeleton data in the Spine 4.3 format, gates it with named assertions held to a spine-core round trip's verdicts, and emits nothing that fails. Ships as an agent skill.",
           "language": "TypeScript",
-          "stars": 21,
+          "stars": 22,
           "forks": 6,
           "created_at": "2026-08-22T12:43:29Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:29.257Z",
-          "pushed_at": "2026-11-03T19:46:55Z",
+          "last_updated": "2026-11-05T04:53:15.898Z",
+          "pushed_at": "2026-11-04T18:42:40Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2052,8 +2048,8 @@
           "forks": 1,
           "created_at": "2025-09-14T02:55:47Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:30.214Z",
-          "pushed_at": "2026-11-04T04:06:39Z",
+          "last_updated": "2026-11-05T04:53:16.687Z",
+          "pushed_at": "2026-11-05T03:49:08Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2109,7 +2105,7 @@
           "forks": 1,
           "created_at": "2026-09-13T23:27:15Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:31.160Z",
+          "last_updated": "2026-11-05T04:53:17.358Z",
           "pushed_at": "2026-11-03T04:49:02Z",
           "relevance": {
             "score": 100,
@@ -2143,8 +2139,8 @@
           "forks": 1,
           "created_at": "2026-02-16T21:11:44Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:32.029Z",
-          "pushed_at": "2026-11-04T04:26:51Z",
+          "last_updated": "2026-11-05T04:53:18.056Z",
+          "pushed_at": "2026-11-05T04:51:55Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2187,7 +2183,7 @@
           "forks": 0,
           "created_at": "2026-05-25T21:23:52Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:33.302Z",
+          "last_updated": "2026-11-05T04:53:18.949Z",
           "pushed_at": "2026-11-03T17:05:23Z",
           "relevance": {
             "score": 65,
@@ -2244,7 +2240,7 @@
           "forks": 0,
           "created_at": "2026-05-04T19:08:23Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:34.185Z",
+          "last_updated": "2026-11-05T04:53:19.671Z",
           "pushed_at": "2026-11-02T19:52:08Z",
           "relevance": {
             "score": 100,
@@ -2310,8 +2306,8 @@
           "forks": 0,
           "created_at": "2026-09-01T13:30:43Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:36.019Z",
-          "pushed_at": "2026-11-03T09:37:39Z",
+          "last_updated": "2026-11-05T04:53:20.366Z",
+          "pushed_at": "2026-11-04T05:56:48Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -2343,8 +2339,8 @@
           "forks": 2,
           "created_at": "2026-09-13T04:20:36Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:41.265Z",
-          "pushed_at": "2026-11-04T01:57:44Z",
+          "last_updated": "2026-11-05T04:53:21.032Z",
+          "pushed_at": "2026-11-05T03:35:00Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2394,8 +2390,8 @@
           "forks": 1,
           "created_at": "2026-09-02T22:50:18Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:35.151Z",
-          "pushed_at": "2026-11-03T16:46:20Z",
+          "last_updated": "2026-11-05T04:53:21.750Z",
+          "pushed_at": "2026-11-05T02:45:43Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -2410,6 +2406,7 @@
               "skills/kaizen/SKILL.md",
               "skills/media/kaizen-book/SKILL.md",
               "skills/media/kaizen-deck/SKILL.md",
+              "skills/media/kaizen-game/SKILL.md",
               "skills/media/kaizen-video/SKILL.md",
               "skills/optional/kaizen-computer/SKILL.md"
             ],
@@ -2445,8 +2442,8 @@
           "forks": 0,
           "created_at": "2025-12-24T00:58:49Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:37.196Z",
-          "pushed_at": "2026-11-04T01:17:17Z",
+          "last_updated": "2026-11-05T04:53:22.358Z",
+          "pushed_at": "2026-11-05T04:39:17Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2484,8 +2481,8 @@
           "forks": 1,
           "created_at": "2026-03-16T09:40:13Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:38.317Z",
-          "pushed_at": "2026-11-03T19:53:29Z",
+          "last_updated": "2026-11-05T04:53:23.079Z",
+          "pushed_at": "2026-11-05T04:24:23Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2517,8 +2514,8 @@
           "forks": 1,
           "created_at": "2026-07-23T12:09:57Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:39.443Z",
-          "pushed_at": "2026-11-04T04:33:36Z",
+          "last_updated": "2026-11-05T04:53:23.968Z",
+          "pushed_at": "2026-11-05T04:35:07Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2555,8 +2552,8 @@
           "forks": 0,
           "created_at": "2026-09-29T01:27:54Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:40.467Z",
-          "pushed_at": "2026-11-04T01:46:57Z",
+          "last_updated": "2026-11-05T04:53:24.676Z",
+          "pushed_at": "2026-11-05T01:41:33Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2591,8 +2588,8 @@
           "forks": 0,
           "created_at": "2026-10-06T14:34:48Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:42.388Z",
-          "pushed_at": "2026-11-03T09:11:26Z",
+          "last_updated": "2026-11-05T04:53:25.350Z",
+          "pushed_at": "2026-11-04T06:50:37Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2627,6 +2624,63 @@
           ]
         },
         {
+          "full_name": "xiechimon/cairn",
+          "name": "cairn",
+          "description": "Self-hosted, open-source multi-agent workspace. You write the tickets, agents build them on your machines, you gate what merges.",
+          "language": "TypeScript",
+          "stars": 4,
+          "forks": 0,
+          "created_at": "2026-09-08T10:19:18Z",
+          "discovered_at": "2026-11-05T04:52:48.643Z",
+          "last_updated": "2026-11-05T04:53:30.355Z",
+          "pushed_at": "2026-11-05T04:52:27Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              ".claude/skills/pr-cairn/SKILL.md",
+              ".claude/skills/retro-cairn/SKILL.md",
+              ".claude/skills/verify-cairn/SKILL.md",
+              ".claude/skills/verify-merge-gate/SKILL.md",
+              ".claude/skills/verify-step-claim/SKILL.md",
+              ".cursor/skills/verify-cairn/SKILL.md",
+              "integration/eval/harbor/public/skills/cairn-worker/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "topics",
+                "readme"
+              ]
+            },
+            {
+              "id": "design",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "ml",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "cypher0n3/dotagents",
           "name": "dotagents",
           "description": "Portable agent skills and instructions, with an installer for Claude Code, Codex, Cursor, Gemini, and Grok.",
@@ -2635,8 +2689,8 @@
           "forks": 1,
           "created_at": "2026-09-09T18:33:27Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-04T04:38:43.254Z",
-          "pushed_at": "2026-11-02T10:28:45Z",
+          "last_updated": "2026-11-05T04:53:26.089Z",
+          "pushed_at": "2026-11-05T00:28:25Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2687,32 +2741,6 @@
           ]
         },
         {
-          "full_name": "genaforvena/mishe-tauftauf",
-          "name": "mishe-tauftauf",
-          "description": "A small, plantable (parasitic but only in a good sense kefir) culture for development through self-observation.",
-          "language": "Python",
-          "stars": 3,
-          "forks": 1,
-          "created_at": "2026-09-22T21:53:42Z",
-          "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:44.188Z",
-          "pushed_at": "2026-11-04T03:59:18Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              ".agents/skills/plant-mishe/SKILL.md",
-              "skills/cultivate/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": []
-        },
-        {
           "full_name": "feilipu/8085-skills",
           "name": "8085-skills",
           "description": "Skills for Agents to code 8085 Assembly Language, and undertake operations within the z88dk repository including styles and extended tool usage",
@@ -2721,7 +2749,7 @@
           "forks": 0,
           "created_at": "2026-07-15T05:58:45Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:45.359Z",
+          "last_updated": "2026-11-05T04:53:27.750Z",
           "pushed_at": "2026-11-03T04:58:36Z",
           "relevance": {
             "score": 70,
@@ -2759,7 +2787,7 @@
           "forks": 0,
           "created_at": "2026-04-12T07:45:32Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-04T04:38:46.461Z",
+          "last_updated": "2026-11-05T04:53:28.484Z",
           "pushed_at": "2026-11-03T08:44:00Z",
           "relevance": {
             "score": 100,
@@ -5266,9 +5294,9 @@
     }
   ],
   "report": {
-    "updated_at": "2026-11-04T04:37:54.419Z",
+    "updated_at": "2026-11-05T04:52:48.643Z",
     "accepted": 1,
-    "attempted": 3,
+    "attempted": 2,
     "skipped": [],
     "warnings": []
   }
