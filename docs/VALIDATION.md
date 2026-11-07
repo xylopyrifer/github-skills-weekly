@@ -7,7 +7,10 @@
 - 修复规范名称替换，并保留最早首次收录日期与旧 seen 别名；不提高 50 项上限。
 - 新增 4 项回归：满池改名、规范名碰撞、已收录身份不重复入新榜、检查失败保留旧记录。
 - 本机 49 项测试、构建、既有存储数据校验通过；修复本身不修改 data/ 或历史周榜。
-- 实际云端采集及新快照发布需要单独执行和核验；本节不将本地测试视为生产恢复成功。
+- [Node.js 22/24 CI](https://github.com/xylopyrifer/github-skills-weekly/actions/runs/42383592660) 在 ubuntu-24.04 实际通过。
+- [恢复采集与发布](https://github.com/xylopyrifer/github-skills-weekly/actions/runs/42384052778) 成功：数据更新至 2026-11-07 14:58 UTC，97 个来源成功，3 个既有不可访问来源保留旧数据；新榜去重后补入 1 个项目，保留 50 条候选，0 警告。
+- 最终数据提交 2f36ba3a22589412f96c86f85010e10d855cfd95 再次通过 49 项测试和 --fresh 校验；已结算周榜、累计得分和边界快照无改动。线上 JSON 与本机构建 SHA-256 完全一致，三套线上浏览器回归通过。
+- [云巡检](https://github.com/xylopyrifer/github-skills-weekly/actions/runs/42384422458) 实际返回 valid=true、fresh=true、warnings=0、liveMatches=true，无需再次恢复。
 
 ## 内容与 Actions 兼容性验收（2026-11-07）
 
