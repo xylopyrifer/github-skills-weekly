@@ -1,0 +1,37 @@
+{
+  "yulmucoffee/artiboard": {
+    "add": [
+      "tasks"
+    ],
+    "remove": [
+      "accounting"
+    ],
+    "reviewed_at": "2026-11-07",
+    "reason": "The skill manages a shared task board for people and coding agents. Bookkeeping examples in repository text do not establish an accounting capability.",
+    "sources": [
+      "https://github.com/yulmucoffee/artiboard/blob/main/skills/artiboard/SKILL.md"
+    ]
+  },
+  "syh1906/openai-compatible-imagegen": {
+    "add": [
+      "design"
+    ],
+    "remove": [],
+    "reviewed_at": "2026-11-07",
+    "reason": "The skill generates and edits images, including batch generation and visual QA.",
+    "sources": [
+      "https://github.com/Syh1906/openai-compatible-imagegen/blob/main/SKILL.md"
+    ]
+  },
+  "xbtlin/ai-berkshire": {
+    "add": [
+      "finance"
+    ],
+    "remove": [],
+    "reviewed_at": "2026-11-07",
+    "reason": "The financial-data skill retrieves and cross-checks company financial data for investment research.",
+    "sources": [
+      "https://github.com/xbtlin/ai-berkshire/blob/main/codex-skills/financial-data/SKILL.md"
+    ]
+  }
+}

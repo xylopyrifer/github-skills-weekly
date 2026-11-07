@@ -15,14 +15,14 @@ jobs:
   build:
     outputs:
       data-sha: ${{ steps.data-digest.outputs.sha }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.1
         with:
           ref: main
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7.1.0
         with:
-          node-version: 22
+          node-version: 24
           cache: npm
       - run: npm ci
       - run: npm test
@@ -43,20 +43,20 @@ jobs:
       - name: Record published data checksum
         id: data-digest
         run: echo "sha=$(sha256sum dist/assets/data.json | cut -d ' ' -f1)" >> "$GITHUB_OUTPUT"
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6.0.0
+      - uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: dist
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5.0.1
       - name: Verify live data matches artifact
         env:
           EXPECTED_SHA: ${{ needs.build.outputs.data-sha }}

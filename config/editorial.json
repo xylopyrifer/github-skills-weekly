@@ -19,21 +19,25 @@
   },
   "openai/skills": {
     "description": {
-      "zh": "OpenAI 的 Codex 技能目录，让编码智能体掌握可复用的专项工作流。",
-      "en": "OpenAI’s skill catalog for reusable, specialized Codex workflows."
+      "zh": "OpenAI 已弃用的 Codex 技能目录；新插件和迁移说明请查看 openai/plugins。",
+      "en": "OpenAI’s deprecated Codex skills catalog. See openai/plugins for the current plugin collection and migration guidance."
     },
     "audience": {
-      "zh": "使用 Codex 的开发者",
-      "en": "Developers working with Codex"
+      "zh": "维护既有 Codex 技能、准备迁移到插件的开发者",
+      "en": "Developers maintaining existing Codex skills or moving to plugins"
     },
     "highlights": {
       "zh": [
-        "为 Codex 安装专项技能，处理文档、设计、网页测试与应用部署。"
+        "原目录收录文档、设计、网页测试与应用部署等 Codex 技能。",
+        "本页保留 openai/skills 的历史排名与累计数据，不与后继仓库合并。"
       ],
       "en": [
-        "Equip Codex with workflows for documents, design, web testing and deployment."
+        "The historical catalog includes Codex skills for documents, design, web testing and application deployment.",
+        "Historical rankings and cumulative data remain attached to openai/skills and are not merged with its successor."
       ]
-    }
+    },
+    "status": "deprecated",
+    "replacement_repository": "openai/plugins"
   },
   "obra/superpowers": {
     "description": {
@@ -286,6 +290,52 @@
       ],
       "en": [
         "Organize research, implementation steps, cross-session records and verification for agent development."
+      ]
+    }
+  },
+  "yulmucoffee/artiboard": {
+    "description": {
+      "zh": "供人与编码智能体协作使用的任务看板，集中管理任务、状态与执行上下文。",
+      "en": "A shared task board for people and coding agents to manage tasks, progress and working context."
+    },
+    "audience": {
+      "zh": "与编码智能体协作管理项目和任务的个人或团队",
+      "en": "People and teams coordinating project work with coding agents"
+    },
+    "highlights": {
+      "zh": [
+        "通过任务看板组织工作，并使用 MCP 将任务上下文交给编码智能体。"
+      ],
+      "en": [
+        "Organize work on a task board and use MCP to share task context with coding agents."
+      ]
+    }
+  },
+  "Syh1906/openai-compatible-imagegen": {
+    "description": {
+      "zh": "通过 OpenAI 兼容接口生成、编辑和批量处理图像，并进行视觉质量检查。",
+      "en": "Generate, edit and batch-process images through OpenAI-compatible endpoints, with visual quality checks."
+    },
+    "highlights": {
+      "zh": [
+        "制作插画、产品图、海报和其他视觉素材，支持图像编辑与批量生成。"
+      ],
+      "en": [
+        "Create illustrations, product images, posters and other visual assets with editing and batch generation."
+      ]
+    }
+  },
+  "xbtlin/ai-berkshire": {
+    "description": {
+      "zh": "基于 Claude Code 和 Codex 的价值投资研究框架，包含企业财务资料获取与交叉核验技能。",
+      "en": "A value-investing research framework for Claude Code and Codex, including company financial-data retrieval and cross-checking."
+    },
+    "highlights": {
+      "zh": [
+        "获取企业财务资料，以独立来源交叉核验数据，为投资研究提供依据。"
+      ],
+      "en": [
+        "Retrieve company financial information and cross-check independent sources to support investment research."
       ]
     }
   }

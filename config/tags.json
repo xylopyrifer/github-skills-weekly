@@ -272,8 +272,8 @@
         "en": "Financial analysis"
       },
       "capability": {
-        "zh": "组织金融分析与交易决策工作流。",
-        "en": "Organize financial analysis and trading decision workflows."
+        "zh": "整理金融资料、分析财务数据并辅助投资研究。",
+        "en": "Organize financial information, analyze financial data and support investment research."
       },
       "pattern": "brokerage|trading decision"
     }

@@ -1,3 +1,4 @@
+import { applyTagOverrides, validateTagOverrides } from './lib/tags.mjs';
 import { publicCommunityTags, customDefinitions } from './lib/custom-tags.mjs';
 import { mkdir, copyFile, writeFile, readFile, readdir } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
@@ -11,6 +12,8 @@ export async function build(){
   const catalog=await readJson(path.join(root,'data/catalog.json'));
   const newcomers=await readJson(path.join(root,'data/newcomers.json'),{weeks:[],report:{warnings:[]}});
   const taxonomy=(await readJson(path.join(root,'config/tags.json'))).tags;
+  const overrides=await readJson(path.join(root,'config/tag-overrides.json'),{});
+  validateTagOverrides(overrides,taxonomy);
   const community=await readJson(path.join(root,'data/community-tags.json'),{submissions:[]});
   const reviews=await readJson(path.join(root,'data/tag-reviews.json'),{decisions:[]});
   const editorial=await readJson(path.join(root,'config/editorial.json'));
@@ -31,7 +34,7 @@ export async function build(){
     if(excluded.has(row.full_name.toLowerCase())||repositories.some(r=>r.full_name.toLowerCase()===row.full_name.toLowerCase()))continue;
     repositories.push({full_name:row.full_name,name:row.full_name.split('/')[1],description:'',stars:row.stars??null,forks:row.forks??null,language:null,last_updated:row.observed_at||null,editorial:editorial[row.full_name]||null});
   }
-  for(const r of repositories){r.tags=publicCommunityTags(r.system_tags,community.submissions,r.full_name,taxonomy,reviews);delete r.system_tags;}
+  for(const r of repositories){r.tags=publicCommunityTags(applyTagOverrides(r.system_tags,r.full_name,overrides),community.submissions,r.full_name,taxonomy,reviews);delete r.system_tags;}
   repositories.sort((a,b)=>a.full_name.localeCompare(b.full_name));
   const publicData={schema_version:1,demo:false,first_snapshot_date:boundaryFiles[0]?.slice(0,10)||null,tag_taxonomy:[...taxonomy,...customDefinitions(community.submissions,reviews).filter(t=>repositories.some(r=>r.tags.some(x=>x.id===t.id)))].map(({pattern,...t})=>t),updated_at:[catalog.updated_at,...history.map(w=>w.generated_at)].filter(Boolean).sort().at(-1)||null,total_weeks:settled.length,newcomer_weeks:newcomers.weeks.map(w=>({start:w.start,end:w.end,updated_at:w.updated_at,rows:w.repositories.filter(r=>!excluded.has(r.full_name.toLowerCase())).slice(0,10).map((r,i)=>({full_name:r.full_name,rank:i+1,stars:r.stars,forks:r.forks,discovered_at:r.discovered_at}))})),repositories,weeks,all_time_kind:'combined',all_time:all.repositories.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(({weekly_scores,...r})=>r),warning_count:report.warnings.length+(newcomers.report?.warnings.length||0)};
   await writeFile(path.join(out,'assets/data.json'),JSON.stringify(publicData));

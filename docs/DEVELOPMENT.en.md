@@ -63,3 +63,9 @@ Collection runs daily at 00:00 UTC (08:00 Beijing); Monday runs settle weekly ra
 config/tags.json defines bilingual capabilities. System classification matches descriptions, topics, README text and SKILL.md paths, preserving evidence and previous results on failures. Community selections use public GitHub Issues, validated and deployed through Actions with daily reconciliation. Internal system_tags and data/community-tags.json remain separate; the UI combines them. The system counts once, plus once per account/tag/project. The latest issue replaces that account’s selections; closing or locking it withdraws them. Moderators can lock inappropriate submissions.
 
 Search all tracked repositories by bilingual tags, name and description; sort by selected-week heat, stars, update time or name. Repository tags describe coverage, not every individual skill.
+
+### Actions runtime
+
+Workflows pin ubuntu-24.04 to avoid the October–November 2026 ubuntu-latest migration to Ubuntu 26.04. Collection, builds and cloud checks use Node.js 24; CI covers Node.js 22 (the supported minimum) and 24. Actions are pinned to Node-24-compatible releases: checkout 7.0.1, setup-node 7.1.0, configure-pages 6.0.0, upload-pages-artifact 5.0.0, deploy-pages 5.0.1 and upload-artifact 7.0.2. The action runtime is separate from the project node-version. Self-hosted runners need at least 2.327.1 and must meet each action's requirements. Explicit npm caching, existing permissions and triggers are preserved.
+
+Local checks do not establish remote CI or deployment success. Verify the exact pushed revision in Actions before publishing a success report. See the [Node 20 removal announcement](https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions/) and [Ubuntu migration notice](https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration/).

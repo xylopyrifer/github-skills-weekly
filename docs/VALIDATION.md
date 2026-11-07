@@ -1,5 +1,22 @@
 # 验收记录
 
+## 内容与 Actions 兼容性验收（2026-11-07）
+
+基线：64e1826049f2e51f73574797d407608d0b3957b2（2026-11-05 采集提交）。本机 Windows、Node.js 24.15.0、独立 Chrome/Playwright。此前验收记录见后文，不能视为本轮远端验证。
+
+- npm ci 成功；生产依赖仍为 0。
+- npm run check 成功：45 项测试全部通过，并构建 192 个公开项目、最近 5 周数据。
+- node scripts/validate-data.mjs 成功：100 个追踪仓库、13 个已结算周、96 个本周行、50 个当周新榜候选，采集警告为 0。该检查验证既有数据一致性，不代表本轮重新采集或通过 --fresh 检查。
+- data/ 全目录相对基线无改动；历史评分、累计排名和原始采样未重写。人工标签修订每次构建生效，保持社区票数独立。
+- scripts/browser-editorial-check.mjs 通过：弃用提示、中英切换、后继链接、原仓库身份与历史、刷新及前进后退、视觉设计/金融分析筛选、320px 布局、非法后继标识拒绝，无运行时错误。
+- scripts/browser-check.mjs 与 scripts/browser-newcomers-check.mjs 通过：常规首页/详情、5 周切换、演示、键盘与弹窗、错误恢复、禁用存储降级、新榜及多尺寸布局。
+- 五个工作流 YAML 解析通过；逐项核对官方 Action release manifests、配置 inputs、Node 24 运行时及 Pages 上传步骤的组合依赖；均固定 ubuntu-24.04。静态检查不等于实际 Actions 运行。
+- git diff --check 通过。回归输出与截图保存在 release/qa/，不进入仓库。
+
+上述本地验收未覆盖远端 Actions、实际 Ubuntu runner、Node.js 22 本机测试、全量重新采集或第三方技能执行。CI 的 Node.js 22/24 矩阵与实际 Pages 发布须在推送后单独核验。
+
+## 初始验收
+
 日期：2026-09-09。平台：Windows，Node.js 24.15.0；CI 目标 Node.js 22。
 
 ## 已实际执行

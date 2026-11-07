@@ -220,3 +220,11 @@ total_heat = 所有历史 contribution 的总和
 标签词表在 config/tags.json。系统标签按简介、topics、README 和 SKILL.md 路径匹配并保留证据来源；采集失败保留旧标签。社区选择通过 GitHub Issues 提交，由 Actions 校验并发布；每天补做一次全量同步。data/community-tags.json 与 catalog 中的 system_tags 分开记录。页面合并显示，系统计 1 次，每个 GitHub 账号每个项目每个标签计 1 次。账号对同一项目的最新提交替换旧选择；关闭或锁定最新 issue 撤回。Issues 与记录公开，不包含访问令牌。管理员可锁定不当提交。
 
 搜索覆盖全部项目，支持中英文标签、名称和简介，按所选周热度、Stars、更新时间、名称排序。标签表示仓库覆盖的功能，不代表每个子技能都有全部能力。
+
+### Actions 运行环境
+
+工作流固定使用 ubuntu-24.04，避免 ubuntu-latest 在 2026 年 10–11 月迁移到 Ubuntu 26.04 时静默改变环境。生产采集、构建与巡检使用 Node.js 24；CI 同时覆盖项目最低支持的 Node.js 22 和 Node.js 24。
+
+checkout v7.0.1、setup-node v7.1.0、configure-pages v6.0.0、upload-pages-artifact v5.0.0、deploy-pages v5.0.1 和 upload-artifact v7.0.2 使用 Node 24 运行时或已升级的组合依赖。Action 自身的运行时与 node-version 设置的项目运行时是两回事。GitHub 托管 runner 自动维护；若改用自托管 runner，需满足这些 Action 的版本要求（至少 runner v2.327.1）。缓存继续显式使用 npm，未添加 registry 认证、额外权限或不安全 PR 检出选项。
+
+升级依据：[Node 20 已移除](https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions/) · [Ubuntu 26.04 迁移公告](https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration/)。本地测试不能代替远端 Actions 验证；推送并运行后再确认实际 CI、发布与校验和检查结果。

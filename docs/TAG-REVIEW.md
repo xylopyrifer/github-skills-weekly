@@ -24,3 +24,13 @@ Official API: https://docs.github.com/en/rest/metrics/traffic#get-page-views
 
 ## Execution availability
 Data collection, integrity gates, publication checksums and the daily recovery check run in GitHub Actions, independently of the owner’s computer. Semantic tag review remains a local Codex task by explicit choice; it does not use a paid API. The computer and app must be running. Catch-up checks occur at 08:35, 12:35, 16:35 and 20:35 Asia/Shanghai, with weekly completion and daily deferral guards. Cloud workflow failures are visible in GitHub Actions and subject to the account’s notification settings; local Codex messages are not guaranteed while the computer is off.
+
+## Editorial capability corrections / 人工功能修订
+
+The scraper keeps its original system_tags evidence. config/tag-overrides.json applies reviewed add/remove rules during every build, before community votes are merged. This keeps corrections stable after daily collection without rewriting observations, newcomer retention, or historical rankings. Rules use lowercase repository names, known taxonomy IDs, a review date, rationale and source URLs. Invalid rules fail the build. Community submissions and custom-tag decisions remain separate.
+
+采集器保留原始 system_tags 证据；每次构建从 config/tag-overrides.json 应用已审核的增加/移除规则，然后合并社区标注。因此每日采集不会覆盖人工修订，也不改写采样、首次收录、留存范围或历史排名。规则必须包含小写仓库名、有效标签、审核日期、理由和来源；无效规则阻止构建。社区投票和自定义标签审核仍单独保存。
+
+Current reviewed associations (2026-11-07): artiboard → tasks, remove accounting; openai-compatible-imagegen → design; ai-berkshire → finance. artiboard has already left the retained newcomer list in the current snapshot. Its correction is kept for future applicable records, without re-adding it or inventing observations.
+
+Repository lifecycle information belongs in config/editorial.json. A deprecated entry can provide status: deprecated and replacement_repository; the detail page links to that successor. openai/skills keeps its own historical rankings and cumulative totals. It is not renamed or merged into openai/plugins.
