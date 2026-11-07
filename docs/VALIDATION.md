@@ -1,5 +1,14 @@
 # 验收记录
 
+## 新榜采集恢复验证（2026-11-07）
+
+11 月 6–7 日采集在 50 项新榜容量校验处失败。已核对 [11 月 7 日运行日志](https://github.com/xylopyrifer/github-skills-weekly/actions/runs/42347016894)：元数据采集成功，新榜没有新增发现，但仓库改名后旧键未移除，候选数超限。当前两处规范名称变化为 wesammustafa/Claude-Code-Everything-You-Need-to-Know → wesammustafa/Claude-Code-Quest、NVIDIA/nvcf → dsx-ai-factory/nvcf。
+
+- 修复规范名称替换，并保留最早首次收录日期与旧 seen 别名；不提高 50 项上限。
+- 新增 4 项回归：满池改名、规范名碰撞、已收录身份不重复入新榜、检查失败保留旧记录。
+- 本机 49 项测试、构建、既有存储数据校验通过；修复本身不修改 data/ 或历史周榜。
+- 实际云端采集及新快照发布需要单独执行和核验；本节不将本地测试视为生产恢复成功。
+
 ## 内容与 Actions 兼容性验收（2026-11-07）
 
 基线：64e1826049f2e51f73574797d407608d0b3957b2（2026-11-05 采集提交）。本机 Windows、Node.js 24.15.0、独立 Chrome/Playwright。此前验收记录见后文，不能视为本轮远端验证。

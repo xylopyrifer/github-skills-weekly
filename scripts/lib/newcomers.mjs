@@ -19,16 +19,21 @@ export async function updateNewcomers({root,get,now=new Date(),log=console.log})
  const rows=new Map([...new Map(seeded.filter(r=>!excluded.has(r.full_name.toLowerCase())).map(r=>[r.full_name.toLowerCase(),r]))].slice(0,settings.maxPerWeek));
  const warnings=[],skipped=[];let accepted=0,attempted=0;
  async function inspect(meta,prior){
-  const key=meta.full_name.toLowerCase();if(excluded.has(key)||meta.archived||meta.disabled||meta.fork||meta.private)return;
+  const key=meta.full_name.toLowerCase(),priorKey=prior?.full_name.toLowerCase();if(excluded.has(key)||meta.archived||meta.disabled||meta.fork||meta.private)return;
   const readme=await get('/repos/'+meta.full_name+'/readme');
   const tree=await get('/repos/'+meta.full_name+'/git/trees/'+encodeURIComponent(meta.default_branch)+'?recursive=1');
   if(tree.truncated){skipped.push(meta.full_name+': truncated skill tree');return;}
   const body=Buffer.from(readme.content||'','base64').toString('utf8').slice(0,150000),paths=tree.tree.filter(f=>f.type==='blob').map(f=>f.path);
   const assessment=relevance({description:meta.description||'',topics:meta.topics||[],readme:body,paths});
-  if(!assessment.structural||assessment.score<config.discovery.threshold){rows.delete(key);return;}
-  const observed=new Date().toISOString(),first=seen[key]||now.toISOString();seen[key]=first;
-  if(first<start||first>=end)return;
+  if(!assessment.structural||assessment.score<config.discovery.threshold){rows.delete(priorKey||key);return;}
+  const observed=new Date().toISOString();
+  // GitHub redirects renamed/transferred repositories to a canonical name.
+  // Retain the earliest known discovery and replace the old row only after inspection succeeds.
+  const first=[seen[key],prior?.discovered_at,priorKey&&seen[priorKey]].filter(Boolean).sort()[0]||now.toISOString();
+  seen[key]=first;
+  if(first<start||first>=end){rows.delete(priorKey||key);return;}
   const record={full_name:meta.full_name,name:meta.name,description:(meta.description||'').slice(0,500),language:meta.language,stars:meta.stargazers_count,forks:meta.forks_count,created_at:meta.created_at,discovered_at:first,last_updated:observed,pushed_at:meta.pushed_at,relevance:assessment,system_tags:classifyTags(meta,body,paths.filter(p=>/(^|\/)SKILL.md$/i.test(p)),taxonomy)};
+  if(priorKey&&priorKey!==key)rows.delete(priorKey);
   rows.set(key,record);if(!prior)accepted++;
  }
  for(const r of [...rows.values()])try{await inspect(await get('/repos/'+r.full_name),r);}catch(e){warnings.push(r.full_name+': '+e.message);}

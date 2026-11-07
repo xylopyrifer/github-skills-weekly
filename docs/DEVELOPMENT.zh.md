@@ -228,3 +228,7 @@ total_heat = 所有历史 contribution 的总和
 checkout v7.0.1、setup-node v7.1.0、configure-pages v6.0.0、upload-pages-artifact v5.0.0、deploy-pages v5.0.1 和 upload-artifact v7.0.2 使用 Node 24 运行时或已升级的组合依赖。Action 自身的运行时与 node-version 设置的项目运行时是两回事。GitHub 托管 runner 自动维护；若改用自托管 runner，需满足这些 Action 的版本要求（至少 runner v2.327.1）。缓存继续显式使用 npm，未添加 registry 认证、额外权限或不安全 PR 检出选项。
 
 升级依据：[Node 20 已移除](https://github.blog/changelog/2026-09-23-node-20-is-no-longer-available-in-github-actions/) · [Ubuntu 26.04 迁移公告](https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration/)。本地测试不能代替远端 Actions 验证；推送并运行后再确认实际 CI、发布与校验和检查结果。
+
+### 新榜仓库改名与转移
+
+GitHub 返回新的规范仓库名时，采集器在来源核验成功后用新键替换旧键，不增加候选数。首次收录沿用新旧身份已知的最早日期，旧 seen 索引保留以防别名再次进入新榜；如果新身份早已收录，则不重新算作本周新项目。请求失败或目录截断保留最后成功记录。每周 50 个候选的校验上限不变，已结算周榜不因改名重写。
