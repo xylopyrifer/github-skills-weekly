@@ -458,18 +458,18 @@
     {
       "start": "2026-11-02",
       "end": "2026-11-09",
-      "updated_at": "2026-11-07T14:59:57.146Z",
+      "updated_at": "2026-11-08T04:04:39.454Z",
       "repositories": [
         {
           "full_name": "reactive-resume/reactive-resume",
           "name": "reactive-resume",
           "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
           "language": "TypeScript",
-          "stars": 45451,
-          "forks": 4933,
+          "stars": 45453,
+          "forks": 4935,
           "created_at": "2020-03-25T14:08:22Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T14:59:57.933Z",
+          "last_updated": "2026-11-08T04:04:40.238Z",
           "pushed_at": "2026-11-06T23:17:20Z",
           "relevance": {
             "score": 85,
@@ -530,12 +530,12 @@
           "name": "compound-engineering-plugin",
           "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
           "language": "TypeScript",
-          "stars": 25968,
-          "forks": 2057,
+          "stars": 25972,
+          "forks": 2059,
           "created_at": "2025-10-09T19:43:46Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T14:59:58.727Z",
-          "pushed_at": "2026-11-07T06:03:44Z",
+          "last_updated": "2026-11-08T04:04:40.797Z",
+          "pushed_at": "2026-11-08T00:56:45Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -588,12 +588,12 @@
           "name": "loopx",
           "description": "Turn long-horizon goals into verifiable results. A local-first semantic control plane and research workbench for long-running agent teams, across sessions and runtimes.",
           "language": "Python",
-          "stars": 6559,
-          "forks": 615,
+          "stars": 6562,
+          "forks": 614,
           "created_at": "2026-05-31T14:58:56Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T14:59:59.470Z",
-          "pushed_at": "2026-11-07T14:52:32Z",
+          "last_updated": "2026-11-08T04:04:41.471Z",
+          "pushed_at": "2026-11-08T03:45:02Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -632,12 +632,12 @@
           "name": "baoyu-design",
           "description": "Run Claude Design locally as an Agent Skill — Cursor, Codex, DeepSeek Harness & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
           "language": "JavaScript",
-          "stars": 6202,
-          "forks": 482,
+          "stars": 6216,
+          "forks": 485,
           "created_at": "2026-06-07T01:16:18Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:00.118Z",
-          "pushed_at": "2026-11-06T19:25:02Z",
+          "last_updated": "2026-11-08T04:04:42.018Z",
+          "pushed_at": "2026-11-08T03:50:15Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -679,12 +679,12 @@
           "name": "KiroCrew",
           "description": "A persistent workspace for development work that self-improves and continues beyond one session.",
           "language": "Python",
-          "stars": 4825,
-          "forks": 985,
+          "stars": 4833,
+          "forks": 990,
           "created_at": "2026-07-16T21:21:54Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:01.242Z",
-          "pushed_at": "2026-11-07T14:59:44Z",
+          "last_updated": "2026-11-08T04:04:42.988Z",
+          "pushed_at": "2026-11-08T04:02:53Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -743,11 +743,11 @@
           "description": "Generate Pydantic v2 models, dataclasses, TypedDict, and msgspec.Struct from OpenAPI, JSON Schema, GraphQL, Avro, Protobuf, and raw JSON/YAML/CSV.",
           "language": "Python",
           "stars": 4052,
-          "forks": 490,
+          "forks": 489,
           "created_at": "2019-05-29T08:01:32Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:02.507Z",
-          "pushed_at": "2026-11-07T14:26:25Z",
+          "last_updated": "2026-11-08T04:04:43.979Z",
+          "pushed_at": "2026-11-08T03:48:35Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -775,11 +775,11 @@
           "name": "Claude-Code-Quest",
           "description": "Claude Code guide in three levels, Beginner to Advanced: hands-on lessons with checked exercises, every volatile fact cited to its source. Independent community guide.",
           "language": "TypeScript",
-          "stars": 3633,
+          "stars": 3642,
           "forks": 416,
           "created_at": "2025-08-17T14:45:39Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:03.493Z",
+          "last_updated": "2026-11-08T04:04:44.532Z",
           "pushed_at": "2026-11-06T01:01:12Z",
           "relevance": {
             "score": 85,
@@ -820,12 +820,12 @@
           "name": "compozy",
           "description": "An operating system for AI agents. Plug in the agent CLIs you already use (Claude Code, Codex, Gemini CLI, Cursor) and they become a team: they split the work, hand tasks to each other, run automated on jobs and loops, and share one project memory. You steer everything from the browser.",
           "language": "Go",
-          "stars": 2856,
-          "forks": 186,
+          "stars": 2857,
+          "forks": 187,
           "created_at": "2026-03-28T05:24:12Z",
           "discovered_at": "2026-11-04T04:37:54.419Z",
-          "last_updated": "2026-11-07T15:00:04.543Z",
-          "pushed_at": "2026-11-07T14:23:55Z",
+          "last_updated": "2026-11-08T04:04:45.394Z",
+          "pushed_at": "2026-11-08T04:03:41Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -882,11 +882,11 @@
           "name": "second-brain-os",
           "description": "Guides and resources for AI engineers: an agents course, five handbooks, a hands-on second-brain project and a vetted reading list.",
           "language": "HTML",
-          "stars": 1511,
-          "forks": 257,
+          "stars": 1518,
+          "forks": 259,
           "created_at": "2026-09-07T15:08:13Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:05.551Z",
+          "last_updated": "2026-11-08T04:04:45.899Z",
           "pushed_at": "2026-11-03T21:52:55Z",
           "relevance": {
             "score": 95,
@@ -944,7 +944,7 @@
           "forks": 86,
           "created_at": "2026-03-24T08:35:45Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:06.413Z",
+          "last_updated": "2026-11-08T04:04:46.487Z",
           "pushed_at": "2026-11-05T09:08:13Z",
           "relevance": {
             "score": 75,
@@ -995,11 +995,11 @@
           "name": "HachimoDock",
           "description": "A desktop pet that reacts to your Claude Code sessions in real-time — thinking, typing,  juggling, sleeping, and more.",
           "language": "C",
-          "stars": 930,
-          "forks": 98,
+          "stars": 942,
+          "forks": 100,
           "created_at": "2026-06-10T10:30:51Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:07.173Z",
+          "last_updated": "2026-11-08T04:04:47.014Z",
           "pushed_at": "2026-11-06T10:44:09Z",
           "relevance": {
             "score": 65,
@@ -1043,8 +1043,8 @@
           "forks": 64,
           "created_at": "2026-10-22T10:23:29Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:07.961Z",
-          "pushed_at": "2026-11-07T03:01:40Z",
+          "last_updated": "2026-11-08T04:04:47.557Z",
+          "pushed_at": "2026-11-08T03:09:55Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1077,8 +1077,8 @@
           "forks": 52,
           "created_at": "2026-01-28T17:27:17Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:08.808Z",
-          "pushed_at": "2026-11-07T14:59:35Z",
+          "last_updated": "2026-11-08T04:04:48.232Z",
+          "pushed_at": "2026-11-08T03:00:57Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1130,12 +1130,12 @@
           "name": "SkillEvaluator",
           "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
           "language": "Python",
-          "stars": 652,
-          "forks": 87,
+          "stars": 653,
+          "forks": 89,
           "created_at": "2026-06-24T02:32:26Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:10.547Z",
-          "pushed_at": "2026-11-07T14:14:59Z",
+          "last_updated": "2026-11-08T04:04:48.781Z",
+          "pushed_at": "2026-11-08T03:57:58Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1173,7 +1173,7 @@
           "forks": 90,
           "created_at": "2026-08-13T07:38:47Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:09.854Z",
+          "last_updated": "2026-11-08T04:04:49.679Z",
           "pushed_at": "2026-11-04T03:59:15Z",
           "relevance": {
             "score": 75,
@@ -1249,8 +1249,8 @@
           "forks": 25,
           "created_at": "2024-08-05T23:30:23Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:11.325Z",
-          "pushed_at": "2026-11-07T05:45:56Z",
+          "last_updated": "2026-11-08T04:04:50.350Z",
+          "pushed_at": "2026-11-07T21:05:00Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1298,11 +1298,11 @@
           "name": "code-review-skill",
           "description": "Auditable code review skill for Claude Code and Codex: four independent probes, evidence-backed findings, and a JSON-derived merge gate.",
           "language": "Shell",
-          "stars": 355,
+          "stars": 396,
           "forks": 2,
           "created_at": "2026-10-29T07:57:07Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:15.400Z",
+          "last_updated": "2026-11-08T04:04:50.813Z",
           "pushed_at": "2026-11-07T10:16:06Z",
           "relevance": {
             "score": 100,
@@ -1346,7 +1346,7 @@
           "forks": 31,
           "created_at": "2026-07-09T11:08:30Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:12.001Z",
+          "last_updated": "2026-11-08T04:04:51.536Z",
           "pushed_at": "2026-11-06T08:04:18Z",
           "relevance": {
             "score": 75,
@@ -1380,12 +1380,12 @@
           "name": "nvcf",
           "description": "Platform for deploying and routing GPU-accelerated inference, streaming, and batch workloads at scale.",
           "language": "Go",
-          "stars": 258,
+          "stars": 260,
           "forks": 102,
           "created_at": "2026-04-01T19:22:14Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:14.852Z",
-          "pushed_at": "2026-11-07T14:09:26Z",
+          "last_updated": "2026-11-08T04:04:52.720Z",
+          "pushed_at": "2026-11-08T04:03:55Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1439,10 +1439,10 @@
           "description": "HTTP-native chat and notes for agents whose sandbox only allows webfetch — every write is a plain GET. Runs technocore.chat.",
           "language": "Python",
           "stars": 167,
-          "forks": 273,
+          "forks": 272,
           "created_at": "2026-08-13T03:22:19Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:16.128Z",
+          "last_updated": "2026-11-08T04:04:53.251Z",
           "pushed_at": "2026-11-05T14:14:59Z",
           "relevance": {
             "score": 95,
@@ -1481,7 +1481,7 @@
           "forks": 30,
           "created_at": "2026-04-09T07:33:10Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:16.804Z",
+          "last_updated": "2026-11-08T04:04:53.893Z",
           "pushed_at": "2026-11-02T04:11:18Z",
           "relevance": {
             "score": 75,
@@ -1538,8 +1538,8 @@
           "forks": 22,
           "created_at": "2026-06-04T04:36:30Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:17.441Z",
-          "pushed_at": "2026-11-07T01:55:43Z",
+          "last_updated": "2026-11-08T04:04:54.390Z",
+          "pushed_at": "2026-11-08T02:14:51Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1565,8 +1565,8 @@
           "forks": 19,
           "created_at": "2026-02-19T03:48:14Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:18.432Z",
-          "pushed_at": "2026-11-07T14:59:31Z",
+          "last_updated": "2026-11-08T04:04:55.282Z",
+          "pushed_at": "2026-11-08T03:25:52Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1624,8 +1624,8 @@
           "forks": 9,
           "created_at": "2026-05-13T21:55:58Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:19.276Z",
-          "pushed_at": "2026-11-07T14:58:40Z",
+          "last_updated": "2026-11-08T04:04:56.101Z",
+          "pushed_at": "2026-11-08T03:38:10Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1664,8 +1664,8 @@
           "forks": 10,
           "created_at": "2026-02-25T18:23:27Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:20.255Z",
-          "pushed_at": "2026-11-07T11:19:50Z",
+          "last_updated": "2026-11-08T04:04:56.766Z",
+          "pushed_at": "2026-11-08T00:40:56Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1705,12 +1705,12 @@
           "name": "skills",
           "description": "Distribute AI Skills as Composer dependencies",
           "language": "PHP",
-          "stars": 54,
+          "stars": 55,
           "forks": 6,
           "created_at": "2026-05-13T11:04:01Z",
           "discovered_at": "2026-11-07T14:59:57.146Z",
-          "last_updated": "2026-11-07T15:00:38.351Z",
-          "pushed_at": "2026-11-07T15:00:30Z",
+          "last_updated": "2026-11-08T04:04:57.284Z",
+          "pushed_at": "2026-11-07T23:42:12Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1764,11 +1764,11 @@
           "name": "rhp",
           "description": "rhp (reactive html plots): charts built from HTML elements and CSS with SolidJS, with a skill and MCP server for AI agents",
           "language": "HTML",
-          "stars": 50,
+          "stars": 51,
           "forks": 4,
           "created_at": "2023-10-25T11:15:31Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:20.980Z",
+          "last_updated": "2026-11-08T04:04:58.225Z",
           "pushed_at": "2026-11-04T20:40:05Z",
           "relevance": {
             "score": 85,
@@ -1807,7 +1807,7 @@
           "forks": 2,
           "created_at": "2026-10-11T22:22:38Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:21.577Z",
+          "last_updated": "2026-11-08T04:04:58.923Z",
           "pushed_at": "2026-11-03T08:39:07Z",
           "relevance": {
             "score": 100,
@@ -1847,8 +1847,8 @@
           "forks": 3,
           "created_at": "2026-01-18T16:57:08Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:22.407Z",
-          "pushed_at": "2026-11-07T13:41:58Z",
+          "last_updated": "2026-11-08T04:04:59.851Z",
+          "pushed_at": "2026-11-08T01:52:07Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1899,8 +1899,8 @@
           "forks": 1,
           "created_at": "2026-10-06T09:06:45Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:23.247Z",
-          "pushed_at": "2026-11-07T14:58:13Z",
+          "last_updated": "2026-11-08T04:05:00.996Z",
+          "pushed_at": "2026-11-07T23:35:54Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -1944,7 +1944,7 @@
           "forks": 5,
           "created_at": "2025-12-09T07:40:31Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:23.935Z",
+          "last_updated": "2026-11-08T04:05:01.942Z",
           "pushed_at": "2026-11-02T04:00:42Z",
           "relevance": {
             "score": 75,
@@ -1990,8 +1990,8 @@
           "forks": 6,
           "created_at": "2026-08-22T12:43:29Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:25.361Z",
-          "pushed_at": "2026-11-07T14:48:49Z",
+          "last_updated": "2026-11-08T04:05:02.525Z",
+          "pushed_at": "2026-11-08T03:39:19Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2021,8 +2021,8 @@
           "forks": 2,
           "created_at": "2025-12-10T18:47:11Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:24.636Z",
-          "pushed_at": "2026-11-07T14:50:07Z",
+          "last_updated": "2026-11-08T04:05:03.207Z",
+          "pushed_at": "2026-11-07T15:50:59Z",
           "relevance": {
             "score": 70,
             "evidence": [
@@ -2052,8 +2052,8 @@
           "forks": 1,
           "created_at": "2025-09-14T02:55:47Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:26.049Z",
-          "pushed_at": "2026-11-07T15:00:01Z",
+          "last_updated": "2026-11-08T04:05:03.767Z",
+          "pushed_at": "2026-11-08T04:00:21Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2109,7 +2109,7 @@
           "forks": 1,
           "created_at": "2026-09-13T23:27:15Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:26.748Z",
+          "last_updated": "2026-11-08T04:05:04.402Z",
           "pushed_at": "2026-11-03T04:49:02Z",
           "relevance": {
             "score": 100,
@@ -2143,8 +2143,8 @@
           "forks": 1,
           "created_at": "2026-02-16T21:11:44Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:27.370Z",
-          "pushed_at": "2026-11-07T14:59:51Z",
+          "last_updated": "2026-11-08T04:05:05.059Z",
+          "pushed_at": "2026-11-08T04:02:35Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2187,8 +2187,8 @@
           "forks": 0,
           "created_at": "2026-05-04T19:08:23Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:28.767Z",
-          "pushed_at": "2026-11-02T19:52:08Z",
+          "last_updated": "2026-11-08T04:05:05.666Z",
+          "pushed_at": "2026-11-08T00:58:51Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2253,7 +2253,7 @@
           "forks": 2,
           "created_at": "2026-09-13T04:20:36Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:30.110Z",
+          "last_updated": "2026-11-08T04:05:06.282Z",
           "pushed_at": "2026-11-07T06:16:08Z",
           "relevance": {
             "score": 75,
@@ -2304,7 +2304,7 @@
           "forks": 0,
           "created_at": "2026-05-25T21:23:52Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:28.062Z",
+          "last_updated": "2026-11-08T04:05:07.151Z",
           "pushed_at": "2026-11-03T17:05:23Z",
           "relevance": {
             "score": 65,
@@ -2361,7 +2361,7 @@
           "forks": 0,
           "created_at": "2026-09-01T13:30:43Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:29.417Z",
+          "last_updated": "2026-11-08T04:05:07.763Z",
           "pushed_at": "2026-11-04T05:56:48Z",
           "relevance": {
             "score": 90,
@@ -2394,8 +2394,8 @@
           "forks": 1,
           "created_at": "2026-09-02T22:50:18Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:30.684Z",
-          "pushed_at": "2026-11-07T09:58:39Z",
+          "last_updated": "2026-11-08T04:05:08.363Z",
+          "pushed_at": "2026-11-08T03:05:45Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -2446,7 +2446,7 @@
           "forks": 0,
           "created_at": "2026-09-29T01:27:54Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:33.592Z",
+          "last_updated": "2026-11-08T04:05:09.365Z",
           "pushed_at": "2026-11-06T04:01:22Z",
           "relevance": {
             "score": 75,
@@ -2489,7 +2489,7 @@
           "forks": 0,
           "created_at": "2025-12-24T00:58:49Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:31.461Z",
+          "last_updated": "2026-11-08T04:05:09.968Z",
           "pushed_at": "2026-11-07T12:42:04Z",
           "relevance": {
             "score": 75,
@@ -2528,7 +2528,7 @@
           "forks": 1,
           "created_at": "2026-03-16T09:40:13Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:32.105Z",
+          "last_updated": "2026-11-08T04:05:10.697Z",
           "pushed_at": "2026-11-05T10:44:40Z",
           "relevance": {
             "score": 75,
@@ -2561,8 +2561,8 @@
           "forks": 1,
           "created_at": "2026-07-23T12:09:57Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:32.874Z",
-          "pushed_at": "2026-11-07T15:00:16Z",
+          "last_updated": "2026-11-08T04:05:11.496Z",
+          "pushed_at": "2026-11-08T03:05:31Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2599,7 +2599,7 @@
           "forks": 0,
           "created_at": "2026-10-06T14:34:48Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:34.250Z",
+          "last_updated": "2026-11-08T04:05:12.288Z",
           "pushed_at": "2026-11-06T07:39:53Z",
           "relevance": {
             "score": 75,
@@ -2643,8 +2643,8 @@
           "forks": 0,
           "created_at": "2026-09-08T10:19:18Z",
           "discovered_at": "2026-11-05T04:52:48.643Z",
-          "last_updated": "2026-11-07T15:00:35.188Z",
-          "pushed_at": "2026-11-07T14:57:03Z",
+          "last_updated": "2026-11-08T04:05:13.082Z",
+          "pushed_at": "2026-11-08T02:09:21Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2700,7 +2700,7 @@
           "forks": 1,
           "created_at": "2026-09-09T18:33:27Z",
           "discovered_at": "2026-11-02T04:03:38.113Z",
-          "last_updated": "2026-11-07T15:00:35.890Z",
+          "last_updated": "2026-11-08T04:05:13.793Z",
           "pushed_at": "2026-11-05T00:28:25Z",
           "relevance": {
             "score": 100,
@@ -2760,7 +2760,7 @@
           "forks": 0,
           "created_at": "2026-07-15T05:58:45Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:36.630Z",
+          "last_updated": "2026-11-08T04:05:14.535Z",
           "pushed_at": "2026-11-03T04:58:36Z",
           "relevance": {
             "score": 70,
@@ -2798,7 +2798,7 @@
           "forks": 0,
           "created_at": "2026-04-12T07:45:32Z",
           "discovered_at": "2026-11-03T05:05:28.844Z",
-          "last_updated": "2026-11-07T15:00:37.234Z",
+          "last_updated": "2026-11-08T04:05:15.139Z",
           "pushed_at": "2026-11-03T08:44:00Z",
           "relevance": {
             "score": 100,
@@ -5305,9 +5305,9 @@
     }
   ],
   "report": {
-    "updated_at": "2026-11-07T14:59:57.146Z",
-    "accepted": 1,
-    "attempted": 1,
+    "updated_at": "2026-11-08T04:04:39.454Z",
+    "accepted": 0,
+    "attempted": 0,
     "skipped": [],
     "warnings": []
   }
