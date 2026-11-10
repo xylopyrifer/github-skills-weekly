@@ -475,25 +475,46 @@
     "ekkolearnai/ekko-studio": "2026-11-09T04:21:39.548Z",
     "killer3ug/augustharness": "2026-11-09T04:21:39.548Z",
     "dicklesworthstone/asimposium.org": "2026-11-09T04:21:39.548Z",
-    "ryanfrigo/kalshi-ai-trading-bot": "2026-11-09T04:21:39.548Z"
+    "ryanfrigo/kalshi-ai-trading-bot": "2026-11-09T04:21:39.548Z",
+    "apissaj/humanizer-id": "2026-11-10T05:46:27.803Z",
+    "erriccc/osborn": "2026-11-10T05:46:27.803Z",
+    "vincentchuwaichow/vanguard-frontier-agentic": "2026-11-10T05:46:27.803Z",
+    "oscaner/skills": "2026-11-10T05:46:27.803Z",
+    "tari-project/tari-ootle": "2026-11-10T05:46:27.803Z",
+    "robfromboulder/mini-brain-toolkit": "2026-11-10T05:46:27.803Z",
+    "mcculleytech/nixos-config": "2026-11-10T05:46:27.803Z",
+    "x-cmd/draw": "2026-11-10T05:46:27.803Z",
+    "pejmanjohn/chickpea": "2026-11-10T05:46:27.803Z",
+    "omd-123/browser-verified-skill": "2026-11-10T05:46:27.803Z",
+    "dominikmartn/hue": "2026-11-10T05:46:27.803Z",
+    "zhupanov/agent-lint": "2026-11-10T05:46:27.803Z",
+    "clickhouse/nerve": "2026-11-10T05:46:27.803Z",
+    "dominikmartn/nothing-design-skill": "2026-11-10T05:46:27.803Z",
+    "masup9/a11y-specialist-skills": "2026-11-10T05:46:27.803Z",
+    "jandira-tech/jubarte-redlines": "2026-11-10T05:46:27.803Z",
+    "rjwalters/kicad-tools": "2026-11-10T05:46:27.803Z",
+    "lulufoo/lulu-board": "2026-11-10T05:46:27.803Z",
+    "arcships/android-use": "2026-11-10T05:46:27.803Z",
+    "diygod/pinky": "2026-11-10T05:46:27.803Z",
+    "dai/o-sumo": "2026-11-10T05:46:27.803Z"
   },
   "weeks": [
     {
       "start": "2026-11-09",
       "end": "2026-11-16",
-      "updated_at": "2026-11-09T04:21:39.548Z",
+      "updated_at": "2026-11-10T05:46:27.803Z",
       "repositories": [
         {
           "full_name": "rohitg00/ai-engineering-from-scratch",
           "name": "ai-engineering-from-scratch",
           "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
           "language": "Python",
-          "stars": 77862,
-          "forks": 13822,
+          "stars": 78182,
+          "forks": 13897,
           "created_at": "2026-03-18T18:38:02Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:53.438Z",
-          "pushed_at": "2026-11-09T04:20:00Z",
+          "last_updated": "2026-11-10T05:46:28.928Z",
+          "pushed_at": "2026-11-10T05:24:29Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -569,12 +590,12 @@
           "name": "agentmemory",
           "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
           "language": "TypeScript",
-          "stars": 30216,
-          "forks": 2677,
+          "stars": 30247,
+          "forks": 2681,
           "created_at": "2026-02-25T07:32:52Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:41.329Z",
-          "pushed_at": "2026-11-09T04:21:30Z",
+          "last_updated": "2026-11-10T05:46:29.604Z",
+          "pushed_at": "2026-11-09T12:21:23Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -620,12 +641,12 @@
           "name": "ekko-studio",
           "description": "Ekko Studio is a local-first AI workspace for multi-agent chat, coding, and visual workflows, available on desktop and the web.",
           "language": "TypeScript",
-          "stars": 11726,
-          "forks": 1462,
+          "stars": 11736,
+          "forks": 1458,
           "created_at": "2026-04-11T07:38:18Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:53.941Z",
-          "pushed_at": "2026-11-09T04:19:53Z",
+          "last_updated": "2026-11-10T05:46:30.254Z",
+          "pushed_at": "2026-11-10T04:35:57Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -687,16 +708,87 @@
           ]
         },
         {
+          "full_name": "dominikmartn/nothing-design-skill",
+          "name": "nothing-design-skill",
+          "description": "A Claude Code skill for generating UI in the Nothing design language. Monochrome, typographic, industrial.",
+          "language": null,
+          "stars": 2856,
+          "forks": 165,
+          "created_at": "2026-04-01T05:18:24Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:47:00.296Z",
+          "pushed_at": "2026-11-10T05:44:30Z",
+          "relevance": {
+            "score": 90,
+            "evidence": [
+              "skill-file",
+              "description",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "nothing-design/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "DIYgod/pinky",
+          "name": "pinky",
+          "description": "Let AI agents use your phone, with you in the loop.",
+          "language": "Go",
+          "stars": 1514,
+          "forks": 163,
+          "created_at": "2026-11-06T16:53:14Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:47:03.761Z",
+          "pushed_at": "2026-11-10T05:43:17Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "docs/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "lee-to/ai-factory",
           "name": "ai-factory",
           "description": "You want to build with AI, but setting up the right context, prompts, and workflows takes time. AI Factory handles all of that so you can focus on what matters — shipping quality code.",
           "language": "JavaScript",
-          "stars": 1159,
+          "stars": 1161,
           "forks": 101,
           "created_at": "2026-02-06T09:47:40Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:50.164Z",
-          "pushed_at": "2026-11-09T04:20:37Z",
+          "last_updated": "2026-11-10T05:46:31.013Z",
+          "pushed_at": "2026-11-09T12:12:07Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -737,6 +829,32 @@
           ]
         },
         {
+          "full_name": "dominikmartn/hue",
+          "name": "hue",
+          "description": "open-source skill that learns any brand and turns it into a complete design system. works on claude code and codex. install once, every UI your assistant builds matches your brand.",
+          "language": "JavaScript",
+          "stars": 896,
+          "forks": 69,
+          "created_at": "2026-04-12T09:51:03Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:59.048Z",
+          "pushed_at": "2026-11-10T05:44:34Z",
+          "relevance": {
+            "score": 90,
+            "evidence": [
+              "skill-file",
+              "description",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": []
+        },
+        {
           "full_name": "ryanfrigo/kalshi-ai-trading-bot",
           "name": "kalshi-ai-trading-bot",
           "description": "The honest edge layer for Kalshi prediction markets - an agent-native toolkit (CLI, MCP server, Claude skill) that measures whether you actually beat the book instead of claiming it.",
@@ -745,7 +863,7 @@
           "forks": 205,
           "created_at": "2025-07-26T18:41:32Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:56.318Z",
+          "last_updated": "2026-11-10T05:46:31.642Z",
           "pushed_at": "2026-11-09T04:20:33Z",
           "relevance": {
             "score": 75,
@@ -770,8 +888,8 @@
           "forks": 36,
           "created_at": "2026-08-10T22:07:29Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:48.336Z",
-          "pushed_at": "2026-11-09T04:20:45Z",
+          "last_updated": "2026-11-10T05:46:32.362Z",
+          "pushed_at": "2026-11-09T06:42:49Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -808,6 +926,96 @@
           ]
         },
         {
+          "full_name": "apissaj/humanizer-id",
+          "name": "humanizer-id",
+          "description": "Editorial guide for Indonesian academic writing: reduce cliches, clarify structure, and preserve meaning",
+          "language": "Python",
+          "stars": 126,
+          "forks": 9,
+          "created_at": "2026-09-17T14:41:21Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:49.093Z",
+          "pushed_at": "2026-11-10T05:46:37Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "SKILL.md",
+              "jurnal/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "ml",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "writing",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "ClickHouse/nerve",
+          "name": "nerve",
+          "description": "Self-hosted AI agent runtime — personal assistants, autonomous workers, and everything in between. Built on the Claude Agent SDK.",
+          "language": "Python",
+          "stars": 108,
+          "forks": 36,
+          "created_at": "2026-03-11T20:39:49Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:59.894Z",
+          "pushed_at": "2026-11-10T05:44:49Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "nerve/templates/skills/nerve-dev/SKILL.md",
+              "nerve/templates/skills/nerve-workspace/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "planning",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "tasks",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "oakdotspace/oak",
           "name": "oak",
           "description": "https://oak.space/oak/oak",
@@ -816,8 +1024,8 @@
           "forks": 4,
           "created_at": "2026-06-01T00:57:22Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:48.751Z",
-          "pushed_at": "2026-11-09T04:20:45Z",
+          "last_updated": "2026-11-10T05:46:33.259Z",
+          "pushed_at": "2026-11-10T04:49:02Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -841,8 +1049,8 @@
           "forks": 12,
           "created_at": "2024-07-04T21:22:49Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:47.928Z",
-          "pushed_at": "2026-11-09T04:20:52Z",
+          "last_updated": "2026-11-10T05:46:34.412Z",
+          "pushed_at": "2026-11-10T00:37:40Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -897,16 +1105,161 @@
           ]
         },
         {
+          "full_name": "rjwalters/kicad-tools",
+          "name": "kicad-tools",
+          "description": "Standalone Python tools for parsing and manipulating KiCad schematic and PCB files",
+          "language": "Python",
+          "stars": 73,
+          "forks": 10,
+          "created_at": "2025-12-29T21:23:25Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:47:02.402Z",
+          "pushed_at": "2026-11-10T05:45:33Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              ".agents/skills/loom-architect/SKILL.md",
+              ".agents/skills/loom-auditor/SKILL.md",
+              ".agents/skills/loom-builder-complexity/SKILL.md",
+              ".agents/skills/loom-builder-pr/SKILL.md",
+              ".agents/skills/loom-builder-worktree/SKILL.md",
+              ".agents/skills/loom-builder/SKILL.md",
+              ".agents/skills/loom-cargo-target-isolation/SKILL.md",
+              ".agents/skills/loom-champion/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "documents",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "writing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "pcb",
+              "evidence": [
+                "description",
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "Oscaner/skills",
+          "name": "skills",
+          "description": "A cdd-first methodology repo — continuously-discovered development as the core discipline, AI coding skills as the carrier.",
+          "language": "TypeScript",
+          "stars": 65,
+          "forks": 0,
+          "created_at": "2026-07-09T13:18:18Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:51.431Z",
+          "pushed_at": "2026-11-10T05:46:38Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "packages/kairos/skills/cdd-close/SKILL.md",
+              "packages/kairos/skills/cdd-design/SKILL.md",
+              "packages/kairos/skills/cdd-dev/SKILL.md",
+              "packages/kairos/skills/cdd-plan/SKILL.md",
+              "packages/kairos/skills/cdd-report/SKILL.md",
+              "packages/kairos/skills/cdd-spec-writer/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "planning",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "masuP9/a11y-specialist-skills",
+          "name": "a11y-specialist-skills",
+          "description": "Accessibility specialist skills plugin for Claude Code.",
+          "language": "TypeScript",
+          "stars": 61,
+          "forks": 3,
+          "created_at": "2026-01-14T07:50:36Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:47:00.734Z",
+          "pushed_at": "2026-11-10T05:44:11Z",
+          "relevance": {
+            "score": 90,
+            "evidence": [
+              "skill-file",
+              "description",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/a11y-knowledge/SKILL.md",
+              "skills/auditing-wcag/SKILL.md",
+              "skills/implementing-a11y/SKILL.md",
+              "skills/planning-a11y-improvement/SKILL.md",
+              "skills/planning-wcag-audit/SKILL.md",
+              "skills/reviewing-a11y/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "knowledge",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "modal-projects/spindle",
           "name": "spindle",
           "description": "Own your Tinker-compatible training stack",
           "language": "Python",
           "stars": 39,
-          "forks": 1,
+          "forks": 2,
           "created_at": "2026-09-29T01:05:53Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:42.475Z",
-          "pushed_at": "2026-11-09T04:21:10Z",
+          "last_updated": "2026-11-10T05:46:35.183Z",
+          "pushed_at": "2026-11-10T05:17:44Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -948,6 +1301,122 @@
           ]
         },
         {
+          "full_name": "tari-project/tari-ootle",
+          "name": "tari-ootle",
+          "description": "Tari Layer-2 Protocol",
+          "language": "Rust",
+          "stars": 29,
+          "forks": 77,
+          "created_at": "2022-08-11T09:06:40Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:51.888Z",
+          "pushed_at": "2026-11-10T05:45:49Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "docs/skills/aider/SKILL.md",
+              "docs/skills/amp/SKILL.md",
+              "docs/skills/antigravity/SKILL.md",
+              "docs/skills/claude-code/SKILL.md",
+              "docs/skills/claude-code/tari-manifest/SKILL.md",
+              "docs/skills/cursor/SKILL.md",
+              "docs/skills/github-copilot/SKILL.md",
+              "docs/skills/google-gemini/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "VincentChuWaiChow/vanguard-frontier-agentic",
+          "name": "vanguard-frontier-agentic",
+          "description": "Curated marketplace of AI skills, agents, and rules for cloud, zero-trust, and compliance-aware engineering - works with Claude Code, Codex, Cursor, Copilot, and more.",
+          "language": "Rust",
+          "stars": 24,
+          "forks": 3,
+          "created_at": "2026-04-27T04:46:16Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:50.504Z",
+          "pushed_at": "2026-11-10T05:46:20Z",
+          "relevance": {
+            "score": 100,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "description",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              ".claude/skills/agentic-delegation/SKILL.md",
+              ".claude/skills/definition-of-done/SKILL.md",
+              ".claude/skills/model-registry-refresh/SKILL.md",
+              ".claude/skills/pr-babysit/SKILL.md",
+              "plugins/vanguard-frontier-agentic/skills/vanguard-frontier-agentic-install/SKILL.md",
+              "skills/accounting/accounting-maestro/SKILL.md",
+              "skills/accounting/business-combinations-advisor/SKILL.md",
+              "skills/accounting/close-cycle-advisor/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "skill-paths",
+                "readme"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "skill-paths",
+                "readme"
+              ]
+            },
+            {
+              "id": "review",
+              "evidence": [
+                "skill-paths",
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "skill-paths",
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "topics",
+                "skill-paths",
+                "readme"
+              ]
+            },
+            {
+              "id": "security",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "cooneycw/claude-power-pack",
           "name": "claude-power-pack",
           "description": "Claude Code best practices and MCP second opinion server",
@@ -956,8 +1425,8 @@
           "forks": 6,
           "created_at": "2025-11-25T16:10:06Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:46.826Z",
-          "pushed_at": "2026-11-09T04:20:57Z",
+          "last_updated": "2026-11-10T05:46:36.248Z",
+          "pushed_at": "2026-11-09T09:43:02Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1046,8 +1515,8 @@
           "forks": 3,
           "created_at": "2026-08-13T18:25:44Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:55.789Z",
-          "pushed_at": "2026-11-09T04:21:26Z",
+          "last_updated": "2026-11-10T05:46:37.057Z",
+          "pushed_at": "2026-11-10T05:15:06Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1096,8 +1565,8 @@
           "forks": 0,
           "created_at": "2024-05-28T20:07:54Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:46.392Z",
-          "pushed_at": "2026-11-09T04:20:58Z",
+          "last_updated": "2026-11-10T05:46:37.818Z",
+          "pushed_at": "2026-11-10T02:17:04Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1145,6 +1614,75 @@
           ]
         },
         {
+          "full_name": "OMD-123/browser-verified-skill",
+          "name": "browser-verified-skill",
+          "description": "Browser automation with evidence. An Agent Skill that lets an AI agent drive a real browser while every action passes a policy gate, every run leaves an auditable artifact, and the run compiles into a plain Playwright script that replays for free.",
+          "language": "TypeScript",
+          "stars": 12,
+          "forks": 0,
+          "created_at": "2026-11-07T13:12:14Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:58.631Z",
+          "pushed_at": "2026-11-10T05:44:41Z",
+          "relevance": {
+            "score": 100,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "description",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "documents",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "description",
+                "topics",
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "description",
+                "topics",
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "browser",
+              "evidence": [
+                "description",
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "argus-foundry/argus",
           "name": "argus",
           "description": "Every agent at a glance",
@@ -1153,8 +1691,8 @@
           "forks": 5,
           "created_at": "2026-03-13T06:12:50Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:52.050Z",
-          "pushed_at": "2026-11-09T04:20:13Z",
+          "last_updated": "2026-11-10T05:46:38.679Z",
+          "pushed_at": "2026-11-10T05:46:21Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1220,6 +1758,45 @@
           ]
         },
         {
+          "full_name": "arcships/android-use",
+          "name": "android-use",
+          "description": "Android control for Dim Agent and local MCP clients, with a live screen, native UI automation, and optional Jev decisions.",
+          "language": "Python",
+          "stars": 10,
+          "forks": 1,
+          "created_at": "2026-11-06T05:23:54Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:47:03.263Z",
+          "pushed_at": "2026-11-10T05:43:39Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/android-use/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "description",
+                "topics"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "teleport-computer/feedling-mcp",
           "name": "feedling-mcp",
           "description": "",
@@ -1228,8 +1805,8 @@
           "forks": 9,
           "created_at": "2026-04-10T16:06:16Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:51.542Z",
-          "pushed_at": "2026-11-09T04:20:15Z",
+          "last_updated": "2026-11-10T05:46:39.640Z",
+          "pushed_at": "2026-11-09T09:33:19Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1258,34 +1835,6 @@
           ]
         },
         {
-          "full_name": "ascendaone-com/ai-engineer-tools",
-          "name": "ai-engineer-tools",
-          "description": "Open-source instrumentation for AI coding agents. Capture activity, concurrency and working patterns across Claude Code, Codex, Cursor and more.",
-          "language": "TypeScript",
-          "stars": 9,
-          "forks": 1,
-          "created_at": "2026-07-03T00:51:43Z",
-          "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:42.953Z",
-          "pushed_at": "2026-11-09T04:21:06Z",
-          "relevance": {
-            "score": 65,
-            "evidence": [
-              "skill-file",
-              "readme"
-            ],
-            "skill_files": [
-              ".claude/skills/karpathy-guidelines/SKILL.md",
-              "ascenda-agent-skills/skills/ascenda-in-session-moves/SKILL.md",
-              "ascenda-agent-skills/skills/ascenda-reveal-read/SKILL.md",
-              "ascenda-agent-skills/skills/ascenda-work-checkpoints/SKILL.md",
-              "ascenda-agent-skills/skills/ascenda-work-signals/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": []
-        },
-        {
           "full_name": "SwawHQ/banyan",
           "name": "banyan",
           "description": "Explorer-like",
@@ -1294,7 +1843,7 @@
           "forks": 1,
           "created_at": "2026-03-07T01:55:52Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:43.372Z",
+          "last_updated": "2026-11-10T05:46:41.388Z",
           "pushed_at": "2026-11-09T04:21:05Z",
           "relevance": {
             "score": 65,
@@ -1326,8 +1875,8 @@
           "forks": 2,
           "created_at": "2026-06-01T06:31:14Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:41.944Z",
-          "pushed_at": "2026-11-09T04:21:14Z",
+          "last_updated": "2026-11-10T05:46:42.276Z",
+          "pushed_at": "2026-11-10T02:34:49Z",
           "relevance": {
             "score": 80,
             "evidence": [
@@ -1370,6 +1919,127 @@
           ]
         },
         {
+          "full_name": "jandira-tech/jubarte-redlines",
+          "name": "jubarte-redlines",
+          "description": "Word-faithful DOCX redlines and rendering without Word: a Rust engine with a Mac app, in-browser wasm, and Python and Node bindings. Scored against Microsoft Word.",
+          "language": "Rust",
+          "stars": 8,
+          "forks": 1,
+          "created_at": "2026-07-24T16:42:57Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:47:01.875Z",
+          "pushed_at": "2026-11-10T05:43:53Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/jubarte-documents/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "documents",
+              "evidence": [
+                "description",
+                "topics",
+                "readme"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "security",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "dai/o-sumo",
+          "name": "o-sumo",
+          "description": "大相撲MCP, API, Skillsを公開(番付|星取|取組予定|取組結果)令和8年3月場所から。最下部に辞書 | Sumo data, Shikona dictionaries, and scores. since 2026",
+          "language": "TypeScript",
+          "stars": 8,
+          "forks": 0,
+          "created_at": "2026-02-27T05:08:26Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:47:07.166Z",
+          "pushed_at": "2026-11-10T05:45:08Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "public/.well-known/agent-skills/osumo-content/SKILL.md",
+              "public/.well-known/agent-skills/osumo-discovery/SKILL.md",
+              "skills/osumo-api/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "lulufoo/lulu-board",
+          "name": "lulu-board",
+          "description": "One text protocol — AI writes it, you edit on the canvas, both stay in sync.",
+          "language": "JavaScript",
+          "stars": 8,
+          "forks": 0,
+          "created_at": "2026-09-12T17:00:41Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:47:02.852Z",
+          "pushed_at": "2026-11-10T05:43:28Z",
+          "relevance": {
+            "score": 95,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/SKILL.md",
+              "skills/boxes/SKILL.md",
+              "skills/mermaid/SKILL.md",
+              "skills/sketch/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": []
+        },
+        {
           "full_name": "avalonreset/cto-legends",
           "name": "cto-legends",
           "description": "Open-source agent skills and tool manager for the Legends ecosystem. Discover modules, install verified releases, and load workflows on demand.",
@@ -1378,8 +2048,8 @@
           "forks": 1,
           "created_at": "2026-09-23T12:41:15Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:44.140Z",
-          "pushed_at": "2026-11-09T04:21:02Z",
+          "last_updated": "2026-11-10T05:46:43.252Z",
+          "pushed_at": "2026-11-09T04:30:18Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1429,6 +2099,253 @@
           ]
         },
         {
+          "full_name": "pejmanjohn/chickpea",
+          "name": "chickpea",
+          "description": "Self-hosted, model-agnostic AI teammates in Slack. Agents with their own @handle, memory, skills, and per-channel permissions. 37 connector presets (Zendesk, Stripe, GitHub, HubSpot), MCP and API connections, scheduled work, coding sandbox. Manage from Slack, Admin, or MCP. Built on Flue. Cloudflare Workers or Node. Apache 2.0.",
+          "language": "TypeScript",
+          "stars": 7,
+          "forks": 0,
+          "created_at": "2026-07-06T21:16:31Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:58.177Z",
+          "pushed_at": "2026-11-10T05:44:52Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              ".agents/skills/chickpea-live-verification/SKILL.md",
+              ".claude/skills/chickpea-live-verification/SKILL.md",
+              "qa/live/fixtures/skills/qa-style-guard/SKILL.md",
+              "qa/live/operator/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "documents",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "spreadsheets",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "design",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "research",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "tasks",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "writing",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "Erriccc/osborn",
+          "name": "osborn",
+          "description": "The open-source AI coding agent you talk to — voice-first, powered by LiveKit + the Claude Agent SDK",
+          "language": "TypeScript",
+          "stars": 6,
+          "forks": 1,
+          "created_at": "2026-01-03T10:54:30Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:49.844Z",
+          "pushed_at": "2026-11-10T05:46:23Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              ".claude/skills/browser-screen-recorder/SKILL.md",
+              ".claude/skills/meetings/SKILL.md",
+              ".claude/skills/osborn-ops/SKILL.md",
+              "agent/.claude/skills/browser-apply/SKILL.md",
+              "agent/.claude/skills/browser-screen-recorder/SKILL.md",
+              "agent/.claude/skills/bug-reporter/SKILL.md",
+              "agent/.claude/skills/deploy-workflow/SKILL.md",
+              "agent/.claude/skills/ground-assumptions/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "documents",
+              "evidence": [
+                "skill-paths"
+              ]
+            },
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "skill-paths"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "skill-paths",
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "zhupanov/agent-lint",
+          "name": "agent-lint",
+          "description": "Claude configuration linter",
+          "language": "Rust",
+          "stars": 6,
+          "forks": 1,
+          "created_at": "2026-04-12T17:56:37Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:59.457Z",
+          "pushed_at": "2026-11-10T05:44:32Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              ".claude/skills/bump-version/SKILL.md",
+              ".claude/skills/release-agent-lint/SKILL.md",
+              ".claude/skills/relevant-checks/SKILL.md",
+              "tests/fixtures/conformance/repositories/agent-skills-description-broken/.agents/skills/long-description/SKILL.md",
+              "tests/fixtures/conformance/repositories/autofix-broken/.claude/skills/url-check/SKILL.md",
+              "tests/fixtures/conformance/repositories/autofix-clean/.claude/skills/url-check/SKILL.md",
+              "tests/fixtures/conformance/repositories/autofix-hard-negative/.claude/skills/url-check/SKILL.md",
+              "tests/fixtures/conformance/repositories/basic-broken/.claude/skills/reviewer/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "deployment",
+              "evidence": [
+                "skill-paths",
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "robfromboulder/mini-brain-toolkit",
+          "name": "mini-brain-toolkit",
+          "description": "Give your codebase a brain",
+          "language": "Python",
+          "stars": 6,
+          "forks": 0,
+          "created_at": "2026-07-09T05:39:50Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:52.264Z",
+          "pushed_at": "2026-11-10T05:45:48Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": []
+        },
+        {
+          "full_name": "miklschmidt/archboard",
+          "name": "archboard",
+          "description": "Plan the next change with your agent on a map of the system, before it writes a line. Then follow any feature into the code, and see every place where the map and the code disagree.",
+          "language": "TypeScript",
+          "stars": 5,
+          "forks": 0,
+          "created_at": "2026-10-13T21:44:03Z",
+          "discovered_at": "2026-11-09T04:21:39.548Z",
+          "last_updated": "2026-11-10T05:46:44.745Z",
+          "pushed_at": "2026-11-10T01:47:48Z",
+          "relevance": {
+            "score": 95,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              ".agents/skills/ask-matt/SKILL.md",
+              ".agents/skills/claude-handoff/SKILL.md",
+              ".agents/skills/code-review/SKILL.md",
+              ".agents/skills/codebase-design/SKILL.md",
+              ".agents/skills/diagnosing-bugs/SKILL.md",
+              ".agents/skills/domain-modeling/SKILL.md",
+              ".agents/skills/grill-me/SKILL.md",
+              ".agents/skills/grill-with-docs/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "design",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "review",
+              "evidence": [
+                "skill-paths",
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "finolabs/finolabs-vibecode",
           "name": "finolabs-vibecode",
           "description": "One engineering practice for AI coding agents: routing, delegation, review gates and verification for Claude Code, Codex and Antigravity.",
@@ -1437,8 +2354,8 @@
           "forks": 2,
           "created_at": "2026-11-01T18:08:04Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:51.048Z",
-          "pushed_at": "2026-11-09T04:21:03Z",
+          "last_updated": "2026-11-10T05:46:43.904Z",
+          "pushed_at": "2026-11-10T05:46:29Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1449,13 +2366,13 @@
             ],
             "skill_files": [
               "skills/fnl-advisor/SKILL.md",
+              "skills/fnl-afk/SKILL.md",
               "skills/fnl-ask/SKILL.md",
               "skills/fnl-autopilot/SKILL.md",
               "skills/fnl-brb/SKILL.md",
               "skills/fnl-coding-router/SKILL.md",
               "skills/fnl-commit-messages/SKILL.md",
-              "skills/fnl-delegate/SKILL.md",
-              "skills/fnl-handoff/SKILL.md"
+              "skills/fnl-delegate/SKILL.md"
             ],
             "structural": true
           },
@@ -1511,52 +2428,70 @@
           ]
         },
         {
-          "full_name": "miklschmidt/archboard",
-          "name": "archboard",
-          "description": "Plan the next change with your agent on a map of the system, before it writes a line. Then follow any feature into the code, and see every place where the map and the code disagree.",
-          "language": "TypeScript",
+          "full_name": "mcculleytech/nixos-config",
+          "name": "nixos-config",
+          "description": "A place to hold my NixOS and home manager configurations",
+          "language": "Nix",
           "stars": 4,
           "forks": 0,
-          "created_at": "2026-10-13T21:44:03Z",
-          "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:49.725Z",
-          "pushed_at": "2026-11-09T04:20:55Z",
+          "created_at": "2024-02-11T04:03:52Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:56.795Z",
+          "pushed_at": "2026-11-10T05:45:09Z",
           "relevance": {
-            "score": 95,
+            "score": 75,
             "evidence": [
               "skill-file",
-              "skill-topic",
               "readme",
               "install-guide"
             ],
             "skill_files": [
-              ".agents/skills/ask-matt/SKILL.md",
-              ".agents/skills/claude-handoff/SKILL.md",
-              ".agents/skills/code-review/SKILL.md",
-              ".agents/skills/codebase-design/SKILL.md",
-              ".agents/skills/diagnosing-bugs/SKILL.md",
-              ".agents/skills/domain-modeling/SKILL.md",
-              ".agents/skills/grill-me/SKILL.md",
-              ".agents/skills/grill-with-docs/SKILL.md"
+              ".claude/skills/add-monitoring/SKILL.md",
+              ".claude/skills/deploy-service/SKILL.md",
+              ".claude/skills/pre-merge/SKILL.md"
             ],
             "structural": true
           },
           "system_tags": [
             {
-              "id": "design",
+              "id": "documents",
               "evidence": [
                 "readme"
               ]
             },
             {
-              "id": "review",
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "research",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
               "evidence": [
                 "skill-paths",
                 "readme"
               ]
             },
             {
-              "id": "deployment",
+              "id": "security",
               "evidence": [
                 "readme"
               ]
@@ -1572,8 +2507,8 @@
           "forks": 0,
           "created_at": "2026-07-31T18:18:46Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:45.968Z",
-          "pushed_at": "2026-11-09T04:21:00Z",
+          "last_updated": "2026-11-10T05:46:45.682Z",
+          "pushed_at": "2026-11-10T03:18:07Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1611,8 +2546,8 @@
           "forks": 0,
           "created_at": "2014-03-30T17:42:07Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:49.157Z",
-          "pushed_at": "2026-11-09T04:20:40Z",
+          "last_updated": "2026-11-10T05:46:46.589Z",
+          "pushed_at": "2026-11-09T18:17:43Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1648,8 +2583,8 @@
           "forks": 0,
           "created_at": "2026-06-06T16:15:17Z",
           "discovered_at": "2026-11-09T04:21:39.548Z",
-          "last_updated": "2026-11-09T04:21:55.337Z",
-          "pushed_at": "2026-11-09T04:21:42Z",
+          "last_updated": "2026-11-10T05:46:47.775Z",
+          "pushed_at": "2026-11-09T04:35:38Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1696,6 +2631,45 @@
             },
             {
               "id": "research",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
+          "full_name": "x-cmd/draw",
+          "name": "draw",
+          "description": "Draw service for human and agents.",
+          "language": "TypeScript",
+          "stars": 3,
+          "forks": 0,
+          "created_at": "2026-09-24T09:27:34Z",
+          "discovered_at": "2026-11-10T05:46:27.803Z",
+          "last_updated": "2026-11-10T05:46:57.742Z",
+          "pushed_at": "2026-11-10T05:44:53Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              ".x-cmd/clawhub/SKILL.md",
+              "SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "writing",
               "evidence": [
                 "readme"
               ]
@@ -4111,11 +5085,12 @@
     }
   ],
   "report": {
-    "updated_at": "2026-11-09T04:21:39.548Z",
-    "accepted": 23,
+    "updated_at": "2026-11-10T05:46:27.803Z",
+    "accepted": 21,
     "attempted": 30,
     "skipped": [
-      "SpecterShell/Dumplings: truncated skill tree"
+      "the-omega-institute/trureturing: truncated skill tree",
+      "the-omega-institute/trureturing: truncated skill tree"
     ],
     "warnings": []
   }
