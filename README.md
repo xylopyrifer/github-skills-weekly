@@ -30,8 +30,7 @@ npm ci
 npm run dev
 ```
 
-
-pm test` 验证代码，`npm run build` 生成可部署的 `dist/`。支持 GitHub Pages 和普通静态服务器。
+`npm test` 验证代码，`npm run build` 生成可部署的 `dist/`。支持 GitHub Pages 和普通静态服务器。
 
 详细部署、评分和维护说明：[开发文档（中文）](docs/DEVELOPMENT.zh.md) · [Developer guide (English)](docs/DEVELOPMENT.en.md) · [标签审核](docs/TAG-REVIEW.md)。自动发布流程保留在 `.github/workflows/`，日常使用不需要手动操作。
 

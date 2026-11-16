@@ -33,5 +33,54 @@
     "sources": [
       "https://github.com/xbtlin/ai-berkshire/blob/main/codex-skills/financial-data/SKILL.md"
     ]
+  },
+  "momentic-ai/skills": {
+    "add": [
+      "testing"
+    ],
+    "remove": [],
+    "reviewed_at": "2026-11-16",
+    "reason": "The Momentic skill creates, runs and maintains browser and mobile tests.",
+    "sources": [
+      "https://github.com/momentic-ai/skills/blob/main/skills/momentic-test/SKILL.md"
+    ]
+  },
+  "girish6055/nanobanana-ppt-skills": {
+    "add": [
+      "documents",
+      "design"
+    ],
+    "remove": [
+      "testing"
+    ],
+    "reviewed_at": "2026-11-16",
+    "reason": "The skill generates presentation slides, visual assets and transition videos. Its automated generation workflow supports automation, but repository testing topics do not establish a software-testing capability.",
+    "sources": [
+      "https://github.com/girish6055/NanoBanana-PPT-Skills/blob/main/SKILL.md"
+    ]
+  },
+  "kcnyu/clawock": {
+    "add": [
+      "finance"
+    ],
+    "remove": [],
+    "reviewed_at": "2026-11-16",
+    "reason": "The Hong Kong stock analysis skill combines market data, technical indicators and financial research.",
+    "sources": [
+      "https://github.com/KCNyu/clawock/blob/master/skills/hk-stock-analysis/SKILL.md"
+    ]
+  },
+  "datamodel-code-generator/datamodel-code-generator": {
+    "add": [
+      "automation"
+    ],
+    "remove": [
+      "browser"
+    ],
+    "reviewed_at": "2026-11-16",
+    "reason": "The skill automates Python data-model code generation from schemas and sample data using a CLI. Automation is the existing broad taxonomy match; it does not operate a browser.",
+    "sources": [
+      "https://github.com/datamodel-code-generator/datamodel-code-generator/blob/main/skills/datamodel-code-generator/SKILL.md"
+    ]
   }
 }

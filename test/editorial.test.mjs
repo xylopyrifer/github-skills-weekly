@@ -54,3 +54,28 @@ test('editorial system corrections preserve independent community counts',()=>{
  const votes=[{repository:'yulmucoffee/artiboard',user_id:7,issue:1,active:true,tags:['tasks','design']}];
  assert.deepEqual(publicCommunityTags(system,votes,'yulmucoffee/artiboard',taxonomy),[{id:'tasks',count:2},{id:'design',count:1}]);
 });
+
+
+test('November review repairs all four capability classifications without changing evidence',()=>{
+ const cases=[
+  ['Momentic-AI/Skills',[],['testing'],[]],
+  ['girish6055/NanoBanana-PPT-Skills',['testing','automation'],['documents','design','automation'],['testing']],
+  ['KCNyu/clawock',['frontend'],['finance','frontend'],[]],
+  ['datamodel-code-generator/datamodel-code-generator',['browser'],['automation'],['browser']]
+ ];
+ for(const [name,ids,required,removed] of cases){
+  const original=ids.map(id=>({id,evidence:['readme']}));
+  const before=structuredClone(original);
+  const result=applyTagOverrides(original,name,overrides);
+  for(const id of required)assert.ok(result.some(tag=>tag.id===id),name+' requires '+id);
+  for(const id of removed)assert.ok(!result.some(tag=>tag.id===id),name+' must not infer '+id);
+  assert.deepEqual(original,before);
+  assert.deepEqual(applyTagOverrides(result,name,overrides),result);
+ }
+});
+
+test('README documents the runnable npm test command',async()=>{
+ const readme=await readFile(new URL('../README.md',import.meta.url),'utf8');
+ assert.ok(readme.includes('`npm test`'));
+ assert.doesNotMatch(readme,/^pm test/m);
+});

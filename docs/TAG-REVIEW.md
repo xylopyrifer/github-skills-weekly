@@ -34,3 +34,5 @@ The scraper keeps its original system_tags evidence. config/tag-overrides.json a
 Current reviewed associations (2026-11-07): artiboard → tasks, remove accounting; openai-compatible-imagegen → design; ai-berkshire → finance. artiboard has already left the retained newcomer list in the current snapshot. Its correction is kept for future applicable records, without re-adding it or inventing observations.
 
 Repository lifecycle information belongs in config/editorial.json. A deprecated entry can provide status: deprecated and replacement_repository; the detail page links to that successor. openai/skills keeps its own historical rankings and cumulative totals. It is not renamed or merged into openai/plugins.
+
+Review additions (2026-11-16): Momentic → testing; NanoBanana PPT → documents/design, remove testing and retain automation; clawock → finance; datamodel-code-generator → automation, remove browser. The latter automates schema-to-Python code generation; automation is a broad existing category, not a claim of browser operation. Source URLs and rationales are recorded in config/tag-overrides.json.
