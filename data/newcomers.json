@@ -561,18 +561,18 @@
     {
       "start": "2026-11-16",
       "end": "2026-11-23",
-      "updated_at": "2026-11-18T05:43:16.290Z",
+      "updated_at": "2026-11-19T05:41:59.098Z",
       "repositories": [
         {
           "full_name": "alchaincyf/nuwa-skill",
           "name": "nuwa-skill",
           "description": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
           "language": "Python",
-          "stars": 38527,
-          "forks": 4914,
+          "stars": 38600,
+          "forks": 4923,
           "created_at": "2026-04-05T04:33:04Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:16.978Z",
+          "last_updated": "2026-11-19T05:41:59.847Z",
           "pushed_at": "2026-11-17T06:07:14Z",
           "relevance": {
             "score": 95,
@@ -614,12 +614,12 @@
           "name": "langfuse",
           "description": "🪢 Open source AI engineering platform: AI Gateway, agent observability, evals, and prompt/skill management, built on OpenTelemetry. One open platform for every AI call and every agent. Self-host or use Langfuse Cloud.",
           "language": "TypeScript",
-          "stars": 37571,
-          "forks": 4254,
+          "stars": 37612,
+          "forks": 4262,
           "created_at": "2023-05-18T17:47:09Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:17.828Z",
-          "pushed_at": "2026-11-18T05:36:16Z",
+          "last_updated": "2026-11-19T05:42:00.673Z",
+          "pushed_at": "2026-11-19T05:06:06Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -684,12 +684,12 @@
           "name": "browser-harness",
           "description": "Let Claude Code, Codex or Cursor use your real Chrome, logged in as you. One prompt to set up. Open source, MIT.",
           "language": "Python",
-          "stars": 19137,
-          "forks": 1895,
+          "stars": 19152,
+          "forks": 1896,
           "created_at": "2026-04-17T01:56:15Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:18.473Z",
-          "pushed_at": "2026-11-18T02:01:24Z",
+          "last_updated": "2026-11-19T05:42:01.339Z",
+          "pushed_at": "2026-11-19T01:23:04Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -737,12 +737,12 @@
           "name": "openmotion",
           "description": "The open-source Claude Motion & CapCut alternative. Turn a reference video into editable motion graphics with your brand kit. Export MP4s for YouTube, YouTube Shorts, Instagram Reels, and TikTok. A full-stack agentic video studio with 300+ Motion.md guides and support for 22 agents, including Claude Code, Codex, DSH, and WorkBuddy.",
           "language": "TypeScript",
-          "stars": 11226,
-          "forks": 1116,
+          "stars": 11936,
+          "forks": 1196,
           "created_at": "2026-05-11T09:40:38Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:19.355Z",
-          "pushed_at": "2026-11-18T05:40:00Z",
+          "last_updated": "2026-11-19T05:42:02.156Z",
+          "pushed_at": "2026-11-19T05:23:25Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -779,16 +779,48 @@
           ]
         },
         {
+          "full_name": "erkamyaman/rust-anything",
+          "name": "rust-anything",
+          "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+          "language": "Rust",
+          "stars": 3674,
+          "forks": 303,
+          "created_at": "2026-11-16T12:10:36Z",
+          "discovered_at": "2026-11-18T05:43:16.290Z",
+          "last_updated": "2026-11-19T05:42:04.253Z",
+          "pushed_at": "2026-11-18T21:09:57Z",
+          "relevance": {
+            "score": 85,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "readme"
+            ],
+            "skill_files": [
+              "skills/rust-anything/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "writing",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "Yeachan-Heo/gajae-code",
           "name": "gajae-code",
           "description": "Gajae Code MVP",
           "language": "TypeScript",
-          "stars": 3102,
-          "forks": 441,
+          "stars": 3108,
+          "forks": 440,
           "created_at": "2026-05-26T13:33:33Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:20.067Z",
-          "pushed_at": "2026-11-18T05:40:49Z",
+          "last_updated": "2026-11-19T05:42:02.877Z",
+          "pushed_at": "2026-11-19T03:50:43Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -832,8 +864,8 @@
           "forks": 168,
           "created_at": "2022-11-04T13:49:03Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:20.744Z",
-          "pushed_at": "2026-11-16T04:26:39Z",
+          "last_updated": "2026-11-19T05:42:03.568Z",
+          "pushed_at": "2026-11-18T10:06:18Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -849,61 +881,16 @@
           "system_tags": []
         },
         {
-          "full_name": "erkamyaman/rust-anything",
-          "name": "rust-anything",
-          "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-          "language": "Rust",
-          "stars": 1748,
-          "forks": 128,
-          "created_at": "2026-11-16T12:10:36Z",
-          "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:48.799Z",
-          "pushed_at": "2026-11-18T05:33:27Z",
-          "relevance": {
-            "score": 95,
-            "evidence": [
-              "skill-file",
-              "skill-topic",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "skills/rust-anything/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "testing",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "writing",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "feimacode/open-design-agent-kit",
           "name": "open-design-agent-kit",
           "description": "Make posters, social posts, slides and landing pages in the coding agent or chat you already use (Copilot, Claude, Codex, Cursor), with 198 design systems, checks and PDF/PNG/PowerPoint export.",
           "language": "HTML",
-          "stars": 1146,
-          "forks": 107,
+          "stars": 1154,
+          "forks": 110,
           "created_at": "2026-09-19T23:36:29Z",
           "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:52.037Z",
-          "pushed_at": "2026-11-18T05:19:09Z",
+          "last_updated": "2026-11-19T05:42:05.187Z",
+          "pushed_at": "2026-11-18T19:45:29Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -987,8 +974,8 @@
           "forks": 35,
           "created_at": "2026-03-19T15:35:43Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:21.433Z",
-          "pushed_at": "2026-11-18T05:43:10Z",
+          "last_updated": "2026-11-19T05:42:05.760Z",
+          "pushed_at": "2026-11-19T05:41:59Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1028,12 +1015,12 @@
           "name": "spritecast",
           "description": "Claude Code plugin: game sprites at your game's exact camera angle, drawn in your art style - props, 8-direction walking characters, characters seated on your own chairs (3D-guided)",
           "language": "Python",
-          "stars": 270,
-          "forks": 34,
+          "stars": 315,
+          "forks": 38,
           "created_at": "2026-11-03T21:16:10Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:24.183Z",
-          "pushed_at": "2026-11-18T05:25:09Z",
+          "last_updated": "2026-11-19T05:42:06.768Z",
+          "pushed_at": "2026-11-19T04:35:36Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -1066,11 +1053,11 @@
           "name": "caliper",
           "description": "Run your real agent with and without your skills, MCPs, and rules. See which ones actually help, and what they cost in tokens. Supports Claude Code, Codex, Pi, Hermes, Antigravity, and OpenCode.",
           "language": "Python",
-          "stars": 235,
+          "stars": 236,
           "forks": 26,
           "created_at": "2026-05-13T02:48:44Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:22.102Z",
+          "last_updated": "2026-11-19T05:42:07.343Z",
           "pushed_at": "2026-11-17T03:58:57Z",
           "relevance": {
             "score": 90,
@@ -1099,12 +1086,12 @@
           "name": "glass",
           "description": "Low-latency remote desktop for macOS and Linux. Control your computer from an iPad or any browser with ~20 ms delay. Free, open source, no app to install. curl -fsSL glassdesk.dev | sh",
           "language": "Rust",
-          "stars": 222,
-          "forks": 20,
+          "stars": 226,
+          "forks": 21,
           "created_at": "2026-10-21T00:36:37Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:22.799Z",
-          "pushed_at": "2026-11-17T22:41:55Z",
+          "last_updated": "2026-11-19T05:42:08.057Z",
+          "pushed_at": "2026-11-18T06:16:08Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1131,12 +1118,12 @@
           "name": "ru-marketplace-mcp",
           "description": "MCP-серверы и сравнение цен без API-ключей для 12 площадок РФ и Китая (Wildberries / WB, Ozon, Яндекс Маркет, Авито, AliExpress, Taobao, DNS, Ситилинк, Lamoda, Мегамаркет, Детский мир, Циан) | Read-only MCP servers & 14 Agent Skills for 12 RU/CN marketplaces & Cian real estate",
           "language": "Python",
-          "stars": 191,
+          "stars": 193,
           "forks": 33,
           "created_at": "2026-07-26T17:56:16Z",
           "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:49.790Z",
-          "pushed_at": "2026-11-18T05:41:51Z",
+          "last_updated": "2026-11-19T05:42:08.864Z",
+          "pushed_at": "2026-11-18T18:23:18Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1171,11 +1158,11 @@
           "name": "manga-generator",
           "description": "原作から脚本・画像生成・組版・PDF出力まで進める、Codex向け漫画制作ツール",
           "language": "JavaScript",
-          "stars": 168,
+          "stars": 169,
           "forks": 35,
           "created_at": "2026-10-22T02:58:45Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:23.449Z",
+          "last_updated": "2026-11-19T05:42:09.484Z",
           "pushed_at": "2026-11-17T14:31:06Z",
           "relevance": {
             "score": 75,
@@ -1213,12 +1200,12 @@
           "name": "turbo-browser-mcp",
           "description": "Playwright MCP server built to cut agent turns and tokens: one-call form filling, delta snapshots, batched steps, and a submit guard on by default",
           "language": "JavaScript",
-          "stars": 130,
+          "stars": 132,
           "forks": 6,
           "created_at": "2026-11-14T12:11:07Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:24.803Z",
-          "pushed_at": "2026-11-18T00:47:58Z",
+          "last_updated": "2026-11-19T05:42:10.093Z",
+          "pushed_at": "2026-11-19T02:10:13Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1268,16 +1255,55 @@
           ]
         },
         {
+          "full_name": "chenhg5/myco",
+          "name": "myco",
+          "description": "Connect Claude Code, Codex and any agent CLI across machines. Agents find each other, delegate tasks and reply through one hub. Single Go binary, one-line setup.",
+          "language": "Go",
+          "stars": 109,
+          "forks": 11,
+          "created_at": "2026-11-05T00:26:30Z",
+          "discovered_at": "2026-11-17T06:16:24.495Z",
+          "last_updated": "2026-11-19T05:42:12.446Z",
+          "pushed_at": "2026-11-19T05:31:17Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              ".claude/skills/myco-release/SKILL.md",
+              "skill/myco/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "andrewbartels1/SolidworksMCP-python",
           "name": "SolidworksMCP-python",
           "description": "Python MCP server for SolidWorks: lets Claude and other AI agents build parts, assemblies and drawings through the SolidWorks COM API (pywin32).",
           "language": "Python",
-          "stars": 107,
-          "forks": 44,
+          "stars": 108,
+          "forks": 43,
           "created_at": "2026-03-17T01:27:29Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:25.472Z",
-          "pushed_at": "2026-11-18T05:33:21Z",
+          "last_updated": "2026-11-19T05:42:11.045Z",
+          "pushed_at": "2026-11-19T02:13:37Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1322,8 +1348,8 @@
           "forks": 0,
           "created_at": "2026-10-23T00:30:44Z",
           "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:46.090Z",
-          "pushed_at": "2026-11-18T05:40:54Z",
+          "last_updated": "2026-11-19T05:42:11.681Z",
+          "pushed_at": "2026-11-18T05:44:28Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1355,55 +1381,16 @@
           ]
         },
         {
-          "full_name": "chenhg5/myco",
-          "name": "myco",
-          "description": "Connect Claude Code, Codex and any agent CLI across machines. Agents find each other, delegate tasks and reply through one hub. Single Go binary, one-line setup.",
-          "language": "Go",
-          "stars": 93,
-          "forks": 11,
-          "created_at": "2026-11-05T00:26:30Z",
-          "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:26.165Z",
-          "pushed_at": "2026-11-18T05:40:21Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              ".claude/skills/myco-release/SKILL.md",
-              "skill/myco/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "automation",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "ouxxyy/ouba-classmate",
           "name": "ouba-classmate",
           "description": "中文求职 Agent Skills｜Job search, resume matching & interview prep for Claude Code / Codex。岗位搜索、简历优化、中文模拟面试、入职前查公司；含公开代码横评与视频创作工具。",
           "language": "Python",
-          "stars": 72,
+          "stars": 74,
           "forks": 2,
           "created_at": "2026-09-28T07:39:42Z",
           "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:47.624Z",
-          "pushed_at": "2026-11-18T05:35:16Z",
+          "last_updated": "2026-11-19T05:42:13.046Z",
+          "pushed_at": "2026-11-19T03:45:19Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1449,8 +1436,8 @@
           "forks": 7,
           "created_at": "2026-10-14T05:14:36Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:26.796Z",
-          "pushed_at": "2026-11-18T04:28:43Z",
+          "last_updated": "2026-11-19T05:42:13.728Z",
+          "pushed_at": "2026-11-19T01:40:57Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1481,14 +1468,14 @@
         {
           "full_name": "MikeyPetrillo/Agent402",
           "name": "Agent402",
-          "description": "agent402.tools: 500+ pay-per-call tools, metered models and finished reports for AI agents, paid per call in USDC over x402 and MPP or by card. Open source, self-hostable, MCP-native. The applied layer of agentic finance.",
+          "description": "The payment and trust layer for agent commerce: agents find, pay for and verify paid calls across x402 and MPP, backed by signed receipts. Open source, self-hostable.",
           "language": "JavaScript",
           "stars": 52,
           "forks": 36,
           "created_at": "2026-06-11T01:46:01Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:27.534Z",
-          "pushed_at": "2026-11-18T04:39:09Z",
+          "last_updated": "2026-11-19T05:42:14.336Z",
+          "pushed_at": "2026-11-19T05:39:38Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1544,8 +1531,8 @@
           "forks": 2,
           "created_at": "2026-05-21T16:58:23Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:28.220Z",
-          "pushed_at": "2026-11-18T03:04:10Z",
+          "last_updated": "2026-11-19T05:42:15.077Z",
+          "pushed_at": "2026-11-19T01:30:25Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1603,7 +1590,7 @@
           "forks": 9,
           "created_at": "2026-03-05T05:34:07Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:29.177Z",
+          "last_updated": "2026-11-19T05:42:15.727Z",
           "pushed_at": "2026-11-17T12:30:07Z",
           "relevance": {
             "score": 95,
@@ -1645,8 +1632,8 @@
           "forks": 5,
           "created_at": "2026-09-08T01:22:07Z",
           "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:48.380Z",
-          "pushed_at": "2026-11-18T05:41:21Z",
+          "last_updated": "2026-11-19T05:42:16.527Z",
+          "pushed_at": "2026-11-18T14:45:39Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1695,11 +1682,11 @@
           "name": "colabllm",
           "description": "Deploy and operate model runtimes on Google Colab with a unified CLI",
           "language": "Python",
-          "stars": 14,
+          "stars": 15,
           "forks": 3,
           "created_at": "2026-11-03T08:01:34Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:29.924Z",
+          "last_updated": "2026-11-19T05:42:17.295Z",
           "pushed_at": "2026-11-18T05:18:28Z",
           "relevance": {
             "score": 75,
@@ -1739,7 +1726,7 @@
           "forks": 1,
           "created_at": "2026-09-03T19:41:22Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:30.794Z",
+          "last_updated": "2026-11-19T05:42:17.982Z",
           "pushed_at": "2026-11-16T04:31:53Z",
           "relevance": {
             "score": 75,
@@ -1777,8 +1764,8 @@
           "forks": 0,
           "created_at": "2026-04-06T17:08:31Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:31.420Z",
-          "pushed_at": "2026-11-18T05:39:43Z",
+          "last_updated": "2026-11-19T05:42:19.432Z",
+          "pushed_at": "2026-11-18T15:07:11Z",
           "relevance": {
             "score": 70,
             "evidence": [
@@ -1804,13 +1791,13 @@
           "full_name": "Rollstack/skills",
           "name": "skills",
           "description": "Agent skills for Rollstack: build decks from your company's data, refresh, schedule and send reports through Rollstack's MCP server",
-          "language": "Python",
+          "language": "JavaScript",
           "stars": 14,
           "forks": 0,
           "created_at": "2026-11-05T09:45:21Z",
           "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:49.309Z",
-          "pushed_at": "2026-11-18T05:30:14Z",
+          "last_updated": "2026-11-19T05:42:20.023Z",
+          "pushed_at": "2026-11-19T03:41:48Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1850,7 +1837,7 @@
           "forks": 1,
           "created_at": "2026-07-13T09:08:07Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:32.089Z",
+          "last_updated": "2026-11-19T05:42:20.743Z",
           "pushed_at": "2026-11-17T06:11:54Z",
           "relevance": {
             "score": 100,
@@ -1877,7 +1864,7 @@
           "forks": 0,
           "created_at": "2026-07-18T08:41:56Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:32.957Z",
+          "last_updated": "2026-11-19T05:42:21.779Z",
           "pushed_at": "2026-11-16T12:58:04Z",
           "relevance": {
             "score": 100,
@@ -1917,7 +1904,7 @@
           "forks": 3,
           "created_at": "2026-08-13T15:26:43Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:33.722Z",
+          "last_updated": "2026-11-19T05:42:22.418Z",
           "pushed_at": "2026-11-18T00:17:31Z",
           "relevance": {
             "score": 75,
@@ -1956,7 +1943,7 @@
           "forks": 0,
           "created_at": "2026-05-09T08:49:57Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:34.721Z",
+          "last_updated": "2026-11-19T05:42:23.197Z",
           "pushed_at": "2026-11-17T06:11:35Z",
           "relevance": {
             "score": 75,
@@ -1994,8 +1981,8 @@
           "forks": 0,
           "created_at": "2026-10-14T08:41:33Z",
           "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:47.975Z",
-          "pushed_at": "2026-11-18T05:34:11Z",
+          "last_updated": "2026-11-19T05:42:23.860Z",
+          "pushed_at": "2026-11-18T09:39:46Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -2027,8 +2014,8 @@
           "forks": 3,
           "created_at": "2026-05-12T03:28:47Z",
           "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:51.512Z",
-          "pushed_at": "2026-11-18T05:39:48Z",
+          "last_updated": "2026-11-19T05:42:24.395Z",
+          "pushed_at": "2026-11-19T05:38:08Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -2054,6 +2041,12 @@
               ]
             },
             {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
               "id": "writing",
               "evidence": [
                 "readme"
@@ -2062,41 +2055,15 @@
           ]
         },
         {
-          "full_name": "Samuel-Shek/prompt-optimizer-skill",
-          "name": "prompt-optimizer-skill",
-          "description": "Prompt Optimizer (official, moved from prompt-optimizer): a Skill for any AI agent that turns rough requests into copy-ready prompts. Chinese & English editions. 提示词优化器",
-          "language": "Python",
-          "stars": 7,
-          "forks": 2,
-          "created_at": "2026-04-05T13:24:11Z",
-          "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:35.332Z",
-          "pushed_at": "2026-11-16T04:15:51Z",
-          "relevance": {
-            "score": 95,
-            "evidence": [
-              "skill-file",
-              "skill-topic",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": []
-        },
-        {
           "full_name": "min-1225/veil-skill",
           "name": "veil-skill",
           "description": "Veil: mask sensitive data before the AI sees it, unmask it after. A Claude Code skill (KO/EN/JA/ZH + local NER).",
           "language": "JavaScript",
-          "stars": 7,
+          "stars": 9,
           "forks": 1,
           "created_at": "2026-11-17T01:32:41Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:38.914Z",
+          "last_updated": "2026-11-19T05:42:25.571Z",
           "pushed_at": "2026-11-18T04:09:48Z",
           "relevance": {
             "score": 100,
@@ -2121,6 +2088,88 @@
           ]
         },
         {
+          "full_name": "Samuel-Shek/prompt-optimizer-skill",
+          "name": "prompt-optimizer-skill",
+          "description": "Prompt Optimizer (official, moved from prompt-optimizer): a Skill for any AI agent that turns rough requests into copy-ready prompts. Chinese & English editions. 提示词优化器",
+          "language": "Python",
+          "stars": 7,
+          "forks": 2,
+          "created_at": "2026-04-05T13:24:11Z",
+          "discovered_at": "2026-11-16T04:30:50.777Z",
+          "last_updated": "2026-11-19T05:42:25.000Z",
+          "pushed_at": "2026-11-16T04:15:51Z",
+          "relevance": {
+            "score": 95,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": []
+        },
+        {
+          "full_name": "dsanchezp18/maplestats-mcp",
+          "name": "maplestats-mcp",
+          "description": "MapleStats MCP: one MCP server for Canadian public data (StatCan, Census, PUMFs, Bank of Canada, CMHC, open-data portals), in English and French.",
+          "language": "Python",
+          "stars": 7,
+          "forks": 0,
+          "created_at": "2026-09-14T22:27:08Z",
+          "discovered_at": "2026-11-17T06:16:24.495Z",
+          "last_updated": "2026-11-19T05:42:28.295Z",
+          "pushed_at": "2026-11-19T05:29:11Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/maplestats/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "documents",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "testing",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "security",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "drake-agent/dasks-kit",
           "name": "dasks-kit",
           "description": "A task board your coding agents share: cards, specs, a runner that builds them, a captain that steers. One Mac or many.",
@@ -2129,8 +2178,8 @@
           "forks": 2,
           "created_at": "2026-11-03T13:18:35Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:36.059Z",
-          "pushed_at": "2026-11-18T00:39:07Z",
+          "last_updated": "2026-11-19T05:42:26.276Z",
+          "pushed_at": "2026-11-19T02:16:48Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2164,7 +2213,7 @@
           "forks": 1,
           "created_at": "2026-03-09T17:06:23Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:36.714Z",
+          "last_updated": "2026-11-19T05:42:26.977Z",
           "pushed_at": "2026-11-17T06:15:51Z",
           "relevance": {
             "score": 90,
@@ -2235,8 +2284,8 @@
           "forks": 1,
           "created_at": "2026-10-25T12:07:55Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:37.401Z",
-          "pushed_at": "2026-11-18T03:26:53Z",
+          "last_updated": "2026-11-19T05:42:27.521Z",
+          "pushed_at": "2026-11-19T05:39:23Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2286,62 +2335,6 @@
           ]
         },
         {
-          "full_name": "dsanchezp18/maplestats-mcp",
-          "name": "maplestats-mcp",
-          "description": "MapleStats MCP: one MCP server for Canadian public data (StatCan, Census, PUMFs, Bank of Canada, CMHC, open-data portals), in English and French.",
-          "language": "Python",
-          "stars": 6,
-          "forks": 0,
-          "created_at": "2026-09-14T22:27:08Z",
-          "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:38.241Z",
-          "pushed_at": "2026-11-18T01:44:26Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "skills/maplestats/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "documents",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "frontend",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "testing",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "security",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "SalyyS1/minecraftkit",
           "name": "minecraftkit",
           "description": "Offline Minecraft RPG & Paper/Folia API Catalog, Stdio MCP Server, and /mc:* Agent Skills for Claude Code, Cursor, Windsurf, and Codex.",
@@ -2350,8 +2343,8 @@
           "forks": 0,
           "created_at": "2026-07-15T04:51:33Z",
           "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:51.149Z",
-          "pushed_at": "2026-11-18T05:24:42Z",
+          "last_updated": "2026-11-19T05:42:29.000Z",
+          "pushed_at": "2026-11-18T20:01:29Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2383,8 +2376,8 @@
           "forks": 1,
           "created_at": "2026-07-09T03:32:51Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:39.637Z",
-          "pushed_at": "2026-11-18T05:28:25Z",
+          "last_updated": "2026-11-19T05:42:29.590Z",
+          "pushed_at": "2026-11-19T05:38:09Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -2424,6 +2417,38 @@
           ]
         },
         {
+          "full_name": "shiyishang-game/xuanshen-skill",
+          "name": "xuanshen-skill",
+          "description": "炫神.skill — 让龙哥用直播间的嘴骂醒你（粉丝二创，非官方）",
+          "language": null,
+          "stars": 4,
+          "forks": 0,
+          "created_at": "2026-11-04T02:16:49Z",
+          "discovered_at": "2026-11-17T06:16:24.495Z",
+          "last_updated": "2026-11-19T05:42:35.440Z",
+          "pushed_at": "2026-11-17T06:07:32Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "research",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "abdelrahmannasr/yadflow",
           "name": "yadflow",
           "description": "Yadflow (yad = يد, \"hand\") — the governance layer for AI-assisted development: AI builds, a human hand clears every gate. Gated, team, multi-repo author → review → build, with a PR-driven review gate, CI gates and a zero-dependency `yad` CLI. Agent-agnostic: 41 skills run in Claude Code, Codex, Cursor, Copilot, Gemini CLI and more.",
@@ -2432,8 +2457,8 @@
           "forks": 2,
           "created_at": "2026-06-04T11:40:08Z",
           "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:47.194Z",
-          "pushed_at": "2026-11-18T05:36:21Z",
+          "last_updated": "2026-11-19T05:42:30.354Z",
+          "pushed_at": "2026-11-19T00:51:26Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2479,7 +2504,7 @@
           "forks": 2,
           "created_at": "2024-10-02T17:20:12Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:40.453Z",
+          "last_updated": "2026-11-19T05:42:30.918Z",
           "pushed_at": "2026-11-17T06:12:45Z",
           "relevance": {
             "score": 70,
@@ -2515,13 +2540,14 @@
           "forks": 1,
           "created_at": "2026-10-18T08:11:49Z",
           "discovered_at": "2026-11-18T05:43:16.290Z",
-          "last_updated": "2026-11-18T05:43:50.271Z",
-          "pushed_at": "2026-11-18T05:27:29Z",
+          "last_updated": "2026-11-19T05:42:31.772Z",
+          "pushed_at": "2026-11-19T03:58:59Z",
           "relevance": {
-            "score": 70,
+            "score": 80,
             "evidence": [
               "skill-file",
-              "skill-topic"
+              "skill-topic",
+              "install-guide"
             ],
             "skill_files": [
               "src/build/wt-skin-build/SKILL.md",
@@ -2546,7 +2572,7 @@
           "forks": 1,
           "created_at": "2026-02-23T23:19:15Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:41.021Z",
+          "last_updated": "2026-11-19T05:42:32.560Z",
           "pushed_at": "2026-11-18T05:38:32Z",
           "relevance": {
             "score": 90,
@@ -2618,7 +2644,7 @@
           "forks": 1,
           "created_at": "2026-05-25T09:20:29Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:42.494Z",
+          "last_updated": "2026-11-19T05:42:34.011Z",
           "pushed_at": "2026-11-17T06:02:09Z",
           "relevance": {
             "score": 75,
@@ -2657,7 +2683,7 @@
           "forks": 0,
           "created_at": "2026-10-08T11:01:57Z",
           "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:43.289Z",
+          "last_updated": "2026-11-19T05:42:34.735Z",
           "pushed_at": "2026-11-17T06:47:13Z",
           "relevance": {
             "score": 75,
@@ -2710,38 +2736,6 @@
           ]
         },
         {
-          "full_name": "shiyishang-game/xuanshen-skill",
-          "name": "xuanshen-skill",
-          "description": "炫神.skill — 让龙哥用直播间的嘴骂醒你（粉丝二创，非官方）",
-          "language": null,
-          "stars": 3,
-          "forks": 0,
-          "created_at": "2026-11-04T02:16:49Z",
-          "discovered_at": "2026-11-17T06:16:24.495Z",
-          "last_updated": "2026-11-18T05:43:44.098Z",
-          "pushed_at": "2026-11-17T06:07:32Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "research",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "wyattjoh/skills",
           "name": "skills",
           "description": "A curated public collection of reusable Agent Skills and Claude Code agents for software development workflows.",
@@ -2750,8 +2744,8 @@
           "forks": 0,
           "created_at": "2026-07-22T00:13:52Z",
           "discovered_at": "2026-11-16T04:30:50.777Z",
-          "last_updated": "2026-11-18T05:43:44.837Z",
-          "pushed_at": "2026-11-17T23:49:08Z",
+          "last_updated": "2026-11-19T05:42:36.131Z",
+          "pushed_at": "2026-11-19T05:09:24Z",
           "relevance": {
             "score": 90,
             "evidence": [
@@ -5241,9 +5235,9 @@
     }
   ],
   "report": {
-    "updated_at": "2026-11-18T05:43:16.290Z",
-    "accepted": 12,
-    "attempted": 14,
+    "updated_at": "2026-11-19T05:41:59.098Z",
+    "accepted": 0,
+    "attempted": 0,
     "skipped": [],
     "warnings": []
   }
