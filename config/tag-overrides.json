@@ -82,5 +82,30 @@
     "sources": [
       "https://github.com/datamodel-code-generator/datamodel-code-generator/blob/main/skills/datamodel-code-generator/SKILL.md"
     ]
+  },
+  "erkamyaman/rust-anything": {
+    "add": [
+      "testing",
+      "automation"
+    ],
+    "remove": [
+      "writing"
+    ],
+    "reviewed_at": "2026-11-23",
+    "reason": "The Rust migration workflow records original behavior, generates a bridge, and automates replay-based equivalence checks and migration gates; it is not a prose-writing tool.",
+    "sources": [
+      "https://github.com/erkamyaman/rust-anything#rust-anything"
+    ]
+  },
+  "irihitech/semi.avalonia": {
+    "add": [
+      "design"
+    ],
+    "remove": [],
+    "reviewed_at": "2026-11-23",
+    "reason": "The Avalonia UI theme includes a bundled, theme-specific agent guide for applying design tokens, styles and control variants.",
+    "sources": [
+      "https://github.com/irihitech/Semi.Avalonia#ai-assistants"
+    ]
   }
 }
