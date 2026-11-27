@@ -611,18 +611,18 @@
     {
       "start": "2026-11-23",
       "end": "2026-11-30",
-      "updated_at": "2026-11-26T06:36:31.410Z",
+      "updated_at": "2026-11-27T06:26:12.487Z",
       "repositories": [
         {
           "full_name": "bojieli/ai-agent-book",
           "name": "ai-agent-book",
           "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
           "language": "Python",
-          "stars": 59971,
-          "forks": 7042,
+          "stars": 60050,
+          "forks": 7059,
           "created_at": "2025-09-09T02:41:44Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:32.522Z",
+          "last_updated": "2026-11-27T06:26:13.402Z",
           "pushed_at": "2026-11-25T07:37:28Z",
           "relevance": {
             "score": 65,
@@ -682,12 +682,12 @@
           "name": "claude-skills",
           "description": "410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
           "language": "Python",
-          "stars": 30499,
-          "forks": 4205,
+          "stars": 30558,
+          "forks": 4209,
           "created_at": "2025-10-19T04:04:05Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:33.282Z",
-          "pushed_at": "2026-11-26T05:10:56Z",
+          "last_updated": "2026-11-27T06:26:14.117Z",
+          "pushed_at": "2026-11-27T05:11:12Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -771,12 +771,12 @@
           "name": "FastGPT",
           "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
           "language": "TypeScript",
-          "stars": 30110,
-          "forks": 7387,
+          "stars": 30111,
+          "forks": 7389,
           "created_at": "2023-02-23T16:53:25Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:34.223Z",
-          "pushed_at": "2026-11-26T06:32:52Z",
+          "last_updated": "2026-11-27T06:26:15.014Z",
+          "pushed_at": "2026-11-27T06:06:03Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -786,12 +786,12 @@
             "skill_files": [
               ".agents/skills/core/ai/prompt_optimize/SKILL.md",
               ".agents/skills/core/workflow/deprecate_workflow_node/SKILL.md",
+              ".agents/skills/doc/doc-writing/SKILL.md",
               ".agents/skills/doc/fastgpt-release-docs/SKILL.md",
               ".agents/skills/doc/i18n/SKILL.md",
               ".agents/skills/support/permission/add-permission/SKILL.md",
               ".agents/skills/system/api-development/SKILL.md",
-              ".agents/skills/system/ci-workflow-sync/SKILL.md",
-              ".agents/skills/system/create-pr/SKILL.md"
+              ".agents/skills/system/ci-workflow-sync/SKILL.md"
             ],
             "structural": true
           },
@@ -829,11 +829,11 @@
           "name": "OpenCreator",
           "description": "Formerly KrillinAI, VideoTranslation and Dubbing Tool for 120+ Languages. Open-source AI workspace for creators, powered by Codex. Video downloader, video translation, create videos, images, audios, and edits with Agents in one place. For your Social Media like YouTube, TikTok, Instagram, etc.",
           "language": "TypeScript",
-          "stars": 14546,
-          "forks": 1641,
+          "stars": 14558,
+          "forks": 1644,
           "created_at": "2024-12-17T01:59:22Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:35.363Z",
+          "last_updated": "2026-11-27T06:26:15.851Z",
           "pushed_at": "2026-11-25T02:31:20Z",
           "relevance": {
             "score": 95,
@@ -887,12 +887,12 @@
           "name": "rea-video",
           "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
           "language": "Python",
-          "stars": 13461,
-          "forks": 1964,
+          "stars": 13758,
+          "forks": 1995,
           "created_at": "2026-10-29T16:15:01Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:35.944Z",
-          "pushed_at": "2026-11-25T09:34:34Z",
+          "last_updated": "2026-11-27T06:26:16.544Z",
+          "pushed_at": "2026-11-26T12:39:13Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -926,12 +926,12 @@
           "name": "lightdash",
           "description": "Agentic BI. Analytics at the speed of code ⚡️",
           "language": "TypeScript",
-          "stars": 6253,
+          "stars": 6255,
           "forks": 812,
           "created_at": "2021-03-19T09:44:40Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:37.003Z",
-          "pushed_at": "2026-11-26T06:29:36Z",
+          "last_updated": "2026-11-27T06:26:17.672Z",
+          "pushed_at": "2026-11-27T06:19:43Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -977,11 +977,11 @@
           "name": "mattpocock-skills-zh-CN",
           "description": "Matt Pocock skills 的简体中文本地化：人工审核每一次更新，定期同步上游，支持 Claude、Codex 和 DSH 插件。",
           "language": "JavaScript",
-          "stars": 6129,
-          "forks": 471,
+          "stars": 6158,
+          "forks": 474,
           "created_at": "2026-04-28T09:21:14Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:37.626Z",
+          "last_updated": "2026-11-27T06:26:18.303Z",
           "pushed_at": "2026-11-25T06:41:28Z",
           "relevance": {
             "score": 90,
@@ -1030,11 +1030,11 @@
           "name": "motion-design-skill",
           "description": "Universal motion design principles for AI agents — timing, easing, choreography, and Disney animation principles adapted for UI",
           "language": null,
-          "stars": 3695,
-          "forks": 279,
+          "stars": 3768,
+          "forks": 284,
           "created_at": "2026-03-12T09:19:05Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:38.297Z",
+          "last_updated": "2026-11-27T06:26:18.866Z",
           "pushed_at": "2026-11-23T05:09:46Z",
           "relevance": {
             "score": 95,
@@ -1060,8 +1060,8 @@
           "forks": 174,
           "created_at": "2026-01-17T06:43:21Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:38.924Z",
-          "pushed_at": "2026-11-25T16:58:16Z",
+          "last_updated": "2026-11-27T06:26:19.554Z",
+          "pushed_at": "2026-11-26T16:38:26Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1103,12 +1103,12 @@
           "name": "cohub",
           "description": "A living space where people and agents create, play, and build together.",
           "language": "TypeScript",
-          "stars": 594,
+          "stars": 600,
           "forks": 16,
           "created_at": "2026-03-05T04:37:01Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:39.492Z",
-          "pushed_at": "2026-11-26T06:35:39Z",
+          "last_updated": "2026-11-27T06:26:20.468Z",
+          "pushed_at": "2026-11-27T05:55:56Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1141,12 +1141,12 @@
           "name": "relate",
           "description": "An embedded local, agent-native graph database supporting Cypher 25 written in Rust. Memory or transactional filesystem.",
           "language": "Rust",
-          "stars": 488,
+          "stars": 501,
           "forks": 49,
           "created_at": "2026-11-04T15:55:34Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:41.121Z",
-          "pushed_at": "2026-11-26T05:37:14Z",
+          "last_updated": "2026-11-27T06:26:21.353Z",
+          "pushed_at": "2026-11-27T06:10:50Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1186,12 +1186,12 @@
           "name": "trina-ax",
           "description": "Set up Claude Code once. Your whole company gets it. Self-hosted Claude Code and Codex with your company files, team skills, MCP, shared AI sessions and per-person folder permissions.",
           "language": "TypeScript",
-          "stars": 486,
+          "stars": 495,
           "forks": 37,
           "created_at": "2026-04-01T15:01:39Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:40.234Z",
-          "pushed_at": "2026-11-26T06:36:12Z",
+          "last_updated": "2026-11-27T06:26:22.382Z",
+          "pushed_at": "2026-11-27T06:00:19Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1264,12 +1264,12 @@
           "name": "klad",
           "description": "A drawing app built for agent/human collaboration",
           "language": "Rust",
-          "stars": 344,
-          "forks": 23,
+          "stars": 346,
+          "forks": 24,
           "created_at": "2026-11-04T15:19:25Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:41.818Z",
-          "pushed_at": "2026-11-25T16:47:10Z",
+          "last_updated": "2026-11-27T06:26:23.133Z",
+          "pushed_at": "2026-11-26T21:10:04Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1301,8 +1301,8 @@
           "forks": 30,
           "created_at": "2026-09-17T15:11:57Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:42.622Z",
-          "pushed_at": "2026-11-26T04:02:26Z",
+          "last_updated": "2026-11-27T06:26:23.779Z",
+          "pushed_at": "2026-11-27T06:16:13Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1353,8 +1353,8 @@
           "forks": 23,
           "created_at": "2026-02-02T09:49:52Z",
           "discovered_at": "2026-11-25T06:44:54.473Z",
-          "last_updated": "2026-11-26T06:36:43.308Z",
-          "pushed_at": "2026-11-25T06:42:46Z",
+          "last_updated": "2026-11-27T06:26:24.492Z",
+          "pushed_at": "2026-11-27T04:55:28Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -1393,15 +1393,78 @@
           ]
         },
         {
+          "full_name": "omnimux-ai/omnimux-client",
+          "name": "omnimux-client",
+          "description": "Open-source local AI video studio & editor for e-commerce product videos, UGC ads & AI agent workflows (macOS/Windows). 开源本地 AI 电商带货与 UGC 短视频工作台，集成数字人资产库、灵感拆解、无限多模态画布与多轨剪辑。",
+          "language": "JavaScript",
+          "stars": 146,
+          "forks": 3,
+          "created_at": "2026-11-13T08:08:11Z",
+          "discovered_at": "2026-11-23T05:27:59.055Z",
+          "last_updated": "2026-11-27T06:26:26.724Z",
+          "pushed_at": "2026-11-27T05:41:10Z",
+          "relevance": {
+            "score": 80,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "install-guide"
+            ],
+            "skill_files": [
+              "plugins/plugins/omnimux-clip/skills/clip-craft/SKILL.md",
+              "plugins/plugins/omnimux-inspiration/skills/inspiration-deconstruct/SKILL.md",
+              "plugins/plugins/omnimux-inspiration/skills/inspiration-translate/SKILL.md",
+              "plugins/plugins/omnimux-market/catalog/experts/social-engagement-team/skills/social-engagement-ops/SKILL.md",
+              "plugins/plugins/omnimux-market/catalog/skills/ad-creative/SKILL.md",
+              "plugins/plugins/omnimux-market/catalog/skills/bggg-data-amazon/SKILL.md",
+              "plugins/plugins/omnimux-market/catalog/skills/character-scene-storyboard/SKILL.md",
+              "plugins/plugins/omnimux-market/catalog/skills/cinematic-motion-language/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "topics"
+              ]
+            },
+            {
+              "id": "ml",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "security",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "skill-building",
+              "evidence": [
+                "skill-paths"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "umputun/revmux",
           "name": "revmux",
           "description": "Multi-agent code review, supervised and auditable",
           "language": "Go",
-          "stars": 119,
-          "forks": 19,
+          "stars": 120,
+          "forks": 20,
           "created_at": "2026-07-26T06:11:35Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:44.091Z",
+          "last_updated": "2026-11-27T06:26:25.237Z",
           "pushed_at": "2026-11-25T17:19:47Z",
           "relevance": {
             "score": 65,
@@ -1432,67 +1495,15 @@
           ]
         },
         {
-          "full_name": "omnimux-ai/omnimux-client",
-          "name": "omnimux-client",
-          "description": "OmniMux — Local AI content commerce workbench for product videos, ads, and creator workflows. Built-in product & asset library, inspiration teardown, infinite multimodal canvas, and timeline editor for macOS & Windows.",
-          "language": "JavaScript",
-          "stars": 102,
-          "forks": 3,
-          "created_at": "2026-11-13T08:08:11Z",
-          "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:48.376Z",
-          "pushed_at": "2026-11-26T06:32:43Z",
-          "relevance": {
-            "score": 80,
-            "evidence": [
-              "skill-file",
-              "skill-topic",
-              "install-guide"
-            ],
-            "skill_files": [
-              "plugins/.agents/skills/omnimux-form-authoring/SKILL.md",
-              "plugins/plugins/omnimux-clip/skills/clip-craft/SKILL.md",
-              "plugins/plugins/omnimux-inspiration/skills/inspiration-deconstruct/SKILL.md",
-              "plugins/plugins/omnimux-inspiration/skills/inspiration-translate/SKILL.md",
-              "plugins/plugins/omnimux-market/catalog/experts/social-engagement-team/skills/social-engagement-ops/SKILL.md",
-              "plugins/plugins/omnimux-market/catalog/skills/ad-creative/SKILL.md",
-              "plugins/plugins/omnimux-market/catalog/skills/bggg-data-amazon/SKILL.md",
-              "plugins/plugins/omnimux-market/catalog/skills/character-scene-storyboard/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "frontend",
-              "evidence": [
-                "topics",
-                "readme"
-              ]
-            },
-            {
-              "id": "ml",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "security",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "highflame-ai/ramparts",
           "name": "ramparts",
           "description": "MCP & SKILL scanner that scans any mcp server or skills for indirect attack vectors and security or configuration vulnerabilities. Aligned with OWASP SKILL Top 10 and OWASP MCP Top 10 threats & vulnerabilities. ",
           "language": "Rust",
-          "stars": 100,
+          "stars": 101,
           "forks": 21,
           "created_at": "2025-07-23T00:03:49Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:44.753Z",
+          "last_updated": "2026-11-27T06:26:27.558Z",
           "pushed_at": "2026-11-25T08:39:02Z",
           "relevance": {
             "score": 75,
@@ -1530,7 +1541,7 @@
           "forks": 4,
           "created_at": "2026-08-29T08:56:54Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:47.573Z",
+          "last_updated": "2026-11-27T06:26:29.274Z",
           "pushed_at": "2026-11-23T17:27:46Z",
           "relevance": {
             "score": 100,
@@ -1580,8 +1591,8 @@
           "forks": 2,
           "created_at": "2026-07-16T08:58:47Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:49.139Z",
-          "pushed_at": "2026-11-25T20:33:44Z",
+          "last_updated": "2026-11-27T06:26:30.019Z",
+          "pushed_at": "2026-11-26T16:37:51Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -1618,7 +1629,7 @@
           "forks": 3,
           "created_at": "2026-10-16T20:36:43Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:49.716Z",
+          "last_updated": "2026-11-27T06:26:30.770Z",
           "pushed_at": "2026-11-26T05:29:44Z",
           "relevance": {
             "score": 75,
@@ -1654,6 +1665,51 @@
           ]
         },
         {
+          "full_name": "lukaizj/gzh-article-pipeline",
+          "name": "gzh-article-pipeline",
+          "description": "End-to-end WeChat Official Account AI pipeline: high-eCPM/CTR topic gating, 21:9 cover gen, 9-point offline QA, draft push & keyless analytics | 微信公众号创作发布闭环 Skill",
+          "language": "Python",
+          "stars": 24,
+          "forks": 4,
+          "created_at": "2026-08-26T02:46:53Z",
+          "discovered_at": "2026-11-25T06:44:54.473Z",
+          "last_updated": "2026-11-27T06:26:33.340Z",
+          "pushed_at": "2026-11-27T03:51:35Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "gzh-article-pipeline/SKILL.md",
+              "wechat-content-analysis/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "spreadsheets",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "topics"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "pioneerdotai/pioneer",
           "name": "pioneer",
           "description": "Multiplayer harness where humans and AI agents work together and build on shared context.",
@@ -1662,8 +1718,8 @@
           "forks": 3,
           "created_at": "2026-05-01T18:36:21Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:50.760Z",
-          "pushed_at": "2026-11-26T06:11:18Z",
+          "last_updated": "2026-11-27T06:26:31.934Z",
+          "pushed_at": "2026-11-26T20:45:41Z",
           "relevance": {
             "score": 85,
             "evidence": [
@@ -1719,8 +1775,8 @@
           "forks": 1,
           "created_at": "2026-05-01T16:47:05Z",
           "discovered_at": "2026-11-25T06:44:54.473Z",
-          "last_updated": "2026-11-26T06:36:51.361Z",
-          "pushed_at": "2026-11-26T03:25:19Z",
+          "last_updated": "2026-11-27T06:26:32.704Z",
+          "pushed_at": "2026-11-27T04:07:30Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1781,51 +1837,6 @@
           ]
         },
         {
-          "full_name": "lukaizj/gzh-article-pipeline",
-          "name": "gzh-article-pipeline",
-          "description": "End-to-end WeChat Official Account AI pipeline: high-eCPM/CTR topic gating, 21:9 cover gen, 9-point offline QA, draft push & keyless analytics | 微信公众号创作发布闭环 Skill",
-          "language": "Python",
-          "stars": 21,
-          "forks": 4,
-          "created_at": "2026-08-26T02:46:53Z",
-          "discovered_at": "2026-11-25T06:44:54.473Z",
-          "last_updated": "2026-11-26T06:36:52.870Z",
-          "pushed_at": "2026-11-26T02:02:14Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "gzh-article-pipeline/SKILL.md",
-              "wechat-content-analysis/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "spreadsheets",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "automation",
-              "evidence": [
-                "topics"
-              ]
-            },
-            {
-              "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "kojesung/rtt-measure",
           "name": "rtt-measure",
           "description": "배포된 웹페이지의 첫 로딩을 패킷 단위로 실측해, 몇 kB를 줄이면 왕복(RTT)이 1번 줄어드는지 알려 주는 에이전트 스킬",
@@ -1834,8 +1845,8 @@
           "forks": 0,
           "created_at": "2026-11-12T10:41:32Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:52.145Z",
-          "pushed_at": "2026-11-23T06:10:03Z",
+          "last_updated": "2026-11-27T06:26:34.267Z",
+          "pushed_at": "2026-11-26T11:05:01Z",
           "relevance": {
             "score": 95,
             "evidence": [
@@ -1863,11 +1874,11 @@
           "name": "semlith",
           "description": "Local search over your code and documents for AI agents. One binary that indexes your repositories, PDFs and Office files and serves them over MCP.",
           "language": "Rust",
-          "stars": 12,
+          "stars": 13,
           "forks": 7,
           "created_at": "2026-07-25T18:03:52Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:53.749Z",
+          "last_updated": "2026-11-27T06:26:35.023Z",
           "pushed_at": "2026-11-24T07:59:58Z",
           "relevance": {
             "score": 65,
@@ -1896,12 +1907,12 @@
           "name": "X-Templates",
           "description": "X-Templates là khung phát triển phần mềm mã nguồn mở, kết hợp checklist theo quy mô, công cụ kiểm chất lượng và quy trình AI từ ý tưởng đến vận hành.",
           "language": "Python",
-          "stars": 12,
-          "forks": 3,
+          "stars": 13,
+          "forks": 6,
           "created_at": "2026-07-04T15:20:34Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:55.044Z",
-          "pushed_at": "2026-11-26T06:31:46Z",
+          "last_updated": "2026-11-27T06:26:35.672Z",
+          "pushed_at": "2026-11-27T06:22:21Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -1952,8 +1963,8 @@
           "forks": 0,
           "created_at": "2026-10-08T02:01:03Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:54.406Z",
-          "pushed_at": "2026-11-26T06:04:17Z",
+          "last_updated": "2026-11-27T06:26:36.390Z",
+          "pushed_at": "2026-11-27T06:06:51Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -1976,8 +1987,8 @@
           "forks": 0,
           "created_at": "2026-11-01T13:51:29Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:55.744Z",
-          "pushed_at": "2026-11-26T03:59:21Z",
+          "last_updated": "2026-11-27T06:26:37.070Z",
+          "pushed_at": "2026-11-26T14:26:22Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2023,8 +2034,8 @@
           "forks": 1,
           "created_at": "2026-10-09T14:59:46Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:56.488Z",
-          "pushed_at": "2026-11-25T17:13:43Z",
+          "last_updated": "2026-11-27T06:26:37.870Z",
+          "pushed_at": "2026-11-27T06:05:02Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2078,7 +2089,7 @@
           "forks": 0,
           "created_at": "2026-06-14T16:29:23Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:57.119Z",
+          "last_updated": "2026-11-27T06:26:38.545Z",
           "pushed_at": "2026-11-23T05:23:16Z",
           "relevance": {
             "score": 100,
@@ -2105,7 +2116,7 @@
           "forks": 0,
           "created_at": "2026-11-20T11:17:53Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:58.048Z",
+          "last_updated": "2026-11-27T06:26:39.234Z",
           "pushed_at": "2026-11-23T05:25:53Z",
           "relevance": {
             "score": 100,
@@ -2192,7 +2203,7 @@
           "forks": 0,
           "created_at": "2026-02-05T12:31:42Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:36:58.686Z",
+          "last_updated": "2026-11-27T06:26:39.788Z",
           "pushed_at": "2026-11-23T06:12:45Z",
           "relevance": {
             "score": 95,
@@ -2225,8 +2236,8 @@
           "forks": 0,
           "created_at": "2026-09-05T23:34:51Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:36:59.501Z",
-          "pushed_at": "2026-11-26T06:36:48Z",
+          "last_updated": "2026-11-27T06:26:40.516Z",
+          "pushed_at": "2026-11-27T06:14:34Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2256,8 +2267,8 @@
           "forks": 1,
           "created_at": "2026-09-22T12:54:12Z",
           "discovered_at": "2026-11-25T06:44:54.473Z",
-          "last_updated": "2026-11-26T06:37:01.637Z",
-          "pushed_at": "2026-11-26T00:13:23Z",
+          "last_updated": "2026-11-27T06:26:41.193Z",
+          "pushed_at": "2026-11-27T03:23:31Z",
           "relevance": {
             "score": 75,
             "evidence": [
@@ -2282,7 +2293,7 @@
           "forks": 1,
           "created_at": "2026-09-26T11:23:48Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:37:00.400Z",
+          "last_updated": "2026-11-27T06:26:42.119Z",
           "pushed_at": "2026-11-25T13:22:43Z",
           "relevance": {
             "score": 75,
@@ -2332,7 +2343,7 @@
           "forks": 2,
           "created_at": "2026-09-16T02:14:12Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:37:01.013Z",
+          "last_updated": "2026-11-27T06:26:42.746Z",
           "pushed_at": "2026-11-24T11:47:56Z",
           "relevance": {
             "score": 85,
@@ -2375,6 +2386,50 @@
           ]
         },
         {
+          "full_name": "harryzhz/dsh-lark-bridge",
+          "name": "dsh-lark-bridge",
+          "description": "Lark (Feishu) multi-agent bridge, group governance, Dreaming offline memory & proactive assistant plugin for DeepSeek Harness (Desktop & Web)",
+          "language": "TypeScript",
+          "stars": 5,
+          "forks": 0,
+          "created_at": "2026-11-22T16:18:40Z",
+          "discovered_at": "2026-11-24T08:06:14.538Z",
+          "last_updated": "2026-11-27T06:26:49.831Z",
+          "pushed_at": "2026-11-27T06:25:58Z",
+          "relevance": {
+            "score": 75,
+            "evidence": [
+              "skill-file",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "skills/lark-bridge/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "documents",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "automation",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "artheras/skills",
           "name": "skills",
           "description": "Reusable Agent Skills for quantitative finance research, extracted from the Aria toolchain.",
@@ -2383,7 +2438,7 @@
           "forks": 1,
           "created_at": "2026-06-30T08:42:04Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:37:02.352Z",
+          "last_updated": "2026-11-27T06:26:43.431Z",
           "pushed_at": "2026-11-24T08:02:05Z",
           "relevance": {
             "score": 100,
@@ -2454,6 +2509,59 @@
           ]
         },
         {
+          "full_name": "khadinakbarlabs/shopify-app-builder",
+          "name": "shopify-app-builder",
+          "description": "Open-source Shopify app development plugin with 32 skills for Claude Code, Codex, Cursor, OpenCode, Gemini CLI, and AI coding agents.",
+          "language": "JavaScript",
+          "stars": 4,
+          "forks": 0,
+          "created_at": "2026-08-03T02:47:56Z",
+          "discovered_at": "2026-11-23T05:27:59.055Z",
+          "last_updated": "2026-11-27T06:26:50.636Z",
+          "pushed_at": "2026-11-23T05:25:29Z",
+          "relevance": {
+            "score": 100,
+            "evidence": [
+              "skill-file",
+              "skill-topic",
+              "description",
+              "readme",
+              "install-guide"
+            ],
+            "skill_files": [
+              "directory-edition/skills/admin-graphql/SKILL.md",
+              "directory-edition/skills/admin-rest/SKILL.md",
+              "directory-edition/skills/app-accessibility/SKILL.md",
+              "directory-edition/skills/app-auth/SKILL.md",
+              "directory-edition/skills/app-billing/SKILL.md",
+              "directory-edition/skills/app-bridge/SKILL.md",
+              "directory-edition/skills/app-framework/SKILL.md",
+              "directory-edition/skills/app-listing-optimization/SKILL.md"
+            ],
+            "structural": true
+          },
+          "system_tags": [
+            {
+              "id": "frontend",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "deployment",
+              "evidence": [
+                "readme"
+              ]
+            },
+            {
+              "id": "security",
+              "evidence": [
+                "readme"
+              ]
+            }
+          ]
+        },
+        {
           "full_name": "ntholm86/principles-of-earned-autonomy-skills-suite",
           "name": "principles-of-earned-autonomy-skills-suite",
           "description": "Open AI agent skills implementing Principles of Earned Autonomy: intent interpretation, persistent context and inspectable improvement workflows. Experimental; model- and host-dependent.",
@@ -2462,7 +2570,7 @@
           "forks": 0,
           "created_at": "2026-04-18T13:43:51Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:37:03.121Z",
+          "last_updated": "2026-11-27T06:26:44.324Z",
           "pushed_at": "2026-11-23T16:22:17Z",
           "relevance": {
             "score": 95,
@@ -2508,7 +2616,7 @@
           "forks": 0,
           "created_at": "2026-11-17T15:56:57Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:37:09.694Z",
+          "last_updated": "2026-11-27T06:26:45.135Z",
           "pushed_at": "2026-11-24T16:08:03Z",
           "relevance": {
             "score": 95,
@@ -2585,7 +2693,7 @@
           "forks": 0,
           "created_at": "2026-09-14T17:51:42Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:37:03.761Z",
+          "last_updated": "2026-11-27T06:26:45.783Z",
           "pushed_at": "2026-11-24T08:00:00Z",
           "relevance": {
             "score": 100,
@@ -2620,7 +2728,7 @@
           "forks": 0,
           "created_at": "2026-03-29T09:37:48Z",
           "discovered_at": "2026-11-25T06:44:54.473Z",
-          "last_updated": "2026-11-26T06:37:04.577Z",
+          "last_updated": "2026-11-27T06:26:46.607Z",
           "pushed_at": "2026-11-25T14:35:52Z",
           "relevance": {
             "score": 90,
@@ -2660,7 +2768,7 @@
           "forks": 0,
           "created_at": "2026-11-13T02:58:22Z",
           "discovered_at": "2026-11-25T06:44:54.473Z",
-          "last_updated": "2026-11-26T06:37:05.845Z",
+          "last_updated": "2026-11-27T06:26:47.232Z",
           "pushed_at": "2026-11-25T06:43:28Z",
           "relevance": {
             "score": 95,
@@ -2693,7 +2801,7 @@
           "forks": 0,
           "created_at": "2026-05-17T08:10:27Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:37:06.586Z",
+          "last_updated": "2026-11-27T06:26:48.013Z",
           "pushed_at": "2026-11-25T08:54:39Z",
           "relevance": {
             "score": 65,
@@ -2748,8 +2856,8 @@
           "forks": 0,
           "created_at": "2025-03-21T19:39:44Z",
           "discovered_at": "2026-11-25T06:44:54.473Z",
-          "last_updated": "2026-11-26T06:37:07.644Z",
-          "pushed_at": "2026-11-25T11:44:49Z",
+          "last_updated": "2026-11-27T06:26:49.167Z",
+          "pushed_at": "2026-11-26T08:52:16Z",
           "relevance": {
             "score": 65,
             "evidence": [
@@ -2815,103 +2923,6 @@
           ]
         },
         {
-          "full_name": "harryzhz/dsh-lark-bridge",
-          "name": "dsh-lark-bridge",
-          "description": "Lark (Feishu) multi-agent bridge, group governance, Dreaming offline memory & proactive assistant plugin for DeepSeek Harness (Desktop & Web)",
-          "language": "TypeScript",
-          "stars": 3,
-          "forks": 0,
-          "created_at": "2026-11-22T16:18:40Z",
-          "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:37:08.219Z",
-          "pushed_at": "2026-11-26T06:29:21Z",
-          "relevance": {
-            "score": 75,
-            "evidence": [
-              "skill-file",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "skills/lark-bridge/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "documents",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "automation",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
-          "full_name": "khadinakbarlabs/shopify-app-builder",
-          "name": "shopify-app-builder",
-          "description": "Open-source Shopify app development plugin with 32 skills for Claude Code, Codex, Cursor, OpenCode, Gemini CLI, and AI coding agents.",
-          "language": "JavaScript",
-          "stars": 3,
-          "forks": 0,
-          "created_at": "2026-08-03T02:47:56Z",
-          "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:37:08.941Z",
-          "pushed_at": "2026-11-23T05:25:29Z",
-          "relevance": {
-            "score": 100,
-            "evidence": [
-              "skill-file",
-              "skill-topic",
-              "description",
-              "readme",
-              "install-guide"
-            ],
-            "skill_files": [
-              "directory-edition/skills/admin-graphql/SKILL.md",
-              "directory-edition/skills/admin-rest/SKILL.md",
-              "directory-edition/skills/app-accessibility/SKILL.md",
-              "directory-edition/skills/app-auth/SKILL.md",
-              "directory-edition/skills/app-billing/SKILL.md",
-              "directory-edition/skills/app-bridge/SKILL.md",
-              "directory-edition/skills/app-framework/SKILL.md",
-              "directory-edition/skills/app-listing-optimization/SKILL.md"
-            ],
-            "structural": true
-          },
-          "system_tags": [
-            {
-              "id": "frontend",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "deployment",
-              "evidence": [
-                "readme"
-              ]
-            },
-            {
-              "id": "security",
-              "evidence": [
-                "readme"
-              ]
-            }
-          ]
-        },
-        {
           "full_name": "spellwarden-ai/spellwarden",
           "name": "spellwarden",
           "description": "Open-source scanner for agent skills, MCP servers, A2A agent cards and the agent configuration of Claude Code, Cursor, VS Code, Windsurf, Codex and Gemini CLI. 66 rules mapped to OWASP, NIST and MITRE ATLAS; SARIF output; Apache-2.0.",
@@ -2920,8 +2931,8 @@
           "forks": 0,
           "created_at": "2026-10-16T13:14:43Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:37:10.631Z",
-          "pushed_at": "2026-11-25T09:57:44Z",
+          "last_updated": "2026-11-27T06:26:51.402Z",
+          "pushed_at": "2026-11-26T23:36:04Z",
           "relevance": {
             "score": 100,
             "evidence": [
@@ -2975,7 +2986,7 @@
           "forks": 0,
           "created_at": "2026-10-14T03:42:46Z",
           "discovered_at": "2026-11-23T05:27:59.055Z",
-          "last_updated": "2026-11-26T06:37:11.413Z",
+          "last_updated": "2026-11-27T06:26:52.222Z",
           "pushed_at": "2026-11-23T05:31:35Z",
           "relevance": {
             "score": 75,
@@ -3007,7 +3018,7 @@
           "forks": 0,
           "created_at": "2026-11-24T08:08:49Z",
           "discovered_at": "2026-11-24T08:06:14.538Z",
-          "last_updated": "2026-11-26T06:37:12.156Z",
+          "last_updated": "2026-11-27T06:26:52.909Z",
           "pushed_at": "2026-11-24T13:19:30Z",
           "relevance": {
             "score": 100,
@@ -5410,7 +5421,7 @@
     }
   ],
   "report": {
-    "updated_at": "2026-11-26T06:36:31.410Z",
+    "updated_at": "2026-11-27T06:26:12.487Z",
     "accepted": 0,
     "attempted": 0,
     "skipped": [],
